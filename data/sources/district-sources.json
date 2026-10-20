@@ -1,0 +1,50 @@
+[
+  {
+    "districtId": "dist_maputo_matola",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed as Cidade da Matola in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_boane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_magude",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_manhica",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_marracuene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_matutuine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_moamba",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_namaacha",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  }
+]

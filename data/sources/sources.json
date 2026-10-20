@@ -8,5 +8,15 @@
     "url": null,
     "accessedAt": null,
     "notes": "Primary reference for Mozambique administrative divisions."
+  },
+  {
+    "id": "ine-maputo-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Maputo, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/en/web/guest/d/aep_maputo_provincia",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Maputo Province."
   }
 ]

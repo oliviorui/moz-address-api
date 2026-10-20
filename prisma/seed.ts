@@ -7,7 +7,15 @@ import provinces from "../data/current/provinces.json" with {
   type: "json"
 };
 
+import districts from "../data/current/districts.json" with {
+  type: "json"
+};
+
 import sources from "../data/sources/sources.json" with {
+  type: "json"
+};
+
+import districtSources from "../data/sources/district-sources.json" with {
   type: "json"
 };
 
@@ -63,7 +71,6 @@ async function seedSources() {
 
       create: {
         id: source.id,
-
         institution: source.institution,
         title: source.title,
 
@@ -128,11 +135,77 @@ async function seedProvinces() {
   console.log(`✅ ${count} province(s) available.`);
 }
 
+async function seedDistricts() {
+  console.log("📍 Seeding districts...");
+
+  for (const district of districts) {
+    await prisma.district.upsert({
+      where: {
+        id: district.id
+      },
+
+      update: {
+        code: district.code,
+        name: district.name,
+        slug: district.slug,
+        provinceId: district.provinceId
+      },
+
+      create: {
+        id: district.id,
+        code: district.code,
+        name: district.name,
+        slug: district.slug,
+        provinceId: district.provinceId
+      }
+    });
+  }
+
+  const count = await prisma.district.count();
+
+  console.log(`✅ ${count} district(s) available.`);
+}
+
+async function seedDistrictSources() {
+  console.log("🔗 Linking districts to sources...");
+
+  for (const reference of districtSources) {
+    await prisma.districtSource.upsert({
+      where: {
+        districtId_sourceId: {
+          districtId: reference.districtId,
+          sourceId: reference.sourceId
+        }
+      },
+
+      update: {
+        page: reference.page,
+        notes: reference.notes,
+        verifiedAt: new Date()
+      },
+
+      create: {
+        districtId: reference.districtId,
+        sourceId: reference.sourceId,
+        page: reference.page,
+        notes: reference.notes,
+        verifiedAt: new Date()
+      }
+    });
+  }
+
+  console.log(
+    `✅ ${districtSources.length} district source reference(s) available.`
+  );
+}
+
 async function main() {
   console.log("🌱 Starting database seed...\n");
 
   await seedSources();
   await seedProvinces();
+  await seedDistricts();
+  await seedDistrictSources();
 
   console.log("\n🌱 Database seed completed.");
 }

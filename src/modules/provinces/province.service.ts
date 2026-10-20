@@ -1,24 +1,63 @@
-import provincesData from "../../../data/current/provinces.json" with {
-  type: "json"
-};
+import { prisma } from "../../lib/prisma.js";
 
-import type { Province } from "./province.types.js";
+export async function getAllProvinces() {
+  return prisma.province.findMany({
+    where: {
+      status: "ACTIVE"
+    },
 
-const provinces = provincesData as Province[];
-
-export function getAllProvinces(): Province[] {
-  return provinces;
+    orderBy: {
+      name: "asc"
+    }
+  });
 }
 
-export function getProvinceByIdentifier(
+export async function getProvinceByIdentifier(
   identifier: string
-): Province | undefined {
-  const normalizedIdentifier = identifier.toLowerCase();
+) {
+  return prisma.province.findFirst({
+    where: {
+      status: "ACTIVE",
 
-  return provinces.find((province) => {
-    return (
-      province.id.toLowerCase() === normalizedIdentifier ||
-      province.slug.toLowerCase() === normalizedIdentifier
-    );
+      OR: [
+        {
+          id: identifier
+        },
+        {
+          slug: identifier.toLowerCase()
+        }
+      ]
+    }
+  });
+}
+
+export async function getProvinceDistricts(
+  identifier: string
+) {
+  return prisma.province.findFirst({
+    where: {
+      status: "ACTIVE",
+
+      OR: [
+        {
+          id: identifier
+        },
+        {
+          slug: identifier.toLowerCase()
+        }
+      ]
+    },
+
+    include: {
+      districts: {
+        where: {
+          status: "ACTIVE"
+        },
+
+        orderBy: {
+          name: "asc"
+        }
+      }
+    }
   });
 }

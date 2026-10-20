@@ -1,0 +1,58 @@
+[
+  {
+    "id": "dist_maputo_matola",
+    "code": null,
+    "name": "Matola",
+    "slug": "matola",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_boane",
+    "code": null,
+    "name": "Boane",
+    "slug": "boane",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_magude",
+    "code": null,
+    "name": "Magude",
+    "slug": "magude",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_manhica",
+    "code": null,
+    "name": "Manhiça",
+    "slug": "manhica",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_marracuene",
+    "code": null,
+    "name": "Marracuene",
+    "slug": "marracuene",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_matutuine",
+    "code": null,
+    "name": "Matutuíne",
+    "slug": "matutuine",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_moamba",
+    "code": null,
+    "name": "Moamba",
+    "slug": "moamba",
+    "provinceId": "prov_10"
+  },
+  {
+    "id": "dist_maputo_namaacha",
+    "code": null,
+    "name": "Namaacha",
+    "slug": "namaacha",
+    "provinceId": "prov_10"
+  }
+]
