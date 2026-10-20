@@ -245,5 +245,143 @@
     "sourceId": "ine-cabo-delgado-province-yearbook-2024",
     "page": "15",
     "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_nampula_nampula",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_angoche",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_erati",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Eráti; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_nampula_ilha_de_mocambique",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Official district name is Ilha de Moçambique."
+    },
+    {
+    "districtId": "dist_nampula_lalaua",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_malema",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_meconta",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_mecuburi",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Mecubúri; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_nampula_memba",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_mogincual",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_mogovolas",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_moma",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_monapo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_mossuril",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_muecate",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_murrupula",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_nacala_porto",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Normalized as Nacala Porto. INE territorial publications identify it as Distrito de Nacala Porto."
+    },
+    {
+    "districtId": "dist_nampula_nacala_a_velha",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Normalized as Nacala-A-Velha."
+    },
+    {
+    "districtId": "dist_nampula_nacaroa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Nacarôa; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_nampula_rapale",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_ribaue",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Ribáuè; slug intentionally removes accents."
+    },
+    {
+    "districtId": "dist_nampula_larde",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Nampula district-level statistics."
+    },
+    {
+    "districtId": "dist_nampula_liupo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Liúpo; slug intentionally removes the accent."
     }
 ]

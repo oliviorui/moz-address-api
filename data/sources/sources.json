@@ -38,5 +38,15 @@
     "url": "https://www.ine.gov.mz/documents/20119/334647/ANUARIO_ESTATISTICO_PROVINCIAL_CABO_DELGADO_2025.pdf",
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the districts of Cabo Delgado Province."
+  },
+  {
+    "id": "ine-nampula-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Nampula, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-nampula-2024-1",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts of Nampula Province."
   }
 ]

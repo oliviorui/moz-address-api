@@ -179,7 +179,7 @@ async function seedDistrictSources() {
       },
 
       update: {
-        page: reference.page,
+        page: reference.page ?? null,
         notes: reference.notes,
         verifiedAt: new Date()
       },
@@ -187,7 +187,7 @@ async function seedDistrictSources() {
       create: {
         districtId: reference.districtId,
         sourceId: reference.sourceId,
-        page: reference.page,
+        page: reference.page ?? null,
         notes: reference.notes,
         verifiedAt: new Date()
       }

@@ -286,5 +286,166 @@
     "name": "Quissanga",
     "slug": "quissanga",
     "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_nampula_nampula",
+    "code": null,
+    "name": "Nampula",
+    "slug": "nampula",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_angoche",
+    "code": null,
+    "name": "Angoche",
+    "slug": "angoche",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_erati",
+    "code": null,
+    "name": "Eráti",
+    "slug": "erati",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_ilha_de_mocambique",
+    "code": null,
+    "name": "Ilha de Moçambique",
+    "slug": "ilha-de-mocambique",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_lalaua",
+    "code": null,
+    "name": "Lalaua",
+    "slug": "lalaua",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_malema",
+    "code": null,
+    "name": "Malema",
+    "slug": "malema",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_meconta",
+    "code": null,
+    "name": "Meconta",
+    "slug": "meconta",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_mecuburi",
+    "code": null,
+    "name": "Mecubúri",
+    "slug": "mecuburi",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_memba",
+    "code": null,
+    "name": "Memba",
+    "slug": "memba",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_mogincual",
+    "code": null,
+    "name": "Mogincual",
+    "slug": "mogincual",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_mogovolas",
+    "code": null,
+    "name": "Mogovolas",
+    "slug": "mogovolas",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_moma",
+    "code": null,
+    "name": "Moma",
+    "slug": "moma",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_monapo",
+    "code": null,
+    "name": "Monapo",
+    "slug": "monapo",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_mossuril",
+    "code": null,
+    "name": "Mossuril",
+    "slug": "mossuril",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_muecate",
+    "code": null,
+    "name": "Muecate",
+    "slug": "muecate",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_murrupula",
+    "code": null,
+    "name": "Murrupula",
+    "slug": "murrupula",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_nacala_porto",
+    "code": null,
+    "name": "Nacala Porto",
+    "slug": "nacala-porto",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_nacala_a_velha",
+    "code": null,
+    "name": "Nacala-A-Velha",
+    "slug": "nacala-a-velha",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_nacaroa",
+    "code": null,
+    "name": "Nacarôa",
+    "slug": "nacaroa",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_rapale",
+    "code": null,
+    "name": "Rapale",
+    "slug": "rapale",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_ribaue",
+    "code": null,
+    "name": "Ribáuè",
+    "slug": "ribaue",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_larde",
+    "code": null,
+    "name": "Larde",
+    "slug": "larde",
+    "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_nampula_liupo",
+    "code": null,
+    "name": "Liúpo",
+    "slug": "liupo",
+    "provinceId": "prov_03"
     }
 ]
