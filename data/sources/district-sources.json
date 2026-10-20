@@ -383,5 +383,137 @@
     "sourceId": "ine-nampula-province-yearbook-2024",
     "page": null,
     "notes": "Official name is Liúpo; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_zambezia_quelimane",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_alto_molocue",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Alto Molocué; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_zambezia_chinde",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_gile",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Gilé; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_zambezia_gurue",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Gurué; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_zambezia_ile",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_inhassunge",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_lugela",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_maganja_da_costa",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_milange",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_mocuba",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_mopeia",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_morrumbala",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_namacurra",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_namarroi",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_nicoadala",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_pebane",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_derre",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_luabo",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_mocubela",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_molumbo",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_zambezia_mulevala",
+    "sourceId": "ine-zambezia-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Zambézia district-level statistics."
     }
 ]

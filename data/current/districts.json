@@ -447,5 +447,159 @@
     "name": "Liúpo",
     "slug": "liupo",
     "provinceId": "prov_03"
+    },
+    {
+    "id": "dist_zambezia_quelimane",
+    "code": null,
+    "name": "Quelimane",
+    "slug": "quelimane",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_alto_molocue",
+    "code": null,
+    "name": "Alto Molocué",
+    "slug": "alto-molocue",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_chinde",
+    "code": null,
+    "name": "Chinde",
+    "slug": "chinde",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_gile",
+    "code": null,
+    "name": "Gilé",
+    "slug": "gile",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_gurue",
+    "code": null,
+    "name": "Gurué",
+    "slug": "gurue",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_ile",
+    "code": null,
+    "name": "Ile",
+    "slug": "ile",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_inhassunge",
+    "code": null,
+    "name": "Inhassunge",
+    "slug": "inhassunge",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_lugela",
+    "code": null,
+    "name": "Lugela",
+    "slug": "lugela",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_maganja_da_costa",
+    "code": null,
+    "name": "Maganja da Costa",
+    "slug": "maganja-da-costa",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_milange",
+    "code": null,
+    "name": "Milange",
+    "slug": "milange",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_mocuba",
+    "code": null,
+    "name": "Mocuba",
+    "slug": "mocuba",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_mopeia",
+    "code": null,
+    "name": "Mopeia",
+    "slug": "mopeia",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_morrumbala",
+    "code": null,
+    "name": "Morrumbala",
+    "slug": "morrumbala",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_namacurra",
+    "code": null,
+    "name": "Namacurra",
+    "slug": "namacurra",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_namarroi",
+    "code": null,
+    "name": "Namarroi",
+    "slug": "namarroi",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_nicoadala",
+    "code": null,
+    "name": "Nicoadala",
+    "slug": "nicoadala",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_pebane",
+    "code": null,
+    "name": "Pebane",
+    "slug": "pebane",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_derre",
+    "code": null,
+    "name": "Derre",
+    "slug": "derre",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_luabo",
+    "code": null,
+    "name": "Luabo",
+    "slug": "luabo",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_mocubela",
+    "code": null,
+    "name": "Mocubela",
+    "slug": "mocubela",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_molumbo",
+    "code": null,
+    "name": "Molumbo",
+    "slug": "molumbo",
+    "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_zambezia_mulevala",
+    "code": null,
+    "name": "Mulevala",
+    "slug": "mulevala",
+    "provinceId": "prov_04"
     }
 ]
