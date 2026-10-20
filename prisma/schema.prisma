@@ -22,6 +22,11 @@ enum SourceType {
   SECONDARY
 }
 
+enum DistrictType {
+  DISTRICT
+  MUNICIPAL_DISTRICT
+}
+
 model Province {
   id   String  @id
   code String? @unique
@@ -56,6 +61,8 @@ model District {
   slug String
 
   provinceId String
+
+  type DistrictType @default(DISTRICT)
 
   status RecordStatus @default(ACTIVE)
 

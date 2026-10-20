@@ -1,54 +1,5 @@
 [
   {
-    "districtId": "dist_maputo_matola",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_boane",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_magude",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_manhica",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_marracuene",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_matutuine",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_moamba",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-  {
-    "districtId": "dist_maputo_namaacha",
-    "sourceId": "ine-maputo-province-yearbook-2024",
-    "page": "14",
-    "notes": "Listed in the territorial units table."
-  },
-
-  {
     "districtId": "dist_niassa_lichinga",
     "sourceId": "ine-niassa-province-yearbook-2024",
     "page": "4",
@@ -923,5 +874,95 @@
     "sourceId": "ine-gaza-province-yearbook-2024",
     "page": null,
     "notes": "Verified in official INE Gaza district-level statistics."
+    },
+  {
+    "districtId": "dist_maputo_matola",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_boane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_magude",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_manhica",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_marracuene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_matutuine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_moamba",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_namaacha",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed in the territorial units table."
+  },
+  {
+    "districtId": "dist_maputo_city_kampfumu",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
+    },
+    {
+    "districtId": "dist_maputo_city_nlhamankulu",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
+    },
+    {
+    "districtId": "dist_maputo_city_kamaxakeni",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
+    },
+    {
+    "districtId": "dist_maputo_city_kamavota",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
+    },
+    {
+    "districtId": "dist_maputo_city_kamubukwana",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
+    },
+    {
+    "districtId": "dist_maputo_city_katembe",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
+    },
+    {
+    "districtId": "dist_maputo_city_kanyaka",
+    "sourceId": "ine-maputo-city-yearbook-2024",
+    "page": "3",
+    "notes": "Verified as a municipal district of Maputo City."
     }
 ]

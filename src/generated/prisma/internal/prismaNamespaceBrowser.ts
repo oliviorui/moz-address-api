@@ -101,6 +101,7 @@ export const DistrictScalarFieldEnum = {
   name: 'name',
   slug: 'slug',
   provinceId: 'provinceId',
+  type: 'type',
   status: 'status',
   validFrom: 'validFrom',
   validUntil: 'validUntil',

@@ -30,6 +30,7 @@ export type DistrictMinAggregateOutputType = {
   name: string | null
   slug: string | null
   provinceId: string | null
+  type: $Enums.DistrictType | null
   status: $Enums.RecordStatus | null
   validFrom: Date | null
   validUntil: Date | null
@@ -43,6 +44,7 @@ export type DistrictMaxAggregateOutputType = {
   name: string | null
   slug: string | null
   provinceId: string | null
+  type: $Enums.DistrictType | null
   status: $Enums.RecordStatus | null
   validFrom: Date | null
   validUntil: Date | null
@@ -56,6 +58,7 @@ export type DistrictCountAggregateOutputType = {
   name: number
   slug: number
   provinceId: number
+  type: number
   status: number
   validFrom: number
   validUntil: number
@@ -71,6 +74,7 @@ export type DistrictMinAggregateInputType = {
   name?: true
   slug?: true
   provinceId?: true
+  type?: true
   status?: true
   validFrom?: true
   validUntil?: true
@@ -84,6 +88,7 @@ export type DistrictMaxAggregateInputType = {
   name?: true
   slug?: true
   provinceId?: true
+  type?: true
   status?: true
   validFrom?: true
   validUntil?: true
@@ -97,6 +102,7 @@ export type DistrictCountAggregateInputType = {
   name?: true
   slug?: true
   provinceId?: true
+  type?: true
   status?: true
   validFrom?: true
   validUntil?: true
@@ -183,6 +189,7 @@ export type DistrictGroupByOutputType = {
   name: string
   slug: string
   provinceId: string
+  type: $Enums.DistrictType
   status: $Enums.RecordStatus
   validFrom: Date | null
   validUntil: Date | null
@@ -217,6 +224,7 @@ export type DistrictWhereInput = {
   name?: Prisma.StringFilter<"District"> | string
   slug?: Prisma.StringFilter<"District"> | string
   provinceId?: Prisma.StringFilter<"District"> | string
+  type?: Prisma.EnumDistrictTypeFilter<"District"> | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFilter<"District"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableFilter<"District"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableFilter<"District"> | Date | string | null
@@ -233,6 +241,7 @@ export type DistrictOrderByWithRelationInput = {
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
   provinceId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrderInput | Prisma.SortOrder
   validUntil?: Prisma.SortOrderInput | Prisma.SortOrder
@@ -253,6 +262,7 @@ export type DistrictWhereUniqueInput = Prisma.AtLeast<{
   name?: Prisma.StringFilter<"District"> | string
   slug?: Prisma.StringFilter<"District"> | string
   provinceId?: Prisma.StringFilter<"District"> | string
+  type?: Prisma.EnumDistrictTypeFilter<"District"> | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFilter<"District"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableFilter<"District"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableFilter<"District"> | Date | string | null
@@ -269,6 +279,7 @@ export type DistrictOrderByWithAggregationInput = {
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
   provinceId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrderInput | Prisma.SortOrder
   validUntil?: Prisma.SortOrderInput | Prisma.SortOrder
@@ -288,6 +299,7 @@ export type DistrictScalarWhereWithAggregatesInput = {
   name?: Prisma.StringWithAggregatesFilter<"District"> | string
   slug?: Prisma.StringWithAggregatesFilter<"District"> | string
   provinceId?: Prisma.StringWithAggregatesFilter<"District"> | string
+  type?: Prisma.EnumDistrictTypeWithAggregatesFilter<"District"> | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusWithAggregatesFilter<"District"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableWithAggregatesFilter<"District"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableWithAggregatesFilter<"District"> | Date | string | null
@@ -300,6 +312,7 @@ export type DistrictCreateInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -316,6 +329,7 @@ export type DistrictUncheckedCreateInput = {
   name: string
   slug: string
   provinceId: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -330,6 +344,7 @@ export type DistrictUpdateInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -346,6 +361,7 @@ export type DistrictUncheckedUpdateInput = {
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
   provinceId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -361,6 +377,7 @@ export type DistrictCreateManyInput = {
   name: string
   slug: string
   provinceId: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -373,6 +390,7 @@ export type DistrictUpdateManyMutationInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -386,6 +404,7 @@ export type DistrictUncheckedUpdateManyInput = {
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
   provinceId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -414,6 +433,7 @@ export type DistrictCountOrderByAggregateInput = {
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
   provinceId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrder
   validUntil?: Prisma.SortOrder
@@ -427,6 +447,7 @@ export type DistrictMaxOrderByAggregateInput = {
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
   provinceId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrder
   validUntil?: Prisma.SortOrder
@@ -440,6 +461,7 @@ export type DistrictMinOrderByAggregateInput = {
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
   provinceId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrder
   validUntil?: Prisma.SortOrder
@@ -494,6 +516,10 @@ export type DistrictUncheckedUpdateManyWithoutProvinceNestedInput = {
   deleteMany?: Prisma.DistrictScalarWhereInput | Prisma.DistrictScalarWhereInput[]
 }
 
+export type EnumDistrictTypeFieldUpdateOperationsInput = {
+  set?: $Enums.DistrictType
+}
+
 export type DistrictCreateNestedOneWithoutAdministrativePostsInput = {
   create?: Prisma.XOR<Prisma.DistrictCreateWithoutAdministrativePostsInput, Prisma.DistrictUncheckedCreateWithoutAdministrativePostsInput>
   connectOrCreate?: Prisma.DistrictCreateOrConnectWithoutAdministrativePostsInput
@@ -527,6 +553,7 @@ export type DistrictCreateWithoutProvinceInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -541,6 +568,7 @@ export type DistrictUncheckedCreateWithoutProvinceInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -585,6 +613,7 @@ export type DistrictScalarWhereInput = {
   name?: Prisma.StringFilter<"District"> | string
   slug?: Prisma.StringFilter<"District"> | string
   provinceId?: Prisma.StringFilter<"District"> | string
+  type?: Prisma.EnumDistrictTypeFilter<"District"> | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFilter<"District"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableFilter<"District"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableFilter<"District"> | Date | string | null
@@ -597,6 +626,7 @@ export type DistrictCreateWithoutAdministrativePostsInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -612,6 +642,7 @@ export type DistrictUncheckedCreateWithoutAdministrativePostsInput = {
   name: string
   slug: string
   provinceId: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -641,6 +672,7 @@ export type DistrictUpdateWithoutAdministrativePostsInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -656,6 +688,7 @@ export type DistrictUncheckedUpdateWithoutAdministrativePostsInput = {
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
   provinceId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -669,6 +702,7 @@ export type DistrictCreateWithoutSourcesInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -684,6 +718,7 @@ export type DistrictUncheckedCreateWithoutSourcesInput = {
   name: string
   slug: string
   provinceId: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -713,6 +748,7 @@ export type DistrictUpdateWithoutSourcesInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -728,6 +764,7 @@ export type DistrictUncheckedUpdateWithoutSourcesInput = {
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
   provinceId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -741,6 +778,7 @@ export type DistrictCreateManyProvinceInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.DistrictType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -753,6 +791,7 @@ export type DistrictUpdateWithoutProvinceInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -767,6 +806,7 @@ export type DistrictUncheckedUpdateWithoutProvinceInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -781,6 +821,7 @@ export type DistrictUncheckedUpdateManyWithoutProvinceInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -834,6 +875,7 @@ export type DistrictSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs
   name?: boolean
   slug?: boolean
   provinceId?: boolean
+  type?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
@@ -851,6 +893,7 @@ export type DistrictSelectCreateManyAndReturn<ExtArgs extends runtime.Types.Exte
   name?: boolean
   slug?: boolean
   provinceId?: boolean
+  type?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
@@ -865,6 +908,7 @@ export type DistrictSelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Exte
   name?: boolean
   slug?: boolean
   provinceId?: boolean
+  type?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
@@ -879,6 +923,7 @@ export type DistrictSelectScalar = {
   name?: boolean
   slug?: boolean
   provinceId?: boolean
+  type?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
@@ -886,7 +931,7 @@ export type DistrictSelectScalar = {
   updatedAt?: boolean
 }
 
-export type DistrictOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "code" | "name" | "slug" | "provinceId" | "status" | "validFrom" | "validUntil" | "createdAt" | "updatedAt", ExtArgs["result"]["district"]>
+export type DistrictOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "code" | "name" | "slug" | "provinceId" | "type" | "status" | "validFrom" | "validUntil" | "createdAt" | "updatedAt", ExtArgs["result"]["district"]>
 export type DistrictInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   province?: boolean | Prisma.ProvinceDefaultArgs<ExtArgs>
   administrativePosts?: boolean | Prisma.District$administrativePostsArgs<ExtArgs>
@@ -913,6 +958,7 @@ export type $DistrictPayload<ExtArgs extends runtime.Types.Extensions.InternalAr
     name: string
     slug: string
     provinceId: string
+    type: $Enums.DistrictType
     status: $Enums.RecordStatus
     validFrom: Date | null
     validUntil: Date | null
@@ -1349,6 +1395,7 @@ export interface DistrictFieldRefs {
   readonly name: Prisma.FieldRef<"District", 'String'>
   readonly slug: Prisma.FieldRef<"District", 'String'>
   readonly provinceId: Prisma.FieldRef<"District", 'String'>
+  readonly type: Prisma.FieldRef<"District", 'DistrictType'>
   readonly status: Prisma.FieldRef<"District", 'RecordStatus'>
   readonly validFrom: Prisma.FieldRef<"District", 'DateTime'>
   readonly validUntil: Prisma.FieldRef<"District", 'DateTime'>

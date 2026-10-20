@@ -10,16 +10,6 @@
     "notes": "Primary reference for Mozambique administrative divisions."
   },
   {
-    "id": "ine-maputo-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Maputo, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/en/web/guest/d/aep_maputo_provincia",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Maputo Province."
-  },
-  {
     "id": "ine-niassa-province-yearbook-2024",
     "institution": "Instituto Nacional de Estatística",
     "title": "Anuário Estatístico. Província do Niassa, 2024",
@@ -108,5 +98,25 @@
     "url": "https://www.ine.gov.mz/documents/20119/334668/ANUARIO_ESTATISTICO_PROVINCIA_GAZA_2024.pdf",
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Gaza Province."
+  },
+  {
+    "id": "ine-maputo-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Maputo, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/en/web/guest/d/aep_maputo_provincia",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Maputo Province."
+  },
+  {
+    "id": "ine-maputo-city-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Cidade de Maputo, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/o/adaptive-media/image/352347/Preview-1000x0/Anuario_Cidade%2B_Maputo%2B2024.pdf",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the seven municipal districts of Maputo City."
   }
 ]

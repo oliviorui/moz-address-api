@@ -31,3 +31,11 @@ export const SourceType = {
 } as const
 
 export type SourceType = (typeof SourceType)[keyof typeof SourceType]
+
+
+export const DistrictType = {
+  DISTRICT: 'DISTRICT',
+  MUNICIPAL_DISTRICT: 'MUNICIPAL_DISTRICT'
+} as const
+
+export type DistrictType = (typeof DistrictType)[keyof typeof DistrictType]

@@ -1153,6 +1153,7 @@ export const DistrictScalarFieldEnum = {
   name: 'name',
   slug: 'slug',
   provinceId: 'provinceId',
+  type: 'type',
   status: 'status',
   validFrom: 'validFrom',
   validUntil: 'validUntil',
@@ -1338,6 +1339,20 @@ export type DateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel
  * Reference to a field of type 'DateTime[]'
  */
 export type ListDateTimeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DateTime[]'>
+    
+
+
+/**
+ * Reference to a field of type 'DistrictType'
+ */
+export type EnumDistrictTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DistrictType'>
+    
+
+
+/**
+ * Reference to a field of type 'DistrictType[]'
+ */
+export type ListEnumDistrictTypeFieldRefInput<$PrismaModel> = FieldRefInputType<$PrismaModel, 'DistrictType[]'>
     
 
 

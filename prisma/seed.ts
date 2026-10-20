@@ -22,7 +22,8 @@ import districtSources from "../data/sources/district-sources.json" with {
 import {
   PrismaClient,
   ProvinceType,
-  SourceType
+  SourceType,
+  DistrictType
 } from "../src/generated/prisma/client.js";
 
 const connectionString = process.env.DATABASE_URL;
@@ -139,6 +140,12 @@ async function seedDistricts() {
   console.log("📍 Seeding districts...");
 
   for (const district of districts) {
+    const type =
+      "type" in district &&
+      district.type === "MUNICIPAL_DISTRICT"
+        ? DistrictType.MUNICIPAL_DISTRICT
+        : DistrictType.DISTRICT;
+
     await prisma.district.upsert({
       where: {
         id: district.id
@@ -148,7 +155,8 @@ async function seedDistricts() {
         code: district.code,
         name: district.name,
         slug: district.slug,
-        provinceId: district.provinceId
+        provinceId: district.provinceId,
+        type
       },
 
       create: {
@@ -156,7 +164,8 @@ async function seedDistricts() {
         code: district.code,
         name: district.name,
         slug: district.slug,
-        provinceId: district.provinceId
+        provinceId: district.provinceId,
+        type
       }
     });
   }

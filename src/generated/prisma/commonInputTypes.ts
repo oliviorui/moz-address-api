@@ -169,6 +169,23 @@ export type DateTimeWithAggregatesFilter<$PrismaModel = never> = {
   _max?: Prisma.NestedDateTimeFilter<$PrismaModel>
 }
 
+export type EnumDistrictTypeFilter<$PrismaModel = never> = {
+  equals?: $Enums.DistrictType | Prisma.EnumDistrictTypeFieldRefInput<$PrismaModel>
+  in?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDistrictTypeFilter<$PrismaModel> | $Enums.DistrictType
+}
+
+export type EnumDistrictTypeWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.DistrictType | Prisma.EnumDistrictTypeFieldRefInput<$PrismaModel>
+  in?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDistrictTypeWithAggregatesFilter<$PrismaModel> | $Enums.DistrictType
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumDistrictTypeFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumDistrictTypeFilter<$PrismaModel>
+}
+
 export type EnumSourceTypeFilter<$PrismaModel = never> = {
   equals?: $Enums.SourceType | Prisma.EnumSourceTypeFieldRefInput<$PrismaModel>
   in?: $Enums.SourceType[] | Prisma.ListEnumSourceTypeFieldRefInput<$PrismaModel>
@@ -379,6 +396,23 @@ export type NestedDateTimeWithAggregatesFilter<$PrismaModel = never> = {
   _count?: Prisma.NestedIntFilter<$PrismaModel>
   _min?: Prisma.NestedDateTimeFilter<$PrismaModel>
   _max?: Prisma.NestedDateTimeFilter<$PrismaModel>
+}
+
+export type NestedEnumDistrictTypeFilter<$PrismaModel = never> = {
+  equals?: $Enums.DistrictType | Prisma.EnumDistrictTypeFieldRefInput<$PrismaModel>
+  in?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDistrictTypeFilter<$PrismaModel> | $Enums.DistrictType
+}
+
+export type NestedEnumDistrictTypeWithAggregatesFilter<$PrismaModel = never> = {
+  equals?: $Enums.DistrictType | Prisma.EnumDistrictTypeFieldRefInput<$PrismaModel>
+  in?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  notIn?: $Enums.DistrictType[] | Prisma.ListEnumDistrictTypeFieldRefInput<$PrismaModel>
+  not?: Prisma.NestedEnumDistrictTypeWithAggregatesFilter<$PrismaModel> | $Enums.DistrictType
+  _count?: Prisma.NestedIntFilter<$PrismaModel>
+  _min?: Prisma.NestedEnumDistrictTypeFilter<$PrismaModel>
+  _max?: Prisma.NestedEnumDistrictTypeFilter<$PrismaModel>
 }
 
 export type NestedEnumSourceTypeFilter<$PrismaModel = never> = {
