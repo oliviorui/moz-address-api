@@ -839,5 +839,89 @@
     "sourceId": "ine-inhambane-province-yearbook-2024",
     "page": null,
     "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_xai_xai",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_bilene",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_chibuto",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_chicualacuala",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_chigubo",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_chokwe",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Chókwè; slug intentionally removes accents."
+    },
+    {
+    "districtId": "dist_gaza_guija",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Guijá; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_gaza_mabalane",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_mandlakazi",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_massangena",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_massingir",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_limpopo",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_chongoene",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
+    },
+    {
+    "districtId": "dist_gaza_mapai",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Gaza district-level statistics."
     }
 ]

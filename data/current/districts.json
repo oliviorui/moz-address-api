@@ -979,5 +979,103 @@
     "name": "Zavala",
     "slug": "zavala",
     "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_gaza_xai_xai",
+    "code": null,
+    "name": "Xai-Xai",
+    "slug": "xai-xai",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_bilene",
+    "code": null,
+    "name": "Bilene",
+    "slug": "bilene",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_chibuto",
+    "code": null,
+    "name": "Chibuto",
+    "slug": "chibuto",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_chicualacuala",
+    "code": null,
+    "name": "Chicualacuala",
+    "slug": "chicualacuala",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_chigubo",
+    "code": null,
+    "name": "Chigubo",
+    "slug": "chigubo",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_chokwe",
+    "code": null,
+    "name": "Chókwè",
+    "slug": "chokwe",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_guija",
+    "code": null,
+    "name": "Guijá",
+    "slug": "guija",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_mabalane",
+    "code": null,
+    "name": "Mabalane",
+    "slug": "mabalane",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_mandlakazi",
+    "code": null,
+    "name": "Mandlakazi",
+    "slug": "mandlakazi",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_massangena",
+    "code": null,
+    "name": "Massangena",
+    "slug": "massangena",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_massingir",
+    "code": null,
+    "name": "Massingir",
+    "slug": "massingir",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_limpopo",
+    "code": null,
+    "name": "Limpopo",
+    "slug": "limpopo",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_chongoene",
+    "code": null,
+    "name": "Chongoene",
+    "slug": "chongoene",
+    "provinceId": "prov_09"
+    },
+    {
+    "id": "dist_gaza_mapai",
+    "code": null,
+    "name": "Mapai",
+    "slug": "mapai",
+    "provinceId": "prov_09"
     }
 ]
