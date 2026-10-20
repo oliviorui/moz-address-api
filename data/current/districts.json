@@ -601,5 +601,110 @@
     "name": "Mulevala",
     "slug": "mulevala",
     "provinceId": "prov_04"
+    },
+    {
+    "id": "dist_tete_tete",
+    "code": null,
+    "name": "Cidade de Tete",
+    "slug": "tete",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_angonia",
+    "code": null,
+    "name": "Angónia",
+    "slug": "angonia",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_cahora_bassa",
+    "code": null,
+    "name": "Cahora Bassa",
+    "slug": "cahora-bassa",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_changara",
+    "code": null,
+    "name": "Changara",
+    "slug": "changara",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_chifunde",
+    "code": null,
+    "name": "Chifunde",
+    "slug": "chifunde",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_chiuta",
+    "code": null,
+    "name": "Chiúta",
+    "slug": "chiuta",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_macanga",
+    "code": null,
+    "name": "Macanga",
+    "slug": "macanga",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_magoe",
+    "code": null,
+    "name": "Mágoe",
+    "slug": "magoe",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_maravia",
+    "code": null,
+    "name": "Marávia",
+    "slug": "maravia",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_moatize",
+    "code": null,
+    "name": "Moatize",
+    "slug": "moatize",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_mutarara",
+    "code": null,
+    "name": "Mutarara",
+    "slug": "mutarara",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_tsangano",
+    "code": null,
+    "name": "Tsangano",
+    "slug": "tsangano",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_zumbo",
+    "code": null,
+    "name": "Zumbo",
+    "slug": "zumbo",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_doa",
+    "code": null,
+    "name": "Doa",
+    "slug": "doa",
+    "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_tete_marara",
+    "code": null,
+    "name": "Marara",
+    "slug": "marara",
+    "provinceId": "prov_05"
     }
 ]

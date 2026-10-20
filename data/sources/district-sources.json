@@ -515,5 +515,95 @@
     "sourceId": "ine-zambezia-province-yearbook-2024",
     "page": null,
     "notes": "Verified in official INE Zambézia district-level statistics."
+    },
+    {
+    "districtId": "dist_tete_tete",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed as Cidade de Tete in the official territorial units table."
+    },
+    {
+    "districtId": "dist_tete_angonia",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Official name is Angónia; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_tete_cahora_bassa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed as Cahora Bassa in the official territorial units table."
+    },
+    {
+    "districtId": "dist_tete_changara",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_tete_chifunde",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_tete_chiuta",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Official name is Chiúta; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_tete_macanga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_tete_magoe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Official name is Mágoe; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_tete_maravia",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Official name is Marávia; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_tete_moatize",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_tete_mutarara",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_tete_tsangano",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_tete_zumbo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified as Zumbo in the 2024 INE provincial yearbook."
+    },
+    {
+    "districtId": "dist_tete_doa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified as Doa in the 2024 INE provincial yearbook."
+    },
+    {
+    "districtId": "dist_tete_marara",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Tete territorial statistics."
     }
 ]
