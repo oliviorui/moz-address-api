@@ -1,0 +1,225 @@
+generator client {
+  provider = "prisma-client"
+  output   = "../src/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+enum ProvinceType {
+  PROVINCE
+  CAPITAL_CITY
+}
+
+enum RecordStatus {
+  ACTIVE
+  HISTORICAL
+}
+
+enum SourceType {
+  OFFICIAL
+  SECONDARY
+}
+
+model Province {
+  id   String  @id
+  code String? @unique
+
+  name String
+  slug String @unique
+
+  type    ProvinceType
+  capital String?
+
+  status RecordStatus @default(ACTIVE)
+
+  validFrom  DateTime?
+  validUntil DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  districts District[]
+  sources   ProvinceSource[]
+
+  @@index([name])
+  @@index([slug])
+  @@map("provinces")
+}
+
+model District {
+  id   String  @id
+  code String? @unique
+
+  name String
+  slug String
+
+  provinceId String
+
+  status RecordStatus @default(ACTIVE)
+
+  validFrom  DateTime?
+  validUntil DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  province Province @relation(fields: [provinceId], references: [id], onDelete: Restrict)
+
+  administrativePosts AdministrativePost[]
+  sources             DistrictSource[]
+
+  @@unique([provinceId, slug])
+  @@index([provinceId])
+  @@index([name])
+  @@map("districts")
+}
+
+model AdministrativePost {
+  id   String  @id
+  code String? @unique
+
+  name String
+  slug String
+
+  districtId String
+
+  status RecordStatus @default(ACTIVE)
+
+  validFrom  DateTime?
+  validUntil DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  district District @relation(fields: [districtId], references: [id], onDelete: Restrict)
+
+  localities Locality[]
+  sources    AdministrativePostSource[]
+
+  @@unique([districtId, slug])
+  @@index([districtId])
+  @@index([name])
+  @@map("administrative_posts")
+}
+
+model Locality {
+  id   String  @id
+  code String? @unique
+
+  name String
+  slug String
+
+  administrativePostId String
+
+  status RecordStatus @default(ACTIVE)
+
+  validFrom  DateTime?
+  validUntil DateTime?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  administrativePost AdministrativePost @relation(fields: [administrativePostId], references: [id], onDelete: Restrict)
+
+  sources LocalitySource[]
+
+  @@unique([administrativePostId, slug])
+  @@index([administrativePostId])
+  @@index([name])
+  @@map("localities")
+}
+
+model Source {
+  id String @id
+
+  institution String
+  title       String
+
+  type SourceType @default(OFFICIAL)
+
+  year Int?
+
+  url String?
+
+  accessedAt DateTime?
+
+  notes String?
+
+  createdAt DateTime @default(now())
+  updatedAt DateTime @updatedAt
+
+  provinces           ProvinceSource[]
+  districts           DistrictSource[]
+  administrativePosts AdministrativePostSource[]
+  localities          LocalitySource[]
+
+  @@index([institution])
+  @@index([year])
+  @@map("sources")
+}
+
+model ProvinceSource {
+  provinceId String
+  sourceId   String
+
+  page       String?
+  notes      String?
+  verifiedAt DateTime?
+
+  province Province @relation(fields: [provinceId], references: [id], onDelete: Cascade)
+  source   Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@id([provinceId, sourceId])
+  @@index([sourceId])
+  @@map("province_sources")
+}
+
+model DistrictSource {
+  districtId String
+  sourceId   String
+
+  page       String?
+  notes      String?
+  verifiedAt DateTime?
+
+  district District @relation(fields: [districtId], references: [id], onDelete: Cascade)
+  source   Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@id([districtId, sourceId])
+  @@index([sourceId])
+  @@map("district_sources")
+}
+
+model AdministrativePostSource {
+  administrativePostId String
+  sourceId             String
+
+  page       String?
+  notes      String?
+  verifiedAt DateTime?
+
+  administrativePost AdministrativePost @relation(fields: [administrativePostId], references: [id], onDelete: Cascade)
+  source             Source             @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@id([administrativePostId, sourceId])
+  @@index([sourceId])
+  @@map("administrative_post_sources")
+}
+
+model LocalitySource {
+  localityId String
+  sourceId   String
+
+  page       String?
+  notes      String?
+  verifiedAt DateTime?
+
+  locality Locality @relation(fields: [localityId], references: [id], onDelete: Cascade)
+  source   Source   @relation(fields: [sourceId], references: [id], onDelete: Cascade)
+
+  @@id([localityId, sourceId])
+  @@index([sourceId])
+  @@map("locality_sources")
+}

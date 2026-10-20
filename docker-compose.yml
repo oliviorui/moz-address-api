@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:17-alpine
+
+    container_name: moz-address-postgres
+
+    restart: unless-stopped
+
+    environment:
+      POSTGRES_DB: moz_address
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgres
+
+    ports:
+      - "5432:5432"
+
+    volumes:
+      - moz_address_postgres_data:/var/lib/postgresql/data
+
+volumes:
+  moz_address_postgres_data:
