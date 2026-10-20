@@ -68,5 +68,15 @@
     "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincial-tete-2024-1-",
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Tete Province."
+  },
+  {
+    "id": "ine-manica-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Manica, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincia-manica-2024-1",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Manica Province."
   }
 ]

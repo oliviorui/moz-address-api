@@ -706,5 +706,89 @@
     "name": "Marara",
     "slug": "marara",
     "provinceId": "prov_05"
+    },
+    {
+    "id": "dist_manica_chimoio",
+    "code": null,
+    "name": "Chimoio",
+    "slug": "chimoio",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_barue",
+    "code": null,
+    "name": "Báruè",
+    "slug": "barue",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_gondola",
+    "code": null,
+    "name": "Gondola",
+    "slug": "gondola",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_guro",
+    "code": null,
+    "name": "Guro",
+    "slug": "guro",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_machaze",
+    "code": null,
+    "name": "Machaze",
+    "slug": "machaze",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_macossa",
+    "code": null,
+    "name": "Macossa",
+    "slug": "macossa",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_manica",
+    "code": null,
+    "name": "Manica",
+    "slug": "manica",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_mossurize",
+    "code": null,
+    "name": "Mossurize",
+    "slug": "mossurize",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_sussundenga",
+    "code": null,
+    "name": "Sussundenga",
+    "slug": "sussundenga",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_tambara",
+    "code": null,
+    "name": "Tambara",
+    "slug": "tambara",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_macate",
+    "code": null,
+    "name": "Macate",
+    "slug": "macate",
+    "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_manica_vanduzi",
+    "code": null,
+    "name": "Vanduzi",
+    "slug": "vanduzi",
+    "provinceId": "prov_06"
     }
 ]

@@ -605,5 +605,77 @@
     "sourceId": "ine-tete-province-yearbook-2024",
     "page": "14",
     "notes": "Verified in official INE Tete territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_chimoio",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Listed as C. Chimoio in the official territorial units table."
+    },
+    {
+    "districtId": "dist_manica_barue",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Official name is Báruè; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_manica_gondola",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_guro",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_machaze",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_macossa",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_manica",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_mossurize",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_sussundenga",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_tambara",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_macate",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_manica_vanduzi",
+    "sourceId": "ine-manica-province-yearbook-2024",
+    "page": "14",
+    "notes": "Verified in official INE Manica territorial statistics."
     }
 ]
