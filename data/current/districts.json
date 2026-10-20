@@ -54,5 +54,118 @@
     "name": "Namaacha",
     "slug": "namaacha",
     "provinceId": "prov_10"
+  },
+
+  {
+    "id": "dist_niassa_lichinga",
+    "code": null,
+    "name": "Lichinga",
+    "slug": "lichinga",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_cuamba",
+    "code": null,
+    "name": "Cuamba",
+    "slug": "cuamba",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_lago",
+    "code": null,
+    "name": "Lago",
+    "slug": "lago",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_chimbunila",
+    "code": null,
+    "name": "Chimbunila",
+    "slug": "chimbunila",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_majune",
+    "code": null,
+    "name": "Majune",
+    "slug": "majune",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_mandimba",
+    "code": null,
+    "name": "Mandimba",
+    "slug": "mandimba",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_marrupa",
+    "code": null,
+    "name": "Marrupa",
+    "slug": "marrupa",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_maua",
+    "code": null,
+    "name": "Maúa",
+    "slug": "maua",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_mavago",
+    "code": null,
+    "name": "Mavago",
+    "slug": "mavago",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_mecanhelas",
+    "code": null,
+    "name": "Mecanhelas",
+    "slug": "mecanhelas",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_mecula",
+    "code": null,
+    "name": "Mecula",
+    "slug": "mecula",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_metarica",
+    "code": null,
+    "name": "Metarica",
+    "slug": "metarica",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_muembe",
+    "code": null,
+    "name": "Muembe",
+    "slug": "muembe",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_ngauma",
+    "code": null,
+    "name": "Ngauma",
+    "slug": "ngauma",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_nipepe",
+    "code": null,
+    "name": "Nipepe",
+    "slug": "nipepe",
+    "provinceId": "prov_01"
+  },
+  {
+    "id": "dist_niassa_sanga",
+    "code": null,
+    "name": "Sanga",
+    "slug": "sanga",
+    "provinceId": "prov_01"
   }
 ]

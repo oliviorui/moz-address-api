@@ -18,5 +18,15 @@
     "url": "https://ine.gov.mz/en/web/guest/d/aep_maputo_provincia",
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Maputo Province."
+  },
+  {
+    "id": "ine-niassa-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico. Província do Niassa, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincial-niassa-2024",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the territorial structure of Niassa Province."
   }
 ]

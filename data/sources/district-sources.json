@@ -3,7 +3,7 @@
     "districtId": "dist_maputo_matola",
     "sourceId": "ine-maputo-province-yearbook-2024",
     "page": "14",
-    "notes": "Listed as Cidade da Matola in the territorial units table."
+    "notes": "Listed in the territorial units table."
   },
   {
     "districtId": "dist_maputo_boane",
@@ -46,5 +46,102 @@
     "sourceId": "ine-maputo-province-yearbook-2024",
     "page": "14",
     "notes": "Listed in the territorial units table."
+  },
+
+  {
+    "districtId": "dist_niassa_lichinga",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_cuamba",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_lago",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "3-4",
+    "notes": "District confirmed by the INE administrative map and district-level statistics."
+  },
+  {
+    "districtId": "dist_niassa_chimbunila",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "3-4",
+    "notes": "District confirmed by INE administrative and district-level data."
+  },
+  {
+    "districtId": "dist_niassa_majune",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_mandimba",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_marrupa",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_maua",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Official district name is Maúa; slug intentionally removes the accent."
+  },
+  {
+    "districtId": "dist_niassa_mavago",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_mecanhelas",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_mecula",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_metarica",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_muembe",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_ngauma",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Normalized as Ngauma; some older publications use N'gauma."
+  },
+  {
+    "districtId": "dist_niassa_nipepe",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
+  },
+  {
+    "districtId": "dist_niassa_sanga",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": "4",
+    "notes": "Verified using INE Niassa territorial and district statistics."
   }
 ]
