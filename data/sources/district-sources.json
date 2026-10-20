@@ -677,5 +677,83 @@
     "sourceId": "ine-manica-province-yearbook-2024",
     "page": "14",
     "notes": "Verified in official INE Manica territorial statistics."
+    },
+    {
+    "districtId": "dist_sofala_beira",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_buzi",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Official name is Búzi; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_sofala_caia",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_chemba",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_cheringoma",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_chibabava",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_dondo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_gorongosa",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_machanga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_maringue",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_marromeu",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_muanza",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_sofala_nhamatanda",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Sofala district-level statistics."
     }
 ]

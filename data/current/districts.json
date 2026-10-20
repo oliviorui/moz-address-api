@@ -790,5 +790,96 @@
     "name": "Vanduzi",
     "slug": "vanduzi",
     "provinceId": "prov_06"
+    },
+    {
+    "id": "dist_sofala_beira",
+    "code": null,
+    "name": "Beira",
+    "slug": "beira",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_buzi",
+    "code": null,
+    "name": "Búzi",
+    "slug": "buzi",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_caia",
+    "code": null,
+    "name": "Caia",
+    "slug": "caia",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_chemba",
+    "code": null,
+    "name": "Chemba",
+    "slug": "chemba",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_cheringoma",
+    "code": null,
+    "name": "Cheringoma",
+    "slug": "cheringoma",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_chibabava",
+    "code": null,
+    "name": "Chibabava",
+    "slug": "chibabava",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_dondo",
+    "code": null,
+    "name": "Dondo",
+    "slug": "dondo",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_gorongosa",
+    "code": null,
+    "name": "Gorongosa",
+    "slug": "gorongosa",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_machanga",
+    "code": null,
+    "name": "Machanga",
+    "slug": "machanga",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_maringue",
+    "code": null,
+    "name": "Maringue",
+    "slug": "maringue",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_marromeu",
+    "code": null,
+    "name": "Marromeu",
+    "slug": "marromeu",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_muanza",
+    "code": null,
+    "name": "Muanza",
+    "slug": "muanza",
+    "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_sofala_nhamatanda",
+    "code": null,
+    "name": "Nhamatanda",
+    "slug": "nhamatanda",
+    "provinceId": "prov_07"
     }
 ]
