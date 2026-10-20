@@ -881,5 +881,103 @@
     "name": "Nhamatanda",
     "slug": "nhamatanda",
     "provinceId": "prov_07"
+    },
+    {
+    "id": "dist_inhambane_inhambane",
+    "code": null,
+    "name": "Cidade de Inhambane",
+    "slug": "inhambane",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_funhalouro",
+    "code": null,
+    "name": "Funhalouro",
+    "slug": "funhalouro",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_govuro",
+    "code": null,
+    "name": "Govuro",
+    "slug": "govuro",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_homoine",
+    "code": null,
+    "name": "Homoine",
+    "slug": "homoine",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_inharrime",
+    "code": null,
+    "name": "Inharrime",
+    "slug": "inharrime",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_inhassoro",
+    "code": null,
+    "name": "Inhassoro",
+    "slug": "inhassoro",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_jangamo",
+    "code": null,
+    "name": "Jangamo",
+    "slug": "jangamo",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_mabote",
+    "code": null,
+    "name": "Mabote",
+    "slug": "mabote",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_massinga",
+    "code": null,
+    "name": "Massinga",
+    "slug": "massinga",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_maxixe",
+    "code": null,
+    "name": "Maxixe",
+    "slug": "maxixe",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_morrumbene",
+    "code": null,
+    "name": "Morrumbene",
+    "slug": "morrumbene",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_panda",
+    "code": null,
+    "name": "Panda",
+    "slug": "panda",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_vilankulo",
+    "code": null,
+    "name": "Vilankulo",
+    "slug": "vilankulo",
+    "provinceId": "prov_08"
+    },
+    {
+    "id": "dist_inhambane_zavala",
+    "code": null,
+    "name": "Zavala",
+    "slug": "zavala",
+    "provinceId": "prov_08"
     }
 ]

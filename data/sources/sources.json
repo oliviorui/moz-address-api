@@ -88,5 +88,15 @@
     "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico_provincia-de-sofala_2024",
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Sofala Province."
+  },
+  {
+    "id": "ine-inhambane-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Inhambane, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-inhambane-2024",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Inhambane Province."
   }
 ]

@@ -755,5 +755,89 @@
     "sourceId": "ine-sofala-province-yearbook-2024",
     "page": null,
     "notes": "Verified in official INE Sofala district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_inhambane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Listed as Cidade de Inhambane in official INE district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_funhalouro",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_govuro",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_homoine",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified as Homoine in official INE district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_inharrime",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_inhassoro",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_jangamo",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_mabote",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_massinga",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_maxixe",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_morrumbene",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_panda",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_vilankulo",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
+    },
+    {
+    "districtId": "dist_inhambane_zavala",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": null,
+    "notes": "Verified in official INE Inhambane district-level statistics."
     }
 ]
