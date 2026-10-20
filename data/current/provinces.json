@@ -1,0 +1,90 @@
+[
+  {
+    "id": "prov_01",
+    "code": null,
+    "name": "Niassa",
+    "slug": "niassa",
+    "type": "province",
+    "capital": "Lichinga"
+  },
+  {
+    "id": "prov_02",
+    "code": null,
+    "name": "Cabo Delgado",
+    "slug": "cabo-delgado",
+    "type": "province",
+    "capital": "Pemba"
+  },
+  {
+    "id": "prov_03",
+    "code": null,
+    "name": "Nampula",
+    "slug": "nampula",
+    "type": "province",
+    "capital": "Nampula"
+  },
+  {
+    "id": "prov_04",
+    "code": null,
+    "name": "Zambézia",
+    "slug": "zambezia",
+    "type": "province",
+    "capital": "Quelimane"
+  },
+  {
+    "id": "prov_05",
+    "code": null,
+    "name": "Tete",
+    "slug": "tete",
+    "type": "province",
+    "capital": "Tete"
+  },
+  {
+    "id": "prov_06",
+    "code": null,
+    "name": "Manica",
+    "slug": "manica",
+    "type": "province",
+    "capital": "Chimoio"
+  },
+  {
+    "id": "prov_07",
+    "code": null,
+    "name": "Sofala",
+    "slug": "sofala",
+    "type": "province",
+    "capital": "Beira"
+  },
+  {
+    "id": "prov_08",
+    "code": null,
+    "name": "Inhambane",
+    "slug": "inhambane",
+    "type": "province",
+    "capital": "Inhambane"
+  },
+  {
+    "id": "prov_09",
+    "code": null,
+    "name": "Gaza",
+    "slug": "gaza",
+    "type": "province",
+    "capital": "Xai-Xai"
+  },
+  {
+    "id": "prov_10",
+    "code": null,
+    "name": "Maputo",
+    "slug": "maputo",
+    "type": "province",
+    "capital": "Matola"
+  },
+  {
+    "id": "prov_11",
+    "code": null,
+    "name": "Cidade de Maputo",
+    "slug": "cidade-de-maputo",
+    "type": "capital-city",
+    "capital": "Maputo"
+  }
+]
