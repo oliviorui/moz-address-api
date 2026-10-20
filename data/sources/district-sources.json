@@ -143,5 +143,107 @@
     "sourceId": "ine-niassa-province-yearbook-2024",
     "page": "4",
     "notes": "Verified using INE Niassa territorial and district statistics."
-  }
+  },
+  {
+    "districtId": "dist_cabo_delgado_pemba",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_ancuabe",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_balama",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_chiure",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Official name is Chiúre; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_cabo_delgado_ibo",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_macomia",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_mecufi",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Official name is Mecúfi; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_cabo_delgado_meluco",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_mocimboa_da_praia",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Official name is Mocímboa da Praia; slug intentionally removes the accent."
+    },
+    {
+    "districtId": "dist_cabo_delgado_montepuez",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_mueda",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_muidumbe",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_namuno",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_nangade",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_palma",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_metuge",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    },
+    {
+    "districtId": "dist_cabo_delgado_quissanga",
+    "sourceId": "ine-cabo-delgado-province-yearbook-2024",
+    "page": "15",
+    "notes": "Listed in INE Cabo Delgado district statistics."
+    }
 ]

@@ -167,5 +167,124 @@
     "name": "Sanga",
     "slug": "sanga",
     "provinceId": "prov_01"
-  }
+  },
+  {
+    "id": "dist_cabo_delgado_pemba",
+    "code": null,
+    "name": "Pemba",
+    "slug": "pemba",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_ancuabe",
+    "code": null,
+    "name": "Ancuabe",
+    "slug": "ancuabe",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_balama",
+    "code": null,
+    "name": "Balama",
+    "slug": "balama",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_chiure",
+    "code": null,
+    "name": "Chiúre",
+    "slug": "chiure",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_ibo",
+    "code": null,
+    "name": "Ibo",
+    "slug": "ibo",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_macomia",
+    "code": null,
+    "name": "Macomia",
+    "slug": "macomia",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_mecufi",
+    "code": null,
+    "name": "Mecúfi",
+    "slug": "mecufi",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_meluco",
+    "code": null,
+    "name": "Meluco",
+    "slug": "meluco",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_mocimboa_da_praia",
+    "code": null,
+    "name": "Mocímboa da Praia",
+    "slug": "mocimboa-da-praia",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_montepuez",
+    "code": null,
+    "name": "Montepuez",
+    "slug": "montepuez",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_mueda",
+    "code": null,
+    "name": "Mueda",
+    "slug": "mueda",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_muidumbe",
+    "code": null,
+    "name": "Muidumbe",
+    "slug": "muidumbe",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_namuno",
+    "code": null,
+    "name": "Namuno",
+    "slug": "namuno",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_nangade",
+    "code": null,
+    "name": "Nangade",
+    "slug": "nangade",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_palma",
+    "code": null,
+    "name": "Palma",
+    "slug": "palma",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_metuge",
+    "code": null,
+    "name": "Metuge",
+    "slug": "metuge",
+    "provinceId": "prov_02"
+    },
+    {
+    "id": "dist_cabo_delgado_quissanga",
+    "code": null,
+    "name": "Quissanga",
+    "slug": "quissanga",
+    "provinceId": "prov_02"
+    }
 ]
