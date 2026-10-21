@@ -1,1 +1,575 @@
-[]
+[
+  {
+    "id": "neighborhood_maputo_city_kampfumu_alto_mae_a",
+    "code": null,
+    "name": "Alto Maé A",
+    "slug": "alto-mae-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_alto_mae_b",
+    "code": null,
+    "name": "Alto Maé B",
+    "slug": "alto-mae-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_central_a",
+    "code": null,
+    "name": "Central A",
+    "slug": "central-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_central_b",
+    "code": null,
+    "name": "Central B",
+    "slug": "central-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_central_c",
+    "code": null,
+    "name": "Central C",
+    "slug": "central-c",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_coop",
+    "code": null,
+    "name": "Coop",
+    "slug": "coop",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_malhangalene_a",
+    "code": null,
+    "name": "Malhangalene A",
+    "slug": "malhangalene-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_malhangalene_b",
+    "code": null,
+    "name": "Malhangalene B",
+    "slug": "malhangalene-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_polana_cimento_a",
+    "code": null,
+    "name": "Polana-Cimento A",
+    "slug": "polana-cimento-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_polana_cimento_b",
+    "code": null,
+    "name": "Polana-Cimento B",
+    "slug": "polana-cimento-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+  {
+    "id": "neighborhood_maputo_city_kampfumu_sommerschield",
+    "code": null,
+    "name": "Sommerschield",
+    "slug": "sommerschield",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kampfumu"
+  },
+
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_aeroporto_a",
+    "code": null,
+    "name": "Aeroporto A",
+    "slug": "aeroporto-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_aeroporto_b",
+    "code": null,
+    "name": "Aeroporto B",
+    "slug": "aeroporto-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_chamanculo_a",
+    "code": null,
+    "name": "Chamanculo A",
+    "slug": "chamanculo-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_chamanculo_b",
+    "code": null,
+    "name": "Chamanculo B",
+    "slug": "chamanculo-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_chamanculo_c",
+    "code": null,
+    "name": "Chamanculo C",
+    "slug": "chamanculo-c",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_chamanculo_d",
+    "code": null,
+    "name": "Chamanculo D",
+    "slug": "chamanculo-d",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_malanga",
+    "code": null,
+    "name": "Malanga",
+    "slug": "malanga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_minkadjuine",
+    "code": null,
+    "name": "Minkadjuine",
+    "slug": "minkadjuine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_munhuana",
+    "code": null,
+    "name": "Munhuana",
+    "slug": "munhuana",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_unidade_7",
+    "code": null,
+    "name": "Unidade 7",
+    "slug": "unidade-7",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+  {
+    "id": "neighborhood_maputo_city_nlhamankulu_xipamanine",
+    "code": null,
+    "name": "Xipamanine",
+    "slug": "xipamanine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_nlhamankulu"
+  },
+
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_mafalala",
+    "code": null,
+    "name": "Mafalala",
+    "slug": "mafalala",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_maxaquene_a",
+    "code": null,
+    "name": "Maxaquene A",
+    "slug": "maxaquene-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_maxaquene_b",
+    "code": null,
+    "name": "Maxaquene B",
+    "slug": "maxaquene-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_maxaquene_c",
+    "code": null,
+    "name": "Maxaquene C",
+    "slug": "maxaquene-c",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_maxaquene_d",
+    "code": null,
+    "name": "Maxaquene D",
+    "slug": "maxaquene-d",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_polana_canico_a",
+    "code": null,
+    "name": "Polana Caniço A",
+    "slug": "polana-canico-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_polana_canico_b",
+    "code": null,
+    "name": "Polana Caniço B",
+    "slug": "polana-canico-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamaxakeni_urbanizacao",
+    "code": null,
+    "name": "Urbanização",
+    "slug": "urbanizacao",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamaxakeni"
+  },
+
+  {
+    "id": "neighborhood_maputo_city_kamavota_3_de_fevereiro",
+    "code": null,
+    "name": "3 de Fevereiro",
+    "slug": "3-de-fevereiro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_albazine",
+    "code": null,
+    "name": "Albazine",
+    "slug": "albazine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_costa_do_sol",
+    "code": null,
+    "name": "Costa do Sol",
+    "slug": "costa-do-sol",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_fplm",
+    "code": null,
+    "name": "F.P.L.M.",
+    "slug": "fplm",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_ferroviario",
+    "code": null,
+    "name": "Ferroviário",
+    "slug": "ferroviario",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_hulene_a",
+    "code": null,
+    "name": "Hulene A",
+    "slug": "hulene-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_hulene_b",
+    "code": null,
+    "name": "Hulene B",
+    "slug": "hulene-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_laulane",
+    "code": null,
+    "name": "Laulane",
+    "slug": "laulane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_mahotas",
+    "code": null,
+    "name": "Mahotas",
+    "slug": "mahotas",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_mavalane_a",
+    "code": null,
+    "name": "Mavalane A",
+    "slug": "mavalane-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamavota_mavalane_b",
+    "code": null,
+    "name": "Mavalane B",
+    "slug": "mavalane-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamavota"
+  },
+
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_25_de_junho_a",
+    "code": null,
+    "name": "25 de Junho A",
+    "slug": "25-de-junho-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_25_de_junho_b",
+    "code": null,
+    "name": "25 de Junho B",
+    "slug": "25-de-junho-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_bagamoyo",
+    "code": null,
+    "name": "Bagamoyo",
+    "slug": "bagamoyo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_george_dimitrov",
+    "code": null,
+    "name": "George Dimitrov",
+    "slug": "george-dimitrov",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_inhagoia_a",
+    "code": null,
+    "name": "Inhagóia A",
+    "slug": "inhagoia-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_inhagoia_b",
+    "code": null,
+    "name": "Inhagóia B",
+    "slug": "inhagoia-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_jardim",
+    "code": null,
+    "name": "Jardim",
+    "slug": "jardim",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_luis_cabral",
+    "code": null,
+    "name": "Luís Cabral",
+    "slug": "luis-cabral",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_magoanine_a",
+    "code": null,
+    "name": "Magoanine A",
+    "slug": "magoanine-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_magoanine_b",
+    "code": null,
+    "name": "Magoanine B",
+    "slug": "magoanine-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_magoanine_c",
+    "code": null,
+    "name": "Magoanine C",
+    "slug": "magoanine-c",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_malhazine",
+    "code": null,
+    "name": "Malhazine",
+    "slug": "malhazine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_nsalene",
+    "code": null,
+    "name": "Nsalene",
+    "slug": "nsalene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+  {
+    "id": "neighborhood_maputo_city_kamubukwana_zimpeto",
+    "code": null,
+    "name": "Zimpeto",
+    "slug": "zimpeto",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kamubukwana"
+  },
+
+  {
+    "id": "neighborhood_maputo_city_katembe_inguide",
+    "code": null,
+    "name": "Inguide",
+    "slug": "inguide",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_katembe"
+  },
+  {
+    "id": "neighborhood_maputo_city_katembe_incassane",
+    "code": null,
+    "name": "Incassane",
+    "slug": "incassane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_katembe"
+  },
+  {
+    "id": "neighborhood_maputo_city_katembe_guachene",
+    "code": null,
+    "name": "Guachene",
+    "slug": "guachene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_katembe"
+  },
+  {
+    "id": "neighborhood_maputo_city_katembe_chali",
+    "code": null,
+    "name": "Chali",
+    "slug": "chali",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_katembe"
+  },
+  {
+    "id": "neighborhood_maputo_city_katembe_chamissava",
+    "code": null,
+    "name": "Chamissava",
+    "slug": "chamissava",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_katembe"
+  },
+
+  {
+    "id": "neighborhood_maputo_city_kanyaka_ribzwene",
+    "code": null,
+    "name": "Ribzwene",
+    "slug": "ribzwene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kanyaka"
+  },
+  {
+    "id": "neighborhood_maputo_city_kanyaka_inguane",
+    "code": null,
+    "name": "Inguane",
+    "slug": "inguane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kanyaka"
+  },
+  {
+    "id": "neighborhood_maputo_city_kanyaka_nhaquene",
+    "code": null,
+    "name": "Nhaquene",
+    "slug": "nhaquene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_maputo_city_kanyaka"
+  }
+]

@@ -27,11 +27,20 @@ import administrativePostSources from "../data/sources/administrative-post-sourc
   type: "json"
 };
 
+import localities from "../data/current/localities.json" with {
+  type: "json"
+};
+
+import localitySources from "../data/sources/locality-sources.json" with {
+  type: "json"
+};
+
 import {
   PrismaClient,
   ProvinceType,
   SourceType,
-  DistrictType
+  DistrictType,
+  LocalityType
 } from "../src/generated/prisma/client.js";
 
 type AdministrativePostSeedRecord = {
@@ -48,6 +57,29 @@ type AdministrativePostSourceSeedRecord = {
   page: string | null;
   notes: string | null;
 };
+
+type LocalitySeedRecord = {
+  id: string;
+  code: string | null;
+  name: string;
+  slug: string;
+  type: "LOCALITY" | "NEIGHBORHOOD";
+  administrativePostId: string | null;
+  districtId: string | null;
+};
+
+type LocalitySourceSeedRecord = {
+  localityId: string;
+  sourceId: string;
+  page: string | null;
+  notes: string | null;
+};
+
+const localityRecords =
+  localities as LocalitySeedRecord[];
+
+const localitySourceRecords =
+  localitySources as LocalitySourceSeedRecord[];
 
 const connectionString = process.env.DATABASE_URL;
 
@@ -236,6 +268,105 @@ async function seedAdministrativePosts() {
   );
 }
 
+async function seedLocalities() {
+  console.log(
+    "🏙️ Seeding localities and neighborhoods..."
+  );
+
+  for (
+    const locality of localityRecords
+  ) {
+    const type =
+      locality.type === "NEIGHBORHOOD"
+        ? LocalityType.NEIGHBORHOOD
+        : LocalityType.LOCALITY;
+
+    await prisma.locality.upsert({
+      where: {
+        id: locality.id
+      },
+
+      update: {
+        code: locality.code,
+        name: locality.name,
+        slug: locality.slug,
+        type,
+        administrativePostId:
+          locality.administrativePostId,
+        districtId:
+          locality.districtId
+      },
+
+      create: {
+        id: locality.id,
+        code: locality.code,
+        name: locality.name,
+        slug: locality.slug,
+        type,
+        administrativePostId:
+          locality.administrativePostId,
+        districtId:
+          locality.districtId
+      }
+    });
+  }
+
+  const count =
+    await prisma.locality.count();
+
+  console.log(
+    `✅ ${count} locality/neighborhood record(s) available.`
+  );
+}
+
+async function seedLocalitySources() {
+  console.log(
+    "🔗 Linking localities and neighborhoods to sources..."
+  );
+
+  for (
+    const reference of
+      localitySourceRecords
+  ) {
+    await prisma.localitySource.upsert({
+      where: {
+        localityId_sourceId: {
+          localityId:
+            reference.localityId,
+          sourceId:
+            reference.sourceId
+        }
+      },
+
+      update: {
+        page:
+          reference.page ?? null,
+        notes:
+          reference.notes,
+        verifiedAt:
+          new Date()
+      },
+
+      create: {
+        localityId:
+          reference.localityId,
+        sourceId:
+          reference.sourceId,
+        page:
+          reference.page ?? null,
+        notes:
+          reference.notes,
+        verifiedAt:
+          new Date()
+      }
+    });
+  }
+
+  console.log(
+    `✅ ${localitySourceRecords.length} locality source reference(s) available.`
+  );
+}
+
 async function seedDistrictSources() {
   console.log(
     "🔗 Linking districts to sources..."
@@ -316,12 +447,20 @@ async function main() {
   );
 
   await seedSources();
+
   await seedProvinces();
+
   await seedDistricts();
+
   await seedAdministrativePosts();
 
+  await seedLocalities();
+
   await seedDistrictSources();
+
   await seedAdministrativePostSources();
+
+  await seedLocalitySources();
 
   console.log(
     "\n🌱 Database seed completed."

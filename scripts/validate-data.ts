@@ -335,6 +335,17 @@ const expectedAdministrativePostCountsByDistrict:
     dist_maputo_city_kanyaka: 0
   };
 
+const expectedNeighborhoodCountsByDistrict:
+  Record<string, number> = {
+    dist_maputo_city_kampfumu: 11,
+    dist_maputo_city_nlhamankulu: 11,
+    dist_maputo_city_kamaxakeni: 8,
+    dist_maputo_city_kamavota: 11,
+    dist_maputo_city_kamubukwana: 14,
+    dist_maputo_city_katembe: 5,
+    dist_maputo_city_kanyaka: 3
+  };
+
 const errors: string[] = [];
 const warnings: string[] = [];
 
@@ -1104,6 +1115,65 @@ function validateLocalityData(
   );
 }
 
+function validateNeighborhoodCountsByDistrict(
+  localities: Locality[],
+  districts: District[]
+) {
+  console.log(
+    "🔎 Validating neighborhood counts by district..."
+  );
+
+  const districtMap = new Map(
+    districts.map(
+      (district) => [
+        district.id,
+        district
+      ]
+    )
+  );
+
+  for (
+    const [
+      districtId,
+      expectedCount
+    ] of Object.entries(
+      expectedNeighborhoodCountsByDistrict
+    )
+  ) {
+    const district =
+      districtMap.get(districtId);
+
+    if (!district) {
+      errors.push(
+        `Neighborhood count configuration references unknown district "${districtId}".`
+      );
+
+      continue;
+    }
+
+    const actualCount =
+      localities.filter(
+        (locality) =>
+          locality.type ===
+            "NEIGHBORHOOD" &&
+          locality.districtId ===
+            districtId
+      ).length;
+
+    if (
+      actualCount !== expectedCount
+    ) {
+      errors.push(
+        `District "${district.name}" expected ${expectedCount} neighborhood(s), found ${actualCount}.`
+      );
+    } else {
+      console.log(
+        `   ✅ ${district.name}: ${actualCount}/${expectedCount}`
+      );
+    }
+  }
+}
+
 function validateSources(
   sources: Source[]
 ) {
@@ -1495,6 +1565,11 @@ async function main() {
       administrativePosts,
       districts,
       provinces
+    );
+
+    validateNeighborhoodCountsByDistrict(
+      localities,
+      districts
     );
 
     validateLocalityData(

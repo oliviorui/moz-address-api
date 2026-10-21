@@ -210,5 +210,15 @@
     "url": "https://www.ine.gov.mz/en/web/guest/atlas/-/document_library/dzkb/view/45111",
     "accessedAt": "2026-10-21",
     "notes": "Official INE territorial publications used to verify administrative posts of Maputo Province."
+  },
+  {
+    "id": "cmm-maputo-pdm-2024-2028",
+    "institution": "Conselho Municipal de Maputo",
+    "title": "Plano de Desenvolvimento Municipal de Maputo 2024–2028",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://cmmaputo.gov.mz/wp-content/uploads/2025/10/PROPOSTA-DO-PDM-2024-2028-31.05.2024-Versao-Pos-Sessao-do-CM-2.pdf",
+    "accessedAt": "2026-10-21",
+    "notes": "Official municipal source for Maputo City neighborhood names. The document prose mentions 64 neighborhoods, but its enumerated district lists total 63; INE 2024 independently confirms 63."
   }
 ]
