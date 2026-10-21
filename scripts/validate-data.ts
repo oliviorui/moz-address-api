@@ -126,6 +126,7 @@ const expectedAdministrativePostCountsByProvince:
   Record<string, number> = {
     prov_01: 45,
     prov_03: 72,
+    prov_04: 54,
     prov_10: 29
   };
 /*
@@ -185,6 +186,30 @@ const expectedAdministrativePostCountsByDistrict:
     dist_nampula_ribaue: 3,
     dist_nampula_larde: 2,
     dist_nampula_liupo: 2,
+
+    // Zambézia
+    dist_zambezia_quelimane: 5,
+    dist_zambezia_alto_molocue: 2,
+    dist_zambezia_chinde: 2,
+    dist_zambezia_gile: 2,
+    dist_zambezia_gurue: 3,
+    dist_zambezia_ile: 2,
+    dist_zambezia_inhassunge: 2,
+    dist_zambezia_lugela: 4,
+    dist_zambezia_maganja_da_costa: 2,
+    dist_zambezia_milange: 3,
+    dist_zambezia_mocuba: 3,
+    dist_zambezia_mopeia: 2,
+    dist_zambezia_morrumbala: 3,
+    dist_zambezia_namacurra: 2,
+    dist_zambezia_namarroi: 2,
+    dist_zambezia_nicoadala: 2,
+    dist_zambezia_pebane: 3,
+    dist_zambezia_derre: 2,
+    dist_zambezia_luabo: 2,
+    dist_zambezia_mocubela: 2,
+    dist_zambezia_molumbo: 2,
+    dist_zambezia_mulevala: 2,
   };
 
 const errors: string[] = [];
