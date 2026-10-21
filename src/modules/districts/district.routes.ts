@@ -7,6 +7,10 @@ import {
 } from "../../generated/prisma/client.js";
 
 import {
+  districtRouteSchemas
+} from "../../config/openapi-schemas.js";
+
+import {
   getAllDistricts,
   getDistrictByIdentifier
 } from "./district.service.js";
@@ -36,6 +40,10 @@ export async function districtRoutes(
     Querystring: DistrictQuerystring;
   }>(
     "/",
+    {
+      schema:
+        districtRouteSchemas.list
+    },
     async (request, reply) => {
       const {
         q,
@@ -156,6 +164,10 @@ export async function districtRoutes(
     };
   }>(
     "/:identifier",
+    {
+      schema:
+        districtRouteSchemas.detail
+    },
     async (request, reply) => {
       const district =
         await getDistrictByIdentifier(
@@ -184,6 +196,11 @@ export async function districtRoutes(
     };
   }>(
     "/:identifier/administrative-posts",
+    {
+      schema:
+        districtRouteSchemas
+          .administrativePosts
+    },
     async (request, reply) => {
       const district =
         await getAdministrativePostsByDistrict(
@@ -233,6 +250,11 @@ export async function districtRoutes(
     };
   }>(
     "/:identifier/administrative-posts/:postSlug",
+    {
+      schema:
+        districtRouteSchemas
+          .administrativePostDetail
+    },
     async (request, reply) => {
       const administrativePost =
         await getAdministrativePostByDistrictAndSlug(
@@ -262,6 +284,10 @@ export async function districtRoutes(
     };
   }>(
     "/:identifier/neighborhoods",
+    {
+      schema:
+        districtRouteSchemas.neighborhoods
+    },
     async (request, reply) => {
       const district =
         await getNeighborhoodsByDistrict(
@@ -322,6 +348,11 @@ export async function districtRoutes(
     };
   }>(
     "/:identifier/neighborhoods/:neighborhoodSlug",
+    {
+      schema:
+        districtRouteSchemas
+          .neighborhoodDetail
+    },
     async (request, reply) => {
       const neighborhood =
         await getNeighborhoodByDistrictAndSlug(

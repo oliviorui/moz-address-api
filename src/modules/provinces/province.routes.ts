@@ -7,6 +7,10 @@ import {
 } from "../../generated/prisma/client.js";
 
 import {
+  provinceRouteSchemas
+} from "../../config/openapi-schemas.js";
+
+import {
   getAllProvinces,
   getProvinceByIdentifier,
   getProvinceDistricts
@@ -26,6 +30,10 @@ export async function provinceRoutes(
     Querystring: ProvinceQuerystring;
   }>(
     "/",
+    {
+      schema:
+        provinceRouteSchemas.list
+    },
     async (request, reply) => {
       const {
         q
@@ -139,6 +147,10 @@ export async function provinceRoutes(
     };
   }>(
     "/:identifier",
+    {
+      schema:
+        provinceRouteSchemas.detail
+    },
     async (request, reply) => {
       const province =
         await getProvinceByIdentifier(
@@ -169,6 +181,10 @@ export async function provinceRoutes(
     };
   }>(
     "/:identifier/districts",
+    {
+      schema:
+        provinceRouteSchemas.districts
+    },
     async (request, reply) => {
       const province =
         await getProvinceDistricts(

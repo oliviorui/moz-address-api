@@ -7,6 +7,10 @@ import {
 } from "../../generated/prisma/client.js";
 
 import {
+  localityRouteSchemas
+} from "../../config/openapi-schemas.js";
+
+import {
   getAllLocalities,
   getLocalityById
 } from "./locality.service.js";
@@ -27,6 +31,10 @@ export async function localityRoutes(
     Querystring: LocalityQuerystring;
   }>(
     "/",
+    {
+      schema:
+        localityRouteSchemas.list
+    },
     async (request, reply) => {
       const {
         q,
@@ -153,6 +161,10 @@ export async function localityRoutes(
     };
   }>(
     "/:id",
+    {
+      schema:
+        localityRouteSchemas.detail
+    },
     async (request, reply) => {
       const locality =
         await getLocalityById(

@@ -3,6 +3,10 @@ import type {
 } from "fastify";
 
 import {
+  administrativePostRouteSchemas
+} from "../../config/openapi-schemas.js";
+
+import {
   getAllAdministrativePosts,
   getAdministrativePostById
 } from "./administrative-post.service.js";
@@ -28,6 +32,11 @@ export async function administrativePostRoutes(
       AdministrativePostQuerystring;
   }>(
     "/",
+    {
+      schema:
+        administrativePostRouteSchemas
+          .list
+    },
     async (request, reply) => {
       const {
         q,
@@ -121,6 +130,11 @@ export async function administrativePostRoutes(
     };
   }>(
     "/:id",
+    {
+      schema:
+        administrativePostRouteSchemas
+          .detail
+    },
     async (request, reply) => {
       const administrativePost =
         await getAdministrativePostById(
@@ -149,6 +163,11 @@ export async function administrativePostRoutes(
     };
   }>(
     "/:id/localities",
+    {
+      schema:
+        administrativePostRouteSchemas
+          .localities
+    },
     async (request, reply) => {
       const administrativePost =
         await getLocalitiesByAdministrativePost(
@@ -227,6 +246,11 @@ export async function administrativePostRoutes(
     };
   }>(
     "/:id/localities/:localitySlug",
+    {
+      schema:
+        administrativePostRouteSchemas
+          .localityDetail
+    },
     async (request, reply) => {
       const locality =
         await getLocalityByAdministrativePostAndSlug(

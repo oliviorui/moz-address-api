@@ -7,6 +7,10 @@ import {
 } from "../../generated/prisma/client.js";
 
 import {
+  sourceRouteSchemas
+} from "../../config/openapi-schemas.js";
+
+import {
   getAllSources,
   getSourceById
 } from "./source.service.js";
@@ -27,6 +31,10 @@ export async function sourceRoutes(
     Querystring: SourceQuerystring;
   }>(
     "/",
+    {
+      schema:
+        sourceRouteSchemas.list
+    },
     async (request, reply) => {
       const {
         q,
@@ -182,6 +190,10 @@ export async function sourceRoutes(
     };
   }>(
     "/:id",
+    {
+      schema:
+        sourceRouteSchemas.detail
+    },
     async (request, reply) => {
       const source =
         await getSourceById(
