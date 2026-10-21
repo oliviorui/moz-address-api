@@ -11,11 +11,19 @@ import districts from "../data/current/districts.json" with {
   type: "json"
 };
 
+import administrativePosts from "../data/current/administrative-posts.json" with {
+  type: "json"
+};
+
 import sources from "../data/sources/sources.json" with {
   type: "json"
 };
 
 import districtSources from "../data/sources/district-sources.json" with {
+  type: "json"
+};
+
+import administrativePostSources from "../data/sources/administrative-post-sources.json" with {
   type: "json"
 };
 
@@ -25,6 +33,21 @@ import {
   SourceType,
   DistrictType
 } from "../src/generated/prisma/client.js";
+
+type AdministrativePostSeedRecord = {
+  id: string;
+  code: string | null;
+  name: string;
+  slug: string;
+  districtId: string;
+};
+
+type AdministrativePostSourceSeedRecord = {
+  administrativePostId: string;
+  sourceId: string;
+  page: string | null;
+  notes: string | null;
+};
 
 const connectionString = process.env.DATABASE_URL;
 
@@ -42,6 +65,12 @@ const prisma = new PrismaClient({
   adapter
 });
 
+const administrativePostRecords =
+  administrativePosts as AdministrativePostSeedRecord[];
+
+const administrativePostSourceRecords =
+  administrativePostSources as AdministrativePostSourceSeedRecord[];
+
 async function seedSources() {
   console.log("📚 Seeding data sources...");
 
@@ -54,19 +83,15 @@ async function seedSources() {
       update: {
         institution: source.institution,
         title: source.title,
-
         type:
           source.type === "SECONDARY"
             ? SourceType.SECONDARY
             : SourceType.OFFICIAL,
-
         year: source.year,
         url: source.url,
-
         accessedAt: source.accessedAt
           ? new Date(source.accessedAt)
           : null,
-
         notes: source.notes
       },
 
@@ -74,25 +99,23 @@ async function seedSources() {
         id: source.id,
         institution: source.institution,
         title: source.title,
-
         type:
           source.type === "SECONDARY"
             ? SourceType.SECONDARY
             : SourceType.OFFICIAL,
-
         year: source.year,
         url: source.url,
-
         accessedAt: source.accessedAt
           ? new Date(source.accessedAt)
           : null,
-
         notes: source.notes
       }
     });
   }
 
-  console.log(`✅ ${sources.length} source(s) available.`);
+  console.log(
+    `✅ ${sources.length} source(s) available.`
+  );
 }
 
 async function seedProvinces() {
@@ -109,7 +132,6 @@ async function seedProvinces() {
         name: province.name,
         slug: province.slug,
         capital: province.capital,
-
         type:
           province.type === "capital-city"
             ? ProvinceType.CAPITAL_CITY
@@ -122,7 +144,6 @@ async function seedProvinces() {
         name: province.name,
         slug: province.slug,
         capital: province.capital,
-
         type:
           province.type === "capital-city"
             ? ProvinceType.CAPITAL_CITY
@@ -133,7 +154,9 @@ async function seedProvinces() {
 
   const count = await prisma.province.count();
 
-  console.log(`✅ ${count} province(s) available.`);
+  console.log(
+    `✅ ${count} province(s) available.`
+  );
 }
 
 async function seedDistricts() {
@@ -172,11 +195,51 @@ async function seedDistricts() {
 
   const count = await prisma.district.count();
 
-  console.log(`✅ ${count} district(s) available.`);
+  console.log(
+    `✅ ${count} district(s) available.`
+  );
+}
+
+async function seedAdministrativePosts() {
+  console.log(
+    "🏘️ Seeding administrative posts..."
+  );
+
+  for (const post of administrativePostRecords) {
+    await prisma.administrativePost.upsert({
+      where: {
+        id: post.id
+      },
+
+      update: {
+        code: post.code,
+        name: post.name,
+        slug: post.slug,
+        districtId: post.districtId
+      },
+
+      create: {
+        id: post.id,
+        code: post.code,
+        name: post.name,
+        slug: post.slug,
+        districtId: post.districtId
+      }
+    });
+  }
+
+  const count =
+    await prisma.administrativePost.count();
+
+  console.log(
+    `✅ ${count} administrative post(s) available.`
+  );
 }
 
 async function seedDistrictSources() {
-  console.log("🔗 Linking districts to sources...");
+  console.log(
+    "🔗 Linking districts to sources..."
+  );
 
   for (const reference of districtSources) {
     await prisma.districtSource.upsert({
@@ -208,15 +271,61 @@ async function seedDistrictSources() {
   );
 }
 
+async function seedAdministrativePostSources() {
+  console.log(
+    "🔗 Linking administrative posts to sources..."
+  );
+
+  for (
+    const reference of administrativePostSourceRecords
+  ) {
+    await prisma.administrativePostSource.upsert({
+      where: {
+        administrativePostId_sourceId: {
+          administrativePostId:
+            reference.administrativePostId,
+          sourceId: reference.sourceId
+        }
+      },
+
+      update: {
+        page: reference.page ?? null,
+        notes: reference.notes,
+        verifiedAt: new Date()
+      },
+
+      create: {
+        administrativePostId:
+          reference.administrativePostId,
+        sourceId: reference.sourceId,
+        page: reference.page ?? null,
+        notes: reference.notes,
+        verifiedAt: new Date()
+      }
+    });
+  }
+
+  console.log(
+    `✅ ${administrativePostSourceRecords.length} administrative post source reference(s) available.`
+  );
+}
+
 async function main() {
-  console.log("🌱 Starting database seed...\n");
+  console.log(
+    "🌱 Starting database seed...\n"
+  );
 
   await seedSources();
   await seedProvinces();
   await seedDistricts();
-  await seedDistrictSources();
+  await seedAdministrativePosts();
 
-  console.log("\n🌱 Database seed completed.");
+  await seedDistrictSources();
+  await seedAdministrativePostSources();
+
+  console.log(
+    "\n🌱 Database seed completed."
+  );
 }
 
 main()
@@ -230,4 +339,3 @@ main()
     await prisma.$disconnect();
     await pool.end();
   });
-  
