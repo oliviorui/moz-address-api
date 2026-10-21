@@ -1789,6 +1789,284 @@
   "slug": "matsinho",
   "districtId": "dist_manica_vanduzi"
 },
+{
+  "id": "adm_post_sofala_beira_urbano_1_central",
+  "code": null,
+  "name": "Urbano Nº 1 - Central",
+  "slug": "urbano-1-central",
+  "districtId": "dist_sofala_beira"
+},
+{
+  "id": "adm_post_sofala_beira_urbano_2_munhava",
+  "code": null,
+  "name": "Urbano Nº 2 - Munhava",
+  "slug": "urbano-2-munhava",
+  "districtId": "dist_sofala_beira"
+},
+{
+  "id": "adm_post_sofala_beira_urbano_3_inhamizua",
+  "code": null,
+  "name": "Urbano Nº 3 - Inhamízua",
+  "slug": "urbano-3-inhamizua",
+  "districtId": "dist_sofala_beira"
+},
+{
+  "id": "adm_post_sofala_beira_urbano_4_manga_loforte",
+  "code": null,
+  "name": "Urbano Nº 4 - Manga Loforte",
+  "slug": "urbano-4-manga-loforte",
+  "districtId": "dist_sofala_beira"
+},
+{
+  "id": "adm_post_sofala_beira_urbano_5_nhangau",
+  "code": null,
+  "name": "Urbano Nº 5 - Nhangau",
+  "slug": "urbano-5-nhangau",
+  "districtId": "dist_sofala_beira"
+},
+
+{
+  "id": "adm_post_sofala_buzi_buzi_sede",
+  "code": null,
+  "name": "Búzi-Sede",
+  "slug": "buzi-sede",
+  "districtId": "dist_sofala_buzi"
+},
+{
+  "id": "adm_post_sofala_buzi_estaquinha",
+  "code": null,
+  "name": "Estaquinha",
+  "slug": "estaquinha",
+  "districtId": "dist_sofala_buzi"
+},
+{
+  "id": "adm_post_sofala_buzi_nova_sofala",
+  "code": null,
+  "name": "Nova Sofala",
+  "slug": "nova-sofala",
+  "districtId": "dist_sofala_buzi"
+},
+
+{
+  "id": "adm_post_sofala_caia_caia_sede",
+  "code": null,
+  "name": "Caia-Sede",
+  "slug": "caia-sede",
+  "districtId": "dist_sofala_caia"
+},
+{
+  "id": "adm_post_sofala_caia_murraca",
+  "code": null,
+  "name": "Murraça",
+  "slug": "murraca",
+  "districtId": "dist_sofala_caia"
+},
+{
+  "id": "adm_post_sofala_caia_sena",
+  "code": null,
+  "name": "Sena",
+  "slug": "sena",
+  "districtId": "dist_sofala_caia"
+},
+
+{
+  "id": "adm_post_sofala_chemba_chemba_sede",
+  "code": null,
+  "name": "Chemba-Sede",
+  "slug": "chemba-sede",
+  "districtId": "dist_sofala_chemba"
+},
+{
+  "id": "adm_post_sofala_chemba_chiramba",
+  "code": null,
+  "name": "Chiramba",
+  "slug": "chiramba",
+  "districtId": "dist_sofala_chemba"
+},
+{
+  "id": "adm_post_sofala_chemba_mulima",
+  "code": null,
+  "name": "Mulima",
+  "slug": "mulima",
+  "districtId": "dist_sofala_chemba"
+},
+
+{
+  "id": "adm_post_sofala_cheringoma_inhaminga",
+  "code": null,
+  "name": "Inhaminga",
+  "slug": "inhaminga",
+  "districtId": "dist_sofala_cheringoma"
+},
+{
+  "id": "adm_post_sofala_cheringoma_inhamitanga",
+  "code": null,
+  "name": "Inhamitanga",
+  "slug": "inhamitanga",
+  "districtId": "dist_sofala_cheringoma"
+},
+
+{
+  "id": "adm_post_sofala_chibabava_chibabava",
+  "code": null,
+  "name": "Chibabava",
+  "slug": "chibabava",
+  "districtId": "dist_sofala_chibabava"
+},
+{
+  "id": "adm_post_sofala_chibabava_goonda",
+  "code": null,
+  "name": "Goonda",
+  "slug": "goonda",
+  "districtId": "dist_sofala_chibabava"
+},
+{
+  "id": "adm_post_sofala_chibabava_muxungue",
+  "code": null,
+  "name": "Muxungué",
+  "slug": "muxungue",
+  "districtId": "dist_sofala_chibabava"
+},
+
+{
+  "id": "adm_post_sofala_dondo_dondo_sede",
+  "code": null,
+  "name": "Dondo-Sede",
+  "slug": "dondo-sede",
+  "districtId": "dist_sofala_dondo"
+},
+{
+  "id": "adm_post_sofala_dondo_mafambisse",
+  "code": null,
+  "name": "Mafambisse",
+  "slug": "mafambisse",
+  "districtId": "dist_sofala_dondo"
+},
+{
+  "id": "adm_post_sofala_dondo_savane",
+  "code": null,
+  "name": "Savane",
+  "slug": "savane",
+  "districtId": "dist_sofala_dondo"
+},
+
+{
+  "id": "adm_post_sofala_gorongosa_gorongosa_sede",
+  "code": null,
+  "name": "Gorongosa-Sede",
+  "slug": "gorongosa-sede",
+  "districtId": "dist_sofala_gorongosa"
+},
+{
+  "id": "adm_post_sofala_gorongosa_nhamadzi",
+  "code": null,
+  "name": "Nhamadzi",
+  "slug": "nhamadzi",
+  "districtId": "dist_sofala_gorongosa"
+},
+{
+  "id": "adm_post_sofala_gorongosa_vunduzi",
+  "code": null,
+  "name": "Vunduzi",
+  "slug": "vunduzi",
+  "districtId": "dist_sofala_gorongosa"
+},
+
+{
+  "id": "adm_post_sofala_machanga_machanga_sede",
+  "code": null,
+  "name": "Machanga-Sede",
+  "slug": "machanga-sede",
+  "districtId": "dist_sofala_machanga"
+},
+{
+  "id": "adm_post_sofala_machanga_divinhe",
+  "code": null,
+  "name": "Divinhe",
+  "slug": "divinhe",
+  "districtId": "dist_sofala_machanga"
+},
+{
+  "id": "adm_post_sofala_machanga_chiloane",
+  "code": null,
+  "name": "Chiloane",
+  "slug": "chiloane",
+  "districtId": "dist_sofala_machanga"
+},
+
+{
+  "id": "adm_post_sofala_maringue_maringue_sede",
+  "code": null,
+  "name": "Marínguè-Sede",
+  "slug": "maringue-sede",
+  "districtId": "dist_sofala_maringue"
+},
+{
+  "id": "adm_post_sofala_maringue_canxixe",
+  "code": null,
+  "name": "Canxixe",
+  "slug": "canxixe",
+  "districtId": "dist_sofala_maringue"
+},
+{
+  "id": "adm_post_sofala_maringue_subue",
+  "code": null,
+  "name": "Subué",
+  "slug": "subue",
+  "districtId": "dist_sofala_maringue"
+},
+
+{
+  "id": "adm_post_sofala_marromeu_marromeu_sede",
+  "code": null,
+  "name": "Marromeu-Sede",
+  "slug": "marromeu-sede",
+  "districtId": "dist_sofala_marromeu"
+},
+{
+  "id": "adm_post_sofala_marromeu_chupanga",
+  "code": null,
+  "name": "Chupanga",
+  "slug": "chupanga",
+  "districtId": "dist_sofala_marromeu"
+},
+{
+  "id": "adm_post_sofala_marromeu_malingapansi",
+  "code": null,
+  "name": "Malingapansi",
+  "slug": "malingapansi",
+  "districtId": "dist_sofala_marromeu"
+},
+
+{
+  "id": "adm_post_sofala_muanza_muanza",
+  "code": null,
+  "name": "Muanza",
+  "slug": "muanza",
+  "districtId": "dist_sofala_muanza"
+},
+{
+  "id": "adm_post_sofala_muanza_galinha",
+  "code": null,
+  "name": "Galinha",
+  "slug": "galinha",
+  "districtId": "dist_sofala_muanza"
+},
+
+{
+  "id": "adm_post_sofala_nhamatanda_nhamatanda",
+  "code": null,
+  "name": "Nhamatanda",
+  "slug": "nhamatanda",
+  "districtId": "dist_sofala_nhamatanda"
+},
+{
+  "id": "adm_post_sofala_nhamatanda_tica",
+  "code": null,
+  "name": "Tica",
+  "slug": "tica",
+  "districtId": "dist_sofala_nhamatanda"
+},
 
 
 

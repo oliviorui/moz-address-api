@@ -129,6 +129,7 @@ const expectedAdministrativePostCountsByProvince:
     prov_04: 54,
     prov_05: 36,
     prov_06: 37,
+    prov_07: 38,
     prov_10: 29
   };
 /*
@@ -242,6 +243,21 @@ const expectedAdministrativePostCountsByDistrict:
     dist_manica_tambara: 3,
     dist_manica_macate: 2,
     dist_manica_vanduzi: 2,
+
+    // Sofala
+    dist_sofala_beira: 5,
+    dist_sofala_buzi: 3,
+    dist_sofala_caia: 3,
+    dist_sofala_chemba: 3,
+    dist_sofala_cheringoma: 2,
+    dist_sofala_chibabava: 3,
+    dist_sofala_dondo: 3,
+    dist_sofala_gorongosa: 3,
+    dist_sofala_machanga: 3,
+    dist_sofala_maringue: 3,
+    dist_sofala_marromeu: 3,
+    dist_sofala_muanza: 2,
+    dist_sofala_nhamatanda: 2,
   };
 
 const errors: string[] = [];
