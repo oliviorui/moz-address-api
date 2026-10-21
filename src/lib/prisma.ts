@@ -22,3 +22,8 @@ const adapter = new PrismaPg(pool);
 export const prisma = new PrismaClient({
   adapter
 });
+
+export async function closeDatabase() {
+  await prisma.$disconnect();
+  await pool.end();
+}
