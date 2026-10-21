@@ -1,4 +1,6 @@
-import type { FastifyInstance } from "fastify";
+import type {
+  FastifyInstance
+} from "fastify";
 
 import {
   getAllDistricts,
@@ -10,11 +12,17 @@ import {
   getAdministrativePostsByDistrict
 } from "../administrative-posts/administrative-post.service.js";
 
+import {
+  getNeighborhoodByDistrictAndSlug,
+  getNeighborhoodsByDistrict
+} from "../localities/locality.service.js";
+
 export async function districtRoutes(
   app: FastifyInstance
 ) {
   app.get("/", async () => {
-    const districts = await getAllDistricts();
+    const districts =
+      await getAllDistricts();
 
     return {
       data: districts,
@@ -29,23 +37,29 @@ export async function districtRoutes(
     Params: {
       identifier: string;
     };
-  }>("/:identifier", async (request, reply) => {
-    const district =
-      await getDistrictByIdentifier(
-        request.params.identifier
-      );
+  }>(
+    "/:identifier",
+    async (request, reply) => {
+      const district =
+        await getDistrictByIdentifier(
+          request.params.identifier
+        );
 
-    if (!district) {
-      return reply.status(404).send({
-        error: "DISTRICT_NOT_FOUND",
-        message: "District not found."
-      });
+      if (!district) {
+        return reply.status(404).send({
+          error:
+            "DISTRICT_NOT_FOUND",
+
+          message:
+            "District not found."
+        });
+      }
+
+      return {
+        data: district
+      };
     }
-
-    return {
-      data: district
-    };
-  });
+  );
 
   app.get<{
     Params: {
@@ -61,13 +75,17 @@ export async function districtRoutes(
 
       if (!district) {
         return reply.status(404).send({
-          error: "DISTRICT_NOT_FOUND",
-          message: "District not found."
+          error:
+            "DISTRICT_NOT_FOUND",
+
+          message:
+            "District not found."
         });
       }
 
       return {
-        data: district.administrativePosts,
+        data:
+          district.administrativePosts,
 
         meta: {
           district: {
@@ -83,7 +101,9 @@ export async function districtRoutes(
           },
 
           total:
-            district.administrativePosts.length
+            district
+              .administrativePosts
+              .length
         }
       };
     }
@@ -107,6 +127,7 @@ export async function districtRoutes(
         return reply.status(404).send({
           error:
             "ADMINISTRATIVE_POST_NOT_FOUND",
+
           message:
             "Administrative post not found in this district."
         });
@@ -114,6 +135,100 @@ export async function districtRoutes(
 
       return {
         data: administrativePost
+      };
+    }
+  );
+
+  app.get<{
+    Params: {
+      identifier: string;
+    };
+  }>(
+    "/:identifier/neighborhoods",
+    async (request, reply) => {
+      const district =
+        await getNeighborhoodsByDistrict(
+          request.params.identifier
+        );
+
+      if (!district) {
+        return reply.status(404).send({
+          error:
+            "DISTRICT_NOT_FOUND",
+
+          message:
+            "District not found."
+        });
+      }
+
+      /*
+       * Neighborhoods only make sense
+       * for municipal districts.
+       */
+      if (
+        district.type !==
+        "MUNICIPAL_DISTRICT"
+      ) {
+        return reply.status(400).send({
+          error:
+            "DISTRICT_HAS_NO_NEIGHBORHOOD_LAYER",
+
+          message:
+            "Neighborhoods are only available for municipal districts."
+        });
+      }
+
+      return {
+        data: district.localities,
+
+        meta: {
+          district: {
+            id: district.id,
+            name: district.name,
+            slug: district.slug,
+            type: district.type
+          },
+
+          province: {
+            id: district.province.id,
+            name: district.province.name,
+            slug: district.province.slug
+          },
+
+          total:
+            district.localities.length
+        }
+      };
+    }
+  );
+
+  app.get<{
+    Params: {
+      identifier: string;
+      neighborhoodSlug: string;
+    };
+  }>(
+    "/:identifier/neighborhoods/:neighborhoodSlug",
+    async (request, reply) => {
+      const neighborhood =
+        await getNeighborhoodByDistrictAndSlug(
+          request.params.identifier,
+          request.params
+            .neighborhoodSlug
+        );
+
+      if (!neighborhood) {
+        return reply.status(404).send({
+          error:
+            "NEIGHBORHOOD_NOT_FOUND",
+
+          message:
+            "Neighborhood not found in this district."
+        });
+      }
+
+      return {
+        data: neighborhood
       };
     }
   );
