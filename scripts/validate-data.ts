@@ -20,6 +20,14 @@ type District = {
   type?: "DISTRICT" | "MUNICIPAL_DISTRICT";
 };
 
+type AdministrativePost = {
+  id: string;
+  code: string | null;
+  name: string;
+  slug: string;
+  districtId: string;
+};
+
 type Source = {
   id: string;
   institution: string;
@@ -38,6 +46,13 @@ type DistrictSource = {
   notes: string | null;
 };
 
+type AdministrativePostSource = {
+  administrativePostId: string;
+  sourceId: string;
+  page: string | null;
+  notes: string | null;
+};
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const rootDir = path.resolve(__dirname, "..");
@@ -49,39 +64,83 @@ const paths = {
     "current",
     "provinces.json"
   ),
+
   districts: path.join(
     rootDir,
     "data",
     "current",
     "districts.json"
   ),
+
+  administrativePosts: path.join(
+    rootDir,
+    "data",
+    "current",
+    "administrative-posts.json"
+  ),
+
   sources: path.join(
     rootDir,
     "data",
     "sources",
     "sources.json"
   ),
+
   districtSources: path.join(
     rootDir,
     "data",
     "sources",
     "district-sources.json"
+  ),
+
+  administrativePostSources: path.join(
+    rootDir,
+    "data",
+    "sources",
+    "administrative-post-sources.json"
   )
 };
 
 const expectedDistrictCounts: Record<string, number> = {
-  prov_01: 16, // Niassa
-  prov_02: 17, // Cabo Delgado
-  prov_03: 23, // Nampula
-  prov_04: 22, // Zambézia
-  prov_05: 15, // Tete
-  prov_06: 12, // Manica
-  prov_07: 13, // Sofala
-  prov_08: 14, // Inhambane
-  prov_09: 14, // Gaza
-  prov_10: 8,  // Maputo Province
-  prov_11: 7   // Maputo City
+  prov_01: 16,
+  prov_02: 17,
+  prov_03: 23,
+  prov_04: 22,
+  prov_05: 15,
+  prov_06: 12,
+  prov_07: 13,
+  prov_08: 14,
+  prov_09: 14,
+  prov_10: 8,
+  prov_11: 7
 };
+
+/*
+ * Neste momento só Maputo Province está completamente
+ * carregada ao nível de postos administrativos.
+ *
+ * Vamos acrescentando as restantes províncias aqui
+ * conforme forem concluídas.
+ */
+const expectedAdministrativePostCountsByProvince:
+  Record<string, number> = {
+    prov_10: 29
+  };
+
+/*
+ * Contagem detalhada por distrito já verificado.
+ */
+const expectedAdministrativePostCountsByDistrict:
+  Record<string, number> = {
+    dist_maputo_matola: 3,
+    dist_maputo_boane: 2,
+    dist_maputo_magude: 5,
+    dist_maputo_manhica: 6,
+    dist_maputo_marracuene: 2,
+    dist_maputo_matutuine: 5,
+    dist_maputo_moamba: 4,
+    dist_maputo_namaacha: 2
+  };
 
 const errors: string[] = [];
 const warnings: string[] = [];
@@ -89,7 +148,10 @@ const warnings: string[] = [];
 async function readJson<T>(
   filePath: string
 ): Promise<T> {
-  const content = await readFile(filePath, "utf8");
+  const content = await readFile(
+    filePath,
+    "utf8"
+  );
 
   return JSON.parse(content) as T;
 }
@@ -115,7 +177,8 @@ function reportDuplicateValues(
   label: string,
   values: string[]
 ) {
-  const duplicates = findDuplicates(values);
+  const duplicates =
+    findDuplicates(values);
 
   for (const duplicate of duplicates) {
     errors.push(
@@ -127,7 +190,9 @@ function reportDuplicateValues(
 function validateProvinceData(
   provinces: Province[]
 ) {
-  console.log("🔎 Validating provinces...");
+  console.log(
+    "🔎 Validating provinces..."
+  );
 
   if (provinces.length !== 11) {
     errors.push(
@@ -137,19 +202,28 @@ function validateProvinceData(
 
   reportDuplicateValues(
     "Province ID",
-    provinces.map((province) => province.id)
+    provinces.map(
+      (province) => province.id
+    )
   );
 
   reportDuplicateValues(
     "Province slug",
-    provinces.map((province) => province.slug)
+    provinces.map(
+      (province) => province.slug
+    )
   );
 
-  const provinceCodes = provinces
-    .map((province) => province.code)
-    .filter(
-      (code): code is string => code !== null
-    );
+  const provinceCodes =
+    provinces
+      .map(
+        (province) =>
+          province.code
+      )
+      .filter(
+        (code): code is string =>
+          code !== null
+      );
 
   reportDuplicateValues(
     "Province code",
@@ -185,11 +259,16 @@ function validateDistrictData(
   districts: District[],
   provinces: Province[]
 ) {
-  console.log("🔎 Validating districts...");
-
-  const provinceIds = new Set(
-    provinces.map((province) => province.id)
+  console.log(
+    "🔎 Validating districts..."
   );
+
+  const provinceIds =
+    new Set(
+      provinces.map(
+        (province) => province.id
+      )
+    );
 
   if (districts.length !== 161) {
     errors.push(
@@ -199,14 +278,21 @@ function validateDistrictData(
 
   reportDuplicateValues(
     "District ID",
-    districts.map((district) => district.id)
+    districts.map(
+      (district) => district.id
+    )
   );
 
-  const districtCodes = districts
-    .map((district) => district.code)
-    .filter(
-      (code): code is string => code !== null
-    );
+  const districtCodes =
+    districts
+      .map(
+        (district) =>
+          district.code
+      )
+      .filter(
+        (code): code is string =>
+          code !== null
+      );
 
   reportDuplicateValues(
     "District code",
@@ -214,24 +300,21 @@ function validateDistrictData(
   );
 
   /*
-   * Our current endpoint:
+   * O endpoint global atual resolve:
    *
-   * GET /api/v1/districts/:identifier
+   * /api/v1/districts/:identifier
    *
-   * resolves districts by ID OR slug without requiring
-   * the province. Therefore district slugs must currently
-   * be unique nationally.
+   * usando ID ou slug.
+   * Portanto os slugs distritais precisam ser
+   * únicos nacionalmente enquanto essa API existir.
    */
   reportDuplicateValues(
     "Global district slug",
-    districts.map((district) => district.slug)
+    districts.map(
+      (district) => district.slug
+    )
   );
 
-  /*
-   * This also checks the database-level logical constraint:
-   *
-   * @@unique([provinceId, slug])
-   */
   reportDuplicateValues(
     "District province/slug pair",
     districts.map(
@@ -259,7 +342,11 @@ function validateDistrictData(
       );
     }
 
-    if (!provinceIds.has(district.provinceId)) {
+    if (
+      !provinceIds.has(
+        district.provinceId
+      )
+    ) {
       errors.push(
         `District "${district.id}" references unknown province "${district.provinceId}".`
       );
@@ -267,8 +354,10 @@ function validateDistrictData(
 
     if (
       district.type !== undefined &&
-      district.type !== "DISTRICT" &&
-      district.type !== "MUNICIPAL_DISTRICT"
+      district.type !==
+        "DISTRICT" &&
+      district.type !==
+        "MUNICIPAL_DISTRICT"
     ) {
       errors.push(
         `District "${district.id}" has invalid type "${district.type}".`
@@ -276,8 +365,10 @@ function validateDistrictData(
     }
 
     if (
-      district.provinceId === "prov_11" &&
-      district.type !== "MUNICIPAL_DISTRICT"
+      district.provinceId ===
+        "prov_11" &&
+      district.type !==
+        "MUNICIPAL_DISTRICT"
     ) {
       errors.push(
         `Maputo City unit "${district.id}" must have type "MUNICIPAL_DISTRICT".`
@@ -285,8 +376,10 @@ function validateDistrictData(
     }
 
     if (
-      district.provinceId !== "prov_11" &&
-      district.type === "MUNICIPAL_DISTRICT"
+      district.provinceId !==
+        "prov_11" &&
+      district.type ===
+        "MUNICIPAL_DISTRICT"
     ) {
       errors.push(
         `District "${district.id}" is outside Maputo City but is marked as MUNICIPAL_DISTRICT.`
@@ -307,23 +400,34 @@ function validateDistrictCounts(
     "🔎 Validating district counts by province..."
   );
 
-  const counts = new Map<string, number>();
+  const counts =
+    new Map<string, number>();
 
   for (const district of districts) {
     counts.set(
       district.provinceId,
-      (counts.get(district.provinceId) ?? 0) + 1
+      (
+        counts.get(
+          district.provinceId
+        ) ?? 0
+      ) + 1
     );
   }
 
   for (const province of provinces) {
     const actual =
-      counts.get(province.id) ?? 0;
+      counts.get(
+        province.id
+      ) ?? 0;
 
     const expected =
-      expectedDistrictCounts[province.id];
+      expectedDistrictCounts[
+        province.id
+      ];
 
-    if (expected === undefined) {
+    if (
+      expected === undefined
+    ) {
       warnings.push(
         `No expected district count configured for "${province.name}".`
       );
@@ -338,8 +442,271 @@ function validateDistrictCounts(
     }
 
     console.log(
-      `   ${actual === expected ? "✅" : "❌"} ` +
-      `${province.name}: ${actual}/${expected}`
+      `   ${
+        actual === expected
+          ? "✅"
+          : "❌"
+      } ${province.name}: ${actual}/${expected}`
+    );
+  }
+}
+
+function validateAdministrativePosts(
+  administrativePosts:
+    AdministrativePost[],
+  districts: District[]
+) {
+  console.log(
+    "🔎 Validating administrative posts..."
+  );
+
+  const districtIds =
+    new Set(
+      districts.map(
+        (district) => district.id
+      )
+    );
+
+  reportDuplicateValues(
+    "Administrative post ID",
+    administrativePosts.map(
+      (post) => post.id
+    )
+  );
+
+  const codes =
+    administrativePosts
+      .map(
+        (post) => post.code
+      )
+      .filter(
+        (code): code is string =>
+          code !== null
+      );
+
+  reportDuplicateValues(
+    "Administrative post code",
+    codes
+  );
+
+  /*
+   * O slug NÃO precisa ser único nacionalmente.
+   *
+   * A regra correta é:
+   *
+   * distrito + slug
+   *
+   * porque dois distritos diferentes podem ter
+   * postos administrativos com o mesmo nome.
+   */
+  reportDuplicateValues(
+    "Administrative post district/slug pair",
+    administrativePosts.map(
+      (post) =>
+        `${post.districtId}:${post.slug}`
+    )
+  );
+
+  for (
+    const post of
+    administrativePosts
+  ) {
+    if (!post.id.trim()) {
+      errors.push(
+        "Administrative post found with empty ID."
+      );
+    }
+
+    if (!post.name.trim()) {
+      errors.push(
+        `Administrative post "${post.id}" has an empty name.`
+      );
+    }
+
+    if (!post.slug.trim()) {
+      errors.push(
+        `Administrative post "${post.id}" has an empty slug.`
+      );
+    }
+
+    if (
+      !districtIds.has(
+        post.districtId
+      )
+    ) {
+      errors.push(
+        `Administrative post "${post.id}" references unknown district "${post.districtId}".`
+      );
+    }
+  }
+
+  console.log(
+    `   ✅ ${administrativePosts.length} administrative post(s) checked.`
+  );
+}
+
+function validateAdministrativePostCountsByDistrict(
+  administrativePosts:
+    AdministrativePost[],
+  districts: District[]
+) {
+  console.log(
+    "🔎 Validating administrative post counts by district..."
+  );
+
+  const counts =
+    new Map<string, number>();
+
+  for (
+    const post of
+    administrativePosts
+  ) {
+    counts.set(
+      post.districtId,
+      (
+        counts.get(
+          post.districtId
+        ) ?? 0
+      ) + 1
+    );
+  }
+
+  const districtById =
+    new Map(
+      districts.map(
+        (district) => [
+          district.id,
+          district
+        ]
+      )
+    );
+
+  for (
+    const [
+      districtId,
+      expected
+    ] of Object.entries(
+      expectedAdministrativePostCountsByDistrict
+    )
+  ) {
+    const actual =
+      counts.get(
+        districtId
+      ) ?? 0;
+
+    const district =
+      districtById.get(
+        districtId
+      );
+
+    if (actual !== expected) {
+      errors.push(
+        `${district?.name ?? districtId}: expected ${expected} administrative posts, found ${actual}.`
+      );
+    }
+
+    console.log(
+      `   ${
+        actual === expected
+          ? "✅"
+          : "❌"
+      } ${
+        district?.name ??
+        districtId
+      }: ${actual}/${expected}`
+    );
+  }
+}
+
+function validateAdministrativePostCountsByProvince(
+  administrativePosts:
+    AdministrativePost[],
+  districts: District[],
+  provinces: Province[]
+) {
+  console.log(
+    "🔎 Validating administrative post counts by completed province..."
+  );
+
+  const districtToProvince =
+    new Map(
+      districts.map(
+        (district) => [
+          district.id,
+          district.provinceId
+        ]
+      )
+    );
+
+  const counts =
+    new Map<string, number>();
+
+  for (
+    const post of
+    administrativePosts
+  ) {
+    const provinceId =
+      districtToProvince.get(
+        post.districtId
+      );
+
+    if (!provinceId) {
+      continue;
+    }
+
+    counts.set(
+      provinceId,
+      (
+        counts.get(
+          provinceId
+        ) ?? 0
+      ) + 1
+    );
+  }
+
+  const provinceById =
+    new Map(
+      provinces.map(
+        (province) => [
+          province.id,
+          province
+        ]
+      )
+    );
+
+  for (
+    const [
+      provinceId,
+      expected
+    ] of Object.entries(
+      expectedAdministrativePostCountsByProvince
+    )
+  ) {
+    const actual =
+      counts.get(
+        provinceId
+      ) ?? 0;
+
+    const province =
+      provinceById.get(
+        provinceId
+      );
+
+    if (actual !== expected) {
+      errors.push(
+        `${province?.name ?? provinceId}: expected ${expected} administrative posts, found ${actual}.`
+      );
+    }
+
+    console.log(
+      `   ${
+        actual === expected
+          ? "✅"
+          : "❌"
+      } ${
+        province?.name ??
+        provinceId
+      }: ${actual}/${expected}`
     );
   }
 }
@@ -347,11 +714,15 @@ function validateDistrictCounts(
 function validateSources(
   sources: Source[]
 ) {
-  console.log("🔎 Validating sources...");
+  console.log(
+    "🔎 Validating sources..."
+  );
 
   reportDuplicateValues(
     "Source ID",
-    sources.map((source) => source.id)
+    sources.map(
+      (source) => source.id
+    )
   );
 
   for (const source of sources) {
@@ -361,7 +732,9 @@ function validateSources(
       );
     }
 
-    if (!source.institution.trim()) {
+    if (
+      !source.institution.trim()
+    ) {
       errors.push(
         `Source "${source.id}" has an empty institution.`
       );
@@ -374,8 +747,10 @@ function validateSources(
     }
 
     if (
-      source.type !== "OFFICIAL" &&
-      source.type !== "SECONDARY"
+      source.type !==
+        "OFFICIAL" &&
+      source.type !==
+        "SECONDARY"
     ) {
       errors.push(
         `Source "${source.id}" has invalid type "${source.type}".`
@@ -389,7 +764,8 @@ function validateSources(
 }
 
 function validateDistrictSources(
-  districtSources: DistrictSource[],
+  districtSources:
+    DistrictSource[],
   districts: District[],
   sources: Source[]
 ) {
@@ -397,52 +773,69 @@ function validateDistrictSources(
     "🔎 Validating district source references..."
   );
 
-  const districtIds = new Set(
-    districts.map((district) => district.id)
-  );
+  const districtIds =
+    new Set(
+      districts.map(
+        (district) => district.id
+      )
+    );
 
-  const sourceIds = new Set(
-    sources.map((source) => source.id)
-  );
-
-  const referencePairs =
-    districtSources.map(
-      (reference) =>
-        `${reference.districtId}:${reference.sourceId}`
+  const sourceIds =
+    new Set(
+      sources.map(
+        (source) => source.id
+      )
     );
 
   reportDuplicateValues(
     "District/source reference",
-    referencePairs
+    districtSources.map(
+      (reference) =>
+        `${reference.districtId}:${reference.sourceId}`
+    )
   );
 
-  for (const reference of districtSources) {
-    if (!districtIds.has(reference.districtId)) {
+  for (
+    const reference of
+    districtSources
+  ) {
+    if (
+      !districtIds.has(
+        reference.districtId
+      )
+    ) {
       errors.push(
         `District source references unknown district "${reference.districtId}".`
       );
     }
 
-    if (!sourceIds.has(reference.sourceId)) {
+    if (
+      !sourceIds.has(
+        reference.sourceId
+      )
+    ) {
       errors.push(
         `District source references unknown source "${reference.sourceId}".`
       );
     }
   }
 
-  /*
-   * Every current district must have at least one source.
-   * We intentionally do NOT require exactly one source,
-   * because a district may later have multiple references.
-   */
-  const sourcedDistricts = new Set(
-    districtSources.map(
-      (reference) => reference.districtId
-    )
-  );
+  const sourcedDistricts =
+    new Set(
+      districtSources.map(
+        (reference) =>
+          reference.districtId
+      )
+    );
 
-  for (const district of districts) {
-    if (!sourcedDistricts.has(district.id)) {
+  for (
+    const district of districts
+  ) {
+    if (
+      !sourcedDistricts.has(
+        district.id
+      )
+    ) {
       errors.push(
         `District "${district.id}" has no source reference.`
       );
@@ -450,7 +843,93 @@ function validateDistrictSources(
   }
 
   console.log(
-    `   ✅ ${districtSources.length} reference(s) checked.`
+    `   ✅ ${districtSources.length} district source reference(s) checked.`
+  );
+}
+
+function validateAdministrativePostSources(
+  administrativePostSources:
+    AdministrativePostSource[],
+  administrativePosts:
+    AdministrativePost[],
+  sources: Source[]
+) {
+  console.log(
+    "🔎 Validating administrative post source references..."
+  );
+
+  const postIds =
+    new Set(
+      administrativePosts.map(
+        (post) => post.id
+      )
+    );
+
+  const sourceIds =
+    new Set(
+      sources.map(
+        (source) => source.id
+      )
+    );
+
+  reportDuplicateValues(
+    "Administrative post/source reference",
+    administrativePostSources.map(
+      (reference) =>
+        `${reference.administrativePostId}:${reference.sourceId}`
+    )
+  );
+
+  for (
+    const reference of
+    administrativePostSources
+  ) {
+    if (
+      !postIds.has(
+        reference.administrativePostId
+      )
+    ) {
+      errors.push(
+        `Administrative post source references unknown administrative post "${reference.administrativePostId}".`
+      );
+    }
+
+    if (
+      !sourceIds.has(
+        reference.sourceId
+      )
+    ) {
+      errors.push(
+        `Administrative post source references unknown source "${reference.sourceId}".`
+      );
+    }
+  }
+
+  const sourcedPosts =
+    new Set(
+      administrativePostSources.map(
+        (reference) =>
+          reference.administrativePostId
+      )
+    );
+
+  for (
+    const post of
+    administrativePosts
+  ) {
+    if (
+      !sourcedPosts.has(
+        post.id
+      )
+    ) {
+      errors.push(
+        `Administrative post "${post.id}" has no source reference.`
+      );
+    }
+  }
+
+  console.log(
+    `   ✅ ${administrativePostSources.length} administrative post source reference(s) checked.`
   );
 }
 
@@ -463,18 +942,45 @@ async function main() {
     const [
       provinces,
       districts,
+      administrativePosts,
       sources,
-      districtSources
+      districtSources,
+      administrativePostSources
     ] = await Promise.all([
-      readJson<Province[]>(paths.provinces),
-      readJson<District[]>(paths.districts),
-      readJson<Source[]>(paths.sources),
-      readJson<DistrictSource[]>(
+      readJson<Province[]>(
+        paths.provinces
+      ),
+
+      readJson<District[]>(
+        paths.districts
+      ),
+
+      readJson<
+        AdministrativePost[]
+      >(
+        paths.administrativePosts
+      ),
+
+      readJson<Source[]>(
+        paths.sources
+      ),
+
+      readJson<
+        DistrictSource[]
+      >(
         paths.districtSources
+      ),
+
+      readJson<
+        AdministrativePostSource[]
+      >(
+        paths.administrativePostSources
       )
     ]);
 
-    validateProvinceData(provinces);
+    validateProvinceData(
+      provinces
+    );
 
     validateDistrictData(
       districts,
@@ -486,7 +992,25 @@ async function main() {
       provinces
     );
 
-    validateSources(sources);
+    validateAdministrativePosts(
+      administrativePosts,
+      districts
+    );
+
+    validateAdministrativePostCountsByDistrict(
+      administrativePosts,
+      districts
+    );
+
+    validateAdministrativePostCountsByProvince(
+      administrativePosts,
+      districts,
+      provinces
+    );
+
+    validateSources(
+      sources
+    );
 
     validateDistrictSources(
       districtSources,
@@ -494,35 +1018,71 @@ async function main() {
       sources
     );
 
-    console.log("\n📊 Dataset summary");
+    validateAdministrativePostSources(
+      administrativePostSources,
+      administrativePosts,
+      sources
+    );
+
+    console.log(
+      "\n📊 Dataset summary"
+    );
+
     console.log(
       `   Provinces: ${provinces.length}`
     );
+
     console.log(
       `   Districts: ${districts.length}`
     );
+
+    console.log(
+      `   Administrative posts: ${administrativePosts.length}`
+    );
+
     console.log(
       `   Sources: ${sources.length}`
     );
+
     console.log(
       `   District source references: ${districtSources.length}`
     );
 
-    if (warnings.length > 0) {
-      console.log("\n⚠️ Warnings");
+    console.log(
+      `   Administrative post source references: ${administrativePostSources.length}`
+    );
 
-      for (const warning of warnings) {
-        console.log(`   - ${warning}`);
+    if (
+      warnings.length > 0
+    ) {
+      console.log(
+        "\n⚠️ Warnings"
+      );
+
+      for (
+        const warning of
+        warnings
+      ) {
+        console.log(
+          `   - ${warning}`
+        );
       }
     }
 
-    if (errors.length > 0) {
+    if (
+      errors.length > 0
+    ) {
       console.error(
         `\n❌ Validation failed with ${errors.length} error(s):\n`
       );
 
-      for (const error of errors) {
-        console.error(`   - ${error}`);
+      for (
+        const error of
+        errors
+      ) {
+        console.error(
+          `   - ${error}`
+        );
       }
 
       process.exitCode = 1;
