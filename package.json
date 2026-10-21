@@ -21,6 +21,7 @@
     "build": "prisma generate && tsc",
     "start": "node dist/src/server.js",
     "typecheck": "tsc --noEmit",
+    "test": "tsx --test tests/api.smoke.test.ts",
     "data:validate": "tsx scripts/validate-data.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
