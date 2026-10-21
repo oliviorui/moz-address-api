@@ -26,6 +26,10 @@ import {
   searchRoutes
 } from "../modules/search/search.routes.js";
 
+import {
+  treeRoutes
+} from "../modules/tree/tree.routes.js";
+
 export async function registerRoutes(
   app: FastifyInstance
 ) {
@@ -69,6 +73,13 @@ export async function registerRoutes(
     searchRoutes,
     {
       prefix: "/search"
+    }
+  );
+
+  await app.register(
+    treeRoutes,
+    {
+      prefix: "/tree"
     }
   );
 }

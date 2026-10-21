@@ -44,6 +44,11 @@ export async function registerSwagger(
             "Global search across administrative divisions."
         },
         {
+          name: "Tree",
+          description:
+            "Hierarchical representation of Mozambique's administrative divisions."
+        },
+        {
           name: "Provinces",
           description:
             "Provinces and Maputo City."

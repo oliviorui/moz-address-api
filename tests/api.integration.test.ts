@@ -254,4 +254,80 @@ describe("API integration tests", () => {
       "DISTRICT_HAS_NO_NEIGHBORHOOD_LAYER"
     );
   });
+
+  it("returns Maputo City as a municipal tree", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/tree?province=cidade-de-maputo"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.data.length,
+      1
+    );
+
+    assert.equal(
+      body.meta.counts.provinces,
+      1
+    );
+
+    assert.equal(
+      body.meta.counts.districts,
+      7
+    );
+
+    assert.equal(
+      body.meta.counts.administrativePosts,
+      0
+    );
+
+    assert.equal(
+      body.meta.counts.neighborhoods,
+      63
+    );
+
+    assert.ok(
+      body.data[0].districts.every(
+        (district: {
+          type: string;
+          administrativePosts:
+            unknown[];
+        }) =>
+          district.type ===
+            "MUNICIPAL_DISTRICT" &&
+          district
+            .administrativePosts
+            .length === 0
+      )
+    );
+  });
+
+  it("returns 404 for an unknown tree province", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/tree?province=does-not-exist"
+      });
+
+    assert.equal(
+      response.statusCode,
+      404
+    );
+
+    assert.equal(
+      response.json().error,
+      "PROVINCE_NOT_FOUND"
+    );
+  });
 });
