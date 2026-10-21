@@ -1519,6 +1519,276 @@
   "slug": "mufa-boroma",
   "districtId": "dist_tete_marara"
 },
+{
+  "id": "adm_post_manica_chimoio_urbano_1",
+  "code": null,
+  "name": "Urbano Nº 1",
+  "slug": "urbano-1",
+  "districtId": "dist_manica_chimoio"
+},
+{
+  "id": "adm_post_manica_chimoio_urbano_2",
+  "code": null,
+  "name": "Urbano Nº 2",
+  "slug": "urbano-2",
+  "districtId": "dist_manica_chimoio"
+},
+{
+  "id": "adm_post_manica_chimoio_urbano_3",
+  "code": null,
+  "name": "Urbano Nº 3",
+  "slug": "urbano-3",
+  "districtId": "dist_manica_chimoio"
+},
+
+{
+  "id": "adm_post_manica_barue_catandica",
+  "code": null,
+  "name": "Catandica",
+  "slug": "catandica",
+  "districtId": "dist_manica_barue"
+},
+{
+  "id": "adm_post_manica_barue_choa",
+  "code": null,
+  "name": "Choa",
+  "slug": "choa",
+  "districtId": "dist_manica_barue"
+},
+{
+  "id": "adm_post_manica_barue_nhampassa",
+  "code": null,
+  "name": "Nhampassa",
+  "slug": "nhampassa",
+  "districtId": "dist_manica_barue"
+},
+
+{
+  "id": "adm_post_manica_gondola_gondola_sede",
+  "code": null,
+  "name": "Gondola-Sede",
+  "slug": "gondola-sede",
+  "districtId": "dist_manica_gondola"
+},
+{
+  "id": "adm_post_manica_gondola_amatongas",
+  "code": null,
+  "name": "Amatongas",
+  "slug": "amatongas",
+  "districtId": "dist_manica_gondola"
+},
+{
+  "id": "adm_post_manica_gondola_cafumpe",
+  "code": null,
+  "name": "Cafumpe",
+  "slug": "cafumpe",
+  "districtId": "dist_manica_gondola"
+},
+{
+  "id": "adm_post_manica_gondola_inchope",
+  "code": null,
+  "name": "Inchope",
+  "slug": "inchope",
+  "districtId": "dist_manica_gondola"
+},
+
+{
+  "id": "adm_post_manica_guro_guro_sede",
+  "code": null,
+  "name": "Guro-Sede",
+  "slug": "guro-sede",
+  "districtId": "dist_manica_guro"
+},
+{
+  "id": "adm_post_manica_guro_mungari",
+  "code": null,
+  "name": "Mungari",
+  "slug": "mungari",
+  "districtId": "dist_manica_guro"
+},
+{
+  "id": "adm_post_manica_guro_nhamassonge",
+  "code": null,
+  "name": "Nhamassonge",
+  "slug": "nhamassonge",
+  "districtId": "dist_manica_guro"
+},
+{
+  "id": "adm_post_manica_guro_mandie",
+  "code": null,
+  "name": "Mandie",
+  "slug": "mandie",
+  "districtId": "dist_manica_guro"
+},
+
+{
+  "id": "adm_post_manica_machaze_machaze",
+  "code": null,
+  "name": "Machaze",
+  "slug": "machaze",
+  "districtId": "dist_manica_machaze"
+},
+{
+  "id": "adm_post_manica_machaze_save",
+  "code": null,
+  "name": "Save",
+  "slug": "save",
+  "districtId": "dist_manica_machaze"
+},
+
+{
+  "id": "adm_post_manica_macossa_macossa_sede",
+  "code": null,
+  "name": "Macossa-Sede",
+  "slug": "macossa-sede",
+  "districtId": "dist_manica_macossa"
+},
+{
+  "id": "adm_post_manica_macossa_nguawala",
+  "code": null,
+  "name": "Nguawala",
+  "slug": "nguawala",
+  "districtId": "dist_manica_macossa"
+},
+{
+  "id": "adm_post_manica_macossa_nhamagua",
+  "code": null,
+  "name": "Nhamagua",
+  "slug": "nhamagua",
+  "districtId": "dist_manica_macossa"
+},
+
+{
+  "id": "adm_post_manica_manica_manica",
+  "code": null,
+  "name": "Manica",
+  "slug": "manica",
+  "districtId": "dist_manica_manica"
+},
+{
+  "id": "adm_post_manica_manica_machipanda",
+  "code": null,
+  "name": "Machipanda",
+  "slug": "machipanda",
+  "districtId": "dist_manica_manica"
+},
+{
+  "id": "adm_post_manica_manica_messica",
+  "code": null,
+  "name": "Messica",
+  "slug": "messica",
+  "districtId": "dist_manica_manica"
+},
+{
+  "id": "adm_post_manica_manica_mavonde",
+  "code": null,
+  "name": "Mavonde",
+  "slug": "mavonde",
+  "districtId": "dist_manica_manica"
+},
+
+{
+  "id": "adm_post_manica_mossurize_espungabera",
+  "code": null,
+  "name": "Espungabera",
+  "slug": "espungabera",
+  "districtId": "dist_manica_mossurize"
+},
+{
+  "id": "adm_post_manica_mossurize_chiuirane",
+  "code": null,
+  "name": "Chiuirane",
+  "slug": "chiuirane",
+  "districtId": "dist_manica_mossurize"
+},
+{
+  "id": "adm_post_manica_mossurize_dacata",
+  "code": null,
+  "name": "Dacata",
+  "slug": "dacata",
+  "districtId": "dist_manica_mossurize"
+},
+
+{
+  "id": "adm_post_manica_sussundenga_sussundenga_sede",
+  "code": null,
+  "name": "Sussundenga-Sede",
+  "slug": "sussundenga-sede",
+  "districtId": "dist_manica_sussundenga"
+},
+{
+  "id": "adm_post_manica_sussundenga_dombe",
+  "code": null,
+  "name": "Dombe",
+  "slug": "dombe",
+  "districtId": "dist_manica_sussundenga"
+},
+{
+  "id": "adm_post_manica_sussundenga_muhoa",
+  "code": null,
+  "name": "Muôha",
+  "slug": "muoha",
+  "districtId": "dist_manica_sussundenga"
+},
+{
+  "id": "adm_post_manica_sussundenga_rotanda",
+  "code": null,
+  "name": "Rotanda",
+  "slug": "rotanda",
+  "districtId": "dist_manica_sussundenga"
+},
+
+{
+  "id": "adm_post_manica_tambara_nhacolo",
+  "code": null,
+  "name": "Nhacolo",
+  "slug": "nhacolo",
+  "districtId": "dist_manica_tambara"
+},
+{
+  "id": "adm_post_manica_tambara_buzua",
+  "code": null,
+  "name": "Buzua",
+  "slug": "buzua",
+  "districtId": "dist_manica_tambara"
+},
+{
+  "id": "adm_post_manica_tambara_nhacafula",
+  "code": null,
+  "name": "Nhacafula",
+  "slug": "nhacafula",
+  "districtId": "dist_manica_tambara"
+},
+
+{
+  "id": "adm_post_manica_macate_macate_sede",
+  "code": null,
+  "name": "Macate-Sede",
+  "slug": "macate-sede",
+  "districtId": "dist_manica_macate"
+},
+{
+  "id": "adm_post_manica_macate_zembe",
+  "code": null,
+  "name": "Zembe",
+  "slug": "zembe",
+  "districtId": "dist_manica_macate"
+},
+
+{
+  "id": "adm_post_manica_vanduzi_vanduzi",
+  "code": null,
+  "name": "Vanduzi",
+  "slug": "vanduzi",
+  "districtId": "dist_manica_vanduzi"
+},
+{
+  "id": "adm_post_manica_vanduzi_matsinho",
+  "code": null,
+  "name": "Matsinho",
+  "slug": "matsinho",
+  "districtId": "dist_manica_vanduzi"
+},
 
 
 

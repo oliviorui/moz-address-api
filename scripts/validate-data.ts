@@ -128,6 +128,7 @@ const expectedAdministrativePostCountsByProvince:
     prov_03: 72,
     prov_04: 54,
     prov_05: 36,
+    prov_06: 37,
     prov_10: 29
   };
 /*
@@ -227,6 +228,20 @@ const expectedAdministrativePostCountsByDistrict:
     dist_tete_zumbo: 3,
     dist_tete_doa: 2,
     dist_tete_marara: 2,
+
+    // Manica
+    dist_manica_chimoio: 3,
+    dist_manica_barue: 3,
+    dist_manica_gondola: 4,
+    dist_manica_guro: 4,
+    dist_manica_machaze: 2,
+    dist_manica_macossa: 3,
+    dist_manica_manica: 4,
+    dist_manica_mossurize: 3,
+    dist_manica_sussundenga: 4,
+    dist_manica_tambara: 3,
+    dist_manica_macate: 2,
+    dist_manica_vanduzi: 2,
   };
 
 const errors: string[] = [];
