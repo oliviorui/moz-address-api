@@ -1,14 +1,173 @@
+import {
+  LocalityType,
+  type Prisma
+} from "../../generated/prisma/client.js";
+
 import { prisma } from "../../lib/prisma.js";
 
-export async function getAllLocalities() {
-  return prisma.locality.findMany({
-    where: {
-      status: "ACTIVE"
-    },
+export type LocalityFilters = {
+  q?: string;
+  type?: LocalityType;
+  district?: string;
+  administrativePost?: string;
+};
 
-    orderBy: {
-      name: "asc"
-    },
+export async function getAllLocalities(
+  filters: LocalityFilters = {}
+) {
+  const where: Prisma.LocalityWhereInput = {
+    status: "ACTIVE"
+  };
+
+  /*
+   * Search by name or slug.
+   */
+  if (filters.q) {
+    const query = filters.q.trim();
+
+    if (query) {
+      where.OR = [
+        {
+          name: {
+            contains: query,
+            mode: "insensitive"
+          }
+        },
+        {
+          slug: {
+            contains: query.toLowerCase(),
+            mode: "insensitive"
+          }
+        }
+      ];
+    }
+  }
+
+  /*
+   * LOCALITY | NEIGHBORHOOD
+   */
+  if (filters.type) {
+    where.type = filters.type;
+  }
+
+  /*
+   * District may be supplied by ID or slug.
+   *
+   * For NEIGHBORHOOD the district is directly
+   * referenced by districtId.
+   *
+   * For LOCALITY the district is reached through:
+   *
+   * Locality
+   * → AdministrativePost
+   * → District
+   *
+   * Supporting both here makes the filter useful
+   * for the complete national dataset.
+   */
+  if (filters.district) {
+    const districtIdentifier =
+      filters.district.trim().toLowerCase();
+
+    if (districtIdentifier) {
+      where.AND = [
+        ...(Array.isArray(where.AND)
+          ? where.AND
+          : where.AND
+            ? [where.AND]
+            : []),
+
+        {
+          OR: [
+            {
+              district: {
+                is: {
+                  status: "ACTIVE",
+
+                  OR: [
+                    {
+                      id: filters.district.trim()
+                    },
+                    {
+                      slug:
+                        districtIdentifier
+                    }
+                  ]
+                }
+              }
+            },
+
+            {
+              administrativePost: {
+                is: {
+                  status: "ACTIVE",
+
+                  district: {
+                    is: {
+                      status: "ACTIVE",
+
+                      OR: [
+                        {
+                          id:
+                            filters.district.trim()
+                        },
+                        {
+                          slug:
+                            districtIdentifier
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ];
+    }
+  }
+
+  /*
+   * Administrative post may be supplied by
+   * ID or slug.
+   */
+  if (filters.administrativePost) {
+    const postIdentifier =
+      filters.administrativePost
+        .trim();
+
+    const postSlug =
+      postIdentifier.toLowerCase();
+
+    if (postIdentifier) {
+      where.administrativePost = {
+        is: {
+          status: "ACTIVE",
+
+          OR: [
+            {
+              id: postIdentifier
+            },
+            {
+              slug: postSlug
+            }
+          ]
+        }
+      };
+    }
+  }
+
+  return prisma.locality.findMany({
+    where,
+
+    orderBy: [
+      {
+        name: "asc"
+      },
+      {
+        id: "asc"
+      }
+    ],
 
     include: {
       administrativePost: {
@@ -208,8 +367,12 @@ export async function getLocalityByAdministrativePostAndSlug(
     where: {
       administrativePostId:
         administrativePost.id,
-      slug: localitySlug.toLowerCase(),
+
+      slug:
+        localitySlug.toLowerCase(),
+
       type: "LOCALITY",
+
       status: "ACTIVE"
     },
 
