@@ -28,6 +28,16 @@ type AdministrativePost = {
   districtId: string;
 };
 
+type Locality = {
+  id: string;
+  code: string | null;
+  name: string;
+  slug: string;
+  type: "LOCALITY" | "NEIGHBORHOOD";
+  administrativePostId: string | null;
+  districtId: string | null;
+};
+
 type Source = {
   id: string;
   institution: string;
@@ -48,6 +58,13 @@ type DistrictSource = {
 
 type AdministrativePostSource = {
   administrativePostId: string;
+  sourceId: string;
+  page: string | null;
+  notes: string | null;
+};
+
+type LocalitySource = {
+  localityId: string;
   sourceId: string;
   page: string | null;
   notes: string | null;
@@ -79,6 +96,13 @@ const paths = {
     "administrative-posts.json"
   ),
 
+  localities: path.join(
+    rootDir,
+    "data",
+    "current",
+    "localities.json"
+  ),
+
   sources: path.join(
     rootDir,
     "data",
@@ -98,6 +122,13 @@ const paths = {
     "data",
     "sources",
     "administrative-post-sources.json"
+  ),
+
+  localitySources: path.join(
+    rootDir,
+    "data",
+    "sources",
+    "locality-sources.json"
   )
 };
 
@@ -116,11 +147,12 @@ const expectedDistrictCounts: Record<string, number> = {
 };
 
 /*
- * Neste momento só Maputo Province está completamente
- * carregada ao nível de postos administrativos.
+ * Contagens provinciais já verificadas
+ * ao nível de postos administrativos.
  *
- * Vamos acrescentando as restantes províncias aqui
- * conforme forem concluídas.
+ * Cabo Delgado permanece temporariamente
+ * fora desta lista devido a divergências
+ * documentais nas fontes oficiais.
  */
 const expectedAdministrativePostCountsByProvince:
   Record<string, number> = {
@@ -135,6 +167,7 @@ const expectedAdministrativePostCountsByProvince:
     prov_10: 29,
     prov_11: 0
   };
+
 /*
  * Contagem detalhada por distrito já verificado.
  */
@@ -291,6 +324,15 @@ const expectedAdministrativePostCountsByDistrict:
     dist_gaza_limpopo: 3,
     dist_gaza_chongoene: 3,
     dist_gaza_mapai: 2,
+
+    // Cidade de Maputo
+    dist_maputo_city_kampfumu: 0,
+    dist_maputo_city_nlhamankulu: 0,
+    dist_maputo_city_kamaxakeni: 0,
+    dist_maputo_city_kamavota: 0,
+    dist_maputo_city_kamubukwana: 0,
+    dist_maputo_city_katembe: 0,
+    dist_maputo_city_kanyaka: 0
   };
 
 const errors: string[] = [];
@@ -450,15 +492,6 @@ function validateDistrictData(
     districtCodes
   );
 
-  /*
-   * O endpoint global atual resolve:
-   *
-   * /api/v1/districts/:identifier
-   *
-   * usando ID ou slug.
-   * Portanto os slugs distritais precisam ser
-   * únicos nacionalmente enquanto essa API existir.
-   */
   reportDuplicateValues(
     "Global district slug",
     districts.map(
@@ -640,16 +673,6 @@ function validateAdministrativePosts(
     codes
   );
 
-  /*
-   * O slug NÃO precisa ser único nacionalmente.
-   *
-   * A regra correta é:
-   *
-   * distrito + slug
-   *
-   * porque dois distritos diferentes podem ter
-   * postos administrativos com o mesmo nome.
-   */
   reportDuplicateValues(
     "Administrative post district/slug pair",
     administrativePosts.map(
@@ -860,6 +883,225 @@ function validateAdministrativePostCountsByProvince(
       }: ${actual}/${expected}`
     );
   }
+}
+
+function validateLocalityData(
+  localities: Locality[],
+  administrativePosts:
+    AdministrativePost[],
+  districts: District[]
+) {
+  console.log(
+    "🔎 Validating localities and neighborhoods..."
+  );
+
+  const administrativePostIds =
+    new Set(
+      administrativePosts.map(
+        (post) => post.id
+      )
+    );
+
+  const districtMap =
+    new Map(
+      districts.map(
+        (district) => [
+          district.id,
+          district
+        ]
+      )
+    );
+
+  reportDuplicateValues(
+    "Locality ID",
+    localities.map(
+      (locality) => locality.id
+    )
+  );
+
+  const localityCodes =
+    localities
+      .map(
+        (locality) =>
+          locality.code
+      )
+      .filter(
+        (code): code is string =>
+          code !== null
+      );
+
+  reportDuplicateValues(
+    "Locality code",
+    localityCodes
+  );
+
+  reportDuplicateValues(
+    "Administrative post/locality slug pair",
+    localities
+      .filter(
+        (locality) =>
+          locality.administrativePostId !==
+          null
+      )
+      .map(
+        (locality) =>
+          `${locality.administrativePostId}:${locality.slug}`
+      )
+  );
+
+  reportDuplicateValues(
+    "District/neighborhood slug pair",
+    localities
+      .filter(
+        (locality) =>
+          locality.districtId !==
+          null
+      )
+      .map(
+        (locality) =>
+          `${locality.districtId}:${locality.slug}`
+      )
+  );
+
+  for (
+    const locality of localities
+  ) {
+    if (!locality.id.trim()) {
+      errors.push(
+        "Locality found with empty ID."
+      );
+    }
+
+    if (!locality.name.trim()) {
+      errors.push(
+        `Locality "${locality.id}" has an empty name.`
+      );
+    }
+
+    if (!locality.slug.trim()) {
+      errors.push(
+        `Locality "${locality.id}" has an empty slug.`
+      );
+    }
+
+    if (
+      locality.type !==
+        "LOCALITY" &&
+      locality.type !==
+        "NEIGHBORHOOD"
+    ) {
+      errors.push(
+        `Locality "${locality.id}" has invalid type "${locality.type}".`
+      );
+
+      continue;
+    }
+
+    const hasAdministrativePost =
+      locality.administrativePostId !==
+      null;
+
+    const hasDistrict =
+      locality.districtId !== null;
+
+    /*
+     * XOR: exatamente um pai.
+     */
+    if (
+      hasAdministrativePost ===
+      hasDistrict
+    ) {
+      errors.push(
+        `Locality "${locality.id}" must reference exactly one parent: administrativePostId OR districtId.`
+      );
+    }
+
+    if (
+      locality.type ===
+      "LOCALITY"
+    ) {
+      if (!hasAdministrativePost) {
+        errors.push(
+          `LOCALITY "${locality.id}" must reference an administrative post.`
+        );
+      }
+
+      if (hasDistrict) {
+        errors.push(
+          `LOCALITY "${locality.id}" must not reference a district directly.`
+        );
+      }
+
+      if (
+        locality.administrativePostId !==
+          null &&
+        !administrativePostIds.has(
+          locality.administrativePostId
+        )
+      ) {
+        errors.push(
+          `LOCALITY "${locality.id}" references unknown administrative post "${locality.administrativePostId}".`
+        );
+      }
+    }
+
+    if (
+      locality.type ===
+      "NEIGHBORHOOD"
+    ) {
+      if (!hasDistrict) {
+        errors.push(
+          `NEIGHBORHOOD "${locality.id}" must reference a district.`
+        );
+      }
+
+      if (hasAdministrativePost) {
+        errors.push(
+          `NEIGHBORHOOD "${locality.id}" must not reference an administrative post.`
+        );
+      }
+
+      if (
+        locality.districtId !== null
+      ) {
+        const district =
+          districtMap.get(
+            locality.districtId
+          );
+
+        if (!district) {
+          errors.push(
+            `NEIGHBORHOOD "${locality.id}" references unknown district "${locality.districtId}".`
+          );
+        } else if (
+          district.type !==
+          "MUNICIPAL_DISTRICT"
+        ) {
+          errors.push(
+            `NEIGHBORHOOD "${locality.id}" must belong to a MUNICIPAL_DISTRICT, but "${district.id}" has type "${district.type ?? "DISTRICT"}".`
+          );
+        }
+      }
+    }
+  }
+
+  const localityCount =
+    localities.filter(
+      (locality) =>
+        locality.type ===
+        "LOCALITY"
+    ).length;
+
+  const neighborhoodCount =
+    localities.filter(
+      (locality) =>
+        locality.type ===
+        "NEIGHBORHOOD"
+    ).length;
+
+  console.log(
+    `   ✅ ${localities.length} record(s) checked (${localityCount} localities, ${neighborhoodCount} neighborhoods).`
+  );
 }
 
 function validateSources(
@@ -1084,6 +1326,90 @@ function validateAdministrativePostSources(
   );
 }
 
+function validateLocalitySourceReferences(
+  localitySources:
+    LocalitySource[],
+  localities: Locality[],
+  sources: Source[]
+) {
+  console.log(
+    "🔎 Validating locality source references..."
+  );
+
+  const localityIds =
+    new Set(
+      localities.map(
+        (locality) => locality.id
+      )
+    );
+
+  const sourceIds =
+    new Set(
+      sources.map(
+        (source) => source.id
+      )
+    );
+
+  reportDuplicateValues(
+    "Locality/source reference",
+    localitySources.map(
+      (reference) =>
+        `${reference.localityId}:${reference.sourceId}`
+    )
+  );
+
+  for (
+    const reference of
+    localitySources
+  ) {
+    if (
+      !localityIds.has(
+        reference.localityId
+      )
+    ) {
+      errors.push(
+        `Locality source reference points to unknown locality "${reference.localityId}".`
+      );
+    }
+
+    if (
+      !sourceIds.has(
+        reference.sourceId
+      )
+    ) {
+      errors.push(
+        `Locality source reference "${reference.localityId}" points to unknown source "${reference.sourceId}".`
+      );
+    }
+  }
+
+  const localitiesWithSources =
+    new Set(
+      localitySources.map(
+        (reference) =>
+          reference.localityId
+      )
+    );
+
+  for (
+    const locality of localities
+  ) {
+    if (
+      !localitiesWithSources.has(
+        locality.id
+      )
+    ) {
+      errors.push(
+        `Locality "${locality.id}" has no source reference.`
+      );
+    }
+  }
+
+  console.log(
+    `   ✅ ${localitySources.length} locality source reference(s) checked.`
+  );
+}
+
 async function main() {
   console.log(
     "\n🇲🇿 moz-address-api — Data validation\n"
@@ -1094,9 +1420,11 @@ async function main() {
       provinces,
       districts,
       administrativePosts,
+      localities,
       sources,
       districtSources,
-      administrativePostSources
+      administrativePostSources,
+      localitySources
     ] = await Promise.all([
       readJson<Province[]>(
         paths.provinces
@@ -1110,6 +1438,10 @@ async function main() {
         AdministrativePost[]
       >(
         paths.administrativePosts
+      ),
+
+      readJson<Locality[]>(
+        paths.localities
       ),
 
       readJson<Source[]>(
@@ -1126,6 +1458,12 @@ async function main() {
         AdministrativePostSource[]
       >(
         paths.administrativePostSources
+      ),
+
+      readJson<
+        LocalitySource[]
+      >(
+        paths.localitySources
       )
     ]);
 
@@ -1159,6 +1497,12 @@ async function main() {
       provinces
     );
 
+    validateLocalityData(
+      localities,
+      administrativePosts,
+      districts
+    );
+
     validateSources(
       sources
     );
@@ -1172,6 +1516,12 @@ async function main() {
     validateAdministrativePostSources(
       administrativePostSources,
       administrativePosts,
+      sources
+    );
+
+    validateLocalitySourceReferences(
+      localitySources,
+      localities,
       sources
     );
 
@@ -1192,6 +1542,10 @@ async function main() {
     );
 
     console.log(
+      `   Localities / neighborhoods: ${localities.length}`
+    );
+
+    console.log(
       `   Sources: ${sources.length}`
     );
 
@@ -1201,6 +1555,10 @@ async function main() {
 
     console.log(
       `   Administrative post source references: ${administrativePostSources.length}`
+    );
+
+    console.log(
+      `   Locality source references: ${localitySources.length}`
     );
 
     if (
