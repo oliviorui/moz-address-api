@@ -2067,6 +2067,199 @@
   "slug": "tica",
   "districtId": "dist_sofala_nhamatanda"
 },
+{
+  "id": "adm_post_inhambane_funhalouro_funhalouro",
+  "code": null,
+  "name": "Funhalouro",
+  "slug": "funhalouro",
+  "districtId": "dist_inhambane_funhalouro"
+},
+{
+  "id": "adm_post_inhambane_funhalouro_tome",
+  "code": null,
+  "name": "Tome",
+  "slug": "tome",
+  "districtId": "dist_inhambane_funhalouro"
+},
+
+{
+  "id": "adm_post_inhambane_govuro_nova_mambone",
+  "code": null,
+  "name": "Nova Mambone",
+  "slug": "nova-mambone",
+  "districtId": "dist_inhambane_govuro"
+},
+{
+  "id": "adm_post_inhambane_govuro_save",
+  "code": null,
+  "name": "Save",
+  "slug": "save",
+  "districtId": "dist_inhambane_govuro"
+},
+
+{
+  "id": "adm_post_inhambane_homoine_homoine",
+  "code": null,
+  "name": "Homoíne",
+  "slug": "homoine",
+  "districtId": "dist_inhambane_homoine"
+},
+{
+  "id": "adm_post_inhambane_homoine_pembe",
+  "code": null,
+  "name": "Pembe",
+  "slug": "pembe",
+  "districtId": "dist_inhambane_homoine"
+},
+
+{
+  "id": "adm_post_inhambane_inharrime_inharrime",
+  "code": null,
+  "name": "Inharrime",
+  "slug": "inharrime",
+  "districtId": "dist_inhambane_inharrime"
+},
+{
+  "id": "adm_post_inhambane_inharrime_mocumbi",
+  "code": null,
+  "name": "Mocumbi",
+  "slug": "mocumbi",
+  "districtId": "dist_inhambane_inharrime"
+},
+
+{
+  "id": "adm_post_inhambane_inhassoro_inhassoro",
+  "code": null,
+  "name": "Inhassoro",
+  "slug": "inhassoro",
+  "districtId": "dist_inhambane_inhassoro"
+},
+{
+  "id": "adm_post_inhambane_inhassoro_bazaruto",
+  "code": null,
+  "name": "Bazaruto",
+  "slug": "bazaruto",
+  "districtId": "dist_inhambane_inhassoro"
+},
+
+{
+  "id": "adm_post_inhambane_jangamo_jangamo",
+  "code": null,
+  "name": "Jangamo",
+  "slug": "jangamo",
+  "districtId": "dist_inhambane_jangamo"
+},
+{
+  "id": "adm_post_inhambane_jangamo_cumbana",
+  "code": null,
+  "name": "Cumbana",
+  "slug": "cumbana",
+  "districtId": "dist_inhambane_jangamo"
+},
+
+{
+  "id": "adm_post_inhambane_mabote_mabote",
+  "code": null,
+  "name": "Mabote",
+  "slug": "mabote",
+  "districtId": "dist_inhambane_mabote"
+},
+{
+  "id": "adm_post_inhambane_mabote_zimane",
+  "code": null,
+  "name": "Zimane",
+  "slug": "zimane",
+  "districtId": "dist_inhambane_mabote"
+},
+{
+  "id": "adm_post_inhambane_mabote_zinave",
+  "code": null,
+  "name": "Zinave",
+  "slug": "zinave",
+  "districtId": "dist_inhambane_mabote"
+},
+
+{
+  "id": "adm_post_inhambane_massinga_massinga",
+  "code": null,
+  "name": "Massinga",
+  "slug": "massinga",
+  "districtId": "dist_inhambane_massinga"
+},
+{
+  "id": "adm_post_inhambane_massinga_chicomo",
+  "code": null,
+  "name": "Chicomo",
+  "slug": "chicomo",
+  "districtId": "dist_inhambane_massinga"
+},
+
+{
+  "id": "adm_post_inhambane_morrumbene_morrumbene",
+  "code": null,
+  "name": "Morrumbene",
+  "slug": "morrumbene",
+  "districtId": "dist_inhambane_morrumbene"
+},
+{
+  "id": "adm_post_inhambane_morrumbene_mocodoene",
+  "code": null,
+  "name": "Mocodoene",
+  "slug": "mocodoene",
+  "districtId": "dist_inhambane_morrumbene"
+},
+
+{
+  "id": "adm_post_inhambane_panda_panda",
+  "code": null,
+  "name": "Panda",
+  "slug": "panda",
+  "districtId": "dist_inhambane_panda"
+},
+{
+  "id": "adm_post_inhambane_panda_mawayela",
+  "code": null,
+  "name": "Mawayela",
+  "slug": "mawayela",
+  "districtId": "dist_inhambane_panda"
+},
+{
+  "id": "adm_post_inhambane_panda_urrene",
+  "code": null,
+  "name": "Urrene",
+  "slug": "urrene",
+  "districtId": "dist_inhambane_panda"
+},
+
+{
+  "id": "adm_post_inhambane_vilankulo_vilankulo",
+  "code": null,
+  "name": "Vilankulo",
+  "slug": "vilankulo",
+  "districtId": "dist_inhambane_vilankulo"
+},
+{
+  "id": "adm_post_inhambane_vilankulo_mapinhane",
+  "code": null,
+  "name": "Mapinhane",
+  "slug": "mapinhane",
+  "districtId": "dist_inhambane_vilankulo"
+},
+
+{
+  "id": "adm_post_inhambane_zavala_quissico",
+  "code": null,
+  "name": "Quissico",
+  "slug": "quissico",
+  "districtId": "dist_inhambane_zavala"
+},
+{
+  "id": "adm_post_inhambane_zavala_zandamela",
+  "code": null,
+  "name": "Zandamela",
+  "slug": "zandamela",
+  "districtId": "dist_inhambane_zavala"
+},
 
 
 

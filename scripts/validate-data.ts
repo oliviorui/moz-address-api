@@ -130,6 +130,7 @@ const expectedAdministrativePostCountsByProvince:
     prov_05: 36,
     prov_06: 37,
     prov_07: 38,
+    prov_08: 26,
     prov_10: 29
   };
 /*
@@ -258,6 +259,20 @@ const expectedAdministrativePostCountsByDistrict:
     dist_sofala_marromeu: 3,
     dist_sofala_muanza: 2,
     dist_sofala_nhamatanda: 2,
+
+    // Inhambane
+    dist_inhambane_funhalouro: 2,
+    dist_inhambane_govuro: 2,
+    dist_inhambane_homoine: 2,
+    dist_inhambane_inharrime: 2,
+    dist_inhambane_inhassoro: 2,
+    dist_inhambane_jangamo: 2,
+    dist_inhambane_mabote: 3,
+    dist_inhambane_massinga: 2,
+    dist_inhambane_morrumbene: 2,
+    dist_inhambane_panda: 3,
+    dist_inhambane_vilankulo: 2,
+    dist_inhambane_zavala: 2,
   };
 
 const errors: string[] = [];
