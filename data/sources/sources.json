@@ -131,6 +131,16 @@
     "accessedAt": "2026-10-21",
     "notes": "Official INE district territorial publications used to verify administrative posts of Niassa Province."
   },
+  {
+    "id": "ine-nampula-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Nampula",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-nampula-2024-1",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Nampula Province."
+  },
 
 
 
@@ -164,7 +174,7 @@
 
 
 
-  
+
   {
     "id": "ine-maputo-territorial-statistics",
     "institution": "Instituto Nacional de Estatística",

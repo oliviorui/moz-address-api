@@ -125,9 +125,9 @@ const expectedDistrictCounts: Record<string, number> = {
 const expectedAdministrativePostCountsByProvince:
   Record<string, number> = {
     prov_01: 45,
+    prov_03: 72,
     prov_10: 29
   };
-
 /*
  * Contagem detalhada por distrito já verificado.
  */
@@ -159,7 +159,32 @@ const expectedAdministrativePostCountsByDistrict:
     dist_maputo_marracuene: 2,
     dist_maputo_matutuine: 5,
     dist_maputo_moamba: 4,
-    dist_maputo_namaacha: 2
+    dist_maputo_namaacha: 2,
+
+    // Nampula
+    dist_nampula_nampula: 7,
+    dist_nampula_angoche: 4,
+    dist_nampula_erati: 3,
+    dist_nampula_ilha_de_mocambique: 2,
+    dist_nampula_lalaua: 2,
+    dist_nampula_malema: 3,
+    dist_nampula_meconta: 4,
+    dist_nampula_mecuburi: 4,
+    dist_nampula_memba: 4,
+    dist_nampula_mogincual: 2,
+    dist_nampula_mogovolas: 5,
+    dist_nampula_moma: 2,
+    dist_nampula_monapo: 3,
+    dist_nampula_mossuril: 3,
+    dist_nampula_muecate: 3,
+    dist_nampula_murrupula: 3,
+    dist_nampula_nacala_porto: 2,
+    dist_nampula_nacala_a_velha: 3,
+    dist_nampula_nacaroa: 3,
+    dist_nampula_rapale: 3,
+    dist_nampula_ribaue: 3,
+    dist_nampula_larde: 2,
+    dist_nampula_liupo: 2,
   };
 
 const errors: string[] = [];
