@@ -124,6 +124,7 @@ const expectedDistrictCounts: Record<string, number> = {
  */
 const expectedAdministrativePostCountsByProvince:
   Record<string, number> = {
+    prov_01: 45,
     prov_10: 29
   };
 
@@ -132,6 +133,25 @@ const expectedAdministrativePostCountsByProvince:
  */
 const expectedAdministrativePostCountsByDistrict:
   Record<string, number> = {
+    // Niassa
+    dist_niassa_lichinga: 6,
+    dist_niassa_mandimba: 2,
+    dist_niassa_sanga: 4,
+    dist_niassa_cuamba: 4,
+    dist_niassa_mecanhelas: 2,
+    dist_niassa_mecula: 2,
+    dist_niassa_lago: 5,
+    dist_niassa_nipepe: 2,
+    dist_niassa_maua: 2,
+    dist_niassa_metarica: 2,
+    dist_niassa_muembe: 2,
+    dist_niassa_mavago: 2,
+    dist_niassa_marrupa: 3,
+    dist_niassa_ngauma: 2,
+    dist_niassa_chimbunila: 2,
+    dist_niassa_majune: 3,
+
+    // Maputo Province
     dist_maputo_matola: 3,
     dist_maputo_boane: 2,
     dist_maputo_magude: 5,

@@ -1,5 +1,332 @@
 [
   {
+    "administrativePostId": "adm_post_niassa_lichinga_lussanhando",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lichinga_meponda",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lichinga_massenger",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lichinga_chiuaula",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lichinga_lulimile",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_mandimba_mandimba_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_mandimba_mitande",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_sanga_matchedje",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_sanga_massangulo",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_sanga_lussangue",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_sanga_lussimbesse",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_cuamba_mepica",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_cuamba_lurio",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_cuamba_etatara",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_mecanhelas_insaca",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_mecanhelas_chiuta",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_mecula_mecula_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_mecula_matondovela",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_lago_metangula",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lago_cobue",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lago_maniamba",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lago_lunho",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_lago_meluluca",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_nipepe_nipepe_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_nipepe_muipite",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_maua_maua_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_maua_maiaca",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_metarica_metarica_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_metarica_nacumua",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_muembe_muembe_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_muembe_chiconono",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_mavago_mavago_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_mavago_msawize",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_marrupa_marrupa_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_marrupa_marangira",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_marrupa_nungo",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_ngauma_massangulo_sede",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_ngauma_itepela",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_chimbunila_chimbonila",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_chimbunila_lione",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+  {
+    "administrativePostId": "adm_post_niassa_majune_malanga",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_majune_nairubi",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+  {
+    "administrativePostId": "adm_post_niassa_majune_muaquia",
+    "sourceId": "ine-niassa-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Niassa."
+  },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  {
     "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
     "sourceId": "ine-maputo-territorial-statistics",
     "page": null,
