@@ -29,7 +29,9 @@ export type LocalityMinAggregateOutputType = {
   code: string | null
   name: string | null
   slug: string | null
+  type: $Enums.LocalityType | null
   administrativePostId: string | null
+  districtId: string | null
   status: $Enums.RecordStatus | null
   validFrom: Date | null
   validUntil: Date | null
@@ -42,7 +44,9 @@ export type LocalityMaxAggregateOutputType = {
   code: string | null
   name: string | null
   slug: string | null
+  type: $Enums.LocalityType | null
   administrativePostId: string | null
+  districtId: string | null
   status: $Enums.RecordStatus | null
   validFrom: Date | null
   validUntil: Date | null
@@ -55,7 +59,9 @@ export type LocalityCountAggregateOutputType = {
   code: number
   name: number
   slug: number
+  type: number
   administrativePostId: number
+  districtId: number
   status: number
   validFrom: number
   validUntil: number
@@ -70,7 +76,9 @@ export type LocalityMinAggregateInputType = {
   code?: true
   name?: true
   slug?: true
+  type?: true
   administrativePostId?: true
+  districtId?: true
   status?: true
   validFrom?: true
   validUntil?: true
@@ -83,7 +91,9 @@ export type LocalityMaxAggregateInputType = {
   code?: true
   name?: true
   slug?: true
+  type?: true
   administrativePostId?: true
+  districtId?: true
   status?: true
   validFrom?: true
   validUntil?: true
@@ -96,7 +106,9 @@ export type LocalityCountAggregateInputType = {
   code?: true
   name?: true
   slug?: true
+  type?: true
   administrativePostId?: true
+  districtId?: true
   status?: true
   validFrom?: true
   validUntil?: true
@@ -182,7 +194,9 @@ export type LocalityGroupByOutputType = {
   code: string | null
   name: string
   slug: string
-  administrativePostId: string
+  type: $Enums.LocalityType
+  administrativePostId: string | null
+  districtId: string | null
   status: $Enums.RecordStatus
   validFrom: Date | null
   validUntil: Date | null
@@ -216,13 +230,16 @@ export type LocalityWhereInput = {
   code?: Prisma.StringNullableFilter<"Locality"> | string | null
   name?: Prisma.StringFilter<"Locality"> | string
   slug?: Prisma.StringFilter<"Locality"> | string
-  administrativePostId?: Prisma.StringFilter<"Locality"> | string
+  type?: Prisma.EnumLocalityTypeFilter<"Locality"> | $Enums.LocalityType
+  administrativePostId?: Prisma.StringNullableFilter<"Locality"> | string | null
+  districtId?: Prisma.StringNullableFilter<"Locality"> | string | null
   status?: Prisma.EnumRecordStatusFilter<"Locality"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
-  administrativePost?: Prisma.XOR<Prisma.AdministrativePostScalarRelationFilter, Prisma.AdministrativePostWhereInput>
+  administrativePost?: Prisma.XOR<Prisma.AdministrativePostNullableScalarRelationFilter, Prisma.AdministrativePostWhereInput> | null
+  district?: Prisma.XOR<Prisma.DistrictNullableScalarRelationFilter, Prisma.DistrictWhereInput> | null
   sources?: Prisma.LocalitySourceListRelationFilter
 }
 
@@ -231,13 +248,16 @@ export type LocalityOrderByWithRelationInput = {
   code?: Prisma.SortOrderInput | Prisma.SortOrder
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
-  administrativePostId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
+  administrativePostId?: Prisma.SortOrderInput | Prisma.SortOrder
+  districtId?: Prisma.SortOrderInput | Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrderInput | Prisma.SortOrder
   validUntil?: Prisma.SortOrderInput | Prisma.SortOrder
   createdAt?: Prisma.SortOrder
   updatedAt?: Prisma.SortOrder
   administrativePost?: Prisma.AdministrativePostOrderByWithRelationInput
+  district?: Prisma.DistrictOrderByWithRelationInput
   sources?: Prisma.LocalitySourceOrderByRelationAggregateInput
 }
 
@@ -245,27 +265,33 @@ export type LocalityWhereUniqueInput = Prisma.AtLeast<{
   id?: string
   code?: string
   administrativePostId_slug?: Prisma.LocalityAdministrativePostIdSlugCompoundUniqueInput
+  districtId_slug?: Prisma.LocalityDistrictIdSlugCompoundUniqueInput
   AND?: Prisma.LocalityWhereInput | Prisma.LocalityWhereInput[]
   OR?: Prisma.LocalityWhereInput[]
   NOT?: Prisma.LocalityWhereInput | Prisma.LocalityWhereInput[]
   name?: Prisma.StringFilter<"Locality"> | string
   slug?: Prisma.StringFilter<"Locality"> | string
-  administrativePostId?: Prisma.StringFilter<"Locality"> | string
+  type?: Prisma.EnumLocalityTypeFilter<"Locality"> | $Enums.LocalityType
+  administrativePostId?: Prisma.StringNullableFilter<"Locality"> | string | null
+  districtId?: Prisma.StringNullableFilter<"Locality"> | string | null
   status?: Prisma.EnumRecordStatusFilter<"Locality"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
   createdAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
   updatedAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
-  administrativePost?: Prisma.XOR<Prisma.AdministrativePostScalarRelationFilter, Prisma.AdministrativePostWhereInput>
+  administrativePost?: Prisma.XOR<Prisma.AdministrativePostNullableScalarRelationFilter, Prisma.AdministrativePostWhereInput> | null
+  district?: Prisma.XOR<Prisma.DistrictNullableScalarRelationFilter, Prisma.DistrictWhereInput> | null
   sources?: Prisma.LocalitySourceListRelationFilter
-}, "id" | "code" | "administrativePostId_slug">
+}, "id" | "code" | "administrativePostId_slug" | "districtId_slug">
 
 export type LocalityOrderByWithAggregationInput = {
   id?: Prisma.SortOrder
   code?: Prisma.SortOrderInput | Prisma.SortOrder
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
-  administrativePostId?: Prisma.SortOrder
+  type?: Prisma.SortOrder
+  administrativePostId?: Prisma.SortOrderInput | Prisma.SortOrder
+  districtId?: Prisma.SortOrderInput | Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrderInput | Prisma.SortOrder
   validUntil?: Prisma.SortOrderInput | Prisma.SortOrder
@@ -284,7 +310,9 @@ export type LocalityScalarWhereWithAggregatesInput = {
   code?: Prisma.StringNullableWithAggregatesFilter<"Locality"> | string | null
   name?: Prisma.StringWithAggregatesFilter<"Locality"> | string
   slug?: Prisma.StringWithAggregatesFilter<"Locality"> | string
-  administrativePostId?: Prisma.StringWithAggregatesFilter<"Locality"> | string
+  type?: Prisma.EnumLocalityTypeWithAggregatesFilter<"Locality"> | $Enums.LocalityType
+  administrativePostId?: Prisma.StringNullableWithAggregatesFilter<"Locality"> | string | null
+  districtId?: Prisma.StringNullableWithAggregatesFilter<"Locality"> | string | null
   status?: Prisma.EnumRecordStatusWithAggregatesFilter<"Locality"> | $Enums.RecordStatus
   validFrom?: Prisma.DateTimeNullableWithAggregatesFilter<"Locality"> | Date | string | null
   validUntil?: Prisma.DateTimeNullableWithAggregatesFilter<"Locality"> | Date | string | null
@@ -297,12 +325,14 @@ export type LocalityCreateInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.LocalityType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
-  administrativePost: Prisma.AdministrativePostCreateNestedOneWithoutLocalitiesInput
+  administrativePost?: Prisma.AdministrativePostCreateNestedOneWithoutLocalitiesInput
+  district?: Prisma.DistrictCreateNestedOneWithoutLocalitiesInput
   sources?: Prisma.LocalitySourceCreateNestedManyWithoutLocalityInput
 }
 
@@ -311,7 +341,9 @@ export type LocalityUncheckedCreateInput = {
   code?: string | null
   name: string
   slug: string
-  administrativePostId: string
+  type?: $Enums.LocalityType
+  administrativePostId?: string | null
+  districtId?: string | null
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -325,12 +357,14 @@ export type LocalityUpdateInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
-  administrativePost?: Prisma.AdministrativePostUpdateOneRequiredWithoutLocalitiesNestedInput
+  administrativePost?: Prisma.AdministrativePostUpdateOneWithoutLocalitiesNestedInput
+  district?: Prisma.DistrictUpdateOneWithoutLocalitiesNestedInput
   sources?: Prisma.LocalitySourceUpdateManyWithoutLocalityNestedInput
 }
 
@@ -339,7 +373,9 @@ export type LocalityUncheckedUpdateInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
-  administrativePostId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  administrativePostId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  districtId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -353,7 +389,9 @@ export type LocalityCreateManyInput = {
   code?: string | null
   name: string
   slug: string
-  administrativePostId: string
+  type?: $Enums.LocalityType
+  administrativePostId?: string | null
+  districtId?: string | null
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -366,6 +404,7 @@ export type LocalityUpdateManyMutationInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -378,7 +417,9 @@ export type LocalityUncheckedUpdateManyInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
-  administrativePostId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  administrativePostId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  districtId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -401,12 +442,19 @@ export type LocalityAdministrativePostIdSlugCompoundUniqueInput = {
   slug: string
 }
 
+export type LocalityDistrictIdSlugCompoundUniqueInput = {
+  districtId: string
+  slug: string
+}
+
 export type LocalityCountOrderByAggregateInput = {
   id?: Prisma.SortOrder
   code?: Prisma.SortOrder
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   administrativePostId?: Prisma.SortOrder
+  districtId?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrder
   validUntil?: Prisma.SortOrder
@@ -419,7 +467,9 @@ export type LocalityMaxOrderByAggregateInput = {
   code?: Prisma.SortOrder
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   administrativePostId?: Prisma.SortOrder
+  districtId?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrder
   validUntil?: Prisma.SortOrder
@@ -432,7 +482,9 @@ export type LocalityMinOrderByAggregateInput = {
   code?: Prisma.SortOrder
   name?: Prisma.SortOrder
   slug?: Prisma.SortOrder
+  type?: Prisma.SortOrder
   administrativePostId?: Prisma.SortOrder
+  districtId?: Prisma.SortOrder
   status?: Prisma.SortOrder
   validFrom?: Prisma.SortOrder
   validUntil?: Prisma.SortOrder
@@ -443,6 +495,48 @@ export type LocalityMinOrderByAggregateInput = {
 export type LocalityScalarRelationFilter = {
   is?: Prisma.LocalityWhereInput
   isNot?: Prisma.LocalityWhereInput
+}
+
+export type LocalityCreateNestedManyWithoutDistrictInput = {
+  create?: Prisma.XOR<Prisma.LocalityCreateWithoutDistrictInput, Prisma.LocalityUncheckedCreateWithoutDistrictInput> | Prisma.LocalityCreateWithoutDistrictInput[] | Prisma.LocalityUncheckedCreateWithoutDistrictInput[]
+  connectOrCreate?: Prisma.LocalityCreateOrConnectWithoutDistrictInput | Prisma.LocalityCreateOrConnectWithoutDistrictInput[]
+  createMany?: Prisma.LocalityCreateManyDistrictInputEnvelope
+  connect?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+}
+
+export type LocalityUncheckedCreateNestedManyWithoutDistrictInput = {
+  create?: Prisma.XOR<Prisma.LocalityCreateWithoutDistrictInput, Prisma.LocalityUncheckedCreateWithoutDistrictInput> | Prisma.LocalityCreateWithoutDistrictInput[] | Prisma.LocalityUncheckedCreateWithoutDistrictInput[]
+  connectOrCreate?: Prisma.LocalityCreateOrConnectWithoutDistrictInput | Prisma.LocalityCreateOrConnectWithoutDistrictInput[]
+  createMany?: Prisma.LocalityCreateManyDistrictInputEnvelope
+  connect?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+}
+
+export type LocalityUpdateManyWithoutDistrictNestedInput = {
+  create?: Prisma.XOR<Prisma.LocalityCreateWithoutDistrictInput, Prisma.LocalityUncheckedCreateWithoutDistrictInput> | Prisma.LocalityCreateWithoutDistrictInput[] | Prisma.LocalityUncheckedCreateWithoutDistrictInput[]
+  connectOrCreate?: Prisma.LocalityCreateOrConnectWithoutDistrictInput | Prisma.LocalityCreateOrConnectWithoutDistrictInput[]
+  upsert?: Prisma.LocalityUpsertWithWhereUniqueWithoutDistrictInput | Prisma.LocalityUpsertWithWhereUniqueWithoutDistrictInput[]
+  createMany?: Prisma.LocalityCreateManyDistrictInputEnvelope
+  set?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  disconnect?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  delete?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  connect?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  update?: Prisma.LocalityUpdateWithWhereUniqueWithoutDistrictInput | Prisma.LocalityUpdateWithWhereUniqueWithoutDistrictInput[]
+  updateMany?: Prisma.LocalityUpdateManyWithWhereWithoutDistrictInput | Prisma.LocalityUpdateManyWithWhereWithoutDistrictInput[]
+  deleteMany?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
+}
+
+export type LocalityUncheckedUpdateManyWithoutDistrictNestedInput = {
+  create?: Prisma.XOR<Prisma.LocalityCreateWithoutDistrictInput, Prisma.LocalityUncheckedCreateWithoutDistrictInput> | Prisma.LocalityCreateWithoutDistrictInput[] | Prisma.LocalityUncheckedCreateWithoutDistrictInput[]
+  connectOrCreate?: Prisma.LocalityCreateOrConnectWithoutDistrictInput | Prisma.LocalityCreateOrConnectWithoutDistrictInput[]
+  upsert?: Prisma.LocalityUpsertWithWhereUniqueWithoutDistrictInput | Prisma.LocalityUpsertWithWhereUniqueWithoutDistrictInput[]
+  createMany?: Prisma.LocalityCreateManyDistrictInputEnvelope
+  set?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  disconnect?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  delete?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  connect?: Prisma.LocalityWhereUniqueInput | Prisma.LocalityWhereUniqueInput[]
+  update?: Prisma.LocalityUpdateWithWhereUniqueWithoutDistrictInput | Prisma.LocalityUpdateWithWhereUniqueWithoutDistrictInput[]
+  updateMany?: Prisma.LocalityUpdateManyWithWhereWithoutDistrictInput | Prisma.LocalityUpdateManyWithWhereWithoutDistrictInput[]
+  deleteMany?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
 }
 
 export type LocalityCreateNestedManyWithoutAdministrativePostInput = {
@@ -487,6 +581,10 @@ export type LocalityUncheckedUpdateManyWithoutAdministrativePostNestedInput = {
   deleteMany?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
 }
 
+export type EnumLocalityTypeFieldUpdateOperationsInput = {
+  set?: $Enums.LocalityType
+}
+
 export type LocalityCreateNestedOneWithoutSourcesInput = {
   create?: Prisma.XOR<Prisma.LocalityCreateWithoutSourcesInput, Prisma.LocalityUncheckedCreateWithoutSourcesInput>
   connectOrCreate?: Prisma.LocalityCreateOrConnectWithoutSourcesInput
@@ -501,16 +599,92 @@ export type LocalityUpdateOneRequiredWithoutSourcesNestedInput = {
   update?: Prisma.XOR<Prisma.XOR<Prisma.LocalityUpdateToOneWithWhereWithoutSourcesInput, Prisma.LocalityUpdateWithoutSourcesInput>, Prisma.LocalityUncheckedUpdateWithoutSourcesInput>
 }
 
-export type LocalityCreateWithoutAdministrativePostInput = {
+export type LocalityCreateWithoutDistrictInput = {
   id: string
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.LocalityType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  administrativePost?: Prisma.AdministrativePostCreateNestedOneWithoutLocalitiesInput
+  sources?: Prisma.LocalitySourceCreateNestedManyWithoutLocalityInput
+}
+
+export type LocalityUncheckedCreateWithoutDistrictInput = {
+  id: string
+  code?: string | null
+  name: string
+  slug: string
+  type?: $Enums.LocalityType
+  administrativePostId?: string | null
+  status?: $Enums.RecordStatus
+  validFrom?: Date | string | null
+  validUntil?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  sources?: Prisma.LocalitySourceUncheckedCreateNestedManyWithoutLocalityInput
+}
+
+export type LocalityCreateOrConnectWithoutDistrictInput = {
+  where: Prisma.LocalityWhereUniqueInput
+  create: Prisma.XOR<Prisma.LocalityCreateWithoutDistrictInput, Prisma.LocalityUncheckedCreateWithoutDistrictInput>
+}
+
+export type LocalityCreateManyDistrictInputEnvelope = {
+  data: Prisma.LocalityCreateManyDistrictInput | Prisma.LocalityCreateManyDistrictInput[]
+  skipDuplicates?: boolean
+}
+
+export type LocalityUpsertWithWhereUniqueWithoutDistrictInput = {
+  where: Prisma.LocalityWhereUniqueInput
+  update: Prisma.XOR<Prisma.LocalityUpdateWithoutDistrictInput, Prisma.LocalityUncheckedUpdateWithoutDistrictInput>
+  create: Prisma.XOR<Prisma.LocalityCreateWithoutDistrictInput, Prisma.LocalityUncheckedCreateWithoutDistrictInput>
+}
+
+export type LocalityUpdateWithWhereUniqueWithoutDistrictInput = {
+  where: Prisma.LocalityWhereUniqueInput
+  data: Prisma.XOR<Prisma.LocalityUpdateWithoutDistrictInput, Prisma.LocalityUncheckedUpdateWithoutDistrictInput>
+}
+
+export type LocalityUpdateManyWithWhereWithoutDistrictInput = {
+  where: Prisma.LocalityScalarWhereInput
+  data: Prisma.XOR<Prisma.LocalityUpdateManyMutationInput, Prisma.LocalityUncheckedUpdateManyWithoutDistrictInput>
+}
+
+export type LocalityScalarWhereInput = {
+  AND?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
+  OR?: Prisma.LocalityScalarWhereInput[]
+  NOT?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
+  id?: Prisma.StringFilter<"Locality"> | string
+  code?: Prisma.StringNullableFilter<"Locality"> | string | null
+  name?: Prisma.StringFilter<"Locality"> | string
+  slug?: Prisma.StringFilter<"Locality"> | string
+  type?: Prisma.EnumLocalityTypeFilter<"Locality"> | $Enums.LocalityType
+  administrativePostId?: Prisma.StringNullableFilter<"Locality"> | string | null
+  districtId?: Prisma.StringNullableFilter<"Locality"> | string | null
+  status?: Prisma.EnumRecordStatusFilter<"Locality"> | $Enums.RecordStatus
+  validFrom?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
+  validUntil?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
+  createdAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
+  updatedAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
+}
+
+export type LocalityCreateWithoutAdministrativePostInput = {
+  id: string
+  code?: string | null
+  name: string
+  slug: string
+  type?: $Enums.LocalityType
+  status?: $Enums.RecordStatus
+  validFrom?: Date | string | null
+  validUntil?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  district?: Prisma.DistrictCreateNestedOneWithoutLocalitiesInput
   sources?: Prisma.LocalitySourceCreateNestedManyWithoutLocalityInput
 }
 
@@ -519,6 +693,8 @@ export type LocalityUncheckedCreateWithoutAdministrativePostInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.LocalityType
+  districtId?: string | null
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -553,33 +729,19 @@ export type LocalityUpdateManyWithWhereWithoutAdministrativePostInput = {
   data: Prisma.XOR<Prisma.LocalityUpdateManyMutationInput, Prisma.LocalityUncheckedUpdateManyWithoutAdministrativePostInput>
 }
 
-export type LocalityScalarWhereInput = {
-  AND?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
-  OR?: Prisma.LocalityScalarWhereInput[]
-  NOT?: Prisma.LocalityScalarWhereInput | Prisma.LocalityScalarWhereInput[]
-  id?: Prisma.StringFilter<"Locality"> | string
-  code?: Prisma.StringNullableFilter<"Locality"> | string | null
-  name?: Prisma.StringFilter<"Locality"> | string
-  slug?: Prisma.StringFilter<"Locality"> | string
-  administrativePostId?: Prisma.StringFilter<"Locality"> | string
-  status?: Prisma.EnumRecordStatusFilter<"Locality"> | $Enums.RecordStatus
-  validFrom?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
-  validUntil?: Prisma.DateTimeNullableFilter<"Locality"> | Date | string | null
-  createdAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
-  updatedAt?: Prisma.DateTimeFilter<"Locality"> | Date | string
-}
-
 export type LocalityCreateWithoutSourcesInput = {
   id: string
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.LocalityType
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
-  administrativePost: Prisma.AdministrativePostCreateNestedOneWithoutLocalitiesInput
+  administrativePost?: Prisma.AdministrativePostCreateNestedOneWithoutLocalitiesInput
+  district?: Prisma.DistrictCreateNestedOneWithoutLocalitiesInput
 }
 
 export type LocalityUncheckedCreateWithoutSourcesInput = {
@@ -587,7 +749,9 @@ export type LocalityUncheckedCreateWithoutSourcesInput = {
   code?: string | null
   name: string
   slug: string
-  administrativePostId: string
+  type?: $Enums.LocalityType
+  administrativePostId?: string | null
+  districtId?: string | null
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -616,12 +780,14 @@ export type LocalityUpdateWithoutSourcesInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
-  administrativePost?: Prisma.AdministrativePostUpdateOneRequiredWithoutLocalitiesNestedInput
+  administrativePost?: Prisma.AdministrativePostUpdateOneWithoutLocalitiesNestedInput
+  district?: Prisma.DistrictUpdateOneWithoutLocalitiesNestedInput
 }
 
 export type LocalityUncheckedUpdateWithoutSourcesInput = {
@@ -629,7 +795,67 @@ export type LocalityUncheckedUpdateWithoutSourcesInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
-  administrativePostId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  administrativePostId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  districtId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
+  validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+}
+
+export type LocalityCreateManyDistrictInput = {
+  id: string
+  code?: string | null
+  name: string
+  slug: string
+  type?: $Enums.LocalityType
+  administrativePostId?: string | null
+  status?: $Enums.RecordStatus
+  validFrom?: Date | string | null
+  validUntil?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+}
+
+export type LocalityUpdateWithoutDistrictInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
+  validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  administrativePost?: Prisma.AdministrativePostUpdateOneWithoutLocalitiesNestedInput
+  sources?: Prisma.LocalitySourceUpdateManyWithoutLocalityNestedInput
+}
+
+export type LocalityUncheckedUpdateWithoutDistrictInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  administrativePostId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
+  validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  sources?: Prisma.LocalitySourceUncheckedUpdateManyWithoutLocalityNestedInput
+}
+
+export type LocalityUncheckedUpdateManyWithoutDistrictInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  administrativePostId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -642,6 +868,8 @@ export type LocalityCreateManyAdministrativePostInput = {
   code?: string | null
   name: string
   slug: string
+  type?: $Enums.LocalityType
+  districtId?: string | null
   status?: $Enums.RecordStatus
   validFrom?: Date | string | null
   validUntil?: Date | string | null
@@ -654,11 +882,13 @@ export type LocalityUpdateWithoutAdministrativePostInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  district?: Prisma.DistrictUpdateOneWithoutLocalitiesNestedInput
   sources?: Prisma.LocalitySourceUpdateManyWithoutLocalityNestedInput
 }
 
@@ -667,6 +897,8 @@ export type LocalityUncheckedUpdateWithoutAdministrativePostInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  districtId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -680,6 +912,8 @@ export type LocalityUncheckedUpdateManyWithoutAdministrativePostInput = {
   code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   name?: Prisma.StringFieldUpdateOperationsInput | string
   slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumLocalityTypeFieldUpdateOperationsInput | $Enums.LocalityType
+  districtId?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
   status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
   validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
@@ -723,13 +957,16 @@ export type LocalitySelect<ExtArgs extends runtime.Types.Extensions.InternalArgs
   code?: boolean
   name?: boolean
   slug?: boolean
+  type?: boolean
   administrativePostId?: boolean
+  districtId?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
   createdAt?: boolean
   updatedAt?: boolean
-  administrativePost?: boolean | Prisma.AdministrativePostDefaultArgs<ExtArgs>
+  administrativePost?: boolean | Prisma.Locality$administrativePostArgs<ExtArgs>
+  district?: boolean | Prisma.Locality$districtArgs<ExtArgs>
   sources?: boolean | Prisma.Locality$sourcesArgs<ExtArgs>
   _count?: boolean | Prisma.LocalityCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["locality"]>
@@ -739,13 +976,16 @@ export type LocalitySelectCreateManyAndReturn<ExtArgs extends runtime.Types.Exte
   code?: boolean
   name?: boolean
   slug?: boolean
+  type?: boolean
   administrativePostId?: boolean
+  districtId?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
   createdAt?: boolean
   updatedAt?: boolean
-  administrativePost?: boolean | Prisma.AdministrativePostDefaultArgs<ExtArgs>
+  administrativePost?: boolean | Prisma.Locality$administrativePostArgs<ExtArgs>
+  district?: boolean | Prisma.Locality$districtArgs<ExtArgs>
 }, ExtArgs["result"]["locality"]>
 
 export type LocalitySelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetSelect<{
@@ -753,13 +993,16 @@ export type LocalitySelectUpdateManyAndReturn<ExtArgs extends runtime.Types.Exte
   code?: boolean
   name?: boolean
   slug?: boolean
+  type?: boolean
   administrativePostId?: boolean
+  districtId?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
   createdAt?: boolean
   updatedAt?: boolean
-  administrativePost?: boolean | Prisma.AdministrativePostDefaultArgs<ExtArgs>
+  administrativePost?: boolean | Prisma.Locality$administrativePostArgs<ExtArgs>
+  district?: boolean | Prisma.Locality$districtArgs<ExtArgs>
 }, ExtArgs["result"]["locality"]>
 
 export type LocalitySelectScalar = {
@@ -767,7 +1010,9 @@ export type LocalitySelectScalar = {
   code?: boolean
   name?: boolean
   slug?: boolean
+  type?: boolean
   administrativePostId?: boolean
+  districtId?: boolean
   status?: boolean
   validFrom?: boolean
   validUntil?: boolean
@@ -775,23 +1020,27 @@ export type LocalitySelectScalar = {
   updatedAt?: boolean
 }
 
-export type LocalityOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "code" | "name" | "slug" | "administrativePostId" | "status" | "validFrom" | "validUntil" | "createdAt" | "updatedAt", ExtArgs["result"]["locality"]>
+export type LocalityOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = runtime.Types.Extensions.GetOmit<"id" | "code" | "name" | "slug" | "type" | "administrativePostId" | "districtId" | "status" | "validFrom" | "validUntil" | "createdAt" | "updatedAt", ExtArgs["result"]["locality"]>
 export type LocalityInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
-  administrativePost?: boolean | Prisma.AdministrativePostDefaultArgs<ExtArgs>
+  administrativePost?: boolean | Prisma.Locality$administrativePostArgs<ExtArgs>
+  district?: boolean | Prisma.Locality$districtArgs<ExtArgs>
   sources?: boolean | Prisma.Locality$sourcesArgs<ExtArgs>
   _count?: boolean | Prisma.LocalityCountOutputTypeDefaultArgs<ExtArgs>
 }
 export type LocalityIncludeCreateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
-  administrativePost?: boolean | Prisma.AdministrativePostDefaultArgs<ExtArgs>
+  administrativePost?: boolean | Prisma.Locality$administrativePostArgs<ExtArgs>
+  district?: boolean | Prisma.Locality$districtArgs<ExtArgs>
 }
 export type LocalityIncludeUpdateManyAndReturn<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
-  administrativePost?: boolean | Prisma.AdministrativePostDefaultArgs<ExtArgs>
+  administrativePost?: boolean | Prisma.Locality$administrativePostArgs<ExtArgs>
+  district?: boolean | Prisma.Locality$districtArgs<ExtArgs>
 }
 
 export type $LocalityPayload<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   name: "Locality"
   objects: {
-    administrativePost: Prisma.$AdministrativePostPayload<ExtArgs>
+    administrativePost: Prisma.$AdministrativePostPayload<ExtArgs> | null
+    district: Prisma.$DistrictPayload<ExtArgs> | null
     sources: Prisma.$LocalitySourcePayload<ExtArgs>[]
   }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
@@ -799,7 +1048,9 @@ export type $LocalityPayload<ExtArgs extends runtime.Types.Extensions.InternalAr
     code: string | null
     name: string
     slug: string
-    administrativePostId: string
+    type: $Enums.LocalityType
+    administrativePostId: string | null
+    districtId: string | null
     status: $Enums.RecordStatus
     validFrom: Date | null
     validUntil: Date | null
@@ -1199,7 +1450,8 @@ readonly fields: LocalityFieldRefs;
  */
 export interface Prisma__LocalityClient<T, Null = never, ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs, GlobalOmitOptions = {}> extends Prisma.PrismaPromise<T> {
   readonly [Symbol.toStringTag]: "PrismaPromise"
-  administrativePost<T extends Prisma.AdministrativePostDefaultArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.AdministrativePostDefaultArgs<ExtArgs>>): Prisma.Prisma__AdministrativePostClient<runtime.Types.Result.GetResult<Prisma.$AdministrativePostPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | Null, Null, ExtArgs, GlobalOmitOptions>
+  administrativePost<T extends Prisma.Locality$administrativePostArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Locality$administrativePostArgs<ExtArgs>>): Prisma.Prisma__AdministrativePostClient<runtime.Types.Result.GetResult<Prisma.$AdministrativePostPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
+  district<T extends Prisma.Locality$districtArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Locality$districtArgs<ExtArgs>>): Prisma.Prisma__DistrictClient<runtime.Types.Result.GetResult<Prisma.$DistrictPayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | null, null, ExtArgs, GlobalOmitOptions>
   sources<T extends Prisma.Locality$sourcesArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.Locality$sourcesArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$LocalitySourcePayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
@@ -1234,7 +1486,9 @@ export interface LocalityFieldRefs {
   readonly code: Prisma.FieldRef<"Locality", 'String'>
   readonly name: Prisma.FieldRef<"Locality", 'String'>
   readonly slug: Prisma.FieldRef<"Locality", 'String'>
+  readonly type: Prisma.FieldRef<"Locality", 'LocalityType'>
   readonly administrativePostId: Prisma.FieldRef<"Locality", 'String'>
+  readonly districtId: Prisma.FieldRef<"Locality", 'String'>
   readonly status: Prisma.FieldRef<"Locality", 'RecordStatus'>
   readonly validFrom: Prisma.FieldRef<"Locality", 'DateTime'>
   readonly validUntil: Prisma.FieldRef<"Locality", 'DateTime'>
@@ -1638,6 +1892,44 @@ export type LocalityDeleteManyArgs<ExtArgs extends runtime.Types.Extensions.Inte
    * Limit how many Localities to delete.
    */
   limit?: number
+}
+
+/**
+ * Locality.administrativePost
+ */
+export type Locality$administrativePostArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the AdministrativePost
+   */
+  select?: Prisma.AdministrativePostSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the AdministrativePost
+   */
+  omit?: Prisma.AdministrativePostOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.AdministrativePostInclude<ExtArgs> | null
+  where?: Prisma.AdministrativePostWhereInput
+}
+
+/**
+ * Locality.district
+ */
+export type Locality$districtArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the District
+   */
+  select?: Prisma.DistrictSelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the District
+   */
+  omit?: Prisma.DistrictOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.DistrictInclude<ExtArgs> | null
+  where?: Prisma.DistrictWhereInput
 }
 
 /**

@@ -447,6 +447,11 @@ export type AdministrativePostMinOrderByAggregateInput = {
   updatedAt?: Prisma.SortOrder
 }
 
+export type AdministrativePostNullableScalarRelationFilter = {
+  is?: Prisma.AdministrativePostWhereInput | null
+  isNot?: Prisma.AdministrativePostWhereInput | null
+}
+
 export type AdministrativePostScalarRelationFilter = {
   is?: Prisma.AdministrativePostWhereInput
   isNot?: Prisma.AdministrativePostWhereInput
@@ -500,10 +505,12 @@ export type AdministrativePostCreateNestedOneWithoutLocalitiesInput = {
   connect?: Prisma.AdministrativePostWhereUniqueInput
 }
 
-export type AdministrativePostUpdateOneRequiredWithoutLocalitiesNestedInput = {
+export type AdministrativePostUpdateOneWithoutLocalitiesNestedInput = {
   create?: Prisma.XOR<Prisma.AdministrativePostCreateWithoutLocalitiesInput, Prisma.AdministrativePostUncheckedCreateWithoutLocalitiesInput>
   connectOrCreate?: Prisma.AdministrativePostCreateOrConnectWithoutLocalitiesInput
   upsert?: Prisma.AdministrativePostUpsertWithoutLocalitiesInput
+  disconnect?: Prisma.AdministrativePostWhereInput | boolean
+  delete?: Prisma.AdministrativePostWhereInput | boolean
   connect?: Prisma.AdministrativePostWhereUniqueInput
   update?: Prisma.XOR<Prisma.XOR<Prisma.AdministrativePostUpdateToOneWithWhereWithoutLocalitiesInput, Prisma.AdministrativePostUpdateWithoutLocalitiesInput>, Prisma.AdministrativePostUncheckedUpdateWithoutLocalitiesInput>
 }

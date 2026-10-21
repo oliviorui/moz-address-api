@@ -17,6 +17,22 @@ export const ProvinceType = {
 export type ProvinceType = (typeof ProvinceType)[keyof typeof ProvinceType]
 
 
+export const DistrictType = {
+  DISTRICT: 'DISTRICT',
+  MUNICIPAL_DISTRICT: 'MUNICIPAL_DISTRICT'
+} as const
+
+export type DistrictType = (typeof DistrictType)[keyof typeof DistrictType]
+
+
+export const LocalityType = {
+  LOCALITY: 'LOCALITY',
+  NEIGHBORHOOD: 'NEIGHBORHOOD'
+} as const
+
+export type LocalityType = (typeof LocalityType)[keyof typeof LocalityType]
+
+
 export const RecordStatus = {
   ACTIVE: 'ACTIVE',
   HISTORICAL: 'HISTORICAL'
@@ -31,11 +47,3 @@ export const SourceType = {
 } as const
 
 export type SourceType = (typeof SourceType)[keyof typeof SourceType]
-
-
-export const DistrictType = {
-  DISTRICT: 'DISTRICT',
-  MUNICIPAL_DISTRICT: 'MUNICIPAL_DISTRICT'
-} as const
-
-export type DistrictType = (typeof DistrictType)[keyof typeof DistrictType]

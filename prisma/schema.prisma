@@ -12,6 +12,16 @@ enum ProvinceType {
   CAPITAL_CITY
 }
 
+enum DistrictType {
+  DISTRICT
+  MUNICIPAL_DISTRICT
+}
+
+enum LocalityType {
+  LOCALITY
+  NEIGHBORHOOD
+}
+
 enum RecordStatus {
   ACTIVE
   HISTORICAL
@@ -20,11 +30,6 @@ enum RecordStatus {
 enum SourceType {
   OFFICIAL
   SECONDARY
-}
-
-enum DistrictType {
-  DISTRICT
-  MUNICIPAL_DISTRICT
 }
 
 model Province {
@@ -75,6 +80,7 @@ model District {
   province Province @relation(fields: [provinceId], references: [id], onDelete: Restrict)
 
   administrativePosts AdministrativePost[]
+  localities          Locality[]
   sources             DistrictSource[]
 
   @@unique([provinceId, slug])
@@ -118,7 +124,10 @@ model Locality {
   name String
   slug String
 
-  administrativePostId String
+  type LocalityType @default(LOCALITY)
+
+  administrativePostId String?
+  districtId           String?
 
   status RecordStatus @default(ACTIVE)
 
@@ -128,13 +137,17 @@ model Locality {
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt
 
-  administrativePost AdministrativePost @relation(fields: [administrativePostId], references: [id], onDelete: Restrict)
+  administrativePost AdministrativePost? @relation(fields: [administrativePostId], references: [id], onDelete: Restrict)
+  district           District?           @relation(fields: [districtId], references: [id], onDelete: Restrict)
 
   sources LocalitySource[]
 
   @@unique([administrativePostId, slug])
+  @@unique([districtId, slug])
   @@index([administrativePostId])
+  @@index([districtId])
   @@index([name])
+  @@index([type])
   @@map("localities")
 }
 
@@ -146,13 +159,10 @@ model Source {
 
   type SourceType @default(OFFICIAL)
 
-  year Int?
-
-  url String?
-
+  year       Int?
+  url        String?
   accessedAt DateTime?
-
-  notes String?
+  notes      String?
 
   createdAt DateTime @default(now())
   updatedAt DateTime @updatedAt

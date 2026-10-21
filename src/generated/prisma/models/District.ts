@@ -232,6 +232,7 @@ export type DistrictWhereInput = {
   updatedAt?: Prisma.DateTimeFilter<"District"> | Date | string
   province?: Prisma.XOR<Prisma.ProvinceScalarRelationFilter, Prisma.ProvinceWhereInput>
   administrativePosts?: Prisma.AdministrativePostListRelationFilter
+  localities?: Prisma.LocalityListRelationFilter
   sources?: Prisma.DistrictSourceListRelationFilter
 }
 
@@ -249,6 +250,7 @@ export type DistrictOrderByWithRelationInput = {
   updatedAt?: Prisma.SortOrder
   province?: Prisma.ProvinceOrderByWithRelationInput
   administrativePosts?: Prisma.AdministrativePostOrderByRelationAggregateInput
+  localities?: Prisma.LocalityOrderByRelationAggregateInput
   sources?: Prisma.DistrictSourceOrderByRelationAggregateInput
 }
 
@@ -270,6 +272,7 @@ export type DistrictWhereUniqueInput = Prisma.AtLeast<{
   updatedAt?: Prisma.DateTimeFilter<"District"> | Date | string
   province?: Prisma.XOR<Prisma.ProvinceScalarRelationFilter, Prisma.ProvinceWhereInput>
   administrativePosts?: Prisma.AdministrativePostListRelationFilter
+  localities?: Prisma.LocalityListRelationFilter
   sources?: Prisma.DistrictSourceListRelationFilter
 }, "id" | "code" | "provinceId_slug">
 
@@ -320,6 +323,7 @@ export type DistrictCreateInput = {
   updatedAt?: Date | string
   province: Prisma.ProvinceCreateNestedOneWithoutDistrictsInput
   administrativePosts?: Prisma.AdministrativePostCreateNestedManyWithoutDistrictInput
+  localities?: Prisma.LocalityCreateNestedManyWithoutDistrictInput
   sources?: Prisma.DistrictSourceCreateNestedManyWithoutDistrictInput
 }
 
@@ -336,6 +340,7 @@ export type DistrictUncheckedCreateInput = {
   createdAt?: Date | string
   updatedAt?: Date | string
   administrativePosts?: Prisma.AdministrativePostUncheckedCreateNestedManyWithoutDistrictInput
+  localities?: Prisma.LocalityUncheckedCreateNestedManyWithoutDistrictInput
   sources?: Prisma.DistrictSourceUncheckedCreateNestedManyWithoutDistrictInput
 }
 
@@ -352,6 +357,7 @@ export type DistrictUpdateInput = {
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   province?: Prisma.ProvinceUpdateOneRequiredWithoutDistrictsNestedInput
   administrativePosts?: Prisma.AdministrativePostUpdateManyWithoutDistrictNestedInput
+  localities?: Prisma.LocalityUpdateManyWithoutDistrictNestedInput
   sources?: Prisma.DistrictSourceUpdateManyWithoutDistrictNestedInput
 }
 
@@ -368,6 +374,7 @@ export type DistrictUncheckedUpdateInput = {
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   administrativePosts?: Prisma.AdministrativePostUncheckedUpdateManyWithoutDistrictNestedInput
+  localities?: Prisma.LocalityUncheckedUpdateManyWithoutDistrictNestedInput
   sources?: Prisma.DistrictSourceUncheckedUpdateManyWithoutDistrictNestedInput
 }
 
@@ -474,6 +481,11 @@ export type DistrictScalarRelationFilter = {
   isNot?: Prisma.DistrictWhereInput
 }
 
+export type DistrictNullableScalarRelationFilter = {
+  is?: Prisma.DistrictWhereInput | null
+  isNot?: Prisma.DistrictWhereInput | null
+}
+
 export type DistrictCreateNestedManyWithoutProvinceInput = {
   create?: Prisma.XOR<Prisma.DistrictCreateWithoutProvinceInput, Prisma.DistrictUncheckedCreateWithoutProvinceInput> | Prisma.DistrictCreateWithoutProvinceInput[] | Prisma.DistrictUncheckedCreateWithoutProvinceInput[]
   connectOrCreate?: Prisma.DistrictCreateOrConnectWithoutProvinceInput | Prisma.DistrictCreateOrConnectWithoutProvinceInput[]
@@ -534,6 +546,22 @@ export type DistrictUpdateOneRequiredWithoutAdministrativePostsNestedInput = {
   update?: Prisma.XOR<Prisma.XOR<Prisma.DistrictUpdateToOneWithWhereWithoutAdministrativePostsInput, Prisma.DistrictUpdateWithoutAdministrativePostsInput>, Prisma.DistrictUncheckedUpdateWithoutAdministrativePostsInput>
 }
 
+export type DistrictCreateNestedOneWithoutLocalitiesInput = {
+  create?: Prisma.XOR<Prisma.DistrictCreateWithoutLocalitiesInput, Prisma.DistrictUncheckedCreateWithoutLocalitiesInput>
+  connectOrCreate?: Prisma.DistrictCreateOrConnectWithoutLocalitiesInput
+  connect?: Prisma.DistrictWhereUniqueInput
+}
+
+export type DistrictUpdateOneWithoutLocalitiesNestedInput = {
+  create?: Prisma.XOR<Prisma.DistrictCreateWithoutLocalitiesInput, Prisma.DistrictUncheckedCreateWithoutLocalitiesInput>
+  connectOrCreate?: Prisma.DistrictCreateOrConnectWithoutLocalitiesInput
+  upsert?: Prisma.DistrictUpsertWithoutLocalitiesInput
+  disconnect?: Prisma.DistrictWhereInput | boolean
+  delete?: Prisma.DistrictWhereInput | boolean
+  connect?: Prisma.DistrictWhereUniqueInput
+  update?: Prisma.XOR<Prisma.XOR<Prisma.DistrictUpdateToOneWithWhereWithoutLocalitiesInput, Prisma.DistrictUpdateWithoutLocalitiesInput>, Prisma.DistrictUncheckedUpdateWithoutLocalitiesInput>
+}
+
 export type DistrictCreateNestedOneWithoutSourcesInput = {
   create?: Prisma.XOR<Prisma.DistrictCreateWithoutSourcesInput, Prisma.DistrictUncheckedCreateWithoutSourcesInput>
   connectOrCreate?: Prisma.DistrictCreateOrConnectWithoutSourcesInput
@@ -560,6 +588,7 @@ export type DistrictCreateWithoutProvinceInput = {
   createdAt?: Date | string
   updatedAt?: Date | string
   administrativePosts?: Prisma.AdministrativePostCreateNestedManyWithoutDistrictInput
+  localities?: Prisma.LocalityCreateNestedManyWithoutDistrictInput
   sources?: Prisma.DistrictSourceCreateNestedManyWithoutDistrictInput
 }
 
@@ -575,6 +604,7 @@ export type DistrictUncheckedCreateWithoutProvinceInput = {
   createdAt?: Date | string
   updatedAt?: Date | string
   administrativePosts?: Prisma.AdministrativePostUncheckedCreateNestedManyWithoutDistrictInput
+  localities?: Prisma.LocalityUncheckedCreateNestedManyWithoutDistrictInput
   sources?: Prisma.DistrictSourceUncheckedCreateNestedManyWithoutDistrictInput
 }
 
@@ -633,6 +663,7 @@ export type DistrictCreateWithoutAdministrativePostsInput = {
   createdAt?: Date | string
   updatedAt?: Date | string
   province: Prisma.ProvinceCreateNestedOneWithoutDistrictsInput
+  localities?: Prisma.LocalityCreateNestedManyWithoutDistrictInput
   sources?: Prisma.DistrictSourceCreateNestedManyWithoutDistrictInput
 }
 
@@ -648,6 +679,7 @@ export type DistrictUncheckedCreateWithoutAdministrativePostsInput = {
   validUntil?: Date | string | null
   createdAt?: Date | string
   updatedAt?: Date | string
+  localities?: Prisma.LocalityUncheckedCreateNestedManyWithoutDistrictInput
   sources?: Prisma.DistrictSourceUncheckedCreateNestedManyWithoutDistrictInput
 }
 
@@ -679,6 +711,7 @@ export type DistrictUpdateWithoutAdministrativePostsInput = {
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   province?: Prisma.ProvinceUpdateOneRequiredWithoutDistrictsNestedInput
+  localities?: Prisma.LocalityUpdateManyWithoutDistrictNestedInput
   sources?: Prisma.DistrictSourceUpdateManyWithoutDistrictNestedInput
 }
 
@@ -694,6 +727,87 @@ export type DistrictUncheckedUpdateWithoutAdministrativePostsInput = {
   validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  localities?: Prisma.LocalityUncheckedUpdateManyWithoutDistrictNestedInput
+  sources?: Prisma.DistrictSourceUncheckedUpdateManyWithoutDistrictNestedInput
+}
+
+export type DistrictCreateWithoutLocalitiesInput = {
+  id: string
+  code?: string | null
+  name: string
+  slug: string
+  type?: $Enums.DistrictType
+  status?: $Enums.RecordStatus
+  validFrom?: Date | string | null
+  validUntil?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  province: Prisma.ProvinceCreateNestedOneWithoutDistrictsInput
+  administrativePosts?: Prisma.AdministrativePostCreateNestedManyWithoutDistrictInput
+  sources?: Prisma.DistrictSourceCreateNestedManyWithoutDistrictInput
+}
+
+export type DistrictUncheckedCreateWithoutLocalitiesInput = {
+  id: string
+  code?: string | null
+  name: string
+  slug: string
+  provinceId: string
+  type?: $Enums.DistrictType
+  status?: $Enums.RecordStatus
+  validFrom?: Date | string | null
+  validUntil?: Date | string | null
+  createdAt?: Date | string
+  updatedAt?: Date | string
+  administrativePosts?: Prisma.AdministrativePostUncheckedCreateNestedManyWithoutDistrictInput
+  sources?: Prisma.DistrictSourceUncheckedCreateNestedManyWithoutDistrictInput
+}
+
+export type DistrictCreateOrConnectWithoutLocalitiesInput = {
+  where: Prisma.DistrictWhereUniqueInput
+  create: Prisma.XOR<Prisma.DistrictCreateWithoutLocalitiesInput, Prisma.DistrictUncheckedCreateWithoutLocalitiesInput>
+}
+
+export type DistrictUpsertWithoutLocalitiesInput = {
+  update: Prisma.XOR<Prisma.DistrictUpdateWithoutLocalitiesInput, Prisma.DistrictUncheckedUpdateWithoutLocalitiesInput>
+  create: Prisma.XOR<Prisma.DistrictCreateWithoutLocalitiesInput, Prisma.DistrictUncheckedCreateWithoutLocalitiesInput>
+  where?: Prisma.DistrictWhereInput
+}
+
+export type DistrictUpdateToOneWithWhereWithoutLocalitiesInput = {
+  where?: Prisma.DistrictWhereInput
+  data: Prisma.XOR<Prisma.DistrictUpdateWithoutLocalitiesInput, Prisma.DistrictUncheckedUpdateWithoutLocalitiesInput>
+}
+
+export type DistrictUpdateWithoutLocalitiesInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
+  status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
+  validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  province?: Prisma.ProvinceUpdateOneRequiredWithoutDistrictsNestedInput
+  administrativePosts?: Prisma.AdministrativePostUpdateManyWithoutDistrictNestedInput
+  sources?: Prisma.DistrictSourceUpdateManyWithoutDistrictNestedInput
+}
+
+export type DistrictUncheckedUpdateWithoutLocalitiesInput = {
+  id?: Prisma.StringFieldUpdateOperationsInput | string
+  code?: Prisma.NullableStringFieldUpdateOperationsInput | string | null
+  name?: Prisma.StringFieldUpdateOperationsInput | string
+  slug?: Prisma.StringFieldUpdateOperationsInput | string
+  provinceId?: Prisma.StringFieldUpdateOperationsInput | string
+  type?: Prisma.EnumDistrictTypeFieldUpdateOperationsInput | $Enums.DistrictType
+  status?: Prisma.EnumRecordStatusFieldUpdateOperationsInput | $Enums.RecordStatus
+  validFrom?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  validUntil?: Prisma.NullableDateTimeFieldUpdateOperationsInput | Date | string | null
+  createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
+  administrativePosts?: Prisma.AdministrativePostUncheckedUpdateManyWithoutDistrictNestedInput
   sources?: Prisma.DistrictSourceUncheckedUpdateManyWithoutDistrictNestedInput
 }
 
@@ -710,6 +824,7 @@ export type DistrictCreateWithoutSourcesInput = {
   updatedAt?: Date | string
   province: Prisma.ProvinceCreateNestedOneWithoutDistrictsInput
   administrativePosts?: Prisma.AdministrativePostCreateNestedManyWithoutDistrictInput
+  localities?: Prisma.LocalityCreateNestedManyWithoutDistrictInput
 }
 
 export type DistrictUncheckedCreateWithoutSourcesInput = {
@@ -725,6 +840,7 @@ export type DistrictUncheckedCreateWithoutSourcesInput = {
   createdAt?: Date | string
   updatedAt?: Date | string
   administrativePosts?: Prisma.AdministrativePostUncheckedCreateNestedManyWithoutDistrictInput
+  localities?: Prisma.LocalityUncheckedCreateNestedManyWithoutDistrictInput
 }
 
 export type DistrictCreateOrConnectWithoutSourcesInput = {
@@ -756,6 +872,7 @@ export type DistrictUpdateWithoutSourcesInput = {
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   province?: Prisma.ProvinceUpdateOneRequiredWithoutDistrictsNestedInput
   administrativePosts?: Prisma.AdministrativePostUpdateManyWithoutDistrictNestedInput
+  localities?: Prisma.LocalityUpdateManyWithoutDistrictNestedInput
 }
 
 export type DistrictUncheckedUpdateWithoutSourcesInput = {
@@ -771,6 +888,7 @@ export type DistrictUncheckedUpdateWithoutSourcesInput = {
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   administrativePosts?: Prisma.AdministrativePostUncheckedUpdateManyWithoutDistrictNestedInput
+  localities?: Prisma.LocalityUncheckedUpdateManyWithoutDistrictNestedInput
 }
 
 export type DistrictCreateManyProvinceInput = {
@@ -798,6 +916,7 @@ export type DistrictUpdateWithoutProvinceInput = {
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   administrativePosts?: Prisma.AdministrativePostUpdateManyWithoutDistrictNestedInput
+  localities?: Prisma.LocalityUpdateManyWithoutDistrictNestedInput
   sources?: Prisma.DistrictSourceUpdateManyWithoutDistrictNestedInput
 }
 
@@ -813,6 +932,7 @@ export type DistrictUncheckedUpdateWithoutProvinceInput = {
   createdAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   updatedAt?: Prisma.DateTimeFieldUpdateOperationsInput | Date | string
   administrativePosts?: Prisma.AdministrativePostUncheckedUpdateManyWithoutDistrictNestedInput
+  localities?: Prisma.LocalityUncheckedUpdateManyWithoutDistrictNestedInput
   sources?: Prisma.DistrictSourceUncheckedUpdateManyWithoutDistrictNestedInput
 }
 
@@ -836,11 +956,13 @@ export type DistrictUncheckedUpdateManyWithoutProvinceInput = {
 
 export type DistrictCountOutputType = {
   administrativePosts: number
+  localities: number
   sources: number
 }
 
 export type DistrictCountOutputTypeSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   administrativePosts?: boolean | DistrictCountOutputTypeCountAdministrativePostsArgs
+  localities?: boolean | DistrictCountOutputTypeCountLocalitiesArgs
   sources?: boolean | DistrictCountOutputTypeCountSourcesArgs
 }
 
@@ -859,6 +981,13 @@ export type DistrictCountOutputTypeDefaultArgs<ExtArgs extends runtime.Types.Ext
  */
 export type DistrictCountOutputTypeCountAdministrativePostsArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   where?: Prisma.AdministrativePostWhereInput
+}
+
+/**
+ * DistrictCountOutputType without action
+ */
+export type DistrictCountOutputTypeCountLocalitiesArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  where?: Prisma.LocalityWhereInput
 }
 
 /**
@@ -883,6 +1012,7 @@ export type DistrictSelect<ExtArgs extends runtime.Types.Extensions.InternalArgs
   updatedAt?: boolean
   province?: boolean | Prisma.ProvinceDefaultArgs<ExtArgs>
   administrativePosts?: boolean | Prisma.District$administrativePostsArgs<ExtArgs>
+  localities?: boolean | Prisma.District$localitiesArgs<ExtArgs>
   sources?: boolean | Prisma.District$sourcesArgs<ExtArgs>
   _count?: boolean | Prisma.DistrictCountOutputTypeDefaultArgs<ExtArgs>
 }, ExtArgs["result"]["district"]>
@@ -935,6 +1065,7 @@ export type DistrictOmit<ExtArgs extends runtime.Types.Extensions.InternalArgs =
 export type DistrictInclude<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
   province?: boolean | Prisma.ProvinceDefaultArgs<ExtArgs>
   administrativePosts?: boolean | Prisma.District$administrativePostsArgs<ExtArgs>
+  localities?: boolean | Prisma.District$localitiesArgs<ExtArgs>
   sources?: boolean | Prisma.District$sourcesArgs<ExtArgs>
   _count?: boolean | Prisma.DistrictCountOutputTypeDefaultArgs<ExtArgs>
 }
@@ -950,6 +1081,7 @@ export type $DistrictPayload<ExtArgs extends runtime.Types.Extensions.InternalAr
   objects: {
     province: Prisma.$ProvincePayload<ExtArgs>
     administrativePosts: Prisma.$AdministrativePostPayload<ExtArgs>[]
+    localities: Prisma.$LocalityPayload<ExtArgs>[]
     sources: Prisma.$DistrictSourcePayload<ExtArgs>[]
   }
   scalars: runtime.Types.Extensions.GetPayloadResult<{
@@ -1360,6 +1492,7 @@ export interface Prisma__DistrictClient<T, Null = never, ExtArgs extends runtime
   readonly [Symbol.toStringTag]: "PrismaPromise"
   province<T extends Prisma.ProvinceDefaultArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.ProvinceDefaultArgs<ExtArgs>>): Prisma.Prisma__ProvinceClient<runtime.Types.Result.GetResult<Prisma.$ProvincePayload<ExtArgs>, T, "findUniqueOrThrow", GlobalOmitOptions> | Null, Null, ExtArgs, GlobalOmitOptions>
   administrativePosts<T extends Prisma.District$administrativePostsArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.District$administrativePostsArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$AdministrativePostPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
+  localities<T extends Prisma.District$localitiesArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.District$localitiesArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$LocalityPayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   sources<T extends Prisma.District$sourcesArgs<ExtArgs> = {}>(args?: Prisma.Subset<T, Prisma.District$sourcesArgs<ExtArgs>>): Prisma.PrismaPromise<runtime.Types.Result.GetResult<Prisma.$DistrictSourcePayload<ExtArgs>, T, "findMany", GlobalOmitOptions> | Null>
   /**
    * Attaches callbacks for the resolution and/or rejection of the Promise.
@@ -1823,6 +1956,30 @@ export type District$administrativePostsArgs<ExtArgs extends runtime.Types.Exten
   take?: number
   skip?: number
   distinct?: Prisma.AdministrativePostScalarFieldEnum | Prisma.AdministrativePostScalarFieldEnum[]
+}
+
+/**
+ * District.localities
+ */
+export type District$localitiesArgs<ExtArgs extends runtime.Types.Extensions.InternalArgs = runtime.Types.Extensions.DefaultArgs> = {
+  /**
+   * Select specific fields to fetch from the Locality
+   */
+  select?: Prisma.LocalitySelect<ExtArgs> | null
+  /**
+   * Omit specific fields from the Locality
+   */
+  omit?: Prisma.LocalityOmit<ExtArgs> | null
+  /**
+   * Choose, which related nodes to fetch as well
+   */
+  include?: Prisma.LocalityInclude<ExtArgs> | null
+  where?: Prisma.LocalityWhereInput
+  orderBy?: Prisma.LocalityOrderByWithRelationInput | Prisma.LocalityOrderByWithRelationInput[]
+  cursor?: Prisma.LocalityWhereUniqueInput
+  take?: number
+  skip?: number
+  distinct?: Prisma.LocalityScalarFieldEnum | Prisma.LocalityScalarFieldEnum[]
 }
 
 /**
