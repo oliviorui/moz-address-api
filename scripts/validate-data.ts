@@ -131,6 +131,7 @@ const expectedAdministrativePostCountsByProvince:
     prov_06: 37,
     prov_07: 38,
     prov_08: 26,
+    prov_09: 50,
     prov_10: 29
   };
 /*
@@ -273,6 +274,22 @@ const expectedAdministrativePostCountsByDistrict:
     dist_inhambane_panda: 3,
     dist_inhambane_vilankulo: 2,
     dist_inhambane_zavala: 2,
+
+    // Gaza
+    dist_gaza_xai_xai: 5,
+    dist_gaza_bilene: 6,
+    dist_gaza_chibuto: 6,
+    dist_gaza_chicualacuala: 2,
+    dist_gaza_chigubo: 2,
+    dist_gaza_chokwe: 4,
+    dist_gaza_guija: 4,
+    dist_gaza_mabalane: 3,
+    dist_gaza_mandlakazi: 5,
+    dist_gaza_massangena: 2,
+    dist_gaza_massingir: 3,
+    dist_gaza_limpopo: 3,
+    dist_gaza_chongoene: 3,
+    dist_gaza_mapai: 2,
   };
 
 const errors: string[] = [];
