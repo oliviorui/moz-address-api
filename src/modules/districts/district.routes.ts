@@ -3,6 +3,10 @@ import type {
 } from "fastify";
 
 import {
+  DistrictType
+} from "../../generated/prisma/client.js";
+
+import {
   getAllDistricts,
   getDistrictByIdentifier
 } from "./district.service.js";
@@ -17,21 +21,134 @@ import {
   getNeighborhoodsByDistrict
 } from "../localities/locality.service.js";
 
+type DistrictQuerystring = {
+  q?: string;
+  province?: string;
+  type?: string;
+  page?: string;
+  limit?: string;
+};
+
 export async function districtRoutes(
   app: FastifyInstance
 ) {
-  app.get("/", async () => {
-    const districts =
-      await getAllDistricts();
+  app.get<{
+    Querystring: DistrictQuerystring;
+  }>(
+    "/",
+    async (request, reply) => {
+      const {
+        q,
+        province
+      } = request.query;
 
-    return {
-      data: districts,
+      let type:
+        | DistrictType
+        | undefined;
 
-      meta: {
-        total: districts.length
+      if (request.query.type) {
+        const requestedType =
+          request.query.type
+            .trim()
+            .toUpperCase();
+
+        if (
+          requestedType !==
+            DistrictType.DISTRICT &&
+          requestedType !==
+            DistrictType.MUNICIPAL_DISTRICT
+        ) {
+          return reply
+            .status(400)
+            .send({
+              error:
+                "INVALID_DISTRICT_TYPE",
+
+              message:
+                "Type must be DISTRICT or MUNICIPAL_DISTRICT."
+            });
+        }
+
+        type =
+          requestedType as DistrictType;
       }
-    };
-  });
+
+      const page =
+        request.query.page !== undefined
+          ? Number(request.query.page)
+          : 1;
+
+      const limit =
+        request.query.limit !== undefined
+          ? Number(request.query.limit)
+          : 20;
+
+      if (
+        !Number.isInteger(page) ||
+        page < 1
+      ) {
+        return reply
+          .status(400)
+          .send({
+            error: "INVALID_PAGE",
+
+            message:
+              "Page must be an integer greater than or equal to 1."
+          });
+      }
+
+      if (
+        !Number.isInteger(limit) ||
+        limit < 1 ||
+        limit > 100
+      ) {
+        return reply
+          .status(400)
+          .send({
+            error: "INVALID_LIMIT",
+
+            message:
+              "Limit must be an integer between 1 and 100."
+          });
+      }
+
+      const filters = {
+        ...(q !== undefined
+          ? { q }
+          : {}),
+
+        ...(province !== undefined
+          ? { province }
+          : {}),
+
+        ...(type !== undefined
+          ? { type }
+          : {}),
+
+        page,
+        limit
+      };
+
+      const result =
+        await getAllDistricts(filters);
+
+      return {
+        data: result.data,
+
+        meta: {
+          filters: {
+            q: q ?? null,
+            province:
+              province ?? null,
+            type: type ?? null
+          },
+
+          pagination:
+            result.pagination
+        }
+      };
+    }
+  );
 
   app.get<{
     Params: {
@@ -161,10 +278,6 @@ export async function districtRoutes(
         });
       }
 
-      /*
-       * Neighborhoods only make sense
-       * for municipal districts.
-       */
       if (
         district.type !==
         "MUNICIPAL_DISTRICT"

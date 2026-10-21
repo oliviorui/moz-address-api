@@ -12,22 +12,108 @@ import {
   getLocalityByAdministrativePostAndSlug
 } from "../localities/locality.service.js";
 
+type AdministrativePostQuerystring = {
+  q?: string;
+  district?: string;
+  province?: string;
+  page?: string;
+  limit?: string;
+};
+
 export async function administrativePostRoutes(
   app: FastifyInstance
 ) {
-  app.get("/", async () => {
-    const administrativePosts =
-      await getAllAdministrativePosts();
+  app.get<{
+    Querystring:
+      AdministrativePostQuerystring;
+  }>(
+    "/",
+    async (request, reply) => {
+      const {
+        q,
+        district,
+        province
+      } = request.query;
 
-    return {
-      data: administrativePosts,
+      const page =
+        request.query.page !== undefined
+          ? Number(request.query.page)
+          : 1;
 
-      meta: {
-        total:
-          administrativePosts.length
+      const limit =
+        request.query.limit !== undefined
+          ? Number(request.query.limit)
+          : 20;
+
+      if (
+        !Number.isInteger(page) ||
+        page < 1
+      ) {
+        return reply
+          .status(400)
+          .send({
+            error: "INVALID_PAGE",
+
+            message:
+              "Page must be an integer greater than or equal to 1."
+          });
       }
-    };
-  });
+
+      if (
+        !Number.isInteger(limit) ||
+        limit < 1 ||
+        limit > 100
+      ) {
+        return reply
+          .status(400)
+          .send({
+            error: "INVALID_LIMIT",
+
+            message:
+              "Limit must be an integer between 1 and 100."
+          });
+      }
+
+      const filters = {
+        ...(q !== undefined
+          ? { q }
+          : {}),
+
+        ...(district !== undefined
+          ? { district }
+          : {}),
+
+        ...(province !== undefined
+          ? { province }
+          : {}),
+
+        page,
+        limit
+      };
+
+      const result =
+        await getAllAdministrativePosts(
+          filters
+        );
+
+      return {
+        data: result.data,
+
+        meta: {
+          filters: {
+            q: q ?? null,
+            district:
+              district ?? null,
+            province:
+              province ?? null
+          },
+
+          pagination:
+            result.pagination
+        }
+      };
+    }
+  );
 
   app.get<{
     Params: {
