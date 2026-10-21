@@ -39,6 +39,11 @@ export async function registerSwagger(
             "API metadata and health endpoints."
         },
         {
+          name: "Search",
+          description:
+            "Global search across administrative divisions."
+        },
+        {
           name: "Provinces",
           description:
             "Provinces and Maputo City."

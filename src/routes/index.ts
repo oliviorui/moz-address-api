@@ -22,6 +22,10 @@ import {
   sourceRoutes
 } from "../modules/sources/source.routes.js";
 
+import {
+  searchRoutes
+} from "../modules/search/search.routes.js";
+
 export async function registerRoutes(
   app: FastifyInstance
 ) {
@@ -58,6 +62,13 @@ export async function registerRoutes(
     sourceRoutes,
     {
       prefix: "/sources"
+    }
+  );
+
+  await app.register(
+    searchRoutes,
+    {
+      prefix: "/search"
     }
   );
 }
