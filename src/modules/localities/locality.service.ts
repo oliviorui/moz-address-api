@@ -10,6 +10,8 @@ export type LocalityFilters = {
   type?: LocalityType;
   district?: string;
   administrativePost?: string;
+  page?: number;
+  limit?: number;
 };
 
 export async function getAllLocalities(
@@ -61,13 +63,13 @@ export async function getAllLocalities(
    * Locality
    * → AdministrativePost
    * → District
-   *
-   * Supporting both here makes the filter useful
-   * for the complete national dataset.
    */
   if (filters.district) {
     const districtIdentifier =
-      filters.district.trim().toLowerCase();
+      filters.district.trim();
+
+    const districtSlug =
+      districtIdentifier.toLowerCase();
 
     if (districtIdentifier) {
       where.AND = [
@@ -86,11 +88,10 @@ export async function getAllLocalities(
 
                   OR: [
                     {
-                      id: filters.district.trim()
+                      id: districtIdentifier
                     },
                     {
-                      slug:
-                        districtIdentifier
+                      slug: districtSlug
                     }
                   ]
                 }
@@ -108,12 +109,10 @@ export async function getAllLocalities(
 
                       OR: [
                         {
-                          id:
-                            filters.district.trim()
+                          id: districtIdentifier
                         },
                         {
-                          slug:
-                            districtIdentifier
+                          slug: districtSlug
                         }
                       ]
                     }
@@ -133,8 +132,7 @@ export async function getAllLocalities(
    */
   if (filters.administrativePost) {
     const postIdentifier =
-      filters.administrativePost
-        .trim();
+      filters.administrativePost.trim();
 
     const postSlug =
       postIdentifier.toLowerCase();
@@ -157,36 +155,69 @@ export async function getAllLocalities(
     }
   }
 
-  return prisma.locality.findMany({
-    where,
+  const page = filters.page ?? 1;
+  const limit = filters.limit ?? 20;
+  const skip = (page - 1) * limit;
 
-    orderBy: [
-      {
-        name: "asc"
-      },
-      {
-        id: "asc"
-      }
-    ],
+  const [data, total] =
+    await Promise.all([
+      prisma.locality.findMany({
+        where,
+        skip,
+        take: limit,
 
-    include: {
-      administrativePost: {
+        orderBy: [
+          {
+            name: "asc"
+          },
+          {
+            id: "asc"
+          }
+        ],
+
         include: {
+          administrativePost: {
+            include: {
+              district: {
+                include: {
+                  province: true
+                }
+              }
+            }
+          },
+
           district: {
             include: {
               province: true
             }
           }
         }
-      },
+      }),
 
-      district: {
-        include: {
-          province: true
-        }
-      }
+      prisma.locality.count({
+        where
+      })
+    ]);
+
+  const totalPages =
+    total === 0
+      ? 0
+      : Math.ceil(total / limit);
+
+  return {
+    data,
+
+    pagination: {
+      page,
+      limit,
+      total,
+      totalPages,
+      hasNextPage:
+        page < totalPages,
+      hasPreviousPage:
+        page > 1 && totalPages > 0
     }
-  });
+  };
 }
 
 export async function getLocalityById(
@@ -367,12 +398,8 @@ export async function getLocalityByAdministrativePostAndSlug(
     where: {
       administrativePostId:
         administrativePost.id,
-
-      slug:
-        localitySlug.toLowerCase(),
-
+      slug: localitySlug.toLowerCase(),
       type: "LOCALITY",
-
       status: "ACTIVE"
     },
 

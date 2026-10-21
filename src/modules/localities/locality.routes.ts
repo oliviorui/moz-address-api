@@ -16,6 +16,8 @@ type LocalityQuerystring = {
   type?: string;
   district?: string;
   administrativePost?: string;
+  page?: string;
+  limit?: string;
 };
 
 export async function localityRoutes(
@@ -63,34 +65,71 @@ export async function localityRoutes(
           requestedType as LocalityType;
       }
 
+      const page =
+        request.query.page !== undefined
+          ? Number(request.query.page)
+          : 1;
+
+      const limit =
+        request.query.limit !== undefined
+          ? Number(request.query.limit)
+          : 20;
+
+      if (
+        !Number.isInteger(page) ||
+        page < 1
+      ) {
+        return reply
+          .status(400)
+          .send({
+            error: "INVALID_PAGE",
+            message:
+              "Page must be an integer greater than or equal to 1."
+          });
+      }
+
+      if (
+        !Number.isInteger(limit) ||
+        limit < 1 ||
+        limit > 100
+      ) {
+        return reply
+          .status(400)
+          .send({
+            error: "INVALID_LIMIT",
+            message:
+              "Limit must be an integer between 1 and 100."
+          });
+      }
+
       const filters = {
         ...(q !== undefined
-            ? { q }
-            : {}),
+          ? { q }
+          : {}),
 
         ...(type !== undefined
-            ? { type }
-            : {}),
+          ? { type }
+          : {}),
 
         ...(district !== undefined
-            ? { district }
-            : {}),
+          ? { district }
+          : {}),
 
         ...(administrativePost !== undefined
-            ? { administrativePost }
-            : {})
-        };
+          ? { administrativePost }
+          : {}),
 
-        const localities =
+        page,
+        limit
+      };
+
+      const result =
         await getAllLocalities(filters);
 
       return {
-        data: localities,
+        data: result.data,
 
         meta: {
-          total:
-            localities.length,
-
           filters: {
             q: q ?? null,
             type: type ?? null,
@@ -98,9 +137,11 @@ export async function localityRoutes(
               district ?? null,
 
             administrativePost:
-              administrativePost ??
-              null
-          }
+              administrativePost ?? null
+          },
+
+          pagination:
+            result.pagination
         }
       };
     }
