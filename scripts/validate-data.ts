@@ -132,7 +132,8 @@ const expectedAdministrativePostCountsByProvince:
     prov_07: 38,
     prov_08: 26,
     prov_09: 50,
-    prov_10: 29
+    prov_10: 29,
+    prov_11: 0
   };
 /*
  * Contagem detalhada por distrito já verificado.
