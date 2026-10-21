@@ -1,1 +1,183 @@
-[]
+[
+  {
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matola District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matola District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matola District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_boane_boane",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Boane District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_boane_matola_rio",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Boane District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_magude_magude_sede",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Magude District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_magude_mahele",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Magude District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_magude_mapulanguene",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Magude District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_magude_motaze",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Magude District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_magude_panjane",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Magude District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_manhica_manhica_sede",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Manhiça District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_manhica_3_de_fevereiro",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Manhiça District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_manhica_calanga",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Manhiça District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_manhica_ilha_josina_machel",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Manhiça District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_manhica_maluana",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Manhiça District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_manhica_xinavane",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Manhiça District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Marracuene District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_marracuene_machubo",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Marracuene District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matutuíne District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_matutuine_catembe",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matutuíne District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_matutuine_catuane",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matutuíne District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_matutuine_machangulo",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matutuíne District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_matutuine_zitundo",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Matutuíne District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_moamba_moamba",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Moamba District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_moamba_pessene",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Moamba District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_moamba_ressano_garcia",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Moamba District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_moamba_sabie",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Moamba District."
+  },
+
+  {
+    "administrativePostId": "adm_post_maputo_namaacha_namaacha",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Namaacha District."
+  },
+  {
+    "administrativePostId": "adm_post_maputo_namaacha_changalane",
+    "sourceId": "ine-maputo-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Namaacha District."
+  }
+]

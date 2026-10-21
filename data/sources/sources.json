@@ -118,5 +118,17 @@
     "url": "https://ine.gov.mz/o/adaptive-media/image/352347/Preview-1000x0/Anuario_Cidade%2B_Maputo%2B2024.pdf",
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the seven municipal districts of Maputo City."
+  },
+
+
+  {
+    "id": "ine-maputo-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Maputo",
+    "type": "OFFICIAL",
+    "year": null,
+    "url": "https://www.ine.gov.mz/en/web/guest/atlas/-/document_library/dzkb/view/45111",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE territorial publications used to verify administrative posts of Maputo Province."
   }
 ]
