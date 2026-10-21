@@ -1198,5 +1198,221 @@
     "sourceId": "ine-zambezia-territorial-statistics",
     "page": null,
     "notes": "Verified in official INE territorial statistics for Zambézia Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_angonia_ulongue",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_angonia_domue",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_cahora_bassa_chitima",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_cahora_bassa_chirodzi",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_cahora_bassa_songo",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_changara_luenha",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_changara_chioco",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_chifunde_chifunde",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_chifunde_mualadzi",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_chifunde_nsadzo",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_chiuta_kazula",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_chiuta_manje",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_macanga_furancungo",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_macanga_chidzolomondo",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_magoe_mphende",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_magoe_chinthopo",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_magoe_mucumbura",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_maravia_chiputo",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_maravia_fingoe",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_maravia_malowera",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_maravia_chipera",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_moatize_moatize",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_moatize_kambulatsitsi",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_moatize_zobue",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_mutarara_nhamayabue",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_mutarara_charre",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_mutarara_inhangoma",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_tsangano_ntengo_wa_mbalame",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_tsangano_tsangano",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_zumbo_zumbo_sede",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_zumbo_muze",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_zumbo_zambue",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_doa_doa_sede",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_doa_chueza",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_marara_marara_sede",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
+  },
+  {
+    "administrativePostId": "adm_post_tete_marara_mufa_boroma",
+    "sourceId": "ine-tete-territorial-statistics",
+    "page": null,
+    "notes": "Verified in official INE territorial statistics for Tete Province."
   }
 ]

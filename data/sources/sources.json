@@ -151,6 +151,16 @@
     "accessedAt": "2026-10-21",
     "notes": "Official INE provincial and district territorial publications used to verify administrative posts of Zambézia Province."
   },
+  {
+    "id": "ine-tete-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Tete",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/en/atlas/-/document_library/dzkb/view/337380",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Tete Province."
+  },
 
 
 

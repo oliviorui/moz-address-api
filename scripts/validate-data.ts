@@ -127,6 +127,7 @@ const expectedAdministrativePostCountsByProvince:
     prov_01: 45,
     prov_03: 72,
     prov_04: 54,
+    prov_05: 36,
     prov_10: 29
   };
 /*
@@ -210,6 +211,22 @@ const expectedAdministrativePostCountsByDistrict:
     dist_zambezia_mocubela: 2,
     dist_zambezia_molumbo: 2,
     dist_zambezia_mulevala: 2,
+
+    // Tete
+    dist_tete_angonia: 2,
+    dist_tete_cahora_bassa: 3,
+    dist_tete_changara: 2,
+    dist_tete_chifunde: 3,
+    dist_tete_chiuta: 2,
+    dist_tete_macanga: 2,
+    dist_tete_magoe: 3,
+    dist_tete_maravia: 4,
+    dist_tete_moatize: 3,
+    dist_tete_mutarara: 3,
+    dist_tete_tsangano: 2,
+    dist_tete_zumbo: 3,
+    dist_tete_doa: 2,
+    dist_tete_marara: 2,
   };
 
 const errors: string[] = [];

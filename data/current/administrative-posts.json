@@ -1254,6 +1254,271 @@
   "slug": "chiraco",
   "districtId": "dist_zambezia_mulevala"
 },
+{
+  "id": "adm_post_tete_angonia_ulongue",
+  "code": null,
+  "name": "Ulongué",
+  "slug": "ulongue",
+  "districtId": "dist_tete_angonia"
+},
+{
+  "id": "adm_post_tete_angonia_domue",
+  "code": null,
+  "name": "Domue",
+  "slug": "domue",
+  "districtId": "dist_tete_angonia"
+},
+
+{
+  "id": "adm_post_tete_cahora_bassa_chitima",
+  "code": null,
+  "name": "Chitima",
+  "slug": "chitima",
+  "districtId": "dist_tete_cahora_bassa"
+},
+{
+  "id": "adm_post_tete_cahora_bassa_chirodzi",
+  "code": null,
+  "name": "Chirodzi",
+  "slug": "chirodzi",
+  "districtId": "dist_tete_cahora_bassa"
+},
+{
+  "id": "adm_post_tete_cahora_bassa_songo",
+  "code": null,
+  "name": "Songo",
+  "slug": "songo",
+  "districtId": "dist_tete_cahora_bassa"
+},
+
+{
+  "id": "adm_post_tete_changara_luenha",
+  "code": null,
+  "name": "Luenha",
+  "slug": "luenha",
+  "districtId": "dist_tete_changara"
+},
+{
+  "id": "adm_post_tete_changara_chioco",
+  "code": null,
+  "name": "Chioco",
+  "slug": "chioco",
+  "districtId": "dist_tete_changara"
+},
+
+{
+  "id": "adm_post_tete_chifunde_chifunde",
+  "code": null,
+  "name": "Chifunde",
+  "slug": "chifunde",
+  "districtId": "dist_tete_chifunde"
+},
+{
+  "id": "adm_post_tete_chifunde_mualadzi",
+  "code": null,
+  "name": "Mualadzi",
+  "slug": "mualadzi",
+  "districtId": "dist_tete_chifunde"
+},
+{
+  "id": "adm_post_tete_chifunde_nsadzo",
+  "code": null,
+  "name": "Nsadzo",
+  "slug": "nsadzo",
+  "districtId": "dist_tete_chifunde"
+},
+
+{
+  "id": "adm_post_tete_chiuta_kazula",
+  "code": null,
+  "name": "Kazula",
+  "slug": "kazula",
+  "districtId": "dist_tete_chiuta"
+},
+{
+  "id": "adm_post_tete_chiuta_manje",
+  "code": null,
+  "name": "Manje",
+  "slug": "manje",
+  "districtId": "dist_tete_chiuta"
+},
+
+{
+  "id": "adm_post_tete_macanga_furancungo",
+  "code": null,
+  "name": "Furancungo",
+  "slug": "furancungo",
+  "districtId": "dist_tete_macanga"
+},
+{
+  "id": "adm_post_tete_macanga_chidzolomondo",
+  "code": null,
+  "name": "Chidzolomondo",
+  "slug": "chidzolomondo",
+  "districtId": "dist_tete_macanga"
+},
+
+{
+  "id": "adm_post_tete_magoe_mphende",
+  "code": null,
+  "name": "Mphende",
+  "slug": "mphende",
+  "districtId": "dist_tete_magoe"
+},
+{
+  "id": "adm_post_tete_magoe_chinthopo",
+  "code": null,
+  "name": "Chinthopo",
+  "slug": "chinthopo",
+  "districtId": "dist_tete_magoe"
+},
+{
+  "id": "adm_post_tete_magoe_mucumbura",
+  "code": null,
+  "name": "Mucumbura",
+  "slug": "mucumbura",
+  "districtId": "dist_tete_magoe"
+},
+
+{
+  "id": "adm_post_tete_maravia_chiputo",
+  "code": null,
+  "name": "Chiputo",
+  "slug": "chiputo",
+  "districtId": "dist_tete_maravia"
+},
+{
+  "id": "adm_post_tete_maravia_fingoe",
+  "code": null,
+  "name": "Fingoe",
+  "slug": "fingoe",
+  "districtId": "dist_tete_maravia"
+},
+{
+  "id": "adm_post_tete_maravia_malowera",
+  "code": null,
+  "name": "Malowera",
+  "slug": "malowera",
+  "districtId": "dist_tete_maravia"
+},
+{
+  "id": "adm_post_tete_maravia_chipera",
+  "code": null,
+  "name": "Chipera",
+  "slug": "chipera",
+  "districtId": "dist_tete_maravia"
+},
+
+{
+  "id": "adm_post_tete_moatize_moatize",
+  "code": null,
+  "name": "Moatize",
+  "slug": "moatize",
+  "districtId": "dist_tete_moatize"
+},
+{
+  "id": "adm_post_tete_moatize_kambulatsitsi",
+  "code": null,
+  "name": "Kambulatsitsi",
+  "slug": "kambulatsitsi",
+  "districtId": "dist_tete_moatize"
+},
+{
+  "id": "adm_post_tete_moatize_zobue",
+  "code": null,
+  "name": "Zobué",
+  "slug": "zobue",
+  "districtId": "dist_tete_moatize"
+},
+
+{
+  "id": "adm_post_tete_mutarara_nhamayabue",
+  "code": null,
+  "name": "Nhamayabue",
+  "slug": "nhamayabue",
+  "districtId": "dist_tete_mutarara"
+},
+{
+  "id": "adm_post_tete_mutarara_charre",
+  "code": null,
+  "name": "Charre",
+  "slug": "charre",
+  "districtId": "dist_tete_mutarara"
+},
+{
+  "id": "adm_post_tete_mutarara_inhangoma",
+  "code": null,
+  "name": "Inhangoma",
+  "slug": "inhangoma",
+  "districtId": "dist_tete_mutarara"
+},
+
+{
+  "id": "adm_post_tete_tsangano_ntengo_wa_mbalame",
+  "code": null,
+  "name": "Ntengo-Wa-Mbalame",
+  "slug": "ntengo-wa-mbalame",
+  "districtId": "dist_tete_tsangano"
+},
+{
+  "id": "adm_post_tete_tsangano_tsangano",
+  "code": null,
+  "name": "Tsangano",
+  "slug": "tsangano",
+  "districtId": "dist_tete_tsangano"
+},
+
+{
+  "id": "adm_post_tete_zumbo_zumbo_sede",
+  "code": null,
+  "name": "Zumbo-Sede",
+  "slug": "zumbo-sede",
+  "districtId": "dist_tete_zumbo"
+},
+{
+  "id": "adm_post_tete_zumbo_muze",
+  "code": null,
+  "name": "Muze",
+  "slug": "muze",
+  "districtId": "dist_tete_zumbo"
+},
+{
+  "id": "adm_post_tete_zumbo_zambue",
+  "code": null,
+  "name": "Zambue",
+  "slug": "zambue",
+  "districtId": "dist_tete_zumbo"
+},
+
+{
+  "id": "adm_post_tete_doa_doa_sede",
+  "code": null,
+  "name": "Doa-Sede",
+  "slug": "doa-sede",
+  "districtId": "dist_tete_doa"
+},
+{
+  "id": "adm_post_tete_doa_chueza",
+  "code": null,
+  "name": "Chueza",
+  "slug": "chueza",
+  "districtId": "dist_tete_doa"
+},
+
+{
+  "id": "adm_post_tete_marara_marara_sede",
+  "code": null,
+  "name": "Marara-Sede",
+  "slug": "marara-sede",
+  "districtId": "dist_tete_marara"
+},
+{
+  "id": "adm_post_tete_marara_mufa_boroma",
+  "code": null,
+  "name": "Mufa Boroma",
+  "slug": "mufa-boroma",
+  "districtId": "dist_tete_marara"
+},
 
 
 
