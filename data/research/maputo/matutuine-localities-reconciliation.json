@@ -1,0 +1,122 @@
+{
+  "districtId": "dist_maputo_matutuine",
+  "district": "Matutuíne",
+  "provinceId": "prov_10",
+  "classification": "RECENT_RECONCILIATION_REFERENCE",
+  "canonicalStatus": "PENDING_RECONCILIATION",
+  "currentExpectedLocalities": 14,
+  "recentEnumeratedLocalities": 13,
+  "administrativePosts": [
+    {
+      "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+      "name": "Bela Vista / Missevene",
+      "localities": [
+        {
+          "name": "Missevene",
+          "slug": "missevene"
+        },
+        {
+          "name": "Salamanga",
+          "slug": "salamanga"
+        },
+        {
+          "name": "Madjuva",
+          "slug": "madjuva"
+        },
+        {
+          "name": "Tinonganine",
+          "slug": "tinonganine"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_matutuine_catembe",
+      "name": "Catembe-Nsime",
+      "localities": [
+        {
+          "name": "Nsime",
+          "slug": "nsime"
+        },
+        {
+          "name": "Mungazine",
+          "slug": "mungazine"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_matutuine_catuane",
+      "name": "Catuane",
+      "localities": [
+        {
+          "name": "Phazimane",
+          "slug": "phazimane"
+        },
+        {
+          "name": "Manhangane",
+          "slug": "manhangane"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_matutuine_machangulo",
+      "name": "Machangulo",
+      "localities": [
+        {
+          "name": "Nhonguane",
+          "slug": "nhonguane"
+        },
+        {
+          "name": "Ndelane",
+          "slug": "ndelane"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_matutuine_zitundo",
+      "name": "Zitundo",
+      "localities": [
+        {
+          "name": "Zitundo Sede",
+          "slug": "zitundo-sede"
+        },
+        {
+          "name": "Manhoca",
+          "slug": "manhoca"
+        },
+        {
+          "name": "Ponta do Ouro",
+          "slug": "ponta-do-ouro"
+        }
+      ]
+    }
+  ],
+  "evidence": [
+    {
+      "institution": "Instituto Nacional de Estatística",
+      "title": "Estatísticas do Distrito de Matutuíne, 2018–2022",
+      "type": "OFFICIAL",
+      "url": "https://ine.gov.mz/documents/20119/230281/Matutuine.pdf/a3ba54c1-5884-73ee-912e-2ee17e15e40e?download=true&t=1707385852330&version=1.0",
+      "notes": "Official INE district publication and administrative map. Supports the five-post structure and historical/recent locality names visible in the administrative map."
+    },
+    {
+      "institution": "Ministério da Economia e Finanças",
+      "title": "Balanço do Plano Económico e Social — I Semestre de 2021",
+      "type": "OFFICIAL",
+      "url": "https://www.mef.gov.mz/index.php/todas-publicacoes/instrumentos-de-gestao-economica-e-social/plano-economico-social-pes/pes-2021/balanco-do-pes-2021/1271-balanco-do-plano-economico-e-social-2021-i-semestre/file?force-download=1",
+      "notes": "Official national report explicitly refers to Missevene, Salamanga, Zitundo and Manhoca as localities in Matutuíne."
+    },
+    {
+      "institution": "UFSA / Government of Mozambique",
+      "title": "Public procurement technical document — Matutuíne / Machangulo",
+      "type": "OFFICIAL",
+      "url": "https://www.ufsa.gov.mz/includes/Baixar_anuncio.php?REFERENCIA=CR47A000141/SBQC/0005/2024",
+      "notes": "Recent official government document confirms the five administrative posts and names the Machangulo communities Ngomene, Mabuluco, Ndelane and Santa-Maria. It does not classify all four as localities, so no canonical locality promotion is made from this source."
+    }
+  ],
+  "notes": [
+    "The 13-name set matches the district-level structure repeatedly reported around 2023–2024.",
+    "The newer provincial INE territorial-units total is 14 localities.",
+    "The missing 14th locality has not yet been identified with sufficient authoritative evidence.",
+    "Do not seed these records into data/current/ until the 14-locality current hierarchy is reconciled."
+  ]
+}
