@@ -78,18 +78,20 @@ This means at least one locality was added or reclassified after the district se
 
 ### Moamba
 
-Several official/historical administrative sources enumerate 10 localities.
+The current provincial INE total is **12 localities**, but the official district profile available from the Portal do Governo enumerates **10**:
 
-A commonly repeated structure is:
+- Moamba: Moamba-Sede
+- Ressano Garcia: Ressano Garcia
+- Pessene: Pessene-Sede, Mahulane, Vundiça
+- Sabié: Sabié, Rengué, Macaene, Malengane, Matunganhane
 
-- Moamba-Sede: 1
-- Pessene: 3
-- Ressano Garcia: 1
-- Sabié: 5
+The INE district publication *Estatísticas do Distrito de Moamba 2018–2022* confirms the same four administrative posts — Moamba, Pessene, Ressano Garcia and Sabié — but the indexed text reviewed here does not expose a current enumerated locality list.
 
-Other official administrative lists from later periods use a different set of locality names, while the newer provincial INE table reports 12 localities.
+The historical 10-locality structure is now preserved in:
 
-Because both the count and the enumerated names vary by source/year, importing a guessed list would make the API less reliable.
+`data/research/maputo/moamba-localities-historical.json`
+
+That file is **research evidence only** and must not be seeded into the current API while the two additional localities in the newer total of 12 remain unidentified.
 
 ### Namaacha
 
@@ -109,11 +111,17 @@ A locality may enter the current canonical dataset when at least one sufficientl
 
 When two authoritative sources conflict, record the discrepancy here (or in a district-specific issue file) and keep the canonical record pending until reconciled.
 
+## Research-data rule
+
+Files under `data/research/` are not canonical API data.
+
+They may contain historical, candidate or conflicting records retained for reconciliation. They must never be loaded by the database seed unless they are promoted into `data/current/` after verification.
+
 ## Next research target
 
 Priority order:
 
-1. Moamba
+1. Moamba — identify the two additional current localities
 2. Matutuíne
 3. Boane
 4. Namaacha

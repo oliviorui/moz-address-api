@@ -1,0 +1,87 @@
+{
+  "districtId": "dist_maputo_moamba",
+  "district": "Moamba",
+  "provinceId": "prov_10",
+  "classification": "HISTORICAL_REFERENCE",
+  "canonicalStatus": "PENDING_RECONCILIATION",
+  "currentExpectedLocalities": 12,
+  "historicalEnumeratedLocalities": 10,
+  "source": {
+    "institution": "Portal do Governo de Moçambique / Administração Distrital da Moamba",
+    "title": "Perfil do Distrito da Moamba",
+    "type": "OFFICIAL",
+    "url": "https://www.portaldogoverno.gov.mz/por/content/download/2962/23862/version/1/file/Moamba.pdf",
+    "notes": "Official district profile enumerating four administrative posts subdivided into 10 localities."
+  },
+  "administrativePosts": [
+    {
+      "administrativePostId": "adm_post_maputo_moamba_moamba",
+      "name": "Moamba",
+      "localities": [
+        {
+          "name": "Moamba-Sede",
+          "slug": "moamba-sede"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_moamba_ressano_garcia",
+      "name": "Ressano Garcia",
+      "localities": [
+        {
+          "name": "Ressano Garcia",
+          "slug": "ressano-garcia"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_moamba_pessene",
+      "name": "Pessene",
+      "localities": [
+        {
+          "name": "Pessene-Sede",
+          "slug": "pessene-sede"
+        },
+        {
+          "name": "Mahulane",
+          "slug": "mahulane"
+        },
+        {
+          "name": "Vundiça",
+          "slug": "vundica"
+        }
+      ]
+    },
+    {
+      "administrativePostId": "adm_post_maputo_moamba_sabie",
+      "name": "Sabié",
+      "localities": [
+        {
+          "name": "Sabié",
+          "slug": "sabie"
+        },
+        {
+          "name": "Rengué",
+          "slug": "rengue"
+        },
+        {
+          "name": "Macaene",
+          "slug": "macaene"
+        },
+        {
+          "name": "Malengane",
+          "slug": "malengane"
+        },
+        {
+          "name": "Matunganhane",
+          "slug": "matunganhane"
+        }
+      ]
+    }
+  ],
+  "notes": [
+    "This file is research evidence only and is intentionally outside data/current/.",
+    "Do not seed these records as ACTIVE localities until the two additional localities in the newer INE total of 12 are identified and the full current hierarchy is reconciled.",
+    "The 2024 INE district publication confirms the four administrative posts but the indexed text available during this review did not provide a current enumerated locality list."
+  ]
+}
