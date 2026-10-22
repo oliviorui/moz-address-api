@@ -1,0 +1,68 @@
+{
+  "districtId": "dist_manica_manica",
+  "district": "Manica",
+  "sourceId": "ine-manica-manica-folheto-2025",
+  "sourceYear": 2025,
+  "declared": {
+    "administrativePosts": 4,
+    "localities": 18,
+    "municipalities": 1
+  },
+  "enumerated": {
+    "administrativePosts": 4,
+    "localities": 9,
+    "neighborhoods": 10,
+    "totalNamedSubunits": 19
+  },
+  "status": "RESEARCH_ONLY",
+  "warning": "The INE 2025 leaflet header declares 18 localities, while the detailed territorial table enumerates 9 rural localities plus 10 municipal bairros (19 named subunits). Keep the urban bairros separate until the counting convention is resolved.",
+  "administrativeUnits": [
+    {
+      "sourceName": "Município de Manica",
+      "canonicalAdministrativePostId": "adm_post_manica_manica_manica",
+      "recordType": "NEIGHBORHOOD",
+      "records": [
+        "Cacarue",
+        "7 de Abril",
+        "Josina Machel",
+        "25 de Setembro",
+        "Manhate",
+        "IV Congresso",
+        "Macorreia",
+        "Chinhagore",
+        "Chinhamapere",
+        "Vumba"
+      ]
+    },
+    {
+      "sourceName": "Machipanda",
+      "canonicalAdministrativePostId": "adm_post_manica_manica_machipanda",
+      "recordType": "LOCALITY",
+      "records": [
+        "Vila de Machipanda",
+        "Maridza",
+        "Muzongo"
+      ]
+    },
+    {
+      "sourceName": "Messica",
+      "canonicalAdministrativePostId": "adm_post_manica_manica_messica",
+      "recordType": "LOCALITY",
+      "records": [
+        "Vila de Messica",
+        "Bandula",
+        "Chinhambuzi",
+        "Nhaucaca"
+      ]
+    },
+    {
+      "sourceName": "Mavonde",
+      "canonicalAdministrativePostId": "adm_post_manica_manica_mavonde",
+      "recordType": "LOCALITY",
+      "records": [
+        "Mavonde",
+        "Chitunga"
+      ]
+    }
+  ]
+}

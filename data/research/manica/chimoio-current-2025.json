@@ -1,0 +1,76 @@
+{
+  "districtId": "dist_manica_chimoio",
+  "district": "Chimoio",
+  "sourceId": "ine-manica-chimoio-folheto-2025",
+  "sourceYear": 2025,
+  "declared": {
+    "administrativePosts": 3,
+    "localities": 32,
+    "municipalities": 1
+  },
+  "enumerated": {
+    "administrativePosts": 4,
+    "neighborhoods": 33
+  },
+  "status": "RESEARCH_ONLY",
+  "warning": "The INE 2025 leaflet header declares 3 administrative posts and 32 localities, while the detailed table enumerates 4 urban administrative posts and 33 bairros. Do not auto-promote until this internal discrepancy is reconciled.",
+  "administrativeUnits": [
+    {
+      "sourceName": "Urbano Nº 1",
+      "canonicalAdministrativePostId": "adm_post_manica_chimoio_urbano_1",
+      "records": [
+        "Centro Hípico",
+        "Nhamadjessa",
+        "Nhamatsane",
+        "25 de Junho",
+        "Agostinho Neto",
+        "Chissui",
+        "Heróis Moçambicanos",
+        "Trangapasso",
+        "Hombwa",
+        "Tembwe"
+      ]
+    },
+    {
+      "sourceName": "Urbano Nº 2",
+      "canonicalAdministrativePostId": "adm_post_manica_chimoio_urbano_2",
+      "records": [
+        "Bloco 9",
+        "Chinfura",
+        "Eduardo Mondlane",
+        "Josina Machel",
+        "Vila Nova",
+        "Bairro 1",
+        "Bairro 2",
+        "Bairro 3",
+        "3 de Fevereiro",
+        "7 de Setembro",
+        "16 de Junho",
+        "Círculo de Mudzingadzi"
+      ]
+    },
+    {
+      "sourceName": "Urbano Nº 3",
+      "canonicalAdministrativePostId": "adm_post_manica_chimoio_urbano_3",
+      "records": [
+        "Bairro 4",
+        "Bairro 5",
+        "7 de Abril",
+        "Chianga",
+        "Stanha"
+      ]
+    },
+    {
+      "sourceName": "Urbano Nº 4",
+      "canonicalAdministrativePostId": null,
+      "records": [
+        "Nhauir",
+        "1 de Maio",
+        "Francisco Manyanga",
+        "Textáfrica",
+        "Nhamaonha",
+        "Mudzingadzi"
+      ]
+    }
+  ]
+}
