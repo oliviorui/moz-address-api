@@ -1,0 +1,221 @@
+{
+  "generatedAt": "2026-10-22T13:43:32.355Z",
+  "districts": [
+    {
+      "districtId": "dist_maputo_boane",
+      "district": "Boane",
+      "expectedLocalities": 3,
+      "mozgis2017Localities": 5,
+      "delta": 2,
+      "canonicalPosts": 2,
+      "sourcePosts": 2,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "generatedCandidateCount": 5,
+      "candidatesByPost": [
+        {
+          "administrativePostId": "adm_post_maputo_boane_boane",
+          "count": 3,
+          "localities": [
+            "Eduardo Mondlane",
+            "Gueguegue",
+            "Vila de Boane"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_boane_matola_rio",
+          "count": 2,
+          "localities": [
+            "Matola Rio-Sede",
+            "Mulotana"
+          ]
+        }
+      ],
+      "nextAction": "Identify 2 historical/reclassified locality record(s) that should not be in the current 3-locality set."
+    },
+    {
+      "districtId": "dist_maputo_magude",
+      "district": "Magude",
+      "expectedLocalities": 17,
+      "mozgis2017Localities": 19,
+      "delta": 2,
+      "canonicalPosts": 5,
+      "sourcePosts": 5,
+      "allPostsMapped": false,
+      "unmatchedPosts": [
+        {
+          "sourceName": "Mahel",
+          "canonicalMatches": []
+        }
+      ],
+      "generatedCandidateCount": 17,
+      "candidatesByPost": [
+        {
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "count": 8,
+          "localities": [
+            "Chichuco",
+            "Inhongane",
+            "Macubulane",
+            "Maguiguana",
+            "Matchabe",
+            "Moine",
+            "Mulelemane",
+            "Vila de Magude"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_magude_mapulanguene",
+          "count": 3,
+          "localities": [
+            "Capitine",
+            "Mapulanguene-Sede",
+            "Matsandzane"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_magude_motaze",
+          "count": 4,
+          "localities": [
+            "Marule",
+            "Motaze-Sede",
+            "Mwambjana",
+            "Pontia"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_magude_panjane",
+          "count": 2,
+          "localities": [
+            "Chivonguine",
+            "Panjane-Sede"
+          ]
+        }
+      ],
+      "nextAction": "Identify 2 historical/reclassified locality record(s) that should not be in the current 17-locality set."
+    },
+    {
+      "districtId": "dist_maputo_manhica",
+      "district": "Manhiça",
+      "expectedLocalities": 13,
+      "mozgis2017Localities": 16,
+      "delta": 3,
+      "canonicalPosts": 6,
+      "sourcePosts": 6,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "generatedCandidateCount": 16,
+      "candidatesByPost": [
+        {
+          "administrativePostId": "adm_post_maputo_manhica_3_de_fevereiro",
+          "count": 4,
+          "localities": [
+            "3 de Fevereiro-Sede",
+            "Manchiana",
+            "Nwamatibyane",
+            "Taninga"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_manhica_calanga",
+          "count": 3,
+          "localities": [
+            "Checua",
+            "Chichongue",
+            "Lagoa Pate"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_manhica_ilha_josina_machel",
+          "count": 2,
+          "localities": [
+            "Maguiguana",
+            "Nzonguene"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_manhica_maluana",
+          "count": 2,
+          "localities": [
+            "Maluana-Sede",
+            "Monguine"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_manhica_manhica_sede",
+          "count": 2,
+          "localities": [
+            "Maciana",
+            "Vila de Manhica"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_manhica_xinavane",
+          "count": 3,
+          "localities": [
+            "25 de Setembro",
+            "Eduardo Mondlane",
+            "Vila de Xinavane"
+          ]
+        }
+      ],
+      "nextAction": "Identify 3 historical/reclassified locality record(s) that should not be in the current 13-locality set."
+    },
+    {
+      "districtId": "dist_maputo_matutuine",
+      "district": "Matutuíne",
+      "expectedLocalities": 14,
+      "mozgis2017Localities": 14,
+      "delta": 0,
+      "canonicalPosts": 5,
+      "sourcePosts": 5,
+      "allPostsMapped": false,
+      "unmatchedPosts": [
+        {
+          "sourceName": "Catembe M'Sime",
+          "canonicalMatches": []
+        }
+      ],
+      "generatedCandidateCount": 12,
+      "candidatesByPost": [
+        {
+          "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+          "count": 5,
+          "localities": [
+            "Madjuva",
+            "Missevene",
+            "Salamanga",
+            "Tinonganine",
+            "Vila de Bela Vista"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_matutuine_catuane",
+          "count": 2,
+          "localities": [
+            "Manhangane",
+            "Pazimane"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_matutuine_machangulo",
+          "count": 2,
+          "localities": [
+            "Ndelane",
+            "Nhunguane"
+          ]
+        },
+        {
+          "administrativePostId": "adm_post_maputo_matutuine_zitundo",
+          "count": 3,
+          "localities": [
+            "Manhoca",
+            "Ponta de Ouro",
+            "Zitundo-Sede"
+          ]
+        }
+      ],
+      "nextAction": "Locality count aligns, but one or more administrative-post names do not map uniquely to the canonical dataset."
+    }
+  ]
+}

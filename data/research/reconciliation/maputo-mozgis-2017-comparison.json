@@ -1,0 +1,839 @@
+{
+  "generatedAt": "2026-10-22T13:34:40.121Z",
+  "sourceSnapshot": "data\\research\\mozgis\\localities-2017-maputo.json",
+  "warning": "READY_FOR_REVIEW means structural/count agreement with the 2017 MozGIS snapshot and current coverage target. It is not automatic proof that every locality remains current.",
+  "summary": {
+    "districtsChecked": 7,
+    "readyForReview": 3,
+    "needsReconciliation": 4,
+    "candidateLocalities": 79
+  },
+  "districts": [
+    {
+      "districtId": "dist_maputo_boane",
+      "district": "Boane",
+      "expectedLocalities": 3,
+      "sourceLocalities": 5,
+      "exactCountMatch": false,
+      "canonicalPosts": 2,
+      "sourcePosts": 2,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "candidateCount": 5,
+      "promotionReadiness": "NEEDS_RECONCILIATION",
+      "candidates": [
+        {
+          "id": "locality_boane_eduardo_mondlane",
+          "code": null,
+          "name": "Eduardo Mondlane",
+          "slug": "eduardo-mondlane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_boane_boane",
+          "districtId": null
+        },
+        {
+          "id": "locality_boane_gueguegue",
+          "code": null,
+          "name": "Gueguegue",
+          "slug": "gueguegue",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_boane_boane",
+          "districtId": null
+        },
+        {
+          "id": "locality_boane_vila_de_boane",
+          "code": null,
+          "name": "Vila de Boane",
+          "slug": "vila-de-boane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_boane_boane",
+          "districtId": null
+        },
+        {
+          "id": "locality_boane_matola_rio_sede",
+          "code": null,
+          "name": "Matola Rio-Sede",
+          "slug": "matola-rio-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_boane_matola_rio",
+          "districtId": null
+        },
+        {
+          "id": "locality_boane_mulotana",
+          "code": null,
+          "name": "Mulotana",
+          "slug": "mulotana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_boane_matola_rio",
+          "districtId": null
+        }
+      ]
+    },
+    {
+      "districtId": "dist_maputo_magude",
+      "district": "Magude",
+      "expectedLocalities": 17,
+      "sourceLocalities": 19,
+      "exactCountMatch": false,
+      "canonicalPosts": 5,
+      "sourcePosts": 5,
+      "allPostsMapped": false,
+      "unmatchedPosts": [
+        {
+          "sourceName": "Mahel",
+          "canonicalMatches": []
+        }
+      ],
+      "candidateCount": 17,
+      "promotionReadiness": "NEEDS_RECONCILIATION",
+      "candidates": [
+        {
+          "id": "locality_magude_chichuco",
+          "code": null,
+          "name": "Chichuco",
+          "slug": "chichuco",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_inhongane",
+          "code": null,
+          "name": "Inhongane",
+          "slug": "inhongane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_macubulane",
+          "code": null,
+          "name": "Macubulane",
+          "slug": "macubulane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_maguiguana",
+          "code": null,
+          "name": "Maguiguana",
+          "slug": "maguiguana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_matchabe",
+          "code": null,
+          "name": "Matchabe",
+          "slug": "matchabe",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_moine",
+          "code": null,
+          "name": "Moine",
+          "slug": "moine",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_mulelemane",
+          "code": null,
+          "name": "Mulelemane",
+          "slug": "mulelemane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_vila_de_magude",
+          "code": null,
+          "name": "Vila de Magude",
+          "slug": "vila-de-magude",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_magude_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_capitine",
+          "code": null,
+          "name": "Capitine",
+          "slug": "capitine",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_mapulanguene",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_mapulanguene_sede",
+          "code": null,
+          "name": "Mapulanguene-Sede",
+          "slug": "mapulanguene-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_mapulanguene",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_matsandzane",
+          "code": null,
+          "name": "Matsandzane",
+          "slug": "matsandzane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_mapulanguene",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_marule",
+          "code": null,
+          "name": "Marule",
+          "slug": "marule",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_motaze",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_motaze_sede",
+          "code": null,
+          "name": "Motaze-Sede",
+          "slug": "motaze-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_motaze",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_mwambjana",
+          "code": null,
+          "name": "Mwambjana",
+          "slug": "mwambjana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_motaze",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_pontia",
+          "code": null,
+          "name": "Pontia",
+          "slug": "pontia",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_motaze",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_chivonguine",
+          "code": null,
+          "name": "Chivonguine",
+          "slug": "chivonguine",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_panjane",
+          "districtId": null
+        },
+        {
+          "id": "locality_magude_panjane_sede",
+          "code": null,
+          "name": "Panjane-Sede",
+          "slug": "panjane-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_magude_panjane",
+          "districtId": null
+        }
+      ]
+    },
+    {
+      "districtId": "dist_maputo_manhica",
+      "district": "Manhiça",
+      "expectedLocalities": 13,
+      "sourceLocalities": 16,
+      "exactCountMatch": false,
+      "canonicalPosts": 6,
+      "sourcePosts": 6,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "candidateCount": 16,
+      "promotionReadiness": "NEEDS_RECONCILIATION",
+      "candidates": [
+        {
+          "id": "locality_manhica_3_de_fevereiro_sede",
+          "code": null,
+          "name": "3 de Fevereiro-Sede",
+          "slug": "3-de-fevereiro-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_3_de_fevereiro",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_manchiana",
+          "code": null,
+          "name": "Manchiana",
+          "slug": "manchiana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_3_de_fevereiro",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_nwamatibyane",
+          "code": null,
+          "name": "Nwamatibyane",
+          "slug": "nwamatibyane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_3_de_fevereiro",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_taninga",
+          "code": null,
+          "name": "Taninga",
+          "slug": "taninga",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_3_de_fevereiro",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_checua",
+          "code": null,
+          "name": "Checua",
+          "slug": "checua",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_calanga",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_chichongue",
+          "code": null,
+          "name": "Chichongue",
+          "slug": "chichongue",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_calanga",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_lagoa_pate",
+          "code": null,
+          "name": "Lagoa Pate",
+          "slug": "lagoa-pate",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_calanga",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_maguiguana",
+          "code": null,
+          "name": "Maguiguana",
+          "slug": "maguiguana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_ilha_josina_machel",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_nzonguene",
+          "code": null,
+          "name": "Nzonguene",
+          "slug": "nzonguene",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_ilha_josina_machel",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_maluana_sede",
+          "code": null,
+          "name": "Maluana-Sede",
+          "slug": "maluana-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_maluana",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_monguine",
+          "code": null,
+          "name": "Monguine",
+          "slug": "monguine",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_maluana",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_maciana",
+          "code": null,
+          "name": "Maciana",
+          "slug": "maciana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_manhica_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_vila_de_manhica",
+          "code": null,
+          "name": "Vila de Manhica",
+          "slug": "vila-de-manhica",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_manhica_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_25_de_setembro",
+          "code": null,
+          "name": "25 de Setembro",
+          "slug": "25-de-setembro",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_xinavane",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_eduardo_mondlane",
+          "code": null,
+          "name": "Eduardo Mondlane",
+          "slug": "eduardo-mondlane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_xinavane",
+          "districtId": null
+        },
+        {
+          "id": "locality_manhica_vila_de_xinavane",
+          "code": null,
+          "name": "Vila de Xinavane",
+          "slug": "vila-de-xinavane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_manhica_xinavane",
+          "districtId": null
+        }
+      ]
+    },
+    {
+      "districtId": "dist_maputo_marracuene",
+      "district": "Marracuene",
+      "expectedLocalities": 8,
+      "sourceLocalities": 8,
+      "exactCountMatch": true,
+      "canonicalPosts": 2,
+      "sourcePosts": 2,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "candidateCount": 8,
+      "promotionReadiness": "READY_FOR_REVIEW",
+      "candidates": [
+        {
+          "id": "locality_marracuene_machubo_sede",
+          "code": null,
+          "name": "Machubo-Sede",
+          "slug": "machubo-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_machubo",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_thaula",
+          "code": null,
+          "name": "Thaula",
+          "slug": "thaula",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_machubo",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_macaneta",
+          "code": null,
+          "name": "Macaneta",
+          "slug": "macaneta",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_marracuene_sede",
+          "code": null,
+          "name": "Marracuene-Sede",
+          "slug": "marracuene-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_matalane_nhomgonhane",
+          "code": null,
+          "name": "Matalane (Nhomgonhane)",
+          "slug": "matalane-nhomgonhane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_michafutene",
+          "code": null,
+          "name": "Michafutene",
+          "slug": "michafutene",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_ngalundi",
+          "code": null,
+          "name": "Ngalundi",
+          "slug": "ngalundi",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+          "districtId": null
+        },
+        {
+          "id": "locality_marracuene_vila_de_marracuene",
+          "code": null,
+          "name": "Vila de Marracuene",
+          "slug": "vila-de-marracuene",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_marracuene_marracuene_sede",
+          "districtId": null
+        }
+      ]
+    },
+    {
+      "districtId": "dist_maputo_matutuine",
+      "district": "Matutuíne",
+      "expectedLocalities": 14,
+      "sourceLocalities": 14,
+      "exactCountMatch": true,
+      "canonicalPosts": 5,
+      "sourcePosts": 5,
+      "allPostsMapped": false,
+      "unmatchedPosts": [
+        {
+          "sourceName": "Catembe M'Sime",
+          "canonicalMatches": []
+        }
+      ],
+      "candidateCount": 12,
+      "promotionReadiness": "NEEDS_RECONCILIATION",
+      "candidates": [
+        {
+          "id": "locality_matutuine_madjuva",
+          "code": null,
+          "name": "Madjuva",
+          "slug": "madjuva",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_missevene",
+          "code": null,
+          "name": "Missevene",
+          "slug": "missevene",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_salamanga",
+          "code": null,
+          "name": "Salamanga",
+          "slug": "salamanga",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_tinonganine",
+          "code": null,
+          "name": "Tinonganine",
+          "slug": "tinonganine",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_vila_de_bela_vista",
+          "code": null,
+          "name": "Vila de Bela Vista",
+          "slug": "vila-de-bela-vista",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_bela_vista",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_manhangane",
+          "code": null,
+          "name": "Manhangane",
+          "slug": "manhangane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_catuane",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_pazimane",
+          "code": null,
+          "name": "Pazimane",
+          "slug": "pazimane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_catuane",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_ndelane",
+          "code": null,
+          "name": "Ndelane",
+          "slug": "ndelane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_machangulo",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_nhunguane",
+          "code": null,
+          "name": "Nhunguane",
+          "slug": "nhunguane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_machangulo",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_manhoca",
+          "code": null,
+          "name": "Manhoca",
+          "slug": "manhoca",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_zitundo",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_ponta_de_ouro",
+          "code": null,
+          "name": "Ponta de Ouro",
+          "slug": "ponta-de-ouro",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_zitundo",
+          "districtId": null
+        },
+        {
+          "id": "locality_matutuine_zitundo_sede",
+          "code": null,
+          "name": "Zitundo-Sede",
+          "slug": "zitundo-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_matutuine_zitundo",
+          "districtId": null
+        }
+      ]
+    },
+    {
+      "districtId": "dist_maputo_moamba",
+      "district": "Moamba",
+      "expectedLocalities": 12,
+      "sourceLocalities": 12,
+      "exactCountMatch": true,
+      "canonicalPosts": 4,
+      "sourcePosts": 4,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "candidateCount": 12,
+      "promotionReadiness": "READY_FOR_REVIEW",
+      "candidates": [
+        {
+          "id": "locality_moamba_moamba_sede",
+          "code": null,
+          "name": "Moamba-Sede",
+          "slug": "moamba-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_moamba",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_vila_de_moamba",
+          "code": null,
+          "name": "Vila de Moamba",
+          "slug": "vila-de-moamba",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_moamba",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_mahulana",
+          "code": null,
+          "name": "Mahulana",
+          "slug": "mahulana",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_pessene",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_pessene_sede",
+          "code": null,
+          "name": "Pessene-Sede",
+          "slug": "pessene-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_pessene",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_vundica",
+          "code": null,
+          "name": "Vundica",
+          "slug": "vundica",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_pessene",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_chanculo",
+          "code": null,
+          "name": "Chanculo",
+          "slug": "chanculo",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_ressano_garcia",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_vila_de_ressano_garcia",
+          "code": null,
+          "name": "Vila de Ressano Garcia",
+          "slug": "vila-de-ressano-garcia",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_ressano_garcia",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_macaene",
+          "code": null,
+          "name": "Macaene",
+          "slug": "macaene",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_sabie",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_malengane",
+          "code": null,
+          "name": "Malengane",
+          "slug": "malengane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_sabie",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_matunganhane",
+          "code": null,
+          "name": "Matunganhane",
+          "slug": "matunganhane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_sabie",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_sabie_sede",
+          "code": null,
+          "name": "Sabie-Sede",
+          "slug": "sabie-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_sabie",
+          "districtId": null
+        },
+        {
+          "id": "locality_moamba_sunduine",
+          "code": null,
+          "name": "Sunduine",
+          "slug": "sunduine",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_moamba_sabie",
+          "districtId": null
+        }
+      ]
+    },
+    {
+      "districtId": "dist_maputo_namaacha",
+      "district": "Namaacha",
+      "expectedLocalities": 9,
+      "sourceLocalities": 9,
+      "exactCountMatch": true,
+      "canonicalPosts": 2,
+      "sourcePosts": 2,
+      "allPostsMapped": true,
+      "unmatchedPosts": [],
+      "candidateCount": 9,
+      "promotionReadiness": "READY_FOR_REVIEW",
+      "candidates": [
+        {
+          "id": "locality_namaacha_changalane_sede",
+          "code": null,
+          "name": "Changalane-Sede",
+          "slug": "changalane-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_changalane",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_goba",
+          "code": null,
+          "name": "Goba",
+          "slug": "goba",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_changalane",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_mahelane",
+          "code": null,
+          "name": "Mahelane",
+          "slug": "mahelane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_changalane",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_michangulene",
+          "code": null,
+          "name": "Michangulene",
+          "slug": "michangulene",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_changalane",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_impaputo",
+          "code": null,
+          "name": "Impaputo",
+          "slug": "impaputo",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_namaacha",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_mafuiane",
+          "code": null,
+          "name": "Mafuiane",
+          "slug": "mafuiane",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_namaacha",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_matsequenha",
+          "code": null,
+          "name": "Matsequenha",
+          "slug": "matsequenha",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_namaacha",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_namaacha_sede",
+          "code": null,
+          "name": "Namaacha-Sede",
+          "slug": "namaacha-sede",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_namaacha",
+          "districtId": null
+        },
+        {
+          "id": "locality_namaacha_villa_de_namaacha",
+          "code": null,
+          "name": "Villa de Namaacha",
+          "slug": "villa-de-namaacha",
+          "type": "LOCALITY",
+          "administrativePostId": "adm_post_maputo_namaacha_namaacha",
+          "districtId": null
+        }
+      ]
+    }
+  ]
+}

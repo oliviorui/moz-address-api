@@ -1,0 +1,42 @@
+[
+  {
+    "id": "boletim-republica-magude-2024",
+    "institution": "República de Moçambique",
+    "title": "Boletim da República, I Série, n.º 32, 14 de Fevereiro de 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://archive.gazettes.africa/archive/mz/2024/mz-government-gazette-series-i-dated-2024-02-14-no-32.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official gazette electoral territorial table used to reconcile the current Magude locality structure. The 17-locality set excludes Vila de Magude as a locality record and excludes the historical Pontia record; spelling follows the current territorial listing where supported."
+  },
+  {
+    "id": "gov-maputo-manhica-district-profile",
+    "institution": "Ministério da Administração Estatal / Governo da Província de Maputo",
+    "title": "Perfil do Distrito da Manhiça",
+    "type": "OFFICIAL",
+    "year": 2005,
+    "url": "https://pmaputo.gov.mz/por/content/download/6179/44263/version/2/file/Perfil_Manhica.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official district profile explicitly distinguishes 2 vilas from 13 localidades and enumerates the 13 locality names by administrative post. The current INE Maputo Province total remains 13 localities."
+  },
+  {
+    "id": "ine-mozgis-localities-2017",
+    "institution": "Instituto Nacional de Estatística / MozGIS",
+    "title": "SociedPopulacaoLocalidadeBairro2017",
+    "type": "OFFICIAL",
+    "year": 2017,
+    "url": "https://www.mozgis.gov.mz/server/rest/services/MEF/MEFAAPAnaliseInfraestruturas/MapServer/24",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE/MozGIS layer used for Matutuíne locality names and hierarchy. Catembe M'Sime is reconciled to the canonical Catembe administrative post."
+  },
+  {
+    "id": "maputo-boane-matola-rio-admin-2025",
+    "institution": "Governo do Distrito de Boane / Municípios de Boane e Matola-Rio",
+    "title": "Caracterização administrativa dos Municípios da Vila de Boane e Matola-Rio",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://sdgs.un.org/sites/default/files/2025-02/Session%204%20-%209%20Boane%20Districe.Municipios%20de%20Boane.Matola.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official administrative presentation confirming Gueguegue and Eduardo Mondlane as the two municipal localities of Boane and documenting the 2023 municipalization of Matola-Rio. Mulotana remains the non-municipal locality under the Matola-Rio administrative post; the current INE provincial target is 3 district localities."
+  }
+]

@@ -1,0 +1,914 @@
+[
+  {
+    "localityId": "locality_maputo_boane_boane_eduardo_mondlane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_boane_boane_eduardo_mondlane",
+    "sourceId": "maputo-boane-matola-rio-admin-2025",
+    "page": null,
+    "notes": "Current administrative status reconciled from the official Boane/Matola-Rio municipal structure."
+  },
+  {
+    "localityId": "locality_maputo_boane_boane_gueguegue",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_boane_boane_gueguegue",
+    "sourceId": "maputo-boane-matola-rio-admin-2025",
+    "page": null,
+    "notes": "Current administrative status reconciled from the official Boane/Matola-Rio municipal structure."
+  },
+  {
+    "localityId": "locality_maputo_boane_matola_rio_mulotana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_boane_matola_rio_mulotana",
+    "sourceId": "maputo-boane-matola-rio-admin-2025",
+    "page": null,
+    "notes": "Current administrative status reconciled from the official Boane/Matola-Rio municipal structure."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_chichuco",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_chichuco",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_inhongane",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_inhongane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_macubulane",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_macubulane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_maguiguana",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_maguiguana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_matchabe",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_matchabe",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_moine",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_moine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_mulelemane",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_magude_sede_mulelemane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_mahele_chicutso",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_mahele_chicutso",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_mahele_mahele_sede",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_mahele_mahele_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_mapulanguene_mangondzo",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_mapulanguene_mangondzo",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_mapulanguene_mapulanguene_sede",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_mapulanguene_mapulanguene_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_mapulanguene_matsandzane",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_mapulanguene_matsandzane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_motaze_marrule",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_motaze_marrule",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_motaze_motaze_sede",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_motaze_motaze_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_motaze_nwambjwana",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_motaze_nwambjwana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_panjane_chivonguene",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_panjane_chivonguene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_magude_panjane_panjane_sede",
+    "sourceId": "boletim-republica-magude-2024",
+    "page": "243-244",
+    "notes": "Locality and parent administrative post reconciled from the official 2024 electoral territorial table."
+  },
+  {
+    "localityId": "locality_maputo_magude_panjane_panjane_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district total corroborated by the INE Maputo Province statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_3_de_fevereiro_3_de_fevereiro",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_3_de_fevereiro_3_de_fevereiro",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_3_de_fevereiro_nwamatizyane",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_3_de_fevereiro_nwamatizyane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_3_de_fevereiro_taninja",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_3_de_fevereiro_taninja",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_calanga_checua",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_calanga_checua",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_calanga_lago_pate",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_calanga_lago_pate",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_ilha_josina_machel_maguiguana",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_ilha_josina_machel_maguiguana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_ilha_josina_machel_nzonguene",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_ilha_josina_machel_nzonguene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_maluana_maluana",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_maluana_maluana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_maluana_munguine",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_maluana_munguine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_manhica_sede_maciana",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_manhica_sede_maciana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_manhica_sede_manhica",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_manhica_sede_manhica",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_xinavane_25_de_setembro",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_xinavane_25_de_setembro",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_manhica_xinavane_xinavane",
+    "sourceId": "gov-maputo-manhica-district-profile",
+    "page": "12",
+    "notes": "Locality explicitly enumerated by administrative post in the official district profile."
+  },
+  {
+    "localityId": "locality_maputo_manhica_xinavane_xinavane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_machubo_machubo_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_machubo_machubo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_machubo_thaula",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_machubo_thaula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_macaneta",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_macaneta",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_marracuene_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_marracuene_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_matalane_nhomgonhane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_matalane_nhomgonhane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_michafutene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_michafutene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_ngalundi",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_ngalundi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_vila_de_marracuene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_marracuene_marracuene_sede_vila_de_marracuene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_madjuva",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_madjuva",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_missevene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_missevene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_salamanga",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_salamanga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_tinonganine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_tinonganine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_vila_de_bela_vista",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_bela_vista_vila_de_bela_vista",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catembe_m_sime",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catembe_m_sime",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catembe_mungazine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catembe_mungazine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catuane_manhangane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catuane_manhangane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catuane_pazimane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_catuane_pazimane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_machangulo_ndelane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_machangulo_ndelane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_machangulo_nhunguane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_machangulo_nhunguane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_zitundo_manhoca",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_zitundo_manhoca",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_zitundo_ponta_de_ouro",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_zitundo_ponta_de_ouro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_zitundo_zitundo_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook."
+  },
+  {
+    "localityId": "locality_maputo_matutuine_zitundo_zitundo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_moamba_moamba_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_moamba_moamba_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_moamba_vila_de_moamba",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_moamba_vila_de_moamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_pessene_mahulana",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_pessene_mahulana",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_pessene_pessene_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_pessene_pessene_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_pessene_vundica",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_pessene_vundica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_ressano_garcia_chanculo",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_ressano_garcia_chanculo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_ressano_garcia_vila_de_ressano_garcia",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_ressano_garcia_vila_de_ressano_garcia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_macaene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_macaene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_malengane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_malengane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_matunganhane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_matunganhane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_sabie_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_sabie_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_sunduine",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_moamba_sabie_sunduine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_changalane_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_changalane_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_goba",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_goba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_mahelane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_mahelane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_michangulene",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_changalane_michangulene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_impaputo",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_impaputo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_mafuiane",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_mafuiane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_matsequenha",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_matsequenha",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_namaacha_sede",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_namaacha_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_villa_de_namaacha",
+    "sourceId": "ine-maputo-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current district locality total corroborated by the INE Maputo Province 2024 statistical yearbook. This reference supports count continuity, while locality names/hierarchy come from MozGIS 2017."
+  },
+  {
+    "localityId": "locality_maputo_namaacha_namaacha_villa_de_namaacha",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post parent taken from the official INE/MozGIS 2017 locality layer."
+  }
+]

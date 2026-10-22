@@ -22,7 +22,7 @@
       "administrativePosts": 2,
       "localitiesExpected": 3,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     },
     {
       "districtId": "dist_maputo_magude",
@@ -30,7 +30,7 @@
       "administrativePosts": 5,
       "localitiesExpected": 17,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     },
     {
       "districtId": "dist_maputo_manhica",
@@ -38,7 +38,7 @@
       "administrativePosts": 6,
       "localitiesExpected": 13,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     },
     {
       "districtId": "dist_maputo_marracuene",
@@ -46,7 +46,7 @@
       "administrativePosts": 2,
       "localitiesExpected": 8,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     },
     {
       "districtId": "dist_maputo_matutuine",
@@ -54,7 +54,7 @@
       "administrativePosts": 5,
       "localitiesExpected": 14,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     },
     {
       "districtId": "dist_maputo_moamba",
@@ -62,7 +62,7 @@
       "administrativePosts": 4,
       "localitiesExpected": 12,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     },
     {
       "districtId": "dist_maputo_namaacha",
@@ -70,12 +70,15 @@
       "administrativePosts": 2,
       "localitiesExpected": 9,
       "neighborhoodsExpected": 0,
-      "status": "PENDING_RECONCILIATION"
+      "status": "COMPLETE"
     }
   ],
   "notes": [
     "Expected locality counts follow the INE Maputo Province territorial-units table.",
     "Matola uses neighborhoods rather than localities in the current canonical dataset.",
-    "The seven non-Matola districts remain pending because enumerated locality lists from older official or district sources do not consistently match the newer INE district totals."
+    "The seven non-Matola districts remain pending because enumerated locality lists from older official or district sources do not consistently match the newer INE district totals.",
+    "Batch promotion: Marracuene, Moamba and Namaacha were promoted after exact locality-count agreement between MozGIS/INE 2017 and the current INE Maputo Province target, with unique administrative-post mappings.",
+    "Second batch: Manhiça (13) and Matutuíne (14) promoted. Manhiça uses the official district profile's explicit 13-locality list; Matutuíne uses the 14-record MozGIS/INE set with Catembe M'Sime reconciled to the canonical Catembe administrative post and the current INE count target.",
+    "Final batch: Boane (3) and Magude (17) reconciled and promoted, bringing Maputo Province locality coverage to 76/76."
   ]
 }
