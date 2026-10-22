@@ -103,7 +103,7 @@ describe("API integration tests", () => {
     );
   });
 
-  it("returns the 63 Maputo City neighborhoods", async () => {
+  it("returns the 105 loaded neighborhoods", async () => {
     const response =
       await app.inject({
         method: "GET",
@@ -121,12 +121,12 @@ describe("API integration tests", () => {
 
     assert.equal(
       body.meta.pagination.total,
-      63
+      105
     );
 
     assert.equal(
       body.data.length,
-      63
+      100
     );
   });
 
@@ -196,6 +196,49 @@ describe("API integration tests", () => {
     assert.equal(
       body.data.type,
       "NEIGHBORHOOD"
+    );
+  });
+
+  it("returns Intaca under the Infulene administrative post", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/search?q=intaca"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    const intaca =
+      body.data.localities.find(
+        (item: {
+          slug: string;
+        }) =>
+          item.slug ===
+          "intaca"
+      );
+
+    assert.ok(intaca);
+
+    assert.equal(
+      intaca.type,
+      "NEIGHBORHOOD"
+    );
+
+    assert.equal(
+      intaca.administrativePostId,
+      "adm_post_maputo_matola_infulene"
+    );
+
+    assert.equal(
+      intaca.districtId,
+      null
     );
   });
 
@@ -309,6 +352,60 @@ describe("API integration tests", () => {
             .administrativePosts
             .length === 0
       )
+    );
+  });
+
+  it("returns Matola's 42 neighborhoods in the hierarchy tree", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/tree?province=maputo"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.counts.neighborhoods,
+      42
+    );
+
+    const matola =
+      body.data[0].districts.find(
+        (district: {
+          slug: string;
+        }) =>
+          district.slug ===
+          "matola"
+      );
+
+    assert.ok(matola);
+
+    const neighborhoodCount =
+      matola.administrativePosts
+        .reduce(
+          (
+            total: number,
+            post: {
+              neighborhoods:
+                unknown[];
+            }
+          ) =>
+            total +
+            post.neighborhoods
+              .length,
+          0
+        );
+
+    assert.equal(
+      neighborhoodCount,
+      42
     );
   });
 

@@ -24,10 +24,11 @@
     "test": "tsx --test tests/api.smoke.test.ts",
     "test:integration": "tsx --test tests/api.integration.test.ts",
     "test:all": "npm run test && npm run test:integration",
-    "data:validate": "tsx scripts/validate-data.ts",
+    "data:validate": "tsx scripts/validate-data.ts && tsx scripts/validate-locality-shards.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:seed": "prisma db seed",
+    "db:seed:all": "tsx prisma/seed.ts && tsx prisma/seed-locality-shards.ts",
     "db:studio": "prisma studio"
   },
   "engines": {

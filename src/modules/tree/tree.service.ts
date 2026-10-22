@@ -116,30 +116,53 @@ export async function getAdministrativeTree(
     });
 
   const data =
-    provinces.map((province) => ({
-      id: province.id,
-      name: province.name,
-      slug: province.slug,
-      type: province.type,
-      capital: province.capital,
+    provinces.map(
+      (province) => ({
+        id: province.id,
+        name: province.name,
+        slug: province.slug,
+        type: province.type,
+        capital: province.capital,
 
-      districts:
-        province.districts.map(
-          (district) => ({
-            id: district.id,
-            name: district.name,
-            slug: district.slug,
-            type: district.type,
+        districts:
+          province.districts.map(
+            (district) => ({
+              id: district.id,
+              name: district.name,
+              slug: district.slug,
+              type: district.type,
 
-            administrativePosts:
-              district
-                .administrativePosts,
+              administrativePosts:
+                district
+                  .administrativePosts
+                  .map(
+                    (post) => ({
+                      id: post.id,
+                      name: post.name,
+                      slug: post.slug,
 
-            neighborhoods:
-              district.localities
-          })
-        )
-    }));
+                      localities:
+                        post.localities.filter(
+                          (item) =>
+                            item.type ===
+                            "LOCALITY"
+                        ),
+
+                      neighborhoods:
+                        post.localities.filter(
+                          (item) =>
+                            item.type ===
+                            "NEIGHBORHOOD"
+                        )
+                    })
+                  ),
+
+              neighborhoods:
+                district.localities
+            })
+          )
+      })
+    );
 
   const counts =
     data.reduce(
@@ -157,19 +180,19 @@ export async function getAdministrativeTree(
               .administrativePosts
               .length;
 
-          acc.localities +=
+          for (
+            const post of
             district
               .administrativePosts
-              .reduce(
-                (
-                  total,
-                  post
-                ) =>
-                  total +
-                  post.localities
-                    .length,
-                0
-              );
+          ) {
+            acc.localities +=
+              post.localities
+                .length;
+
+            acc.neighborhoods +=
+              post.neighborhoods
+                .length;
+          }
 
           acc.neighborhoods +=
             district

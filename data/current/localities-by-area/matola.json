@@ -1,0 +1,380 @@
+[
+  {
+    "id": "neighborhood_maputo_matola_infulene_zona_verde",
+    "code": null,
+    "name": "Zona Verde",
+    "slug": "zona-verde",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_ndlavela",
+    "code": null,
+    "name": "Ndlavela",
+    "slug": "ndlavela",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_infulene_d",
+    "code": null,
+    "name": "Infulene D",
+    "slug": "infulene-d",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_t_3",
+    "code": null,
+    "name": "T-3",
+    "slug": "t-3",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_acordos_de_lusaka",
+    "code": null,
+    "name": "Acordos de Lusaka",
+    "slug": "acordos-de-lusaka",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_vale_do_infulene",
+    "code": null,
+    "name": "Vale do Infulene",
+    "slug": "vale-do-infulene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_khongolote",
+    "code": null,
+    "name": "Khongolote",
+    "slug": "khongolote",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_intaca",
+    "code": null,
+    "name": "Intaca",
+    "slug": "intaca",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_muhalaze",
+    "code": null,
+    "name": "Muhalaze",
+    "slug": "muhalaze",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_1o_de_maio",
+    "code": null,
+    "name": "1º de Maio",
+    "slug": "1o-de-maio",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_boquisso_a",
+    "code": null,
+    "name": "Boquisso A",
+    "slug": "boquisso-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_boquisso_b",
+    "code": null,
+    "name": "Boquisso B",
+    "slug": "boquisso-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_mali",
+    "code": null,
+    "name": "Mali",
+    "slug": "mali",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_mucatine",
+    "code": null,
+    "name": "Mucatine",
+    "slug": "mucatine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_infulene_ngolhoza",
+    "code": null,
+    "name": "Ngolhoza",
+    "slug": "ngolhoza",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_infulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_infulene",
+    "code": null,
+    "name": "Infulene",
+    "slug": "infulene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_unidade_a",
+    "code": null,
+    "name": "Unidade A",
+    "slug": "unidade-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_trevo",
+    "code": null,
+    "name": "Trevo",
+    "slug": "trevo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_patrice_lumumba",
+    "code": null,
+    "name": "Patrice Lumumba",
+    "slug": "patrice-lumumba",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_machava_sede",
+    "code": null,
+    "name": "Machava Sede",
+    "slug": "machava-sede",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_sao_damaso",
+    "code": null,
+    "name": "São Damaso",
+    "slug": "sao-damaso",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_bunhica",
+    "code": null,
+    "name": "Bunhica",
+    "slug": "bunhica",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_tsalala",
+    "code": null,
+    "name": "Tsalala",
+    "slug": "tsalala",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_km_15",
+    "code": null,
+    "name": "km-15",
+    "slug": "km-15",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_mathlemele",
+    "code": null,
+    "name": "Mathlemele",
+    "slug": "mathlemele",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_cobe",
+    "code": null,
+    "name": "Cobe",
+    "slug": "cobe",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_matola_gare",
+    "code": null,
+    "name": "Matola Gare",
+    "slug": "matola-gare",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_singathela",
+    "code": null,
+    "name": "Singathela",
+    "slug": "singathela",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_machava_siduava",
+    "code": null,
+    "name": "Siduava",
+    "slug": "siduava",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_machava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_a",
+    "code": null,
+    "name": "Matola A",
+    "slug": "matola-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_b",
+    "code": null,
+    "name": "Matola B",
+    "slug": "matola-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_c",
+    "code": null,
+    "name": "Matola C",
+    "slug": "matola-c",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_d",
+    "code": null,
+    "name": "Matola D",
+    "slug": "matola-d",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_f",
+    "code": null,
+    "name": "Matola F",
+    "slug": "matola-f",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_g",
+    "code": null,
+    "name": "Matola G",
+    "slug": "matola-g",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_h",
+    "code": null,
+    "name": "Matola H",
+    "slug": "matola-h",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_matola_j",
+    "code": null,
+    "name": "Matola J",
+    "slug": "matola-j",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_fomento",
+    "code": null,
+    "name": "Fomento",
+    "slug": "fomento",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_liberdade",
+    "code": null,
+    "name": "Liberdade",
+    "slug": "liberdade",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_mussumbuluco",
+    "code": null,
+    "name": "Mussumbuluco",
+    "slug": "mussumbuluco",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_mahlampsene",
+    "code": null,
+    "name": "Mahlampsene",
+    "slug": "mahlampsene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_maputo_matola_cidade_da_matola_sikwama",
+    "code": null,
+    "name": "Sikwama",
+    "slug": "sikwama",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_maputo_matola_cidade_da_matola",
+    "districtId": null
+  }
+]
