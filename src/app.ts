@@ -1,5 +1,13 @@
 import Fastify from "fastify";
 
+import cors from "@fastify/cors";
+import rateLimit from "@fastify/rate-limit";
+
+import {
+  corsOptions,
+  rateLimitOptions
+} from "./config/http-protection.js";
+
 import {
   registerSwagger
 } from "./config/swagger.js";
@@ -13,60 +21,87 @@ export function buildApp() {
     logger: true
   });
 
-  app.register(registerSwagger);
+  app.register(
+    async function application(
+      instance
+    ) {
+      await instance.register(
+        cors,
+        corsOptions
+      );
 
-  app.get(
-    "/",
-    {
-      schema: {
-        tags: ["System"],
+      await instance.register(
+        rateLimit,
+        rateLimitOptions
+      );
 
-        summary:
-          "Get API metadata",
+      await instance.register(
+        registerSwagger
+      );
 
-        description:
-          "Returns basic metadata and current API status."
-      }
-    },
-    async () => {
-      return {
-        name: "moz-address-api",
-        version: "0.1.0",
+      instance.get(
+        "/",
+        {
+          schema: {
+            tags: ["System"],
 
-        description:
-          "Open-source API for Mozambique's administrative divisions.",
+            summary:
+              "Get API metadata",
 
-        status: "ok",
+            description:
+              "Returns basic metadata and current API status."
+          }
+        },
+        async () => {
+          return {
+            name:
+              "moz-address-api",
 
-        documentation:
-          "/docs"
-      };
+            version: "0.1.0",
+
+            description:
+              "Open-source API for Mozambique's administrative divisions.",
+
+            status: "ok",
+
+            documentation:
+              "/docs"
+          };
+        }
+      );
+
+      instance.get(
+        "/health",
+        {
+          config: {
+            rateLimit: false
+          },
+
+          schema: {
+            tags: ["System"],
+
+            summary:
+              "Health check",
+
+            description:
+              "Checks whether the API process is responding."
+          }
+        },
+        async () => {
+          return {
+            status: "ok"
+          };
+        }
+      );
+
+      await instance.register(
+        registerRoutes,
+        {
+          prefix: "/api/v1"
+        }
+      );
     }
   );
-
-  app.get(
-    "/health",
-    {
-      schema: {
-        tags: ["System"],
-
-        summary:
-          "Health check",
-
-        description:
-          "Checks whether the API process is responding."
-      }
-    },
-    async () => {
-      return {
-        status: "ok"
-      };
-    }
-  );
-
-  app.register(registerRoutes, {
-    prefix: "/api/v1"
-  });
 
   return app;
 }

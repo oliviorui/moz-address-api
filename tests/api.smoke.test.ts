@@ -73,6 +73,60 @@ describe("API smoke tests", () => {
     );
   });
 
+  it("adds CORS headers for browser requests", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url: "/health",
+
+        headers: {
+          origin:
+            "https://example.com"
+        }
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    assert.equal(
+      response.headers[
+        "access-control-allow-origin"
+      ],
+      "https://example.com"
+    );
+  });
+
+  it("supports CORS preflight requests", async () => {
+    const response =
+      await app.inject({
+        method: "OPTIONS",
+        url:
+          "/api/v1/provinces",
+
+        headers: {
+          origin:
+            "https://example.com",
+
+          "access-control-request-method":
+            "GET"
+        }
+      });
+
+    assert.equal(
+      response.statusCode,
+      204
+    );
+
+    assert.equal(
+      response.headers[
+        "access-control-allow-origin"
+      ],
+      "https://example.com"
+    );
+  });
+
   it("rejects invalid province page", async () => {
     const response =
       await app.inject({

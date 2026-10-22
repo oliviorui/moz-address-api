@@ -34,6 +34,8 @@
     "node": ">=24"
   },
   "dependencies": {
+    "@fastify/cors": "^11.3.1",
+    "@fastify/rate-limit": "^11.2.1",
     "@fastify/swagger": "^9.5.1",
     "@fastify/swagger-ui": "^5.2.3",
     "@prisma/adapter-pg": "^7.10.1",
