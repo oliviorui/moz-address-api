@@ -30,6 +30,10 @@ import {
   treeRoutes
 } from "../modules/tree/tree.routes.js";
 
+import {
+  coverageRoutes
+} from "../modules/coverage/coverage.routes.js";
+
 export async function registerRoutes(
   app: FastifyInstance
 ) {
@@ -80,6 +84,13 @@ export async function registerRoutes(
     treeRoutes,
     {
       prefix: "/tree"
+    }
+  );
+
+  await app.register(
+    coverageRoutes,
+    {
+      prefix: "/coverage"
     }
   );
 }

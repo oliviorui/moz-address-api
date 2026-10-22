@@ -39,6 +39,11 @@ export async function registerSwagger(
             "API metadata and health endpoints."
         },
         {
+          name: "Coverage",
+          description:
+            "Dataset completeness and verified coverage."
+        },
+        {
           name: "Search",
           description:
             "Global search across administrative divisions."
