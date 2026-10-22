@@ -22,7 +22,7 @@ Thumbs.db
 .idea/
 
 # Coverage
-coverage/
+/coverage/
 
 # Temporary files
 tmp/

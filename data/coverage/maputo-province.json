@@ -1,0 +1,81 @@
+{
+  "provinceId": "prov_10",
+  "province": "Maputo",
+  "sourceId": "ine-maputo-province-yearbook-2024",
+  "expected": {
+    "administrativePosts": 29,
+    "localities": 76,
+    "cityNeighborhoods": 42
+  },
+  "districts": [
+    {
+      "districtId": "dist_maputo_matola",
+      "district": "Matola",
+      "administrativePosts": 3,
+      "localitiesExpected": 0,
+      "neighborhoodsExpected": 42,
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_maputo_boane",
+      "district": "Boane",
+      "administrativePosts": 2,
+      "localitiesExpected": 3,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    },
+    {
+      "districtId": "dist_maputo_magude",
+      "district": "Magude",
+      "administrativePosts": 5,
+      "localitiesExpected": 17,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    },
+    {
+      "districtId": "dist_maputo_manhica",
+      "district": "Manhiça",
+      "administrativePosts": 6,
+      "localitiesExpected": 13,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    },
+    {
+      "districtId": "dist_maputo_marracuene",
+      "district": "Marracuene",
+      "administrativePosts": 2,
+      "localitiesExpected": 8,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    },
+    {
+      "districtId": "dist_maputo_matutuine",
+      "district": "Matutuíne",
+      "administrativePosts": 5,
+      "localitiesExpected": 14,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    },
+    {
+      "districtId": "dist_maputo_moamba",
+      "district": "Moamba",
+      "administrativePosts": 4,
+      "localitiesExpected": 12,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    },
+    {
+      "districtId": "dist_maputo_namaacha",
+      "district": "Namaacha",
+      "administrativePosts": 2,
+      "localitiesExpected": 9,
+      "neighborhoodsExpected": 0,
+      "status": "PENDING_RECONCILIATION"
+    }
+  ],
+  "notes": [
+    "Expected locality counts follow the INE Maputo Province territorial-units table.",
+    "Matola uses neighborhoods rather than localities in the current canonical dataset.",
+    "The seven non-Matola districts remain pending because enumerated locality lists from older official or district sources do not consistently match the newer INE district totals."
+  ]
+}
