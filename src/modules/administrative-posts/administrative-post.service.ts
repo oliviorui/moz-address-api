@@ -4,6 +4,11 @@ import type {
 
 import { prisma } from "../../lib/prisma.js";
 
+import {
+  buildPaginationMeta,
+  getPaginationInput
+} from "../../lib/pagination.js";
+
 export type AdministrativePostFilters = {
   q?: string;
   district?: string;
@@ -112,14 +117,14 @@ export async function getAllAdministrativePosts(
     }
   }
 
-  const page =
-    filters.page ?? 1;
-
-  const limit =
-    filters.limit ?? 20;
-
-  const skip =
-    (page - 1) * limit;
+  const {
+    page,
+    limit,
+    skip
+  } = getPaginationInput(
+    filters.page,
+    filters.limit
+  );
 
   const [data, total] =
     await Promise.all([
@@ -152,24 +157,15 @@ export async function getAllAdministrativePosts(
       })
     ]);
 
-  const totalPages =
-    Math.ceil(total / limit);
-
   return {
     data,
 
-    pagination: {
-      page,
-      limit,
-      total,
-      totalPages,
-
-      hasNextPage:
-        page < totalPages,
-
-      hasPreviousPage:
-        page > 1
-    }
+    pagination:
+      buildPaginationMeta(
+        page,
+        limit,
+        total
+      )
   };
 }
 
