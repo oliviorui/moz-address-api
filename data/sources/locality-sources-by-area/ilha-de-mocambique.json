@@ -1,0 +1,26 @@
+[
+  {
+    "localityId": "neighborhood_nampula_ilha_de_mocambique_ilha_de_mocambique_macaripe",
+    "sourceId": "ine-nampula-ilha-statistics-2020-2024",
+    "page": null,
+    "notes": "Neighborhood name reconciled from the official MozGIS/INE 2017 layer; current INE district statistics confirm a total of four neighborhoods."
+  },
+  {
+    "localityId": "neighborhood_nampula_ilha_de_mocambique_ilha_de_mocambique_unidade",
+    "sourceId": "ine-nampula-ilha-statistics-2020-2024",
+    "page": null,
+    "notes": "Neighborhood name reconciled from the official MozGIS/INE 2017 layer; current INE district statistics confirm a total of four neighborhoods."
+  },
+  {
+    "localityId": "neighborhood_nampula_ilha_de_mocambique_lumbo_ampapa",
+    "sourceId": "ine-nampula-ilha-statistics-2020-2024",
+    "page": null,
+    "notes": "Neighborhood name reconciled from the official MozGIS/INE 2017 layer; current INE district statistics confirm a total of four neighborhoods."
+  },
+  {
+    "localityId": "neighborhood_nampula_ilha_de_mocambique_lumbo_lumbo_sede",
+    "sourceId": "ine-nampula-ilha-statistics-2020-2024",
+    "page": null,
+    "notes": "Neighborhood name reconciled from the official MozGIS/INE 2017 layer; current INE district statistics confirm a total of four neighborhoods."
+  }
+]

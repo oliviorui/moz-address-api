@@ -1,0 +1,102 @@
+[
+  {
+    "id": "ine-manica-barue-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Báruè, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Barue_2025.pdf/238ebfee-055f-3974-1448-df06768acf1a?download=true&t=1752828904926&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 8 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-gondola-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Gondola, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Gondola_2025.pdf/70258082-e134-ed3d-4d01-dc826a052a5f?download=true&t=1752828887997&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 9 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-guro-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Guro, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Guro_2025.pdf/f334e1bb-42a5-360f-80e2-451d80a6215d?download=true&t=1752828849911&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 8 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-macate-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Macate, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Macate_2025.pdf/7011ec9c-5ae7-33ba-0e0a-2120a1494afc?download=true&t=1752828794351&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 7 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-machaze-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Machaze, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Machaze_2025.pdf/028363bd-1dc8-985e-8501-57d53a3d8294?download=true&t=1752828823817&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 9 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-macossa-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Macossa, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Macossa_2025.pdf/23a6a369-7e27-54fc-55ff-5ca82fd4d2e4?download=true&t=1752828837260&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 8 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-mossurize-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Mossurize, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Mossurize_2025.pdf/5974b009-910b-43a4-0f22-6800a1c3b1b8?download=true&t=1752828930091&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 11 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-sussundenga-2026",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Sussundenga 2026",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://www.ine.gov.mz/web/guest/d/folheto_sussundenga_2026",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (15). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  },
+  {
+    "id": "ine-manica-tambara-2026",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Tambara 2026",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://www.ine.gov.mz/web/guest/d/folheto_tambara_2026",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (8). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  },
+  {
+    "id": "ine-manica-vanduzi-2026",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Vanduzi 2026",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://www.ine.gov.mz/web/guest/d/folheto_vanduzi_2026",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (5). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  }
+]

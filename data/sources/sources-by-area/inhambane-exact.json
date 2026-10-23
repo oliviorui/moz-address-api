@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ine-inhambane-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Inhambane, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/documents/20119/334665/Anu%C3%A1rio%20Estat%C3%ADstico%20-Prov%C3%ADncia%20de%20Inhambane%2C%202024.pdf/b7e9086f-9700-44ef-d2fc-a327b57e8852?download=true&t=1750676295896&version=1.0",
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE 2024 territorial-unit statistics for Inhambane Province. Confirms 26 administrative posts, 70 localities, 40 city neighborhoods, and district-level counts used by this guarded exact-match promotion."
+  },
+  {
+    "id": "ine-mozgis-localities-2017",
+    "institution": "Instituto Nacional de Estatística / MozGIS",
+    "title": "SociedPopulacaoLocalidadeBairro2017",
+    "type": "OFFICIAL",
+    "year": 2017,
+    "url": "https://www.mozgis.gov.mz/server/rest/services/MEF/MEFAAPAnaliseInfraestruturas/MapServer/24",
+    "accessedAt": "2026-10-23",
+    "notes": "Official historical INE/MozGIS locality and neighborhood layer. Names and hierarchy are promoted only where the unique historical count exactly matches the current INE 2024 count."
+  }
+]

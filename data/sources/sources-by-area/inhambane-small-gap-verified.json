@@ -1,0 +1,52 @@
+[
+  {
+    "id": "ine-govuro-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas do Distrito de Govuro, 2020-2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/337834/Govuro_2024.pdf/d7cb3605-ea7a-17af-4590-f149330746de?download=true&t=1752235595178&version=1.0",
+    "accessedAt": "2026-10-23",
+    "notes": "Current district publication used to verify Govuro territorial structure."
+  },
+  {
+    "id": "ine-inhambane-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Inhambane, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/documents/20119/334665/Anu%C3%A1rio%20Estat%C3%ADstico%20-Prov%C3%ADncia%20de%20Inhambane%2C%202024.pdf/b7e9086f-9700-44ef-d2fc-a327b57e8852?download=true&t=1750676295896&version=1.0",
+    "accessedAt": "2026-10-23",
+    "notes": "Official current provincial totals used as the count guard for locality promotion."
+  },
+  {
+    "id": "ine-inharrime-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Inharrime_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://www.ine.gov.mz/web/guest/d/inharrime_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used together with the 2024 provincial count to verify Inharrime."
+  },
+  {
+    "id": "ine-massinga-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Massinga_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/web/guest/d/massinga_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used together with the 2024 provincial count to verify Massinga."
+  },
+  {
+    "id": "ine-mozgis-localities-2017",
+    "institution": "Instituto Nacional de Estatística / MozGIS",
+    "title": "SociedPopulacaoLocalidadeBairro2017",
+    "type": "OFFICIAL",
+    "year": 2017,
+    "url": "https://www.mozgis.gov.mz/server/rest/services/MEF/MEFAAPAnaliseInfraestruturas/MapServer/24",
+    "accessedAt": "2026-10-23",
+    "notes": "Official historical locality layer used for canonical names and hierarchy after reconciliation with current territorial counts."
+  }
+]

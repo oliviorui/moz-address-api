@@ -41,7 +41,6 @@
     "slug": "lulimile",
     "districtId": "dist_niassa_lichinga"
   },
-
   {
     "id": "adm_post_niassa_mandimba_mandimba_sede",
     "code": null,
@@ -56,7 +55,6 @@
     "slug": "mitande",
     "districtId": "dist_niassa_mandimba"
   },
-
   {
     "id": "adm_post_niassa_sanga_matchedje",
     "code": null,
@@ -85,7 +83,6 @@
     "slug": "lussimbesse",
     "districtId": "dist_niassa_sanga"
   },
-
   {
     "id": "adm_post_niassa_cuamba_cuamba_sede",
     "code": null,
@@ -114,7 +111,6 @@
     "slug": "etatara",
     "districtId": "dist_niassa_cuamba"
   },
-
   {
     "id": "adm_post_niassa_mecanhelas_insaca",
     "code": null,
@@ -129,7 +125,6 @@
     "slug": "chiuta",
     "districtId": "dist_niassa_mecanhelas"
   },
-
   {
     "id": "adm_post_niassa_mecula_mecula_sede",
     "code": null,
@@ -144,7 +139,6 @@
     "slug": "matondovela",
     "districtId": "dist_niassa_mecula"
   },
-
   {
     "id": "adm_post_niassa_lago_metangula",
     "code": null,
@@ -180,7 +174,6 @@
     "slug": "meluluca",
     "districtId": "dist_niassa_lago"
   },
-
   {
     "id": "adm_post_niassa_nipepe_nipepe_sede",
     "code": null,
@@ -195,7 +188,6 @@
     "slug": "muipite",
     "districtId": "dist_niassa_nipepe"
   },
-
   {
     "id": "adm_post_niassa_maua_maua_sede",
     "code": null,
@@ -210,7 +202,6 @@
     "slug": "maiaca",
     "districtId": "dist_niassa_maua"
   },
-
   {
     "id": "adm_post_niassa_metarica_metarica_sede",
     "code": null,
@@ -225,7 +216,6 @@
     "slug": "nacumua",
     "districtId": "dist_niassa_metarica"
   },
-
   {
     "id": "adm_post_niassa_muembe_muembe_sede",
     "code": null,
@@ -240,7 +230,6 @@
     "slug": "chiconono",
     "districtId": "dist_niassa_muembe"
   },
-
   {
     "id": "adm_post_niassa_mavago_mavago_sede",
     "code": null,
@@ -255,7 +244,6 @@
     "slug": "msawize",
     "districtId": "dist_niassa_mavago"
   },
-
   {
     "id": "adm_post_niassa_marrupa_marrupa_sede",
     "code": null,
@@ -277,7 +265,6 @@
     "slug": "nungo",
     "districtId": "dist_niassa_marrupa"
   },
-
   {
     "id": "adm_post_niassa_ngauma_massangulo_sede",
     "code": null,
@@ -292,7 +279,6 @@
     "slug": "itepela",
     "districtId": "dist_niassa_ngauma"
   },
-
   {
     "id": "adm_post_niassa_chimbunila_chimbonila",
     "code": null,
@@ -307,7 +293,6 @@
     "slug": "lione",
     "districtId": "dist_niassa_chimbunila"
   },
-
   {
     "id": "adm_post_niassa_majune_malanga",
     "code": null,
@@ -367,8 +352,8 @@
   {
     "id": "adm_post_nampula_nampula_natikiri",
     "code": null,
-    "name": "Natikiri",
-    "slug": "natikiri",
+    "name": "Natikire",
+    "slug": "natikire",
     "districtId": "dist_nampula_nampula"
   },
   {
@@ -378,7 +363,6 @@
     "slug": "anchilo",
     "districtId": "dist_nampula_nampula"
   },
-
   {
     "id": "adm_post_nampula_angoche_angoche_sede",
     "code": null,
@@ -407,7 +391,6 @@
     "slug": "namitoria",
     "districtId": "dist_nampula_angoche"
   },
-
   {
     "id": "adm_post_nampula_erati_namapa",
     "code": null,
@@ -429,7 +412,6 @@
     "slug": "namiroa",
     "districtId": "dist_nampula_erati"
   },
-
   {
     "id": "adm_post_nampula_ilha_de_mocambique_ilha_de_mocambique",
     "code": null,
@@ -444,7 +426,6 @@
     "slug": "lumbo",
     "districtId": "dist_nampula_ilha_de_mocambique"
   },
-
   {
     "id": "adm_post_nampula_lalaua_lalaua_sede",
     "code": null,
@@ -459,7 +440,6 @@
     "slug": "meti",
     "districtId": "dist_nampula_lalaua"
   },
-
   {
     "id": "adm_post_nampula_malema_malema",
     "code": null,
@@ -481,7 +461,6 @@
     "slug": "chuhulo",
     "districtId": "dist_nampula_malema"
   },
-
   {
     "id": "adm_post_nampula_meconta_meconta_sede",
     "code": null,
@@ -510,7 +489,6 @@
     "slug": "corrane",
     "districtId": "dist_nampula_meconta"
   },
-
   {
     "id": "adm_post_nampula_mecuburi_mecuburi_sede",
     "code": null,
@@ -539,7 +517,6 @@
     "slug": "namina",
     "districtId": "dist_nampula_mecuburi"
   },
-
   {
     "id": "adm_post_nampula_memba_memba_sede",
     "code": null,
@@ -568,7 +545,6 @@
     "slug": "lurio",
     "districtId": "dist_nampula_memba"
   },
-
   {
     "id": "adm_post_nampula_mogincual_namige",
     "code": null,
@@ -583,7 +559,6 @@
     "slug": "quixaxe",
     "districtId": "dist_nampula_mogincual"
   },
-
   {
     "id": "adm_post_nampula_mogovolas_nametil",
     "code": null,
@@ -619,7 +594,6 @@
     "slug": "nanhupo-rio",
     "districtId": "dist_nampula_mogovolas"
   },
-
   {
     "id": "adm_post_nampula_moma_moma",
     "code": null,
@@ -634,7 +608,6 @@
     "slug": "chalaua",
     "districtId": "dist_nampula_moma"
   },
-
   {
     "id": "adm_post_nampula_monapo_monapo",
     "code": null,
@@ -656,7 +629,6 @@
     "slug": "ituculo",
     "districtId": "dist_nampula_monapo"
   },
-
   {
     "id": "adm_post_nampula_mossuril_mossuril_sede",
     "code": null,
@@ -678,7 +650,6 @@
     "slug": "matibane",
     "districtId": "dist_nampula_mossuril"
   },
-
   {
     "id": "adm_post_nampula_muecate_muecate",
     "code": null,
@@ -700,7 +671,6 @@
     "slug": "muculuone",
     "districtId": "dist_nampula_muecate"
   },
-
   {
     "id": "adm_post_nampula_murrupula_murrupula_sede",
     "code": null,
@@ -722,7 +692,6 @@
     "slug": "chinga",
     "districtId": "dist_nampula_murrupula"
   },
-
   {
     "id": "adm_post_nampula_nacala_porto_mutiva",
     "code": null,
@@ -737,7 +706,6 @@
     "slug": "muanona",
     "districtId": "dist_nampula_nacala_porto"
   },
-
   {
     "id": "adm_post_nampula_nacala_a_velha_nacala_a_velha_sede",
     "code": null,
@@ -759,7 +727,6 @@
     "slug": "barragem",
     "districtId": "dist_nampula_nacala_a_velha"
   },
-
   {
     "id": "adm_post_nampula_nacaroa_nacaroa",
     "code": null,
@@ -781,7 +748,6 @@
     "slug": "saua-saua",
     "districtId": "dist_nampula_nacaroa"
   },
-
   {
     "id": "adm_post_nampula_rapale_rapale",
     "code": null,
@@ -803,7 +769,6 @@
     "slug": "mutivaze",
     "districtId": "dist_nampula_rapale"
   },
-
   {
     "id": "adm_post_nampula_ribaue_ribaue_sede",
     "code": null,
@@ -825,7 +790,6 @@
     "slug": "cunle",
     "districtId": "dist_nampula_ribaue"
   },
-
   {
     "id": "adm_post_nampula_larde_larde",
     "code": null,
@@ -840,7 +804,6 @@
     "slug": "mucuali",
     "districtId": "dist_nampula_larde"
   },
-
   {
     "id": "adm_post_nampula_liupo_liupo",
     "code": null,
@@ -856,1773 +819,1692 @@
     "districtId": "dist_nampula_liupo"
   },
   {
-  "id": "adm_post_zambezia_quelimane_urbano_1",
-  "code": null,
-  "name": "Urbano Nº 1",
-  "slug": "urbano-1",
-  "districtId": "dist_zambezia_quelimane"
-},
-{
-  "id": "adm_post_zambezia_quelimane_urbano_2",
-  "code": null,
-  "name": "Urbano Nº 2",
-  "slug": "urbano-2",
-  "districtId": "dist_zambezia_quelimane"
-},
-{
-  "id": "adm_post_zambezia_quelimane_urbano_3",
-  "code": null,
-  "name": "Urbano Nº 3",
-  "slug": "urbano-3",
-  "districtId": "dist_zambezia_quelimane"
-},
-{
-  "id": "adm_post_zambezia_quelimane_urbano_4",
-  "code": null,
-  "name": "Urbano Nº 4",
-  "slug": "urbano-4",
-  "districtId": "dist_zambezia_quelimane"
-},
-{
-  "id": "adm_post_zambezia_quelimane_urbano_5",
-  "code": null,
-  "name": "Urbano Nº 5",
-  "slug": "urbano-5",
-  "districtId": "dist_zambezia_quelimane"
-},
-
-{
-  "id": "adm_post_zambezia_alto_molocue_alto_molocue",
-  "code": null,
-  "name": "Alto Molocué",
-  "slug": "alto-molocue",
-  "districtId": "dist_zambezia_alto_molocue"
-},
-{
-  "id": "adm_post_zambezia_alto_molocue_nauela",
-  "code": null,
-  "name": "Nauela",
-  "slug": "nauela",
-  "districtId": "dist_zambezia_alto_molocue"
-},
-
-{
-  "id": "adm_post_zambezia_chinde_chinde_sede",
-  "code": null,
-  "name": "Chinde-Sede",
-  "slug": "chinde-sede",
-  "districtId": "dist_zambezia_chinde"
-},
-{
-  "id": "adm_post_zambezia_chinde_micaune",
-  "code": null,
-  "name": "Micaune",
-  "slug": "micaune",
-  "districtId": "dist_zambezia_chinde"
-},
-
-{
-  "id": "adm_post_zambezia_gile_gile_sede",
-  "code": null,
-  "name": "Gilé-Sede",
-  "slug": "gile-sede",
-  "districtId": "dist_zambezia_gile"
-},
-{
-  "id": "adm_post_zambezia_gile_alto_ligonha",
-  "code": null,
-  "name": "Alto Ligonha",
-  "slug": "alto-ligonha",
-  "districtId": "dist_zambezia_gile"
-},
-
-{
-  "id": "adm_post_zambezia_gurue_gurue",
-  "code": null,
-  "name": "Gurué",
-  "slug": "gurue",
-  "districtId": "dist_zambezia_gurue"
-},
-{
-  "id": "adm_post_zambezia_gurue_lioma",
-  "code": null,
-  "name": "Lioma",
-  "slug": "lioma",
-  "districtId": "dist_zambezia_gurue"
-},
-{
-  "id": "adm_post_zambezia_gurue_mepuagiua",
-  "code": null,
-  "name": "Mepuagiua",
-  "slug": "mepuagiua",
-  "districtId": "dist_zambezia_gurue"
-},
-
-{
-  "id": "adm_post_zambezia_ile_ile_sede",
-  "code": null,
-  "name": "Ile-Sede",
-  "slug": "ile-sede",
-  "districtId": "dist_zambezia_ile"
-},
-{
-  "id": "adm_post_zambezia_ile_socone",
-  "code": null,
-  "name": "Socone",
-  "slug": "socone",
-  "districtId": "dist_zambezia_ile"
-},
-
-{
-  "id": "adm_post_zambezia_inhassunge_mucupia",
-  "code": null,
-  "name": "Mucupia",
-  "slug": "mucupia",
-  "districtId": "dist_zambezia_inhassunge"
-},
-{
-  "id": "adm_post_zambezia_inhassunge_gonhane",
-  "code": null,
-  "name": "Gonhane",
-  "slug": "gonhane",
-  "districtId": "dist_zambezia_inhassunge"
-},
-
-{
-  "id": "adm_post_zambezia_lugela_lugela_sede",
-  "code": null,
-  "name": "Lugela-Sede",
-  "slug": "lugela-sede",
-  "districtId": "dist_zambezia_lugela"
-},
-{
-  "id": "adm_post_zambezia_lugela_muabanama",
-  "code": null,
-  "name": "Muabanama",
-  "slug": "muabanama",
-  "districtId": "dist_zambezia_lugela"
-},
-{
-  "id": "adm_post_zambezia_lugela_munhamade",
-  "code": null,
-  "name": "Munhamade",
-  "slug": "munhamade",
-  "districtId": "dist_zambezia_lugela"
-},
-{
-  "id": "adm_post_zambezia_lugela_tacuane",
-  "code": null,
-  "name": "Tacuane",
-  "slug": "tacuane",
-  "districtId": "dist_zambezia_lugela"
-},
-
-{
-  "id": "adm_post_zambezia_maganja_da_costa_maganja_da_costa",
-  "code": null,
-  "name": "Maganja da Costa",
-  "slug": "maganja-da-costa",
-  "districtId": "dist_zambezia_maganja_da_costa"
-},
-{
-  "id": "adm_post_zambezia_maganja_da_costa_nante",
-  "code": null,
-  "name": "Nante",
-  "slug": "nante",
-  "districtId": "dist_zambezia_maganja_da_costa"
-},
-
-{
-  "id": "adm_post_zambezia_milange_milange_sede",
-  "code": null,
-  "name": "Milange-Sede",
-  "slug": "milange-sede",
-  "districtId": "dist_zambezia_milange"
-},
-{
-  "id": "adm_post_zambezia_milange_majaua",
-  "code": null,
-  "name": "Majaua",
-  "slug": "majaua",
-  "districtId": "dist_zambezia_milange"
-},
-{
-  "id": "adm_post_zambezia_milange_mongue",
-  "code": null,
-  "name": "Mongue",
-  "slug": "mongue",
-  "districtId": "dist_zambezia_milange"
-},
-
-{
-  "id": "adm_post_zambezia_mocuba_cidade_de_mocuba",
-  "code": null,
-  "name": "Cidade de Mocuba",
-  "slug": "cidade-de-mocuba",
-  "districtId": "dist_zambezia_mocuba"
-},
-{
-  "id": "adm_post_zambezia_mocuba_mugeba",
-  "code": null,
-  "name": "Mugeba",
-  "slug": "mugeba",
-  "districtId": "dist_zambezia_mocuba"
-},
-{
-  "id": "adm_post_zambezia_mocuba_namanjavira",
-  "code": null,
-  "name": "Namanjavira",
-  "slug": "namanjavira",
-  "districtId": "dist_zambezia_mocuba"
-},
-
-{
-  "id": "adm_post_zambezia_mopeia_mopeia_sede",
-  "code": null,
-  "name": "Mopeia-Sede",
-  "slug": "mopeia-sede",
-  "districtId": "dist_zambezia_mopeia"
-},
-{
-  "id": "adm_post_zambezia_mopeia_campo",
-  "code": null,
-  "name": "Campo",
-  "slug": "campo",
-  "districtId": "dist_zambezia_mopeia"
-},
-
-{
-  "id": "adm_post_zambezia_morrumbala_morrumbala_sede",
-  "code": null,
-  "name": "Morrumbala-Sede",
-  "slug": "morrumbala-sede",
-  "districtId": "dist_zambezia_morrumbala"
-},
-{
-  "id": "adm_post_zambezia_morrumbala_chire",
-  "code": null,
-  "name": "Chire",
-  "slug": "chire",
-  "districtId": "dist_zambezia_morrumbala"
-},
-{
-  "id": "adm_post_zambezia_morrumbala_megaza",
-  "code": null,
-  "name": "Megaza",
-  "slug": "megaza",
-  "districtId": "dist_zambezia_morrumbala"
-},
-
-{
-  "id": "adm_post_zambezia_namacurra_namacurra",
-  "code": null,
-  "name": "Namacurra",
-  "slug": "namacurra",
-  "districtId": "dist_zambezia_namacurra"
-},
-{
-  "id": "adm_post_zambezia_namacurra_macuse",
-  "code": null,
-  "name": "Macuse",
-  "slug": "macuse",
-  "districtId": "dist_zambezia_namacurra"
-},
-
-{
-  "id": "adm_post_zambezia_namarroi_namarroi_sede",
-  "code": null,
-  "name": "Namarroi-Sede",
-  "slug": "namarroi-sede",
-  "districtId": "dist_zambezia_namarroi"
-},
-{
-  "id": "adm_post_zambezia_namarroi_regone",
-  "code": null,
-  "name": "Regone",
-  "slug": "regone",
-  "districtId": "dist_zambezia_namarroi"
-},
-
-{
-  "id": "adm_post_zambezia_nicoadala_nicoadala_sede",
-  "code": null,
-  "name": "Nicoadala-Sede",
-  "slug": "nicoadala-sede",
-  "districtId": "dist_zambezia_nicoadala"
-},
-{
-  "id": "adm_post_zambezia_nicoadala_maquival",
-  "code": null,
-  "name": "Maquival",
-  "slug": "maquival",
-  "districtId": "dist_zambezia_nicoadala"
-},
-
-{
-  "id": "adm_post_zambezia_pebane_pebane_sede",
-  "code": null,
-  "name": "Pebane-Sede",
-  "slug": "pebane-sede",
-  "districtId": "dist_zambezia_pebane"
-},
-{
-  "id": "adm_post_zambezia_pebane_mulela",
-  "code": null,
-  "name": "Mulela",
-  "slug": "mulela",
-  "districtId": "dist_zambezia_pebane"
-},
-{
-  "id": "adm_post_zambezia_pebane_naburi",
-  "code": null,
-  "name": "Naburi",
-  "slug": "naburi",
-  "districtId": "dist_zambezia_pebane"
-},
-
-{
-  "id": "adm_post_zambezia_derre_derre_sede",
-  "code": null,
-  "name": "Derre-Sede",
-  "slug": "derre-sede",
-  "districtId": "dist_zambezia_derre"
-},
-{
-  "id": "adm_post_zambezia_derre_guerissa",
-  "code": null,
-  "name": "Guerissa",
-  "slug": "guerissa",
-  "districtId": "dist_zambezia_derre"
-},
-
-{
-  "id": "adm_post_zambezia_luabo_luabo_sede",
-  "code": null,
-  "name": "Luabo-Sede",
-  "slug": "luabo-sede",
-  "districtId": "dist_zambezia_luabo"
-},
-{
-  "id": "adm_post_zambezia_luabo_chimbazo",
-  "code": null,
-  "name": "Chimbazo",
-  "slug": "chimbazo",
-  "districtId": "dist_zambezia_luabo"
-},
-
-{
-  "id": "adm_post_zambezia_mocubela_mocubela_sede",
-  "code": null,
-  "name": "Mocubela-Sede",
-  "slug": "mocubela-sede",
-  "districtId": "dist_zambezia_mocubela"
-},
-{
-  "id": "adm_post_zambezia_mocubela_bajone",
-  "code": null,
-  "name": "Bajone",
-  "slug": "bajone",
-  "districtId": "dist_zambezia_mocubela"
-},
-
-{
-  "id": "adm_post_zambezia_molumbo_molumbo_sede",
-  "code": null,
-  "name": "Molumbo-Sede",
-  "slug": "molumbo-sede",
-  "districtId": "dist_zambezia_molumbo"
-},
-{
-  "id": "adm_post_zambezia_molumbo_corromana",
-  "code": null,
-  "name": "Corromana",
-  "slug": "corromana",
-  "districtId": "dist_zambezia_molumbo"
-},
-
-{
-  "id": "adm_post_zambezia_mulevala_mulevala_sede",
-  "code": null,
-  "name": "Mulevala-Sede",
-  "slug": "mulevala-sede",
-  "districtId": "dist_zambezia_mulevala"
-},
-{
-  "id": "adm_post_zambezia_mulevala_chiraco",
-  "code": null,
-  "name": "Chiraco",
-  "slug": "chiraco",
-  "districtId": "dist_zambezia_mulevala"
-},
-{
-  "id": "adm_post_tete_angonia_ulongue",
-  "code": null,
-  "name": "Ulongué",
-  "slug": "ulongue",
-  "districtId": "dist_tete_angonia"
-},
-{
-  "id": "adm_post_tete_angonia_domue",
-  "code": null,
-  "name": "Domue",
-  "slug": "domue",
-  "districtId": "dist_tete_angonia"
-},
-
-{
-  "id": "adm_post_tete_cahora_bassa_chitima",
-  "code": null,
-  "name": "Chitima",
-  "slug": "chitima",
-  "districtId": "dist_tete_cahora_bassa"
-},
-{
-  "id": "adm_post_tete_cahora_bassa_chirodzi",
-  "code": null,
-  "name": "Chirodzi",
-  "slug": "chirodzi",
-  "districtId": "dist_tete_cahora_bassa"
-},
-{
-  "id": "adm_post_tete_cahora_bassa_songo",
-  "code": null,
-  "name": "Songo",
-  "slug": "songo",
-  "districtId": "dist_tete_cahora_bassa"
-},
-
-{
-  "id": "adm_post_tete_changara_luenha",
-  "code": null,
-  "name": "Luenha",
-  "slug": "luenha",
-  "districtId": "dist_tete_changara"
-},
-{
-  "id": "adm_post_tete_changara_chioco",
-  "code": null,
-  "name": "Chioco",
-  "slug": "chioco",
-  "districtId": "dist_tete_changara"
-},
-
-{
-  "id": "adm_post_tete_chifunde_chifunde",
-  "code": null,
-  "name": "Chifunde",
-  "slug": "chifunde",
-  "districtId": "dist_tete_chifunde"
-},
-{
-  "id": "adm_post_tete_chifunde_mualadzi",
-  "code": null,
-  "name": "Mualadzi",
-  "slug": "mualadzi",
-  "districtId": "dist_tete_chifunde"
-},
-{
-  "id": "adm_post_tete_chifunde_nsadzo",
-  "code": null,
-  "name": "Nsadzo",
-  "slug": "nsadzo",
-  "districtId": "dist_tete_chifunde"
-},
-
-{
-  "id": "adm_post_tete_chiuta_kazula",
-  "code": null,
-  "name": "Kazula",
-  "slug": "kazula",
-  "districtId": "dist_tete_chiuta"
-},
-{
-  "id": "adm_post_tete_chiuta_manje",
-  "code": null,
-  "name": "Manje",
-  "slug": "manje",
-  "districtId": "dist_tete_chiuta"
-},
-
-{
-  "id": "adm_post_tete_macanga_furancungo",
-  "code": null,
-  "name": "Furancungo",
-  "slug": "furancungo",
-  "districtId": "dist_tete_macanga"
-},
-{
-  "id": "adm_post_tete_macanga_chidzolomondo",
-  "code": null,
-  "name": "Chidzolomondo",
-  "slug": "chidzolomondo",
-  "districtId": "dist_tete_macanga"
-},
-
-{
-  "id": "adm_post_tete_magoe_mphende",
-  "code": null,
-  "name": "Mphende",
-  "slug": "mphende",
-  "districtId": "dist_tete_magoe"
-},
-{
-  "id": "adm_post_tete_magoe_chinthopo",
-  "code": null,
-  "name": "Chinthopo",
-  "slug": "chinthopo",
-  "districtId": "dist_tete_magoe"
-},
-{
-  "id": "adm_post_tete_magoe_mucumbura",
-  "code": null,
-  "name": "Mucumbura",
-  "slug": "mucumbura",
-  "districtId": "dist_tete_magoe"
-},
-
-{
-  "id": "adm_post_tete_maravia_chiputo",
-  "code": null,
-  "name": "Chiputo",
-  "slug": "chiputo",
-  "districtId": "dist_tete_maravia"
-},
-{
-  "id": "adm_post_tete_maravia_fingoe",
-  "code": null,
-  "name": "Fingoe",
-  "slug": "fingoe",
-  "districtId": "dist_tete_maravia"
-},
-{
-  "id": "adm_post_tete_maravia_malowera",
-  "code": null,
-  "name": "Malowera",
-  "slug": "malowera",
-  "districtId": "dist_tete_maravia"
-},
-{
-  "id": "adm_post_tete_maravia_chipera",
-  "code": null,
-  "name": "Chipera",
-  "slug": "chipera",
-  "districtId": "dist_tete_maravia"
-},
-
-{
-  "id": "adm_post_tete_moatize_moatize",
-  "code": null,
-  "name": "Moatize",
-  "slug": "moatize",
-  "districtId": "dist_tete_moatize"
-},
-{
-  "id": "adm_post_tete_moatize_kambulatsitsi",
-  "code": null,
-  "name": "Kambulatsitsi",
-  "slug": "kambulatsitsi",
-  "districtId": "dist_tete_moatize"
-},
-{
-  "id": "adm_post_tete_moatize_zobue",
-  "code": null,
-  "name": "Zobué",
-  "slug": "zobue",
-  "districtId": "dist_tete_moatize"
-},
-
-{
-  "id": "adm_post_tete_mutarara_nhamayabue",
-  "code": null,
-  "name": "Nhamayabue",
-  "slug": "nhamayabue",
-  "districtId": "dist_tete_mutarara"
-},
-{
-  "id": "adm_post_tete_mutarara_charre",
-  "code": null,
-  "name": "Charre",
-  "slug": "charre",
-  "districtId": "dist_tete_mutarara"
-},
-{
-  "id": "adm_post_tete_mutarara_inhangoma",
-  "code": null,
-  "name": "Inhangoma",
-  "slug": "inhangoma",
-  "districtId": "dist_tete_mutarara"
-},
-
-{
-  "id": "adm_post_tete_tsangano_ntengo_wa_mbalame",
-  "code": null,
-  "name": "Ntengo-Wa-Mbalame",
-  "slug": "ntengo-wa-mbalame",
-  "districtId": "dist_tete_tsangano"
-},
-{
-  "id": "adm_post_tete_tsangano_tsangano",
-  "code": null,
-  "name": "Tsangano",
-  "slug": "tsangano",
-  "districtId": "dist_tete_tsangano"
-},
-
-{
-  "id": "adm_post_tete_zumbo_zumbo_sede",
-  "code": null,
-  "name": "Zumbo-Sede",
-  "slug": "zumbo-sede",
-  "districtId": "dist_tete_zumbo"
-},
-{
-  "id": "adm_post_tete_zumbo_muze",
-  "code": null,
-  "name": "Muze",
-  "slug": "muze",
-  "districtId": "dist_tete_zumbo"
-},
-{
-  "id": "adm_post_tete_zumbo_zambue",
-  "code": null,
-  "name": "Zambue",
-  "slug": "zambue",
-  "districtId": "dist_tete_zumbo"
-},
-
-{
-  "id": "adm_post_tete_doa_doa_sede",
-  "code": null,
-  "name": "Doa-Sede",
-  "slug": "doa-sede",
-  "districtId": "dist_tete_doa"
-},
-{
-  "id": "adm_post_tete_doa_chueza",
-  "code": null,
-  "name": "Chueza",
-  "slug": "chueza",
-  "districtId": "dist_tete_doa"
-},
-
-{
-  "id": "adm_post_tete_marara_marara_sede",
-  "code": null,
-  "name": "Marara-Sede",
-  "slug": "marara-sede",
-  "districtId": "dist_tete_marara"
-},
-{
-  "id": "adm_post_tete_marara_mufa_boroma",
-  "code": null,
-  "name": "Mufa Boroma",
-  "slug": "mufa-boroma",
-  "districtId": "dist_tete_marara"
-},
-{
-  "id": "adm_post_manica_chimoio_urbano_1",
-  "code": null,
-  "name": "Urbano Nº 1",
-  "slug": "urbano-1",
-  "districtId": "dist_manica_chimoio"
-},
-{
-  "id": "adm_post_manica_chimoio_urbano_2",
-  "code": null,
-  "name": "Urbano Nº 2",
-  "slug": "urbano-2",
-  "districtId": "dist_manica_chimoio"
-},
-{
-  "id": "adm_post_manica_chimoio_urbano_3",
-  "code": null,
-  "name": "Urbano Nº 3",
-  "slug": "urbano-3",
-  "districtId": "dist_manica_chimoio"
-},
-
-{
-  "id": "adm_post_manica_barue_catandica",
-  "code": null,
-  "name": "Catandica",
-  "slug": "catandica",
-  "districtId": "dist_manica_barue"
-},
-{
-  "id": "adm_post_manica_barue_choa",
-  "code": null,
-  "name": "Choa",
-  "slug": "choa",
-  "districtId": "dist_manica_barue"
-},
-{
-  "id": "adm_post_manica_barue_nhampassa",
-  "code": null,
-  "name": "Nhampassa",
-  "slug": "nhampassa",
-  "districtId": "dist_manica_barue"
-},
-
-{
-  "id": "adm_post_manica_gondola_gondola_sede",
-  "code": null,
-  "name": "Gondola-Sede",
-  "slug": "gondola-sede",
-  "districtId": "dist_manica_gondola"
-},
-{
-  "id": "adm_post_manica_gondola_amatongas",
-  "code": null,
-  "name": "Amatongas",
-  "slug": "amatongas",
-  "districtId": "dist_manica_gondola"
-},
-{
-  "id": "adm_post_manica_gondola_cafumpe",
-  "code": null,
-  "name": "Cafumpe",
-  "slug": "cafumpe",
-  "districtId": "dist_manica_gondola"
-},
-{
-  "id": "adm_post_manica_gondola_inchope",
-  "code": null,
-  "name": "Inchope",
-  "slug": "inchope",
-  "districtId": "dist_manica_gondola"
-},
-
-{
-  "id": "adm_post_manica_guro_guro_sede",
-  "code": null,
-  "name": "Guro-Sede",
-  "slug": "guro-sede",
-  "districtId": "dist_manica_guro"
-},
-{
-  "id": "adm_post_manica_guro_mungari",
-  "code": null,
-  "name": "Mungari",
-  "slug": "mungari",
-  "districtId": "dist_manica_guro"
-},
-{
-  "id": "adm_post_manica_guro_nhamassonge",
-  "code": null,
-  "name": "Nhamassonge",
-  "slug": "nhamassonge",
-  "districtId": "dist_manica_guro"
-},
-{
-  "id": "adm_post_manica_guro_mandie",
-  "code": null,
-  "name": "Mandie",
-  "slug": "mandie",
-  "districtId": "dist_manica_guro"
-},
-
-{
-  "id": "adm_post_manica_machaze_machaze",
-  "code": null,
-  "name": "Machaze",
-  "slug": "machaze",
-  "districtId": "dist_manica_machaze"
-},
-{
-  "id": "adm_post_manica_machaze_save",
-  "code": null,
-  "name": "Save",
-  "slug": "save",
-  "districtId": "dist_manica_machaze"
-},
-
-{
-  "id": "adm_post_manica_macossa_macossa_sede",
-  "code": null,
-  "name": "Macossa-Sede",
-  "slug": "macossa-sede",
-  "districtId": "dist_manica_macossa"
-},
-{
-  "id": "adm_post_manica_macossa_nguawala",
-  "code": null,
-  "name": "Nguawala",
-  "slug": "nguawala",
-  "districtId": "dist_manica_macossa"
-},
-{
-  "id": "adm_post_manica_macossa_nhamagua",
-  "code": null,
-  "name": "Nhamagua",
-  "slug": "nhamagua",
-  "districtId": "dist_manica_macossa"
-},
-
-{
-  "id": "adm_post_manica_manica_manica",
-  "code": null,
-  "name": "Manica",
-  "slug": "manica",
-  "districtId": "dist_manica_manica"
-},
-{
-  "id": "adm_post_manica_manica_machipanda",
-  "code": null,
-  "name": "Machipanda",
-  "slug": "machipanda",
-  "districtId": "dist_manica_manica"
-},
-{
-  "id": "adm_post_manica_manica_messica",
-  "code": null,
-  "name": "Messica",
-  "slug": "messica",
-  "districtId": "dist_manica_manica"
-},
-{
-  "id": "adm_post_manica_manica_mavonde",
-  "code": null,
-  "name": "Mavonde",
-  "slug": "mavonde",
-  "districtId": "dist_manica_manica"
-},
-
-{
-  "id": "adm_post_manica_mossurize_espungabera",
-  "code": null,
-  "name": "Espungabera",
-  "slug": "espungabera",
-  "districtId": "dist_manica_mossurize"
-},
-{
-  "id": "adm_post_manica_mossurize_chiuirane",
-  "code": null,
-  "name": "Chiuirane",
-  "slug": "chiuirane",
-  "districtId": "dist_manica_mossurize"
-},
-{
-  "id": "adm_post_manica_mossurize_dacata",
-  "code": null,
-  "name": "Dacata",
-  "slug": "dacata",
-  "districtId": "dist_manica_mossurize"
-},
-
-{
-  "id": "adm_post_manica_sussundenga_sussundenga_sede",
-  "code": null,
-  "name": "Sussundenga-Sede",
-  "slug": "sussundenga-sede",
-  "districtId": "dist_manica_sussundenga"
-},
-{
-  "id": "adm_post_manica_sussundenga_dombe",
-  "code": null,
-  "name": "Dombe",
-  "slug": "dombe",
-  "districtId": "dist_manica_sussundenga"
-},
-{
-  "id": "adm_post_manica_sussundenga_muhoa",
-  "code": null,
-  "name": "Muôha",
-  "slug": "muoha",
-  "districtId": "dist_manica_sussundenga"
-},
-{
-  "id": "adm_post_manica_sussundenga_rotanda",
-  "code": null,
-  "name": "Rotanda",
-  "slug": "rotanda",
-  "districtId": "dist_manica_sussundenga"
-},
-
-{
-  "id": "adm_post_manica_tambara_nhacolo",
-  "code": null,
-  "name": "Nhacolo",
-  "slug": "nhacolo",
-  "districtId": "dist_manica_tambara"
-},
-{
-  "id": "adm_post_manica_tambara_buzua",
-  "code": null,
-  "name": "Buzua",
-  "slug": "buzua",
-  "districtId": "dist_manica_tambara"
-},
-{
-  "id": "adm_post_manica_tambara_nhacafula",
-  "code": null,
-  "name": "Nhacafula",
-  "slug": "nhacafula",
-  "districtId": "dist_manica_tambara"
-},
-
-{
-  "id": "adm_post_manica_macate_macate_sede",
-  "code": null,
-  "name": "Macate-Sede",
-  "slug": "macate-sede",
-  "districtId": "dist_manica_macate"
-},
-{
-  "id": "adm_post_manica_macate_zembe",
-  "code": null,
-  "name": "Zembe",
-  "slug": "zembe",
-  "districtId": "dist_manica_macate"
-},
-
-{
-  "id": "adm_post_manica_vanduzi_vanduzi",
-  "code": null,
-  "name": "Vanduzi",
-  "slug": "vanduzi",
-  "districtId": "dist_manica_vanduzi"
-},
-{
-  "id": "adm_post_manica_vanduzi_matsinho",
-  "code": null,
-  "name": "Matsinho",
-  "slug": "matsinho",
-  "districtId": "dist_manica_vanduzi"
-},
-{
-  "id": "adm_post_sofala_beira_urbano_1_central",
-  "code": null,
-  "name": "Urbano Nº 1 - Central",
-  "slug": "urbano-1-central",
-  "districtId": "dist_sofala_beira"
-},
-{
-  "id": "adm_post_sofala_beira_urbano_2_munhava",
-  "code": null,
-  "name": "Urbano Nº 2 - Munhava",
-  "slug": "urbano-2-munhava",
-  "districtId": "dist_sofala_beira"
-},
-{
-  "id": "adm_post_sofala_beira_urbano_3_inhamizua",
-  "code": null,
-  "name": "Urbano Nº 3 - Inhamízua",
-  "slug": "urbano-3-inhamizua",
-  "districtId": "dist_sofala_beira"
-},
-{
-  "id": "adm_post_sofala_beira_urbano_4_manga_loforte",
-  "code": null,
-  "name": "Urbano Nº 4 - Manga Loforte",
-  "slug": "urbano-4-manga-loforte",
-  "districtId": "dist_sofala_beira"
-},
-{
-  "id": "adm_post_sofala_beira_urbano_5_nhangau",
-  "code": null,
-  "name": "Urbano Nº 5 - Nhangau",
-  "slug": "urbano-5-nhangau",
-  "districtId": "dist_sofala_beira"
-},
-
-{
-  "id": "adm_post_sofala_buzi_buzi_sede",
-  "code": null,
-  "name": "Búzi-Sede",
-  "slug": "buzi-sede",
-  "districtId": "dist_sofala_buzi"
-},
-{
-  "id": "adm_post_sofala_buzi_estaquinha",
-  "code": null,
-  "name": "Estaquinha",
-  "slug": "estaquinha",
-  "districtId": "dist_sofala_buzi"
-},
-{
-  "id": "adm_post_sofala_buzi_nova_sofala",
-  "code": null,
-  "name": "Nova Sofala",
-  "slug": "nova-sofala",
-  "districtId": "dist_sofala_buzi"
-},
-
-{
-  "id": "adm_post_sofala_caia_caia_sede",
-  "code": null,
-  "name": "Caia-Sede",
-  "slug": "caia-sede",
-  "districtId": "dist_sofala_caia"
-},
-{
-  "id": "adm_post_sofala_caia_murraca",
-  "code": null,
-  "name": "Murraça",
-  "slug": "murraca",
-  "districtId": "dist_sofala_caia"
-},
-{
-  "id": "adm_post_sofala_caia_sena",
-  "code": null,
-  "name": "Sena",
-  "slug": "sena",
-  "districtId": "dist_sofala_caia"
-},
-
-{
-  "id": "adm_post_sofala_chemba_chemba_sede",
-  "code": null,
-  "name": "Chemba-Sede",
-  "slug": "chemba-sede",
-  "districtId": "dist_sofala_chemba"
-},
-{
-  "id": "adm_post_sofala_chemba_chiramba",
-  "code": null,
-  "name": "Chiramba",
-  "slug": "chiramba",
-  "districtId": "dist_sofala_chemba"
-},
-{
-  "id": "adm_post_sofala_chemba_mulima",
-  "code": null,
-  "name": "Mulima",
-  "slug": "mulima",
-  "districtId": "dist_sofala_chemba"
-},
-
-{
-  "id": "adm_post_sofala_cheringoma_inhaminga",
-  "code": null,
-  "name": "Inhaminga",
-  "slug": "inhaminga",
-  "districtId": "dist_sofala_cheringoma"
-},
-{
-  "id": "adm_post_sofala_cheringoma_inhamitanga",
-  "code": null,
-  "name": "Inhamitanga",
-  "slug": "inhamitanga",
-  "districtId": "dist_sofala_cheringoma"
-},
-
-{
-  "id": "adm_post_sofala_chibabava_chibabava",
-  "code": null,
-  "name": "Chibabava",
-  "slug": "chibabava",
-  "districtId": "dist_sofala_chibabava"
-},
-{
-  "id": "adm_post_sofala_chibabava_goonda",
-  "code": null,
-  "name": "Goonda",
-  "slug": "goonda",
-  "districtId": "dist_sofala_chibabava"
-},
-{
-  "id": "adm_post_sofala_chibabava_muxungue",
-  "code": null,
-  "name": "Muxungué",
-  "slug": "muxungue",
-  "districtId": "dist_sofala_chibabava"
-},
-
-{
-  "id": "adm_post_sofala_dondo_dondo_sede",
-  "code": null,
-  "name": "Dondo-Sede",
-  "slug": "dondo-sede",
-  "districtId": "dist_sofala_dondo"
-},
-{
-  "id": "adm_post_sofala_dondo_mafambisse",
-  "code": null,
-  "name": "Mafambisse",
-  "slug": "mafambisse",
-  "districtId": "dist_sofala_dondo"
-},
-{
-  "id": "adm_post_sofala_dondo_savane",
-  "code": null,
-  "name": "Savane",
-  "slug": "savane",
-  "districtId": "dist_sofala_dondo"
-},
-
-{
-  "id": "adm_post_sofala_gorongosa_gorongosa_sede",
-  "code": null,
-  "name": "Gorongosa-Sede",
-  "slug": "gorongosa-sede",
-  "districtId": "dist_sofala_gorongosa"
-},
-{
-  "id": "adm_post_sofala_gorongosa_nhamadzi",
-  "code": null,
-  "name": "Nhamadzi",
-  "slug": "nhamadzi",
-  "districtId": "dist_sofala_gorongosa"
-},
-{
-  "id": "adm_post_sofala_gorongosa_vunduzi",
-  "code": null,
-  "name": "Vunduzi",
-  "slug": "vunduzi",
-  "districtId": "dist_sofala_gorongosa"
-},
-
-{
-  "id": "adm_post_sofala_machanga_machanga_sede",
-  "code": null,
-  "name": "Machanga-Sede",
-  "slug": "machanga-sede",
-  "districtId": "dist_sofala_machanga"
-},
-{
-  "id": "adm_post_sofala_machanga_divinhe",
-  "code": null,
-  "name": "Divinhe",
-  "slug": "divinhe",
-  "districtId": "dist_sofala_machanga"
-},
-{
-  "id": "adm_post_sofala_machanga_chiloane",
-  "code": null,
-  "name": "Chiloane",
-  "slug": "chiloane",
-  "districtId": "dist_sofala_machanga"
-},
-
-{
-  "id": "adm_post_sofala_maringue_maringue_sede",
-  "code": null,
-  "name": "Marínguè-Sede",
-  "slug": "maringue-sede",
-  "districtId": "dist_sofala_maringue"
-},
-{
-  "id": "adm_post_sofala_maringue_canxixe",
-  "code": null,
-  "name": "Canxixe",
-  "slug": "canxixe",
-  "districtId": "dist_sofala_maringue"
-},
-{
-  "id": "adm_post_sofala_maringue_subue",
-  "code": null,
-  "name": "Subué",
-  "slug": "subue",
-  "districtId": "dist_sofala_maringue"
-},
-
-{
-  "id": "adm_post_sofala_marromeu_marromeu_sede",
-  "code": null,
-  "name": "Marromeu-Sede",
-  "slug": "marromeu-sede",
-  "districtId": "dist_sofala_marromeu"
-},
-{
-  "id": "adm_post_sofala_marromeu_chupanga",
-  "code": null,
-  "name": "Chupanga",
-  "slug": "chupanga",
-  "districtId": "dist_sofala_marromeu"
-},
-{
-  "id": "adm_post_sofala_marromeu_malingapansi",
-  "code": null,
-  "name": "Malingapansi",
-  "slug": "malingapansi",
-  "districtId": "dist_sofala_marromeu"
-},
-
-{
-  "id": "adm_post_sofala_muanza_muanza",
-  "code": null,
-  "name": "Muanza",
-  "slug": "muanza",
-  "districtId": "dist_sofala_muanza"
-},
-{
-  "id": "adm_post_sofala_muanza_galinha",
-  "code": null,
-  "name": "Galinha",
-  "slug": "galinha",
-  "districtId": "dist_sofala_muanza"
-},
-
-{
-  "id": "adm_post_sofala_nhamatanda_nhamatanda",
-  "code": null,
-  "name": "Nhamatanda",
-  "slug": "nhamatanda",
-  "districtId": "dist_sofala_nhamatanda"
-},
-{
-  "id": "adm_post_sofala_nhamatanda_tica",
-  "code": null,
-  "name": "Tica",
-  "slug": "tica",
-  "districtId": "dist_sofala_nhamatanda"
-},
-{
-  "id": "adm_post_inhambane_funhalouro_funhalouro",
-  "code": null,
-  "name": "Funhalouro",
-  "slug": "funhalouro",
-  "districtId": "dist_inhambane_funhalouro"
-},
-{
-  "id": "adm_post_inhambane_funhalouro_tome",
-  "code": null,
-  "name": "Tome",
-  "slug": "tome",
-  "districtId": "dist_inhambane_funhalouro"
-},
-
-{
-  "id": "adm_post_inhambane_govuro_nova_mambone",
-  "code": null,
-  "name": "Nova Mambone",
-  "slug": "nova-mambone",
-  "districtId": "dist_inhambane_govuro"
-},
-{
-  "id": "adm_post_inhambane_govuro_save",
-  "code": null,
-  "name": "Save",
-  "slug": "save",
-  "districtId": "dist_inhambane_govuro"
-},
-
-{
-  "id": "adm_post_inhambane_homoine_homoine",
-  "code": null,
-  "name": "Homoíne",
-  "slug": "homoine",
-  "districtId": "dist_inhambane_homoine"
-},
-{
-  "id": "adm_post_inhambane_homoine_pembe",
-  "code": null,
-  "name": "Pembe",
-  "slug": "pembe",
-  "districtId": "dist_inhambane_homoine"
-},
-
-{
-  "id": "adm_post_inhambane_inharrime_inharrime",
-  "code": null,
-  "name": "Inharrime",
-  "slug": "inharrime",
-  "districtId": "dist_inhambane_inharrime"
-},
-{
-  "id": "adm_post_inhambane_inharrime_mocumbi",
-  "code": null,
-  "name": "Mocumbi",
-  "slug": "mocumbi",
-  "districtId": "dist_inhambane_inharrime"
-},
-
-{
-  "id": "adm_post_inhambane_inhassoro_inhassoro",
-  "code": null,
-  "name": "Inhassoro",
-  "slug": "inhassoro",
-  "districtId": "dist_inhambane_inhassoro"
-},
-{
-  "id": "adm_post_inhambane_inhassoro_bazaruto",
-  "code": null,
-  "name": "Bazaruto",
-  "slug": "bazaruto",
-  "districtId": "dist_inhambane_inhassoro"
-},
-
-{
-  "id": "adm_post_inhambane_jangamo_jangamo",
-  "code": null,
-  "name": "Jangamo",
-  "slug": "jangamo",
-  "districtId": "dist_inhambane_jangamo"
-},
-{
-  "id": "adm_post_inhambane_jangamo_cumbana",
-  "code": null,
-  "name": "Cumbana",
-  "slug": "cumbana",
-  "districtId": "dist_inhambane_jangamo"
-},
-
-{
-  "id": "adm_post_inhambane_mabote_mabote",
-  "code": null,
-  "name": "Mabote",
-  "slug": "mabote",
-  "districtId": "dist_inhambane_mabote"
-},
-{
-  "id": "adm_post_inhambane_mabote_zimane",
-  "code": null,
-  "name": "Zimane",
-  "slug": "zimane",
-  "districtId": "dist_inhambane_mabote"
-},
-{
-  "id": "adm_post_inhambane_mabote_zinave",
-  "code": null,
-  "name": "Zinave",
-  "slug": "zinave",
-  "districtId": "dist_inhambane_mabote"
-},
-
-{
-  "id": "adm_post_inhambane_massinga_massinga",
-  "code": null,
-  "name": "Massinga",
-  "slug": "massinga",
-  "districtId": "dist_inhambane_massinga"
-},
-{
-  "id": "adm_post_inhambane_massinga_chicomo",
-  "code": null,
-  "name": "Chicomo",
-  "slug": "chicomo",
-  "districtId": "dist_inhambane_massinga"
-},
-
-{
-  "id": "adm_post_inhambane_morrumbene_morrumbene",
-  "code": null,
-  "name": "Morrumbene",
-  "slug": "morrumbene",
-  "districtId": "dist_inhambane_morrumbene"
-},
-{
-  "id": "adm_post_inhambane_morrumbene_mocodoene",
-  "code": null,
-  "name": "Mocodoene",
-  "slug": "mocodoene",
-  "districtId": "dist_inhambane_morrumbene"
-},
-
-{
-  "id": "adm_post_inhambane_panda_panda",
-  "code": null,
-  "name": "Panda",
-  "slug": "panda",
-  "districtId": "dist_inhambane_panda"
-},
-{
-  "id": "adm_post_inhambane_panda_mawayela",
-  "code": null,
-  "name": "Mawayela",
-  "slug": "mawayela",
-  "districtId": "dist_inhambane_panda"
-},
-{
-  "id": "adm_post_inhambane_panda_urrene",
-  "code": null,
-  "name": "Urrene",
-  "slug": "urrene",
-  "districtId": "dist_inhambane_panda"
-},
-
-{
-  "id": "adm_post_inhambane_vilankulo_vilankulo",
-  "code": null,
-  "name": "Vilankulo",
-  "slug": "vilankulo",
-  "districtId": "dist_inhambane_vilankulo"
-},
-{
-  "id": "adm_post_inhambane_vilankulo_mapinhane",
-  "code": null,
-  "name": "Mapinhane",
-  "slug": "mapinhane",
-  "districtId": "dist_inhambane_vilankulo"
-},
-
-{
-  "id": "adm_post_inhambane_zavala_quissico",
-  "code": null,
-  "name": "Quissico",
-  "slug": "quissico",
-  "districtId": "dist_inhambane_zavala"
-},
-{
-  "id": "adm_post_inhambane_zavala_zandamela",
-  "code": null,
-  "name": "Zandamela",
-  "slug": "zandamela",
-  "districtId": "dist_inhambane_zavala"
-},
-{
-  "id": "adm_post_gaza_xai_xai_municipal_sede",
-  "code": null,
-  "name": "Municipal Sede",
-  "slug": "municipal-sede",
-  "districtId": "dist_gaza_xai_xai"
-},
-{
-  "id": "adm_post_gaza_xai_xai_patrice_lumumba",
-  "code": null,
-  "name": "Patrice Lumumba",
-  "slug": "patrice-lumumba",
-  "districtId": "dist_gaza_xai_xai"
-},
-{
-  "id": "adm_post_gaza_xai_xai_praia",
-  "code": null,
-  "name": "Praia",
-  "slug": "praia",
-  "districtId": "dist_gaza_xai_xai"
-},
-{
-  "id": "adm_post_gaza_xai_xai_inhamissa",
-  "code": null,
-  "name": "Inhamissa",
-  "slug": "inhamissa",
-  "districtId": "dist_gaza_xai_xai"
-},
-{
-  "id": "adm_post_gaza_xai_xai_chilaulene",
-  "code": null,
-  "name": "Chilaulene",
-  "slug": "chilaulene",
-  "districtId": "dist_gaza_xai_xai"
-},
-
-{
-  "id": "adm_post_gaza_bilene_macia",
-  "code": null,
-  "name": "Macia",
-  "slug": "macia",
-  "districtId": "dist_gaza_bilene"
-},
-{
-  "id": "adm_post_gaza_bilene_incaia",
-  "code": null,
-  "name": "Incaia",
-  "slug": "incaia",
-  "districtId": "dist_gaza_bilene"
-},
-{
-  "id": "adm_post_gaza_bilene_mazivila",
-  "code": null,
-  "name": "Mazivila",
-  "slug": "mazivila",
-  "districtId": "dist_gaza_bilene"
-},
-{
-  "id": "adm_post_gaza_bilene_messano",
-  "code": null,
-  "name": "Messano",
-  "slug": "messano",
-  "districtId": "dist_gaza_bilene"
-},
-{
-  "id": "adm_post_gaza_bilene_praia_de_bilene",
-  "code": null,
-  "name": "Praia de Bilene",
-  "slug": "praia-de-bilene",
-  "districtId": "dist_gaza_bilene"
-},
-{
-  "id": "adm_post_gaza_bilene_macuane",
-  "code": null,
-  "name": "Macuane",
-  "slug": "macuane",
-  "districtId": "dist_gaza_bilene"
-},
-
-{
-  "id": "adm_post_gaza_chibuto_cidade_de_chibuto",
-  "code": null,
-  "name": "Cidade de Chibuto",
-  "slug": "cidade-de-chibuto",
-  "districtId": "dist_gaza_chibuto"
-},
-{
-  "id": "adm_post_gaza_chibuto_alto_changane",
-  "code": null,
-  "name": "Alto Changane",
-  "slug": "alto-changane",
-  "districtId": "dist_gaza_chibuto"
-},
-{
-  "id": "adm_post_gaza_chibuto_chaimite",
-  "code": null,
-  "name": "Chaimite",
-  "slug": "chaimite",
-  "districtId": "dist_gaza_chibuto"
-},
-{
-  "id": "adm_post_gaza_chibuto_changanine",
-  "code": null,
-  "name": "Changanine",
-  "slug": "changanine",
-  "districtId": "dist_gaza_chibuto"
-},
-{
-  "id": "adm_post_gaza_chibuto_godide",
-  "code": null,
-  "name": "Godide",
-  "slug": "godide",
-  "districtId": "dist_gaza_chibuto"
-},
-{
-  "id": "adm_post_gaza_chibuto_malehice",
-  "code": null,
-  "name": "Malehice",
-  "slug": "malehice",
-  "districtId": "dist_gaza_chibuto"
-},
-
-{
-  "id": "adm_post_gaza_chicualacuala_eduardo_mondlane",
-  "code": null,
-  "name": "Eduardo Mondlane",
-  "slug": "eduardo-mondlane",
-  "districtId": "dist_gaza_chicualacuala"
-},
-{
-  "id": "adm_post_gaza_chicualacuala_pafuri",
-  "code": null,
-  "name": "Pafúri",
-  "slug": "pafuri",
-  "districtId": "dist_gaza_chicualacuala"
-},
-
-{
-  "id": "adm_post_gaza_chigubo_ndindiza",
-  "code": null,
-  "name": "Ndindiza",
-  "slug": "ndindiza",
-  "districtId": "dist_gaza_chigubo"
-},
-{
-  "id": "adm_post_gaza_chigubo_chigubo",
-  "code": null,
-  "name": "Chigubo",
-  "slug": "chigubo",
-  "districtId": "dist_gaza_chigubo"
-},
-
-{
-  "id": "adm_post_gaza_chokwe_cidade_de_chokwe",
-  "code": null,
-  "name": "Cidade de Chókwè",
-  "slug": "cidade-de-chokwe",
-  "districtId": "dist_gaza_chokwe"
-},
-{
-  "id": "adm_post_gaza_chokwe_lionde",
-  "code": null,
-  "name": "Lionde",
-  "slug": "lionde",
-  "districtId": "dist_gaza_chokwe"
-},
-{
-  "id": "adm_post_gaza_chokwe_macarretane",
-  "code": null,
-  "name": "Macarretane",
-  "slug": "macarretane",
-  "districtId": "dist_gaza_chokwe"
-},
-{
-  "id": "adm_post_gaza_chokwe_xilembene",
-  "code": null,
-  "name": "Xilembene",
-  "slug": "xilembene",
-  "districtId": "dist_gaza_chokwe"
-},
-
-{
-  "id": "adm_post_gaza_guija_vila_de_canicado",
-  "code": null,
-  "name": "Vila de Caniçado",
-  "slug": "vila-de-canicado",
-  "districtId": "dist_gaza_guija"
-},
-{
-  "id": "adm_post_gaza_guija_chivonguene",
-  "code": null,
-  "name": "Chivonguene",
-  "slug": "chivonguene",
-  "districtId": "dist_gaza_guija"
-},
-{
-  "id": "adm_post_gaza_guija_mubanguene",
-  "code": null,
-  "name": "Mubanguene",
-  "slug": "mubanguene",
-  "districtId": "dist_gaza_guija"
-},
-{
-  "id": "adm_post_gaza_guija_nalazi",
-  "code": null,
-  "name": "Nalazi",
-  "slug": "nalazi",
-  "districtId": "dist_gaza_guija"
-},
-
-{
-  "id": "adm_post_gaza_mabalane_mabalane_sede",
-  "code": null,
-  "name": "Mabalane-Sede",
-  "slug": "mabalane-sede",
-  "districtId": "dist_gaza_mabalane"
-},
-{
-  "id": "adm_post_gaza_mabalane_combomune",
-  "code": null,
-  "name": "Combomune",
-  "slug": "combomune",
-  "districtId": "dist_gaza_mabalane"
-},
-{
-  "id": "adm_post_gaza_mabalane_ntlavene",
-  "code": null,
-  "name": "Ntlavene",
-  "slug": "ntlavene",
-  "districtId": "dist_gaza_mabalane"
-},
-
-{
-  "id": "adm_post_gaza_mandlakazi_mandlakazi_sede",
-  "code": null,
-  "name": "Mandlakazi-Sede",
-  "slug": "mandlakazi-sede",
-  "districtId": "dist_gaza_mandlakazi"
-},
-{
-  "id": "adm_post_gaza_mandlakazi_lhalala",
-  "code": null,
-  "name": "Lhalala",
-  "slug": "lhalala",
-  "districtId": "dist_gaza_mandlakazi"
-},
-{
-  "id": "adm_post_gaza_mandlakazi_chibonzane",
-  "code": null,
-  "name": "Chibonzane",
-  "slug": "chibonzane",
-  "districtId": "dist_gaza_mandlakazi"
-},
-{
-  "id": "adm_post_gaza_mandlakazi_chidenguele",
-  "code": null,
-  "name": "Chidenguele",
-  "slug": "chidenguele",
-  "districtId": "dist_gaza_mandlakazi"
-},
-{
-  "id": "adm_post_gaza_mandlakazi_macuacua",
-  "code": null,
-  "name": "Macuácua",
-  "slug": "macuacua",
-  "districtId": "dist_gaza_mandlakazi"
-},
-
-{
-  "id": "adm_post_gaza_massangena_massangena_sede",
-  "code": null,
-  "name": "Massangena-Sede",
-  "slug": "massangena-sede",
-  "districtId": "dist_gaza_massangena"
-},
-{
-  "id": "adm_post_gaza_massangena_mavue",
-  "code": null,
-  "name": "Mavué",
-  "slug": "mavue",
-  "districtId": "dist_gaza_massangena"
-},
-
-{
-  "id": "adm_post_gaza_massingir_massingir",
-  "code": null,
-  "name": "Massingir",
-  "slug": "massingir",
-  "districtId": "dist_gaza_massingir"
-},
-{
-  "id": "adm_post_gaza_massingir_mavodze",
-  "code": null,
-  "name": "Mavodze",
-  "slug": "mavodze",
-  "districtId": "dist_gaza_massingir"
-},
-{
-  "id": "adm_post_gaza_massingir_zulo",
-  "code": null,
-  "name": "Zulo",
-  "slug": "zulo",
-  "districtId": "dist_gaza_massingir"
-},
-
-{
-  "id": "adm_post_gaza_limpopo_chicumbane",
-  "code": null,
-  "name": "Chicumbane",
-  "slug": "chicumbane",
-  "districtId": "dist_gaza_limpopo"
-},
-{
-  "id": "adm_post_gaza_limpopo_chissano",
-  "code": null,
-  "name": "Chissano",
-  "slug": "chissano",
-  "districtId": "dist_gaza_limpopo"
-},
-{
-  "id": "adm_post_gaza_limpopo_zongoene",
-  "code": null,
-  "name": "Zongoene",
-  "slug": "zongoene",
-  "districtId": "dist_gaza_limpopo"
-},
-
-{
-  "id": "adm_post_gaza_chongoene_chongoene",
-  "code": null,
-  "name": "Chongoene",
-  "slug": "chongoene",
-  "districtId": "dist_gaza_chongoene"
-},
-{
-  "id": "adm_post_gaza_chongoene_mazucane",
-  "code": null,
-  "name": "Mazucane",
-  "slug": "mazucane",
-  "districtId": "dist_gaza_chongoene"
-},
-{
-  "id": "adm_post_gaza_chongoene_zongoene",
-  "code": null,
-  "name": "Zongoene",
-  "slug": "zongoene",
-  "districtId": "dist_gaza_chongoene"
-},
-
-{
-  "id": "adm_post_gaza_mapai_mapai_sede",
-  "code": null,
-  "name": "Mapai-Sede",
-  "slug": "mapai-sede",
-  "districtId": "dist_gaza_mapai"
-},
-{
-  "id": "adm_post_gaza_mapai_machaila",
-  "code": null,
-  "name": "Machaila",
-  "slug": "machaila",
-  "districtId": "dist_gaza_mapai"
-},
+    "id": "adm_post_zambezia_quelimane_urbano_1",
+    "code": null,
+    "name": "Urbano Nº 1",
+    "slug": "urbano-1",
+    "districtId": "dist_zambezia_quelimane"
+  },
+  {
+    "id": "adm_post_zambezia_quelimane_urbano_2",
+    "code": null,
+    "name": "Urbano Nº 2",
+    "slug": "urbano-2",
+    "districtId": "dist_zambezia_quelimane"
+  },
+  {
+    "id": "adm_post_zambezia_quelimane_urbano_3",
+    "code": null,
+    "name": "Urbano Nº 3",
+    "slug": "urbano-3",
+    "districtId": "dist_zambezia_quelimane"
+  },
+  {
+    "id": "adm_post_zambezia_quelimane_urbano_4",
+    "code": null,
+    "name": "Urbano Nº 4",
+    "slug": "urbano-4",
+    "districtId": "dist_zambezia_quelimane"
+  },
+  {
+    "id": "adm_post_zambezia_quelimane_urbano_5",
+    "code": null,
+    "name": "Urbano Nº 5",
+    "slug": "urbano-5",
+    "districtId": "dist_zambezia_quelimane"
+  },
+  {
+    "id": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "code": null,
+    "name": "Alto Molocué",
+    "slug": "alto-molocue",
+    "districtId": "dist_zambezia_alto_molocue"
+  },
+  {
+    "id": "adm_post_zambezia_alto_molocue_nauela",
+    "code": null,
+    "name": "Nauela",
+    "slug": "nauela",
+    "districtId": "dist_zambezia_alto_molocue"
+  },
+  {
+    "id": "adm_post_zambezia_chinde_chinde_sede",
+    "code": null,
+    "name": "Chinde-Sede",
+    "slug": "chinde-sede",
+    "districtId": "dist_zambezia_chinde"
+  },
+  {
+    "id": "adm_post_zambezia_chinde_micaune",
+    "code": null,
+    "name": "Micaune",
+    "slug": "micaune",
+    "districtId": "dist_zambezia_chinde"
+  },
+  {
+    "id": "adm_post_zambezia_gile_gile_sede",
+    "code": null,
+    "name": "Gilé-Sede",
+    "slug": "gile-sede",
+    "districtId": "dist_zambezia_gile"
+  },
+  {
+    "id": "adm_post_zambezia_gile_alto_ligonha",
+    "code": null,
+    "name": "Alto Ligonha",
+    "slug": "alto-ligonha",
+    "districtId": "dist_zambezia_gile"
+  },
+  {
+    "id": "adm_post_zambezia_gurue_gurue",
+    "code": null,
+    "name": "Gurué",
+    "slug": "gurue",
+    "districtId": "dist_zambezia_gurue"
+  },
+  {
+    "id": "adm_post_zambezia_gurue_lioma",
+    "code": null,
+    "name": "Lioma",
+    "slug": "lioma",
+    "districtId": "dist_zambezia_gurue"
+  },
+  {
+    "id": "adm_post_zambezia_gurue_mepuagiua",
+    "code": null,
+    "name": "Mepuagiua",
+    "slug": "mepuagiua",
+    "districtId": "dist_zambezia_gurue"
+  },
+  {
+    "id": "adm_post_zambezia_ile_ile_sede",
+    "code": null,
+    "name": "Ile-Sede",
+    "slug": "ile-sede",
+    "districtId": "dist_zambezia_ile"
+  },
+  {
+    "id": "adm_post_zambezia_ile_socone",
+    "code": null,
+    "name": "Socone",
+    "slug": "socone",
+    "districtId": "dist_zambezia_ile"
+  },
+  {
+    "id": "adm_post_zambezia_inhassunge_mucupia",
+    "code": null,
+    "name": "Mucupia",
+    "slug": "mucupia",
+    "districtId": "dist_zambezia_inhassunge"
+  },
+  {
+    "id": "adm_post_zambezia_inhassunge_gonhane",
+    "code": null,
+    "name": "Gonhane",
+    "slug": "gonhane",
+    "districtId": "dist_zambezia_inhassunge"
+  },
+  {
+    "id": "adm_post_zambezia_lugela_lugela_sede",
+    "code": null,
+    "name": "Lugela-Sede",
+    "slug": "lugela-sede",
+    "districtId": "dist_zambezia_lugela"
+  },
+  {
+    "id": "adm_post_zambezia_lugela_muabanama",
+    "code": null,
+    "name": "Muabanama",
+    "slug": "muabanama",
+    "districtId": "dist_zambezia_lugela"
+  },
+  {
+    "id": "adm_post_zambezia_lugela_munhamade",
+    "code": null,
+    "name": "Munhamade",
+    "slug": "munhamade",
+    "districtId": "dist_zambezia_lugela"
+  },
+  {
+    "id": "adm_post_zambezia_lugela_tacuane",
+    "code": null,
+    "name": "Tacuane",
+    "slug": "tacuane",
+    "districtId": "dist_zambezia_lugela"
+  },
+  {
+    "id": "adm_post_zambezia_maganja_da_costa_maganja_da_costa",
+    "code": null,
+    "name": "Maganja da Costa",
+    "slug": "maganja-da-costa",
+    "districtId": "dist_zambezia_maganja_da_costa"
+  },
+  {
+    "id": "adm_post_zambezia_maganja_da_costa_nante",
+    "code": null,
+    "name": "Nante",
+    "slug": "nante",
+    "districtId": "dist_zambezia_maganja_da_costa"
+  },
+  {
+    "id": "adm_post_zambezia_milange_milange_sede",
+    "code": null,
+    "name": "Milange-Sede",
+    "slug": "milange-sede",
+    "districtId": "dist_zambezia_milange"
+  },
+  {
+    "id": "adm_post_zambezia_milange_majaua",
+    "code": null,
+    "name": "Majaua",
+    "slug": "majaua",
+    "districtId": "dist_zambezia_milange"
+  },
+  {
+    "id": "adm_post_zambezia_milange_mongue",
+    "code": null,
+    "name": "Mongue",
+    "slug": "mongue",
+    "districtId": "dist_zambezia_milange"
+  },
+  {
+    "id": "adm_post_zambezia_mocuba_cidade_de_mocuba",
+    "code": null,
+    "name": "Cidade de Mocuba",
+    "slug": "cidade-de-mocuba",
+    "districtId": "dist_zambezia_mocuba"
+  },
+  {
+    "id": "adm_post_zambezia_mocuba_mugeba",
+    "code": null,
+    "name": "Mugeba",
+    "slug": "mugeba",
+    "districtId": "dist_zambezia_mocuba"
+  },
+  {
+    "id": "adm_post_zambezia_mocuba_namanjavira",
+    "code": null,
+    "name": "Namanjavira",
+    "slug": "namanjavira",
+    "districtId": "dist_zambezia_mocuba"
+  },
+  {
+    "id": "adm_post_zambezia_mopeia_mopeia_sede",
+    "code": null,
+    "name": "Mopeia-Sede",
+    "slug": "mopeia-sede",
+    "districtId": "dist_zambezia_mopeia"
+  },
+  {
+    "id": "adm_post_zambezia_mopeia_campo",
+    "code": null,
+    "name": "Campo",
+    "slug": "campo",
+    "districtId": "dist_zambezia_mopeia"
+  },
+  {
+    "id": "adm_post_zambezia_morrumbala_morrumbala_sede",
+    "code": null,
+    "name": "Morrumbala-Sede",
+    "slug": "morrumbala-sede",
+    "districtId": "dist_zambezia_morrumbala"
+  },
+  {
+    "id": "adm_post_zambezia_morrumbala_chire",
+    "code": null,
+    "name": "Chire",
+    "slug": "chire",
+    "districtId": "dist_zambezia_morrumbala"
+  },
+  {
+    "id": "adm_post_zambezia_morrumbala_megaza",
+    "code": null,
+    "name": "Megaza",
+    "slug": "megaza",
+    "districtId": "dist_zambezia_morrumbala"
+  },
+  {
+    "id": "adm_post_zambezia_namacurra_namacurra",
+    "code": null,
+    "name": "Namacurra",
+    "slug": "namacurra",
+    "districtId": "dist_zambezia_namacurra"
+  },
+  {
+    "id": "adm_post_zambezia_namacurra_macuse",
+    "code": null,
+    "name": "Macuse",
+    "slug": "macuse",
+    "districtId": "dist_zambezia_namacurra"
+  },
+  {
+    "id": "adm_post_zambezia_namarroi_namarroi_sede",
+    "code": null,
+    "name": "Namarroi-Sede",
+    "slug": "namarroi-sede",
+    "districtId": "dist_zambezia_namarroi"
+  },
+  {
+    "id": "adm_post_zambezia_namarroi_regone",
+    "code": null,
+    "name": "Regone",
+    "slug": "regone",
+    "districtId": "dist_zambezia_namarroi"
+  },
+  {
+    "id": "adm_post_zambezia_nicoadala_nicoadala_sede",
+    "code": null,
+    "name": "Nicoadala-Sede",
+    "slug": "nicoadala-sede",
+    "districtId": "dist_zambezia_nicoadala"
+  },
+  {
+    "id": "adm_post_zambezia_nicoadala_maquival",
+    "code": null,
+    "name": "Maquival",
+    "slug": "maquival",
+    "districtId": "dist_zambezia_nicoadala"
+  },
+  {
+    "id": "adm_post_zambezia_pebane_pebane_sede",
+    "code": null,
+    "name": "Pebane-Sede",
+    "slug": "pebane-sede",
+    "districtId": "dist_zambezia_pebane"
+  },
+  {
+    "id": "adm_post_zambezia_pebane_mulela",
+    "code": null,
+    "name": "Mulela",
+    "slug": "mulela",
+    "districtId": "dist_zambezia_pebane"
+  },
+  {
+    "id": "adm_post_zambezia_pebane_naburi",
+    "code": null,
+    "name": "Naburi",
+    "slug": "naburi",
+    "districtId": "dist_zambezia_pebane"
+  },
+  {
+    "id": "adm_post_zambezia_derre_derre_sede",
+    "code": null,
+    "name": "Derre-Sede",
+    "slug": "derre-sede",
+    "districtId": "dist_zambezia_derre"
+  },
+  {
+    "id": "adm_post_zambezia_derre_guerissa",
+    "code": null,
+    "name": "Guerissa",
+    "slug": "guerissa",
+    "districtId": "dist_zambezia_derre"
+  },
+  {
+    "id": "adm_post_zambezia_luabo_luabo_sede",
+    "code": null,
+    "name": "Luabo-Sede",
+    "slug": "luabo-sede",
+    "districtId": "dist_zambezia_luabo"
+  },
+  {
+    "id": "adm_post_zambezia_luabo_chimbazo",
+    "code": null,
+    "name": "Chimbazo",
+    "slug": "chimbazo",
+    "districtId": "dist_zambezia_luabo"
+  },
+  {
+    "id": "adm_post_zambezia_mocubela_mocubela_sede",
+    "code": null,
+    "name": "Mocubela-Sede",
+    "slug": "mocubela-sede",
+    "districtId": "dist_zambezia_mocubela"
+  },
+  {
+    "id": "adm_post_zambezia_mocubela_bajone",
+    "code": null,
+    "name": "Bajone",
+    "slug": "bajone",
+    "districtId": "dist_zambezia_mocubela"
+  },
+  {
+    "id": "adm_post_zambezia_molumbo_molumbo_sede",
+    "code": null,
+    "name": "Molumbo-Sede",
+    "slug": "molumbo-sede",
+    "districtId": "dist_zambezia_molumbo"
+  },
+  {
+    "id": "adm_post_zambezia_molumbo_corromana",
+    "code": null,
+    "name": "Corromana",
+    "slug": "corromana",
+    "districtId": "dist_zambezia_molumbo"
+  },
+  {
+    "id": "adm_post_zambezia_mulevala_mulevala_sede",
+    "code": null,
+    "name": "Mulevala-Sede",
+    "slug": "mulevala-sede",
+    "districtId": "dist_zambezia_mulevala"
+  },
+  {
+    "id": "adm_post_zambezia_mulevala_chiraco",
+    "code": null,
+    "name": "Chiraco",
+    "slug": "chiraco",
+    "districtId": "dist_zambezia_mulevala"
+  },
+  {
+    "id": "adm_post_tete_angonia_ulongue",
+    "code": null,
+    "name": "Ulongué",
+    "slug": "ulongue",
+    "districtId": "dist_tete_angonia"
+  },
+  {
+    "id": "adm_post_tete_angonia_domue",
+    "code": null,
+    "name": "Domue",
+    "slug": "domue",
+    "districtId": "dist_tete_angonia"
+  },
+  {
+    "id": "adm_post_tete_cahora_bassa_chitima",
+    "code": null,
+    "name": "Chitima",
+    "slug": "chitima",
+    "districtId": "dist_tete_cahora_bassa"
+  },
+  {
+    "id": "adm_post_tete_cahora_bassa_chirodzi",
+    "code": null,
+    "name": "Chirodzi",
+    "slug": "chirodzi",
+    "districtId": "dist_tete_cahora_bassa"
+  },
+  {
+    "id": "adm_post_tete_cahora_bassa_songo",
+    "code": null,
+    "name": "Songo",
+    "slug": "songo",
+    "districtId": "dist_tete_cahora_bassa"
+  },
+  {
+    "id": "adm_post_tete_changara_luenha",
+    "code": null,
+    "name": "Luenha",
+    "slug": "luenha",
+    "districtId": "dist_tete_changara"
+  },
+  {
+    "id": "adm_post_tete_changara_chioco",
+    "code": null,
+    "name": "Chioco",
+    "slug": "chioco",
+    "districtId": "dist_tete_changara"
+  },
+  {
+    "id": "adm_post_tete_chifunde_chifunde",
+    "code": null,
+    "name": "Chifunde",
+    "slug": "chifunde",
+    "districtId": "dist_tete_chifunde"
+  },
+  {
+    "id": "adm_post_tete_chifunde_mualadzi",
+    "code": null,
+    "name": "Mualadzi",
+    "slug": "mualadzi",
+    "districtId": "dist_tete_chifunde"
+  },
+  {
+    "id": "adm_post_tete_chifunde_nsadzo",
+    "code": null,
+    "name": "Nsadzo",
+    "slug": "nsadzo",
+    "districtId": "dist_tete_chifunde"
+  },
+  {
+    "id": "adm_post_tete_chiuta_kazula",
+    "code": null,
+    "name": "Kazula",
+    "slug": "kazula",
+    "districtId": "dist_tete_chiuta"
+  },
+  {
+    "id": "adm_post_tete_chiuta_manje",
+    "code": null,
+    "name": "Manje",
+    "slug": "manje",
+    "districtId": "dist_tete_chiuta"
+  },
+  {
+    "id": "adm_post_tete_macanga_furancungo",
+    "code": null,
+    "name": "Furancungo",
+    "slug": "furancungo",
+    "districtId": "dist_tete_macanga"
+  },
+  {
+    "id": "adm_post_tete_macanga_chidzolomondo",
+    "code": null,
+    "name": "Chidzolomondo",
+    "slug": "chidzolomondo",
+    "districtId": "dist_tete_macanga"
+  },
+  {
+    "id": "adm_post_tete_magoe_mphende",
+    "code": null,
+    "name": "Mphende",
+    "slug": "mphende",
+    "districtId": "dist_tete_magoe"
+  },
+  {
+    "id": "adm_post_tete_magoe_chinthopo",
+    "code": null,
+    "name": "Chinthopo",
+    "slug": "chinthopo",
+    "districtId": "dist_tete_magoe"
+  },
+  {
+    "id": "adm_post_tete_magoe_mucumbura",
+    "code": null,
+    "name": "Mucumbura",
+    "slug": "mucumbura",
+    "districtId": "dist_tete_magoe"
+  },
+  {
+    "id": "adm_post_tete_maravia_chiputo",
+    "code": null,
+    "name": "Chiputo",
+    "slug": "chiputo",
+    "districtId": "dist_tete_maravia"
+  },
+  {
+    "id": "adm_post_tete_maravia_fingoe",
+    "code": null,
+    "name": "Fingoe",
+    "slug": "fingoe",
+    "districtId": "dist_tete_maravia"
+  },
+  {
+    "id": "adm_post_tete_maravia_malowera",
+    "code": null,
+    "name": "Malowera",
+    "slug": "malowera",
+    "districtId": "dist_tete_maravia"
+  },
+  {
+    "id": "adm_post_tete_maravia_chipera",
+    "code": null,
+    "name": "Chipera",
+    "slug": "chipera",
+    "districtId": "dist_tete_maravia"
+  },
+  {
+    "id": "adm_post_tete_moatize_moatize",
+    "code": null,
+    "name": "Moatize",
+    "slug": "moatize",
+    "districtId": "dist_tete_moatize"
+  },
+  {
+    "id": "adm_post_tete_moatize_kambulatsitsi",
+    "code": null,
+    "name": "Kambulatsitsi",
+    "slug": "kambulatsitsi",
+    "districtId": "dist_tete_moatize"
+  },
+  {
+    "id": "adm_post_tete_moatize_zobue",
+    "code": null,
+    "name": "Zobué",
+    "slug": "zobue",
+    "districtId": "dist_tete_moatize"
+  },
+  {
+    "id": "adm_post_tete_mutarara_nhamayabue",
+    "code": null,
+    "name": "Nhamayabue",
+    "slug": "nhamayabue",
+    "districtId": "dist_tete_mutarara"
+  },
+  {
+    "id": "adm_post_tete_mutarara_charre",
+    "code": null,
+    "name": "Charre",
+    "slug": "charre",
+    "districtId": "dist_tete_mutarara"
+  },
+  {
+    "id": "adm_post_tete_mutarara_inhangoma",
+    "code": null,
+    "name": "Inhangoma",
+    "slug": "inhangoma",
+    "districtId": "dist_tete_mutarara"
+  },
+  {
+    "id": "adm_post_tete_tsangano_ntengo_wa_mbalame",
+    "code": null,
+    "name": "Ntengo-Wa-Mbalame",
+    "slug": "ntengo-wa-mbalame",
+    "districtId": "dist_tete_tsangano"
+  },
+  {
+    "id": "adm_post_tete_tsangano_tsangano",
+    "code": null,
+    "name": "Tsangano",
+    "slug": "tsangano",
+    "districtId": "dist_tete_tsangano"
+  },
+  {
+    "id": "adm_post_tete_zumbo_zumbo_sede",
+    "code": null,
+    "name": "Zumbo-Sede",
+    "slug": "zumbo-sede",
+    "districtId": "dist_tete_zumbo"
+  },
+  {
+    "id": "adm_post_tete_zumbo_muze",
+    "code": null,
+    "name": "Muze",
+    "slug": "muze",
+    "districtId": "dist_tete_zumbo"
+  },
+  {
+    "id": "adm_post_tete_zumbo_zambue",
+    "code": null,
+    "name": "Zambue",
+    "slug": "zambue",
+    "districtId": "dist_tete_zumbo"
+  },
+  {
+    "id": "adm_post_tete_doa_doa_sede",
+    "code": null,
+    "name": "Doa-Sede",
+    "slug": "doa-sede",
+    "districtId": "dist_tete_doa"
+  },
+  {
+    "id": "adm_post_tete_doa_chueza",
+    "code": null,
+    "name": "Chueza",
+    "slug": "chueza",
+    "districtId": "dist_tete_doa"
+  },
+  {
+    "id": "adm_post_tete_marara_marara_sede",
+    "code": null,
+    "name": "Marara-Sede",
+    "slug": "marara-sede",
+    "districtId": "dist_tete_marara"
+  },
+  {
+    "id": "adm_post_tete_marara_mufa_boroma",
+    "code": null,
+    "name": "Mufa Boroma",
+    "slug": "mufa-boroma",
+    "districtId": "dist_tete_marara"
+  },
+  {
+    "id": "adm_post_manica_chimoio_urbano_1",
+    "code": null,
+    "name": "Urbano Nº 1",
+    "slug": "urbano-1",
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "adm_post_manica_chimoio_urbano_2",
+    "code": null,
+    "name": "Urbano Nº 2",
+    "slug": "urbano-2",
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "adm_post_manica_chimoio_urbano_3",
+    "code": null,
+    "name": "Urbano Nº 3",
+    "slug": "urbano-3",
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "adm_post_manica_barue_catandica",
+    "code": null,
+    "name": "Catandica",
+    "slug": "catandica",
+    "districtId": "dist_manica_barue"
+  },
+  {
+    "id": "adm_post_manica_barue_choa",
+    "code": null,
+    "name": "Choa",
+    "slug": "choa",
+    "districtId": "dist_manica_barue"
+  },
+  {
+    "id": "adm_post_manica_barue_nhampassa",
+    "code": null,
+    "name": "Nhampassa",
+    "slug": "nhampassa",
+    "districtId": "dist_manica_barue"
+  },
+  {
+    "id": "adm_post_manica_gondola_gondola_sede",
+    "code": null,
+    "name": "Gondola-Sede",
+    "slug": "gondola-sede",
+    "districtId": "dist_manica_gondola"
+  },
+  {
+    "id": "adm_post_manica_gondola_amatongas",
+    "code": null,
+    "name": "Amatongas",
+    "slug": "amatongas",
+    "districtId": "dist_manica_gondola"
+  },
+  {
+    "id": "adm_post_manica_gondola_cafumpe",
+    "code": null,
+    "name": "Cafumpe",
+    "slug": "cafumpe",
+    "districtId": "dist_manica_gondola"
+  },
+  {
+    "id": "adm_post_manica_gondola_inchope",
+    "code": null,
+    "name": "Inchope",
+    "slug": "inchope",
+    "districtId": "dist_manica_gondola"
+  },
+  {
+    "id": "adm_post_manica_guro_guro_sede",
+    "code": null,
+    "name": "Guro-Sede",
+    "slug": "guro-sede",
+    "districtId": "dist_manica_guro"
+  },
+  {
+    "id": "adm_post_manica_guro_mungari",
+    "code": null,
+    "name": "Mungari",
+    "slug": "mungari",
+    "districtId": "dist_manica_guro"
+  },
+  {
+    "id": "adm_post_manica_guro_nhamassonge",
+    "code": null,
+    "name": "Nhamassonge",
+    "slug": "nhamassonge",
+    "districtId": "dist_manica_guro"
+  },
+  {
+    "id": "adm_post_manica_guro_mandie",
+    "code": null,
+    "name": "Mandie",
+    "slug": "mandie",
+    "districtId": "dist_manica_guro"
+  },
+  {
+    "id": "adm_post_manica_machaze_machaze",
+    "code": null,
+    "name": "Chitobe",
+    "slug": "chitobe",
+    "districtId": "dist_manica_machaze"
+  },
+  {
+    "id": "adm_post_manica_machaze_save",
+    "code": null,
+    "name": "Save",
+    "slug": "save",
+    "districtId": "dist_manica_machaze"
+  },
+  {
+    "id": "adm_post_manica_macossa_macossa_sede",
+    "code": null,
+    "name": "Macossa-Sede",
+    "slug": "macossa-sede",
+    "districtId": "dist_manica_macossa"
+  },
+  {
+    "id": "adm_post_manica_macossa_nguawala",
+    "code": null,
+    "name": "Nguawala",
+    "slug": "nguawala",
+    "districtId": "dist_manica_macossa"
+  },
+  {
+    "id": "adm_post_manica_macossa_nhamagua",
+    "code": null,
+    "name": "Nhamagua",
+    "slug": "nhamagua",
+    "districtId": "dist_manica_macossa"
+  },
+  {
+    "id": "adm_post_manica_manica_manica",
+    "code": null,
+    "name": "Manica",
+    "slug": "manica",
+    "districtId": "dist_manica_manica"
+  },
+  {
+    "id": "adm_post_manica_manica_machipanda",
+    "code": null,
+    "name": "Machipanda",
+    "slug": "machipanda",
+    "districtId": "dist_manica_manica"
+  },
+  {
+    "id": "adm_post_manica_manica_messica",
+    "code": null,
+    "name": "Messica",
+    "slug": "messica",
+    "districtId": "dist_manica_manica"
+  },
+  {
+    "id": "adm_post_manica_manica_mavonde",
+    "code": null,
+    "name": "Mavonde",
+    "slug": "mavonde",
+    "districtId": "dist_manica_manica"
+  },
+  {
+    "id": "adm_post_manica_mossurize_espungabera",
+    "code": null,
+    "name": "Espungabera",
+    "slug": "espungabera",
+    "districtId": "dist_manica_mossurize"
+  },
+  {
+    "id": "adm_post_manica_mossurize_chiuirane",
+    "code": null,
+    "name": "Chiurairue",
+    "slug": "chiurairue",
+    "districtId": "dist_manica_mossurize"
+  },
+  {
+    "id": "adm_post_manica_mossurize_dacata",
+    "code": null,
+    "name": "Dacata",
+    "slug": "dacata",
+    "districtId": "dist_manica_mossurize"
+  },
+  {
+    "id": "adm_post_manica_sussundenga_sussundenga_sede",
+    "code": null,
+    "name": "Sussundenga-Sede",
+    "slug": "sussundenga-sede",
+    "districtId": "dist_manica_sussundenga"
+  },
+  {
+    "id": "adm_post_manica_sussundenga_dombe",
+    "code": null,
+    "name": "Dombe",
+    "slug": "dombe",
+    "districtId": "dist_manica_sussundenga"
+  },
+  {
+    "id": "adm_post_manica_sussundenga_muhoa",
+    "code": null,
+    "name": "Muôha",
+    "slug": "muoha",
+    "districtId": "dist_manica_sussundenga"
+  },
+  {
+    "id": "adm_post_manica_sussundenga_rotanda",
+    "code": null,
+    "name": "Rotanda",
+    "slug": "rotanda",
+    "districtId": "dist_manica_sussundenga"
+  },
+  {
+    "id": "adm_post_manica_tambara_nhacolo",
+    "code": null,
+    "name": "Nhacolo",
+    "slug": "nhacolo",
+    "districtId": "dist_manica_tambara"
+  },
+  {
+    "id": "adm_post_manica_tambara_buzua",
+    "code": null,
+    "name": "Buzua",
+    "slug": "buzua",
+    "districtId": "dist_manica_tambara"
+  },
+  {
+    "id": "adm_post_manica_tambara_nhacafula",
+    "code": null,
+    "name": "Nhacafula",
+    "slug": "nhacafula",
+    "districtId": "dist_manica_tambara"
+  },
+  {
+    "id": "adm_post_manica_macate_macate_sede",
+    "code": null,
+    "name": "Macate-Sede",
+    "slug": "macate-sede",
+    "districtId": "dist_manica_macate"
+  },
+  {
+    "id": "adm_post_manica_macate_zembe",
+    "code": null,
+    "name": "Zembe",
+    "slug": "zembe",
+    "districtId": "dist_manica_macate"
+  },
+  {
+    "id": "adm_post_manica_vanduzi_vanduzi",
+    "code": null,
+    "name": "Vanduzi",
+    "slug": "vanduzi",
+    "districtId": "dist_manica_vanduzi"
+  },
+  {
+    "id": "adm_post_manica_vanduzi_matsinho",
+    "code": null,
+    "name": "Matsinho",
+    "slug": "matsinho",
+    "districtId": "dist_manica_vanduzi"
+  },
+  {
+    "id": "adm_post_sofala_beira_urbano_1_central",
+    "code": null,
+    "name": "Urbano Nº 1 - Central",
+    "slug": "urbano-1-central",
+    "districtId": "dist_sofala_beira"
+  },
+  {
+    "id": "adm_post_sofala_beira_urbano_2_munhava",
+    "code": null,
+    "name": "Urbano Nº 2 - Munhava",
+    "slug": "urbano-2-munhava",
+    "districtId": "dist_sofala_beira"
+  },
+  {
+    "id": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "code": null,
+    "name": "Urbano Nº 3 - Inhamízua",
+    "slug": "urbano-3-inhamizua",
+    "districtId": "dist_sofala_beira"
+  },
+  {
+    "id": "adm_post_sofala_beira_urbano_4_manga_loforte",
+    "code": null,
+    "name": "Urbano Nº 4 - Manga Loforte",
+    "slug": "urbano-4-manga-loforte",
+    "districtId": "dist_sofala_beira"
+  },
+  {
+    "id": "adm_post_sofala_beira_urbano_5_nhangau",
+    "code": null,
+    "name": "Urbano Nº 5 - Nhangau",
+    "slug": "urbano-5-nhangau",
+    "districtId": "dist_sofala_beira"
+  },
+  {
+    "id": "adm_post_sofala_buzi_buzi_sede",
+    "code": null,
+    "name": "Búzi-Sede",
+    "slug": "buzi-sede",
+    "districtId": "dist_sofala_buzi"
+  },
+  {
+    "id": "adm_post_sofala_buzi_estaquinha",
+    "code": null,
+    "name": "Estaquinha",
+    "slug": "estaquinha",
+    "districtId": "dist_sofala_buzi"
+  },
+  {
+    "id": "adm_post_sofala_buzi_nova_sofala",
+    "code": null,
+    "name": "Nova Sofala",
+    "slug": "nova-sofala",
+    "districtId": "dist_sofala_buzi"
+  },
+  {
+    "id": "adm_post_sofala_caia_caia_sede",
+    "code": null,
+    "name": "Caia-Sede",
+    "slug": "caia-sede",
+    "districtId": "dist_sofala_caia"
+  },
+  {
+    "id": "adm_post_sofala_caia_murraca",
+    "code": null,
+    "name": "Murraça",
+    "slug": "murraca",
+    "districtId": "dist_sofala_caia"
+  },
+  {
+    "id": "adm_post_sofala_caia_sena",
+    "code": null,
+    "name": "Sena",
+    "slug": "sena",
+    "districtId": "dist_sofala_caia"
+  },
+  {
+    "id": "adm_post_sofala_chemba_chemba_sede",
+    "code": null,
+    "name": "Chemba-Sede",
+    "slug": "chemba-sede",
+    "districtId": "dist_sofala_chemba"
+  },
+  {
+    "id": "adm_post_sofala_chemba_chiramba",
+    "code": null,
+    "name": "Chiramba",
+    "slug": "chiramba",
+    "districtId": "dist_sofala_chemba"
+  },
+  {
+    "id": "adm_post_sofala_chemba_mulima",
+    "code": null,
+    "name": "Mulima",
+    "slug": "mulima",
+    "districtId": "dist_sofala_chemba"
+  },
+  {
+    "id": "adm_post_sofala_cheringoma_inhaminga",
+    "code": null,
+    "name": "Inhaminga",
+    "slug": "inhaminga",
+    "districtId": "dist_sofala_cheringoma"
+  },
+  {
+    "id": "adm_post_sofala_cheringoma_inhamitanga",
+    "code": null,
+    "name": "Inhamitanga",
+    "slug": "inhamitanga",
+    "districtId": "dist_sofala_cheringoma"
+  },
+  {
+    "id": "adm_post_sofala_chibabava_chibabava",
+    "code": null,
+    "name": "Chibabava",
+    "slug": "chibabava",
+    "districtId": "dist_sofala_chibabava"
+  },
+  {
+    "id": "adm_post_sofala_chibabava_goonda",
+    "code": null,
+    "name": "Goonda",
+    "slug": "goonda",
+    "districtId": "dist_sofala_chibabava"
+  },
+  {
+    "id": "adm_post_sofala_chibabava_muxungue",
+    "code": null,
+    "name": "Muxungué",
+    "slug": "muxungue",
+    "districtId": "dist_sofala_chibabava"
+  },
+  {
+    "id": "adm_post_sofala_dondo_dondo_sede",
+    "code": null,
+    "name": "Dondo-Sede",
+    "slug": "dondo-sede",
+    "districtId": "dist_sofala_dondo"
+  },
+  {
+    "id": "adm_post_sofala_dondo_mafambisse",
+    "code": null,
+    "name": "Mafambisse",
+    "slug": "mafambisse",
+    "districtId": "dist_sofala_dondo"
+  },
+  {
+    "id": "adm_post_sofala_dondo_savane",
+    "code": null,
+    "name": "Savane",
+    "slug": "savane",
+    "districtId": "dist_sofala_dondo"
+  },
+  {
+    "id": "adm_post_sofala_gorongosa_gorongosa_sede",
+    "code": null,
+    "name": "Gorongosa-Sede",
+    "slug": "gorongosa-sede",
+    "districtId": "dist_sofala_gorongosa"
+  },
+  {
+    "id": "adm_post_sofala_gorongosa_nhamadzi",
+    "code": null,
+    "name": "Nhamadzi",
+    "slug": "nhamadzi",
+    "districtId": "dist_sofala_gorongosa"
+  },
+  {
+    "id": "adm_post_sofala_gorongosa_vunduzi",
+    "code": null,
+    "name": "Vunduzi",
+    "slug": "vunduzi",
+    "districtId": "dist_sofala_gorongosa"
+  },
+  {
+    "id": "adm_post_sofala_machanga_machanga_sede",
+    "code": null,
+    "name": "Machanga-Sede",
+    "slug": "machanga-sede",
+    "districtId": "dist_sofala_machanga"
+  },
+  {
+    "id": "adm_post_sofala_machanga_divinhe",
+    "code": null,
+    "name": "Divinhe",
+    "slug": "divinhe",
+    "districtId": "dist_sofala_machanga"
+  },
+  {
+    "id": "adm_post_sofala_machanga_chiloane",
+    "code": null,
+    "name": "Chiloane",
+    "slug": "chiloane",
+    "districtId": "dist_sofala_machanga"
+  },
+  {
+    "id": "adm_post_sofala_maringue_maringue_sede",
+    "code": null,
+    "name": "Marínguè-Sede",
+    "slug": "maringue-sede",
+    "districtId": "dist_sofala_maringue"
+  },
+  {
+    "id": "adm_post_sofala_maringue_canxixe",
+    "code": null,
+    "name": "Canxixe",
+    "slug": "canxixe",
+    "districtId": "dist_sofala_maringue"
+  },
+  {
+    "id": "adm_post_sofala_maringue_subue",
+    "code": null,
+    "name": "Subué",
+    "slug": "subue",
+    "districtId": "dist_sofala_maringue"
+  },
+  {
+    "id": "adm_post_sofala_marromeu_marromeu_sede",
+    "code": null,
+    "name": "Marromeu-Sede",
+    "slug": "marromeu-sede",
+    "districtId": "dist_sofala_marromeu"
+  },
+  {
+    "id": "adm_post_sofala_marromeu_chupanga",
+    "code": null,
+    "name": "Chupanga",
+    "slug": "chupanga",
+    "districtId": "dist_sofala_marromeu"
+  },
+  {
+    "id": "adm_post_sofala_marromeu_malingapansi",
+    "code": null,
+    "name": "Malingapansi",
+    "slug": "malingapansi",
+    "districtId": "dist_sofala_marromeu"
+  },
+  {
+    "id": "adm_post_sofala_muanza_muanza",
+    "code": null,
+    "name": "Muanza",
+    "slug": "muanza",
+    "districtId": "dist_sofala_muanza"
+  },
+  {
+    "id": "adm_post_sofala_muanza_galinha",
+    "code": null,
+    "name": "Galinha",
+    "slug": "galinha",
+    "districtId": "dist_sofala_muanza"
+  },
+  {
+    "id": "adm_post_sofala_nhamatanda_nhamatanda",
+    "code": null,
+    "name": "Nhamatanda",
+    "slug": "nhamatanda",
+    "districtId": "dist_sofala_nhamatanda"
+  },
+  {
+    "id": "adm_post_sofala_nhamatanda_tica",
+    "code": null,
+    "name": "Tica",
+    "slug": "tica",
+    "districtId": "dist_sofala_nhamatanda"
+  },
+  {
+    "id": "adm_post_inhambane_funhalouro_funhalouro",
+    "code": null,
+    "name": "Funhalouro",
+    "slug": "funhalouro",
+    "districtId": "dist_inhambane_funhalouro"
+  },
+  {
+    "id": "adm_post_inhambane_funhalouro_tome",
+    "code": null,
+    "name": "Tome",
+    "slug": "tome",
+    "districtId": "dist_inhambane_funhalouro"
+  },
+  {
+    "id": "adm_post_inhambane_govuro_nova_mambone",
+    "code": null,
+    "name": "Nova Mambone",
+    "slug": "nova-mambone",
+    "districtId": "dist_inhambane_govuro"
+  },
+  {
+    "id": "adm_post_inhambane_govuro_save",
+    "code": null,
+    "name": "Save",
+    "slug": "save",
+    "districtId": "dist_inhambane_govuro"
+  },
+  {
+    "id": "adm_post_inhambane_homoine_homoine",
+    "code": null,
+    "name": "Homoíne",
+    "slug": "homoine",
+    "districtId": "dist_inhambane_homoine"
+  },
+  {
+    "id": "adm_post_inhambane_homoine_pembe",
+    "code": null,
+    "name": "Pembe",
+    "slug": "pembe",
+    "districtId": "dist_inhambane_homoine"
+  },
+  {
+    "id": "adm_post_inhambane_inharrime_inharrime",
+    "code": null,
+    "name": "Inharrime",
+    "slug": "inharrime",
+    "districtId": "dist_inhambane_inharrime"
+  },
+  {
+    "id": "adm_post_inhambane_inharrime_mocumbi",
+    "code": null,
+    "name": "Mocumbi",
+    "slug": "mocumbi",
+    "districtId": "dist_inhambane_inharrime"
+  },
+  {
+    "id": "adm_post_inhambane_inhassoro_inhassoro",
+    "code": null,
+    "name": "Inhassoro",
+    "slug": "inhassoro",
+    "districtId": "dist_inhambane_inhassoro"
+  },
+  {
+    "id": "adm_post_inhambane_inhassoro_bazaruto",
+    "code": null,
+    "name": "Bazaruto",
+    "slug": "bazaruto",
+    "districtId": "dist_inhambane_inhassoro"
+  },
+  {
+    "id": "adm_post_inhambane_jangamo_jangamo",
+    "code": null,
+    "name": "Jangamo",
+    "slug": "jangamo",
+    "districtId": "dist_inhambane_jangamo"
+  },
+  {
+    "id": "adm_post_inhambane_jangamo_cumbana",
+    "code": null,
+    "name": "Cumbana",
+    "slug": "cumbana",
+    "districtId": "dist_inhambane_jangamo"
+  },
+  {
+    "id": "adm_post_inhambane_mabote_mabote",
+    "code": null,
+    "name": "Mabote",
+    "slug": "mabote",
+    "districtId": "dist_inhambane_mabote"
+  },
+  {
+    "id": "adm_post_inhambane_mabote_zimane",
+    "code": null,
+    "name": "Zimane",
+    "slug": "zimane",
+    "districtId": "dist_inhambane_mabote"
+  },
+  {
+    "id": "adm_post_inhambane_mabote_zinave",
+    "code": null,
+    "name": "Zinave",
+    "slug": "zinave",
+    "districtId": "dist_inhambane_mabote"
+  },
+  {
+    "id": "adm_post_inhambane_massinga_massinga",
+    "code": null,
+    "name": "Massinga",
+    "slug": "massinga",
+    "districtId": "dist_inhambane_massinga"
+  },
+  {
+    "id": "adm_post_inhambane_massinga_chicomo",
+    "code": null,
+    "name": "Chicomo",
+    "slug": "chicomo",
+    "districtId": "dist_inhambane_massinga"
+  },
+  {
+    "id": "adm_post_inhambane_morrumbene_morrumbene",
+    "code": null,
+    "name": "Morrumbene",
+    "slug": "morrumbene",
+    "districtId": "dist_inhambane_morrumbene"
+  },
+  {
+    "id": "adm_post_inhambane_morrumbene_mocodoene",
+    "code": null,
+    "name": "Mocodoene",
+    "slug": "mocodoene",
+    "districtId": "dist_inhambane_morrumbene"
+  },
+  {
+    "id": "adm_post_inhambane_panda_panda",
+    "code": null,
+    "name": "Panda",
+    "slug": "panda",
+    "districtId": "dist_inhambane_panda"
+  },
+  {
+    "id": "adm_post_inhambane_panda_mawayela",
+    "code": null,
+    "name": "Mawayela",
+    "slug": "mawayela",
+    "districtId": "dist_inhambane_panda"
+  },
+  {
+    "id": "adm_post_inhambane_panda_urrene",
+    "code": null,
+    "name": "Urrene",
+    "slug": "urrene",
+    "districtId": "dist_inhambane_panda"
+  },
+  {
+    "id": "adm_post_inhambane_vilankulo_vilankulo",
+    "code": null,
+    "name": "Vilankulo",
+    "slug": "vilankulo",
+    "districtId": "dist_inhambane_vilankulo"
+  },
+  {
+    "id": "adm_post_inhambane_vilankulo_mapinhane",
+    "code": null,
+    "name": "Mapinhane",
+    "slug": "mapinhane",
+    "districtId": "dist_inhambane_vilankulo"
+  },
+  {
+    "id": "adm_post_inhambane_zavala_quissico",
+    "code": null,
+    "name": "Quissico",
+    "slug": "quissico",
+    "districtId": "dist_inhambane_zavala"
+  },
+  {
+    "id": "adm_post_inhambane_zavala_zandamela",
+    "code": null,
+    "name": "Zandamela",
+    "slug": "zandamela",
+    "districtId": "dist_inhambane_zavala"
+  },
+  {
+    "id": "adm_post_gaza_xai_xai_municipal_sede",
+    "code": null,
+    "name": "Municipal Sede",
+    "slug": "municipal-sede",
+    "districtId": "dist_gaza_xai_xai"
+  },
+  {
+    "id": "adm_post_gaza_xai_xai_patrice_lumumba",
+    "code": null,
+    "name": "Patrice Lumumba",
+    "slug": "patrice-lumumba",
+    "districtId": "dist_gaza_xai_xai"
+  },
+  {
+    "id": "adm_post_gaza_xai_xai_praia",
+    "code": null,
+    "name": "Praia",
+    "slug": "praia",
+    "districtId": "dist_gaza_xai_xai"
+  },
+  {
+    "id": "adm_post_gaza_xai_xai_inhamissa",
+    "code": null,
+    "name": "Inhamissa",
+    "slug": "inhamissa",
+    "districtId": "dist_gaza_xai_xai"
+  },
+  {
+    "id": "adm_post_gaza_xai_xai_chilaulene",
+    "code": null,
+    "name": "Chilaulene",
+    "slug": "chilaulene",
+    "districtId": "dist_gaza_xai_xai"
+  },
+  {
+    "id": "adm_post_gaza_bilene_macia",
+    "code": null,
+    "name": "Macia",
+    "slug": "macia",
+    "districtId": "dist_gaza_bilene"
+  },
+  {
+    "id": "adm_post_gaza_bilene_incaia",
+    "code": null,
+    "name": "Incaia",
+    "slug": "incaia",
+    "districtId": "dist_gaza_bilene"
+  },
+  {
+    "id": "adm_post_gaza_bilene_mazivila",
+    "code": null,
+    "name": "Mazivila",
+    "slug": "mazivila",
+    "districtId": "dist_gaza_bilene"
+  },
+  {
+    "id": "adm_post_gaza_bilene_messano",
+    "code": null,
+    "name": "Messano",
+    "slug": "messano",
+    "districtId": "dist_gaza_bilene"
+  },
+  {
+    "id": "adm_post_gaza_bilene_praia_de_bilene",
+    "code": null,
+    "name": "Praia de Bilene",
+    "slug": "praia-de-bilene",
+    "districtId": "dist_gaza_bilene"
+  },
+  {
+    "id": "adm_post_gaza_bilene_macuane",
+    "code": null,
+    "name": "Macuane",
+    "slug": "macuane",
+    "districtId": "dist_gaza_bilene"
+  },
+  {
+    "id": "adm_post_gaza_chibuto_cidade_de_chibuto",
+    "code": null,
+    "name": "Cidade de Chibuto",
+    "slug": "cidade-de-chibuto",
+    "districtId": "dist_gaza_chibuto"
+  },
+  {
+    "id": "adm_post_gaza_chibuto_alto_changane",
+    "code": null,
+    "name": "Alto Changane",
+    "slug": "alto-changane",
+    "districtId": "dist_gaza_chibuto"
+  },
+  {
+    "id": "adm_post_gaza_chibuto_chaimite",
+    "code": null,
+    "name": "Chaimite",
+    "slug": "chaimite",
+    "districtId": "dist_gaza_chibuto"
+  },
+  {
+    "id": "adm_post_gaza_chibuto_changanine",
+    "code": null,
+    "name": "Changanine",
+    "slug": "changanine",
+    "districtId": "dist_gaza_chibuto"
+  },
+  {
+    "id": "adm_post_gaza_chibuto_godide",
+    "code": null,
+    "name": "Godide",
+    "slug": "godide",
+    "districtId": "dist_gaza_chibuto"
+  },
+  {
+    "id": "adm_post_gaza_chibuto_malehice",
+    "code": null,
+    "name": "Malehice",
+    "slug": "malehice",
+    "districtId": "dist_gaza_chibuto"
+  },
+  {
+    "id": "adm_post_gaza_chicualacuala_eduardo_mondlane",
+    "code": null,
+    "name": "Eduardo Mondlane",
+    "slug": "eduardo-mondlane",
+    "districtId": "dist_gaza_chicualacuala"
+  },
+  {
+    "id": "adm_post_gaza_chicualacuala_pafuri",
+    "code": null,
+    "name": "Pafúri",
+    "slug": "pafuri",
+    "districtId": "dist_gaza_chicualacuala"
+  },
+  {
+    "id": "adm_post_gaza_chigubo_ndindiza",
+    "code": null,
+    "name": "Ndindiza",
+    "slug": "ndindiza",
+    "districtId": "dist_gaza_chigubo"
+  },
+  {
+    "id": "adm_post_gaza_chigubo_chigubo",
+    "code": null,
+    "name": "Chigubo",
+    "slug": "chigubo",
+    "districtId": "dist_gaza_chigubo"
+  },
+  {
+    "id": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "code": null,
+    "name": "Cidade de Chókwè",
+    "slug": "cidade-de-chokwe",
+    "districtId": "dist_gaza_chokwe"
+  },
+  {
+    "id": "adm_post_gaza_chokwe_lionde",
+    "code": null,
+    "name": "Lionde",
+    "slug": "lionde",
+    "districtId": "dist_gaza_chokwe"
+  },
+  {
+    "id": "adm_post_gaza_chokwe_macarretane",
+    "code": null,
+    "name": "Macarretane",
+    "slug": "macarretane",
+    "districtId": "dist_gaza_chokwe"
+  },
+  {
+    "id": "adm_post_gaza_chokwe_xilembene",
+    "code": null,
+    "name": "Xilembene",
+    "slug": "xilembene",
+    "districtId": "dist_gaza_chokwe"
+  },
+  {
+    "id": "adm_post_gaza_guija_vila_de_canicado",
+    "code": null,
+    "name": "Vila de Caniçado",
+    "slug": "vila-de-canicado",
+    "districtId": "dist_gaza_guija"
+  },
+  {
+    "id": "adm_post_gaza_guija_chivonguene",
+    "code": null,
+    "name": "Chivonguene",
+    "slug": "chivonguene",
+    "districtId": "dist_gaza_guija"
+  },
+  {
+    "id": "adm_post_gaza_guija_mubanguene",
+    "code": null,
+    "name": "Mubangoene",
+    "slug": "mubangoene",
+    "districtId": "dist_gaza_guija"
+  },
+  {
+    "id": "adm_post_gaza_guija_nalazi",
+    "code": null,
+    "name": "Nalazi",
+    "slug": "nalazi",
+    "districtId": "dist_gaza_guija"
+  },
+  {
+    "id": "adm_post_gaza_mabalane_mabalane_sede",
+    "code": null,
+    "name": "Mabalane-Sede",
+    "slug": "mabalane-sede",
+    "districtId": "dist_gaza_mabalane"
+  },
+  {
+    "id": "adm_post_gaza_mabalane_combomune",
+    "code": null,
+    "name": "Combomune",
+    "slug": "combomune",
+    "districtId": "dist_gaza_mabalane"
+  },
+  {
+    "id": "adm_post_gaza_mabalane_ntlavene",
+    "code": null,
+    "name": "Ntlavene",
+    "slug": "ntlavene",
+    "districtId": "dist_gaza_mabalane"
+  },
+  {
+    "id": "adm_post_gaza_mandlakazi_mandlakazi_sede",
+    "code": null,
+    "name": "Mandlakazi-Sede",
+    "slug": "mandlakazi-sede",
+    "districtId": "dist_gaza_mandlakazi"
+  },
+  {
+    "id": "adm_post_gaza_mandlakazi_lhalala",
+    "code": null,
+    "name": "Xhalala",
+    "slug": "xhalala",
+    "districtId": "dist_gaza_mandlakazi"
+  },
+  {
+    "id": "adm_post_gaza_mandlakazi_chibonzane",
+    "code": null,
+    "name": "Chibonzane",
+    "slug": "chibonzane",
+    "districtId": "dist_gaza_mandlakazi"
+  },
+  {
+    "id": "adm_post_gaza_mandlakazi_chidenguele",
+    "code": null,
+    "name": "Chidenguele",
+    "slug": "chidenguele",
+    "districtId": "dist_gaza_mandlakazi"
+  },
+  {
+    "id": "adm_post_gaza_mandlakazi_macuacua",
+    "code": null,
+    "name": "Macuácua",
+    "slug": "macuacua",
+    "districtId": "dist_gaza_mandlakazi"
+  },
+  {
+    "id": "adm_post_gaza_massangena_massangena_sede",
+    "code": null,
+    "name": "Massangena-Sede",
+    "slug": "massangena-sede",
+    "districtId": "dist_gaza_massangena"
+  },
+  {
+    "id": "adm_post_gaza_massangena_mavue",
+    "code": null,
+    "name": "Mavué",
+    "slug": "mavue",
+    "districtId": "dist_gaza_massangena"
+  },
+  {
+    "id": "adm_post_gaza_massingir_massingir",
+    "code": null,
+    "name": "Massingir",
+    "slug": "massingir",
+    "districtId": "dist_gaza_massingir"
+  },
+  {
+    "id": "adm_post_gaza_massingir_mavodze",
+    "code": null,
+    "name": "Mavodze",
+    "slug": "mavodze",
+    "districtId": "dist_gaza_massingir"
+  },
+  {
+    "id": "adm_post_gaza_massingir_zulo",
+    "code": null,
+    "name": "Zulo",
+    "slug": "zulo",
+    "districtId": "dist_gaza_massingir"
+  },
+  {
+    "id": "adm_post_gaza_limpopo_chicumbane",
+    "code": null,
+    "name": "Chicumbane",
+    "slug": "chicumbane",
+    "districtId": "dist_gaza_limpopo"
+  },
+  {
+    "id": "adm_post_gaza_limpopo_chissano",
+    "code": null,
+    "name": "Chissano",
+    "slug": "chissano",
+    "districtId": "dist_gaza_limpopo"
+  },
+  {
+    "id": "adm_post_gaza_limpopo_zongoene",
+    "code": null,
+    "name": "Zongoene",
+    "slug": "zongoene",
+    "districtId": "dist_gaza_limpopo"
+  },
+  {
+    "id": "adm_post_gaza_chongoene_chongoene",
+    "code": null,
+    "name": "Chongoene",
+    "slug": "chongoene",
+    "districtId": "dist_gaza_chongoene"
+  },
+  {
+    "id": "adm_post_gaza_chongoene_mazucane",
+    "code": null,
+    "name": "Mazucane",
+    "slug": "mazucane",
+    "districtId": "dist_gaza_chongoene"
+  },
+  {
+    "id": "adm_post_gaza_chongoene_zongoene",
+    "code": null,
+    "name": "Nguzene",
+    "slug": "nguzene",
+    "districtId": "dist_gaza_chongoene"
+  },
+  {
+    "id": "adm_post_gaza_mapai_mapai_sede",
+    "code": null,
+    "name": "Mapai-Sede",
+    "slug": "mapai-sede",
+    "districtId": "dist_gaza_mapai"
+  },
+  {
+    "id": "adm_post_gaza_mapai_machaila",
+    "code": null,
+    "name": "Machaila",
+    "slug": "machaila",
+    "districtId": "dist_gaza_mapai"
+  },
   {
     "id": "adm_post_maputo_matola_cidade_da_matola",
     "code": null,
@@ -2644,7 +2526,6 @@
     "slug": "machava",
     "districtId": "dist_maputo_matola"
   },
-
   {
     "id": "adm_post_maputo_boane_boane",
     "code": null,
@@ -2659,7 +2540,6 @@
     "slug": "matola-rio",
     "districtId": "dist_maputo_boane"
   },
-
   {
     "id": "adm_post_maputo_magude_magude_sede",
     "code": null,
@@ -2695,7 +2575,6 @@
     "slug": "panjane",
     "districtId": "dist_maputo_magude"
   },
-
   {
     "id": "adm_post_maputo_manhica_manhica_sede",
     "code": null,
@@ -2738,7 +2617,6 @@
     "slug": "xinavane",
     "districtId": "dist_maputo_manhica"
   },
-
   {
     "id": "adm_post_maputo_marracuene_marracuene_sede",
     "code": null,
@@ -2753,7 +2631,6 @@
     "slug": "machubo",
     "districtId": "dist_maputo_marracuene"
   },
-
   {
     "id": "adm_post_maputo_matutuine_bela_vista",
     "code": null,
@@ -2789,7 +2666,6 @@
     "slug": "zitundo",
     "districtId": "dist_maputo_matutuine"
   },
-
   {
     "id": "adm_post_maputo_moamba_moamba",
     "code": null,
@@ -2818,7 +2694,6 @@
     "slug": "sabie",
     "districtId": "dist_maputo_moamba"
   },
-
   {
     "id": "adm_post_maputo_namaacha_namaacha",
     "code": null,

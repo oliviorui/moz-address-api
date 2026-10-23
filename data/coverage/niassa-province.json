@@ -1,0 +1,247 @@
+{
+  "provinceId": "prov_01",
+  "province": "Niassa",
+  "status": "PARTIAL",
+  "reference": {
+    "source": "INE Niassa 2024 territorial table",
+    "administrativePostsExpected": 45,
+    "localitiesExpected": 97,
+    "neighborhoodsExpected": 22
+  },
+  "coverage": {
+    "administrativePosts": {
+      "loaded": 45,
+      "expected": 45
+    },
+    "localities": {
+      "loaded": 74,
+      "expected": 97
+    },
+    "neighborhoods": {
+      "loaded": 22,
+      "expected": 22
+    },
+    "districts": {
+      "complete": 13,
+      "total": 16
+    }
+  },
+  "blockers": [
+    "Sanga",
+    "Mecanhelas",
+    "Marrupa"
+  ],
+  "districts": [
+    {
+      "districtId": "dist_niassa_chimbunila",
+      "district": "Chimbunila",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_cuamba",
+      "district": "Cuamba",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 8,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 7,
+        "expected": 7
+      }
+    },
+    {
+      "districtId": "dist_niassa_lago",
+      "district": "Lago",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 13,
+        "expected": 13
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_lichinga",
+      "district": "Lichinga",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 2,
+        "expected": 2
+      },
+      "neighborhoods": {
+        "loaded": 15,
+        "expected": 15
+      }
+    },
+    {
+      "districtId": "dist_niassa_majune",
+      "district": "Majune",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 7,
+        "expected": 7
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mandimba",
+      "district": "Mandimba",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 6,
+        "expected": 6
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_marrupa",
+      "district": "Marrupa",
+      "status": "BLOCKED",
+      "localities": {
+        "loaded": 0,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "blocker": "Historical 7 vs INE 2024 expected 8; additional locality remains unidentified. Manhula is a povoado, not a locality."
+    },
+    {
+      "districtId": "dist_niassa_maua",
+      "district": "Maúa",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mavago",
+      "district": "Mavago",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 3,
+        "expected": 3
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mecanhelas",
+      "district": "Mecanhelas",
+      "status": "BLOCKED",
+      "localities": {
+        "loaded": 0,
+        "expected": 7
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "blocker": "Historical 6 vs INE 2024 expected 7; likely Iataria (Chamba) split requires authoritative hierarchy confirmation."
+    },
+    {
+      "districtId": "dist_niassa_mecula",
+      "district": "Mecula",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_metarica",
+      "district": "Metarica",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_muembe",
+      "district": "Muembe",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_ngauma",
+      "district": "Ngauma",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_nipepe",
+      "district": "Nipepe",
+      "status": "COMPLETE",
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_sanga",
+      "district": "Sanga",
+      "status": "BLOCKED",
+      "localities": {
+        "loaded": 0,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "blocker": "Historical 7 vs INE 2024 expected 8; current post structure changed and the additional locality is not yet safely identified."
+    }
+  ]
+}

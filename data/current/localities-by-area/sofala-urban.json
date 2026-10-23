@@ -1,0 +1,362 @@
+[
+  {
+    "id": "locality_sofala_dondo_mafambisse_mafambisse_sede",
+    "code": null,
+    "name": "Mafambisse-Sede",
+    "slug": "mafambisse-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_sofala_dondo_mafambisse",
+    "districtId": null
+  },
+  {
+    "id": "locality_sofala_dondo_mafambisse_mutua",
+    "code": null,
+    "name": "Mutua",
+    "slug": "mutua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_sofala_dondo_mafambisse",
+    "districtId": null
+  },
+  {
+    "id": "locality_sofala_dondo_savane_chinamacondo",
+    "code": null,
+    "name": "Chinamacondo",
+    "slug": "chinamacondo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_sofala_dondo_savane",
+    "districtId": null
+  },
+  {
+    "id": "locality_sofala_dondo_savane_savane_sede",
+    "code": null,
+    "name": "Savane-Sede",
+    "slug": "savane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_sofala_dondo_savane",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_chaimite",
+    "code": null,
+    "name": "Chaimite",
+    "slug": "chaimite",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_chipangara",
+    "code": null,
+    "name": "Chipangara",
+    "slug": "chipangara",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_esturro",
+    "code": null,
+    "name": "Esturro",
+    "slug": "esturro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_macurungo",
+    "code": null,
+    "name": "Macurungo",
+    "slug": "macurungo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_macuti",
+    "code": null,
+    "name": "Macuti",
+    "slug": "macuti",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_matacuane",
+    "code": null,
+    "name": "Matacuane",
+    "slug": "matacuane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_pioneiros",
+    "code": null,
+    "name": "Pioneiros",
+    "slug": "pioneiros",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_1_central_ponta_gea",
+    "code": null,
+    "name": "Ponta-Gea",
+    "slug": "ponta-gea",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_1_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_2_munhava_chota",
+    "code": null,
+    "name": "Chota",
+    "slug": "chota",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_2_munhava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_2_munhava_mananga",
+    "code": null,
+    "name": "Mananga",
+    "slug": "mananga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_2_munhava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_2_munhava_maraza",
+    "code": null,
+    "name": "Maraza",
+    "slug": "maraza",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_2_munhava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_2_munhava_munhava_central",
+    "code": null,
+    "name": "Munhava Central",
+    "slug": "munhava-central",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_2_munhava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_2_munhava_vaz",
+    "code": null,
+    "name": "Vaz",
+    "slug": "vaz",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_2_munhava",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_3_inhamizua_alto_da_manga",
+    "code": null,
+    "name": "Alto da Manga",
+    "slug": "alto-da-manga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_3_inhamizua_chingussura",
+    "code": null,
+    "name": "Chingussura",
+    "slug": "chingussura",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_3_inhamizua_inhaconjo",
+    "code": null,
+    "name": "Inhaconjo",
+    "slug": "inhaconjo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_3_inhamizua_inhamizua",
+    "code": null,
+    "name": "Inhamizua",
+    "slug": "inhamizua",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_3_inhamizua_matadouro",
+    "code": null,
+    "name": "Matadouro",
+    "slug": "matadouro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_3_inhamizua_vila_massane",
+    "code": null,
+    "name": "Vila Massane",
+    "slug": "vila-massane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_3_inhamizua",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_4_manga_loforte_manga_mascarenhas",
+    "code": null,
+    "name": "Manga Mascarenhas",
+    "slug": "manga-mascarenhas",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_4_manga_loforte",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_4_manga_loforte_muave",
+    "code": null,
+    "name": "Muave",
+    "slug": "muave",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_4_manga_loforte",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_4_manga_loforte_mungassa",
+    "code": null,
+    "name": "Mungassa",
+    "slug": "mungassa",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_4_manga_loforte",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_4_manga_loforte_ndunda",
+    "code": null,
+    "name": "Ndunda",
+    "slug": "ndunda",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_4_manga_loforte",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_5_nhangau_nhangau",
+    "code": null,
+    "name": "Nhangau",
+    "slug": "nhangau",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_5_nhangau",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_5_nhangau_nhangoma",
+    "code": null,
+    "name": "Nhangoma",
+    "slug": "nhangoma",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_5_nhangau",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_beira_urbano_5_nhangau_tchonja",
+    "code": null,
+    "name": "Tchonja",
+    "slug": "tchonja",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_beira_urbano_5_nhangau",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_canhandula",
+    "code": null,
+    "name": "Canhandula",
+    "slug": "canhandula",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_central",
+    "code": null,
+    "name": "Central",
+    "slug": "central",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_consito",
+    "code": null,
+    "name": "Consito",
+    "slug": "consito",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_macharote",
+    "code": null,
+    "name": "Macharote",
+    "slug": "macharote",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_mafarinha",
+    "code": null,
+    "name": "Mafarinha",
+    "slug": "mafarinha",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_mandruze",
+    "code": null,
+    "name": "Mandruze",
+    "slug": "mandruze",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_nhamaiabue",
+    "code": null,
+    "name": "Nhamaiabue",
+    "slug": "nhamaiabue",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_nhamainga",
+    "code": null,
+    "name": "Nhamainga",
+    "slug": "nhamainga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_samora_machel",
+    "code": null,
+    "name": "Samora Machel",
+    "slug": "samora-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_sofala_dondo_dondo_sede_thundani",
+    "code": null,
+    "name": "Thundani",
+    "slug": "thundani",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_sofala_dondo_dondo_sede",
+    "districtId": null
+  }
+]

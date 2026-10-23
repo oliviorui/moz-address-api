@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ine-mozgis-localities-2017",
+    "institution": "Instituto Nacional de Estatística / MozGIS",
+    "title": "SociedPopulacaoLocalidadeBairro2017",
+    "type": "OFFICIAL",
+    "year": 2017,
+    "url": "https://www.mozgis.gov.mz/server/rest/services/MEF/MEFAAPAnaliseInfraestruturas/MapServer/24",
+    "accessedAt": "2026-10-22",
+    "notes": "Official historical INE/MozGIS locality layer used for locality names and administrative-post hierarchy after structural reconciliation."
+  },
+  {
+    "id": "ine-sofala-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Sofala, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/documents/20119/334659/Anu%C3%A1rio%20Estatistico_Provincia%20de%20Sofala_2024.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official current territorial-unit table for Sofala Province. Confirms 38 administrative posts, 89 localities and 36 city neighborhoods. Used here to validate exact district locality totals before promotion."
+  }
+]

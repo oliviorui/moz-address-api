@@ -61,6 +61,24 @@ const rootDir =
 
 const errors: string[] = [];
 
+const directNeighborhoodDistrictIds =
+  new Set([
+    "dist_inhambane_inhambane",
+    "dist_inhambane_maxixe"
+  ]);
+
+function allowsDirectNeighborhoods(
+  district: District
+) {
+  return (
+    district.type ===
+      "MUNICIPAL_DISTRICT" ||
+    directNeighborhoodDistrictIds.has(
+      district.id
+    )
+  );
+}
+
 async function readJson<T>(
   filePath: string
 ): Promise<T> {
@@ -330,11 +348,12 @@ async function main() {
       } else if (
         locality.type ===
           "NEIGHBORHOOD" &&
-        district.type !==
-          "MUNICIPAL_DISTRICT"
+        !allowsDirectNeighborhoods(
+          district
+        )
       ) {
         errors.push(
-          `Direct district neighborhood "${locality.id}" must belong to a MUNICIPAL_DISTRICT.`
+          `Direct district neighborhood "${locality.id}" is not allowed for district "${district.id}".`
         );
       }
     }

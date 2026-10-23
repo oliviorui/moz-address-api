@@ -1,0 +1,25 @@
+{
+  "province": "Sofala",
+  "status": "COMPLETE",
+  "sourceId": "ine-sofala-province-yearbook-2024",
+  "expected": {
+    "administrativePosts": 38,
+    "localities": 89,
+    "neighborhoods": 36
+  },
+  "completed": {
+    "administrativePosts": 38,
+    "localities": 89,
+    "neighborhoods": 36
+  },
+  "urbanNeighborhoods": {
+    "Beira": 26,
+    "Dondo": 10
+  },
+  "notes": [
+    "Eleven non-urban districts contribute 85 exact-match localities.",
+    "Dondo contributes 4 localities and 10 urban neighborhoods.",
+    "Beira contributes 26 urban neighborhoods and no locality records.",
+    "Historical INE/MozGIS 2017 names were promoted only where district totals match the current INE Sofala territorial targets exactly."
+  ]
+}

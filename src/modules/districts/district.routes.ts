@@ -305,15 +305,14 @@ export async function districtRoutes(
       }
 
       if (
-        district.type !==
-        "MUNICIPAL_DISTRICT"
+        district.localities.length === 0
       ) {
         return reply.status(400).send({
           error:
             "DISTRICT_HAS_NO_NEIGHBORHOOD_LAYER",
 
           message:
-            "Neighborhoods are only available for municipal districts."
+            "Neighborhoods are not available for this district."
         });
       }
 

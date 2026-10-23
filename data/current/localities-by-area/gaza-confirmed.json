@@ -1,0 +1,1073 @@
+[
+  {
+    "id": "locality_gaza_chibuto_alto_changane_alto_changane",
+    "code": null,
+    "name": "Alto Changane",
+    "slug": "alto-changane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_alto_changane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_alto_changane_funguane",
+    "code": null,
+    "name": "Funguane",
+    "slug": "funguane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_alto_changane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_alto_changane_maqueze",
+    "code": null,
+    "name": "Maqueze",
+    "slug": "maqueze",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_alto_changane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_chaimite_mukhotuene",
+    "code": null,
+    "name": "Mukhotuene",
+    "slug": "mukhotuene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_chaimite",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_chaimite_tchaimite_sede",
+    "code": null,
+    "name": "Tchaimite-Sede",
+    "slug": "tchaimite-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_chaimite",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_chaimite_tlhatlhene",
+    "code": null,
+    "name": "Tlhatlhene",
+    "slug": "tlhatlhene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_chaimite",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_changanine_changanine_sede",
+    "code": null,
+    "name": "Changanine-Sede",
+    "slug": "changanine-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_changanine",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_changanine_hate_hate",
+    "code": null,
+    "name": "Hate Hate",
+    "slug": "hate-hate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_changanine",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_cidade_de_chibuto_canhavano",
+    "code": null,
+    "name": "Canhavano",
+    "slug": "canhavano",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_cidade_de_chibuto",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_cidade_de_chibuto_maniquiniqui",
+    "code": null,
+    "name": "Maniquiniqui",
+    "slug": "maniquiniqui",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_cidade_de_chibuto",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_godide_chipadja",
+    "code": null,
+    "name": "Chipadja",
+    "slug": "chipadja",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_godide",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_godide_godide_sede",
+    "code": null,
+    "name": "Godide-Sede",
+    "slug": "godide-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_godide",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_malehice_bambane",
+    "code": null,
+    "name": "Bambane",
+    "slug": "bambane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_malehice",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_malehice_koka_missava",
+    "code": null,
+    "name": "Koka Missava",
+    "slug": "koka-missava",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_malehice",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_malehice_maivene",
+    "code": null,
+    "name": "Maivene",
+    "slug": "maivene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_malehice",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_malehice_malehice_sede",
+    "code": null,
+    "name": "Malehice-Sede",
+    "slug": "malehice-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_malehice",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_malehice_mangume",
+    "code": null,
+    "name": "Mangume",
+    "slug": "mangume",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_malehice",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chibuto_malehice_muxaxane",
+    "code": null,
+    "name": "Muxaxane",
+    "slug": "muxaxane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chibuto_malehice",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chigubo_chigubo_saute",
+    "code": null,
+    "name": "Saute",
+    "slug": "saute",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chigubo_chigubo",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chigubo_chigubo_zinhane",
+    "code": null,
+    "name": "Zinhane",
+    "slug": "zinhane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chigubo_chigubo",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chigubo_ndindiza_ndindiza",
+    "code": null,
+    "name": "Ndindiza",
+    "slug": "ndindiza",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chigubo_ndindiza",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chigubo_ndindiza_nhanale",
+    "code": null,
+    "name": "Nhanale",
+    "slug": "nhanale",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chigubo_ndindiza",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_chongoene_banhine",
+    "code": null,
+    "name": "Banhine",
+    "slug": "banhine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_chongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_chongoene_chongoene_sede",
+    "code": null,
+    "name": "Chongoene-Sede",
+    "slug": "chongoene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_chongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_chongoene_maciene",
+    "code": null,
+    "name": "Maciene",
+    "slug": "maciene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_chongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_chongoene_nhacutse",
+    "code": null,
+    "name": "Nhacutse",
+    "slug": "nhacutse",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_chongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_chongoene_nhamavila",
+    "code": null,
+    "name": "Nhamavila",
+    "slug": "nhamavila",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_chongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_chongoene_siaia",
+    "code": null,
+    "name": "Siaia",
+    "slug": "siaia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_chongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_mazucane_chicavane",
+    "code": null,
+    "name": "Chicavane",
+    "slug": "chicavane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_mazucane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_mazucane_mangundze",
+    "code": null,
+    "name": "Mangundze",
+    "slug": "mangundze",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_mazucane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_mazucane_mazucane_sede",
+    "code": null,
+    "name": "Mazucane-Sede",
+    "slug": "mazucane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_mazucane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_zongoene_cumbane",
+    "code": null,
+    "name": "Cumbane",
+    "slug": "cumbane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_zongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_chongoene_zongoene_nguzene_sede",
+    "code": null,
+    "name": "Nguzene-Sede",
+    "slug": "nguzene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_chongoene_zongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_chivonguene_chibabel",
+    "code": null,
+    "name": "Chibabel",
+    "slug": "chibabel",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_chivonguene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_chivonguene_chivongoene_sede",
+    "code": null,
+    "name": "Chivongoene-Sede",
+    "slug": "chivongoene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_chivonguene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_mubanguene_mpelane",
+    "code": null,
+    "name": "Mpelane",
+    "slug": "mpelane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_mubanguene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_mubanguene_mubangoene_sede",
+    "code": null,
+    "name": "Mubangoene-Sede",
+    "slug": "mubangoene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_mubanguene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_mubanguene_tomanine",
+    "code": null,
+    "name": "Tomanine",
+    "slug": "tomanine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_mubanguene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_nalazi_mbala_vala",
+    "code": null,
+    "name": "Mbala-Vala",
+    "slug": "mbala-vala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_nalazi",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_guija_nalazi_nalazi_sede",
+    "code": null,
+    "name": "Nalazi Sede",
+    "slug": "nalazi-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_guija_nalazi",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chicumbane_chicumbane",
+    "code": null,
+    "name": "Chicumbane",
+    "slug": "chicumbane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chicumbane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chicumbane_chirindzene",
+    "code": null,
+    "name": "Chirindzene",
+    "slug": "chirindzene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chicumbane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chicumbane_muwawassi",
+    "code": null,
+    "name": "Muwawassi",
+    "slug": "muwawassi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chicumbane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chicumbane_muzingane",
+    "code": null,
+    "name": "Muzingane",
+    "slug": "muzingane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chicumbane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chicumbane_nuvunguene",
+    "code": null,
+    "name": "Nuvunguene",
+    "slug": "nuvunguene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chicumbane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chissano_chicotane",
+    "code": null,
+    "name": "Chicotane",
+    "slug": "chicotane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chissano",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chissano_chissano_sede",
+    "code": null,
+    "name": "Chissano Sede",
+    "slug": "chissano-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chissano",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chissano_licilo",
+    "code": null,
+    "name": "Licilo",
+    "slug": "licilo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chissano",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_chissano_loane",
+    "code": null,
+    "name": "Loane",
+    "slug": "loane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_chissano",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_zongoene_novela",
+    "code": null,
+    "name": "Novela",
+    "slug": "novela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_zongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_limpopo_zongoene_zongoene_sede",
+    "code": null,
+    "name": "Zongoene-Sede",
+    "slug": "zongoene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_limpopo_zongoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_combomune_combomune_estacao",
+    "code": null,
+    "name": "Combomune Estacao",
+    "slug": "combomune-estacao",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_combomune",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_combomune_combomune_rio",
+    "code": null,
+    "name": "Combomune Rio",
+    "slug": "combomune-rio",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_combomune",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_mabalane_sede_mabalane_sede",
+    "code": null,
+    "name": "Mabalane-Sede",
+    "slug": "mabalane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_mabalane_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_mabalane_sede_nhatimamba",
+    "code": null,
+    "name": "Nhatimamba",
+    "slug": "nhatimamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_mabalane_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_mabalane_sede_tsokate",
+    "code": null,
+    "name": "Tsokate",
+    "slug": "tsokate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_mabalane_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_ntlavene_chipsompswe",
+    "code": null,
+    "name": "Chipsompswe",
+    "slug": "chipsompswe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_ntlavene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mabalane_ntlavene_ntlhavene_sede",
+    "code": null,
+    "name": "Ntlhavene-Sede",
+    "slug": "ntlhavene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mabalane_ntlavene",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chibonzane_chibondzane_sede",
+    "code": null,
+    "name": "Chibondzane Sede",
+    "slug": "chibondzane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chibonzane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chibonzane_machulane",
+    "code": null,
+    "name": "Machulane",
+    "slug": "machulane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chibonzane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chibonzane_ponjuane",
+    "code": null,
+    "name": "Ponjuane",
+    "slug": "ponjuane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chibonzane",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chidenguele_betula",
+    "code": null,
+    "name": "Betula",
+    "slug": "betula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chidenguele",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chidenguele_chicuangue",
+    "code": null,
+    "name": "Chicuangue",
+    "slug": "chicuangue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chidenguele",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chidenguele_chidenguele_sede",
+    "code": null,
+    "name": "Chidenguele-Sede",
+    "slug": "chidenguele-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chidenguele",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chidenguele_dengoine",
+    "code": null,
+    "name": "Dengoine",
+    "slug": "dengoine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chidenguele",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_chidenguele_mbanze",
+    "code": null,
+    "name": "Mbanze",
+    "slug": "mbanze",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_chidenguele",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_lhalala_chalala",
+    "code": null,
+    "name": "Chalala",
+    "slug": "chalala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_lhalala",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_lhalala_mussengue",
+    "code": null,
+    "name": "Mussengue",
+    "slug": "mussengue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_lhalala",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_macuacua_chilatanhane",
+    "code": null,
+    "name": "Chilatanhane",
+    "slug": "chilatanhane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_macuacua",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_macuacua_macuacua_sede",
+    "code": null,
+    "name": "Macuacua-Sede",
+    "slug": "macuacua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_macuacua",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_mandlakazi_sede_mapandane",
+    "code": null,
+    "name": "Mapandane",
+    "slug": "mapandane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_mandlakazi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mandlakazi_mandlakazi_sede_muzamane",
+    "code": null,
+    "name": "Muzamane",
+    "slug": "muzamane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mandlakazi_mandlakazi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mapai_machaila_chidulo",
+    "code": null,
+    "name": "Chidulo",
+    "slug": "chidulo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mapai_machaila",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mapai_machaila_machaila",
+    "code": null,
+    "name": "Machaila",
+    "slug": "machaila",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mapai_machaila",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mapai_mapai_sede_16_de_junho",
+    "code": null,
+    "name": "16 de Junho",
+    "slug": "16-de-junho",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mapai_mapai_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mapai_mapai_sede_mapai_rio",
+    "code": null,
+    "name": "Mapai Rio",
+    "slug": "mapai-rio",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mapai_mapai_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_mapai_mapai_sede_mepuze",
+    "code": null,
+    "name": "Mepuze",
+    "slug": "mepuze",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_mapai_mapai_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_massangena_sede_chizumbane",
+    "code": null,
+    "name": "Chizumbane",
+    "slug": "chizumbane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_massangena_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_massangena_sede_cufamune",
+    "code": null,
+    "name": "Cufamune",
+    "slug": "cufamune",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_massangena_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_massangena_sede_mabonzo",
+    "code": null,
+    "name": "Mabonzo",
+    "slug": "mabonzo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_massangena_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_massangena_sede_mapanhe",
+    "code": null,
+    "name": "Mapanhe",
+    "slug": "mapanhe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_massangena_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_massangena_sede_massangena_sede",
+    "code": null,
+    "name": "Massangena-Sede",
+    "slug": "massangena-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_massangena_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_mavue_mavue_sede",
+    "code": null,
+    "name": "Mavue-Sede",
+    "slug": "mavue-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_mavue",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_mavue_mucambene",
+    "code": null,
+    "name": "Mucambene",
+    "slug": "mucambene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_mavue",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_mavue_muzamane",
+    "code": null,
+    "name": "Muzamane",
+    "slug": "muzamane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_mavue",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massangena_mavue_siqueto",
+    "code": null,
+    "name": "Siqueto",
+    "slug": "siqueto",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massangena_mavue",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_massingir_massingir_sede",
+    "code": null,
+    "name": "Massingir-Sede",
+    "slug": "massingir-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_massingir",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_massingir_ringane",
+    "code": null,
+    "name": "Ringane",
+    "slug": "ringane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_massingir",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_mavodze_chibotane",
+    "code": null,
+    "name": "Chibotane",
+    "slug": "chibotane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_mavodze",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_mavodze_machamba",
+    "code": null,
+    "name": "Machamba",
+    "slug": "machamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_mavodze",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_mavodze_mavodze_sede",
+    "code": null,
+    "name": "Mavodze-Sede",
+    "slug": "mavodze-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_mavodze",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_zulo_chitar",
+    "code": null,
+    "name": "Chitar",
+    "slug": "chitar",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_zulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_zulo_mucatine",
+    "code": null,
+    "name": "Mucatine",
+    "slug": "mucatine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_zulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_massingir_zulo_zulo_sede",
+    "code": null,
+    "name": "Zulo-Sede",
+    "slug": "zulo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_massingir_zulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_gaza_xai_xai_chilaulene_chilaulene",
+    "code": null,
+    "name": "Chilaulene",
+    "slug": "chilaulene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_gaza_xai_xai_chilaulene",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_1o_bairro",
+    "code": null,
+    "name": "1º Bairro",
+    "slug": "1o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_a",
+    "code": null,
+    "name": "3º Bairro A",
+    "slug": "3o-bairro-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_b",
+    "code": null,
+    "name": "3º Bairro B",
+    "slug": "3o-bairro-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_4o_bairro",
+    "code": null,
+    "name": "4º Bairro",
+    "slug": "4o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_5o_bairro",
+    "code": null,
+    "name": "5º Bairro",
+    "slug": "5o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_6o_bairro",
+    "code": null,
+    "name": "6º Bairro",
+    "slug": "6o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_2",
+    "code": null,
+    "name": "Bairro 2",
+    "slug": "bairro-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_7",
+    "code": null,
+    "name": "Bairro 7",
+    "slug": "bairro-7",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_a",
+    "code": null,
+    "name": "Inhamissa A",
+    "slug": "inhamissa-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_b",
+    "code": null,
+    "name": "Inhamissa B",
+    "slug": "inhamissa-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_a",
+    "code": null,
+    "name": "Marien Ngouaby A",
+    "slug": "marien-ngouaby-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_b",
+    "code": null,
+    "name": "Marien Ngouaby B",
+    "slug": "marien-ngouaby-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_1o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "1º Bairro Comunal Xai-Xai",
+    "slug": "1o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_2o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "2º Bairro Comunal Xai-Xai",
+    "slug": "2o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_3o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "3º Bairro Comunal Xai-Xai",
+    "slug": "3o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_4o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "4º Bairro Comunal Xai-Xai",
+    "slug": "4o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_a",
+    "code": null,
+    "name": "Bairro Cumunal Unidade A",
+    "slug": "bairro-cumunal-unidade-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_b",
+    "code": null,
+    "name": "Bairro Cumunal Unidade B",
+    "slug": "bairro-cumunal-unidade-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_coca_missava",
+    "code": null,
+    "name": "Coca Missava",
+    "slug": "coca-missava",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_a",
+    "code": null,
+    "name": "Patrice Lumumba A",
+    "slug": "patrice-lumumba-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_patrice_lumumba",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_b",
+    "code": null,
+    "name": "Patrice Lumumba B",
+    "slug": "patrice-lumumba-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_patrice_lumumba",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_praia_chinunguine",
+    "code": null,
+    "name": "Chinunguine",
+    "slug": "chinunguine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_praia",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_praia_macanwine",
+    "code": null,
+    "name": "Macanwine",
+    "slug": "macanwine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_praia",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_praia_praia_cimento",
+    "code": null,
+    "name": "Praia Cimento",
+    "slug": "praia-cimento",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_praia",
+    "districtId": null
+  }
+]

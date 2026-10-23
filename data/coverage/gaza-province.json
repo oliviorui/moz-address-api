@@ -1,0 +1,242 @@
+{
+  "provinceId": "prov_09",
+  "province": "Gaza",
+  "status": "PARTIAL",
+  "sourceId": "ine-gaza-province-yearbook-2024",
+  "expected": {
+    "administrativePosts": 50,
+    "localities": 119,
+    "neighborhoods": 56
+  },
+  "loaded": {
+    "administrativePosts": 50,
+    "localities": 95,
+    "neighborhoods": 24
+  },
+  "districtSummary": {
+    "complete": 10,
+    "total": 14
+  },
+  "districts": [
+    {
+      "districtId": "dist_gaza_xai_xai",
+      "district": "Xai-Xai",
+      "administrativePosts": 5,
+      "localities": {
+        "loaded": 1,
+        "expected": 1
+      },
+      "neighborhoods": {
+        "loaded": 16,
+        "expected": 16
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_bilene",
+      "district": "Bilene",
+      "administrativePosts": 6,
+      "localities": {
+        "loaded": 0,
+        "expected": 13
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "BLOCKED",
+      "blocker": {
+        "code": "OFFICIAL_SOURCE_CONFLICT",
+        "note": "INE Gaza 2024 reports 13 localities, while recent nominal administrative/electoral sources do not yet reconcile unambiguously with the historical candidate set."
+      }
+    },
+    {
+      "districtId": "dist_gaza_chibuto",
+      "district": "Chibuto",
+      "administrativePosts": 6,
+      "localities": {
+        "loaded": 18,
+        "expected": 18
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 32
+      },
+      "status": "BLOCKED",
+      "blocker": {
+        "code": "MISSING_COMPLETE_CURRENT_NEIGHBORHOOD_LIST",
+        "note": "INE Gaza 2024 reports 32 neighborhoods. The official MozGIS municipal layer exposes only the same 12 historical neighborhood names, so the current 32-name list is still incomplete."
+      }
+    },
+    {
+      "districtId": "dist_gaza_chicualacuala",
+      "district": "Chicualacuala",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 0,
+        "expected": 4
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "BLOCKED",
+      "blocker": {
+        "code": "OFFICIAL_SOURCE_CONFLICT",
+        "note": "INE Gaza 2024 reports 4 localities, but the 14-Feb-2024 official electoral registration gazette still enumerates 5 locality names. No candidate is removed until the conflict is resolved."
+      }
+    },
+    {
+      "districtId": "dist_gaza_chigubo",
+      "district": "Chigubo",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 4,
+        "expected": 4
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_chokwe",
+      "district": "Chókwè",
+      "administrativePosts": 4,
+      "localities": {
+        "loaded": 0,
+        "expected": 7
+      },
+      "neighborhoods": {
+        "loaded": 8,
+        "expected": 8
+      },
+      "status": "BLOCKED",
+      "blocker": {
+        "code": "OFFICIAL_SOURCE_CONFLICT",
+        "note": "INE Gaza 2024 reports 7 localities while recent official nominal sources still expose a structure incompatible with a safe one-record exclusion. The 8 municipal neighborhoods are independently confirmed."
+      }
+    },
+    {
+      "districtId": "dist_gaza_guija",
+      "district": "Guijá",
+      "administrativePosts": 4,
+      "localities": {
+        "loaded": 7,
+        "expected": 7
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_mabalane",
+      "district": "Mabalane",
+      "administrativePosts": 3,
+      "localities": {
+        "loaded": 7,
+        "expected": 7
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_mandlakazi",
+      "district": "Mandlakazi",
+      "administrativePosts": 5,
+      "localities": {
+        "loaded": 14,
+        "expected": 14
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_massangena",
+      "district": "Massangena",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 9,
+        "expected": 9
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_massingir",
+      "district": "Massingir",
+      "administrativePosts": 3,
+      "localities": {
+        "loaded": 8,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_limpopo",
+      "district": "Limpopo",
+      "administrativePosts": 3,
+      "localities": {
+        "loaded": 11,
+        "expected": 11
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_chongoene",
+      "district": "Chongoene",
+      "administrativePosts": 3,
+      "localities": {
+        "loaded": 11,
+        "expected": 11
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_gaza_mapai",
+      "district": "Mapai",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    }
+  ],
+  "notes": [
+    "Current targets come from INE Gaza Province Statistical Yearbook 2024, territorial-units table.",
+    "Loaded counts are calculated from data/current/localities.json plus all data/current/localities-by-area shards at generation time; no completion status is guessed.",
+    "Xai-Xai 16 and Chókwè 8 urban neighborhoods are confirmed in canonical data.",
+    "Chibuto remains incomplete at neighborhood level until a complete current official 32-name list is found.",
+    "Bilene, Chicualacuala and Chókwè locality gaps remain blocked where official current count and nominal sources conflict.",
+    "A district is marked COMPLETE only when both its loaded locality and neighborhood counts exactly equal the INE 2024 targets."
+  ]
+}

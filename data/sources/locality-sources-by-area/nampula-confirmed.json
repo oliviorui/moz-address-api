@@ -1,0 +1,1028 @@
+[
+  {
+    "localityId": "locality_nampula_angoche_aube_aube_sede",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_aube_catamoio",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namaponda_gelo",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namaponda_mepapata",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namaponda_namaponda_sede",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namitoria_boila_sede",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namitoria_muchepua",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namitoria_nabruma",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namitoria_naiculo",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_angoche_namitoria_parta",
+    "sourceId": "ine-nampula-angoche-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the ten current Angoche localities. The seven historical Angoche-Sede urban records are excluded from the current locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_alua_alua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_alua_meliva",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_alua_samora_machel",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namapa_nagoro",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namapa_nahopa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namapa_namapa_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namapa_odinepa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namiroa_mirote",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namiroa_muanona",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_erati_namiroa_namiroa_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Eráti is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_lalaua_lalaua_sede_lalaua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Lalaua exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_lalaua_lalaua_sede_lurio",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Lalaua exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_lalaua_meti_meti_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Lalaua exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_lalaua_meti_naquessa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Lalaua exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_larde_larde_larde_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Larde exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_larde_larde_topuito",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Larde exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_larde_mucuali_mucuali_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Larde exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_larde_mucuali_najaca",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Larde exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_liupo_liupo_liupo_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Liúpo exactly matches the reconciled official MozGIS/INE locality list (3)."
+  },
+  {
+    "localityId": "locality_nampula_liupo_quinga_nacacane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Liúpo exactly matches the reconciled official MozGIS/INE locality list (3)."
+  },
+  {
+    "localityId": "locality_nampula_liupo_quinga_quinga_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Liúpo exactly matches the reconciled official MozGIS/INE locality list (3)."
+  },
+  {
+    "localityId": "locality_nampula_malema_chuhulo_chilulo_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_chuhulo_nihona",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_chuhulo_nipacue",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_malema_malema_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_malema_muralelo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_malema_nataleia",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_malema_nioce",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_mutuali_muessi",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_malema_mutuali_nacata",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Malema is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_7_de_abril_7_de_abril_nacavala",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_7_de_abril_nacoma",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_corrane_corrane_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_corrane_mecua_1",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_corrane_mecua_2_japir",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_meconta_sede_meconta_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_namialo_25_de_setembro",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_meconta_namialo_namialo_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Meconta is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_mecuburi_sede_issipe",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_mecuburi_sede_mecuburi_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_mecuburi_sede_momane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_mecuburi_sede_nahipa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_mecuburi_sede_popue",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_milhana_malite",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_milhana_milhana_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_muite_muite_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_muite_napai",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_muite_ratane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_namina_namina_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_mecuburi_namina_ratane_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mecubúri exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_memba_chipene_chipene_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_lurio_lurio_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_mazua_cava",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_mazua_mazua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_mazua_simuco",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_memba_sede_7_de_abril",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_memba_sede_memba_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_memba_sede_niaca_geba",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_memba_memba_sede_tropene",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Memba exactly matches the reconciled official MozGIS/INE locality list (9)."
+  },
+  {
+    "localityId": "locality_nampula_mogincual_namige_naminane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mogincual exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_mogincual_namige_naminge_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mogincual exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_mogincual_quixaxe_mepoene",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mogincual exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_mogincual_quixaxe_quixaxe_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Mogincual exactly matches the reconciled official MozGIS/INE locality list (4)."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_calipo_calipo_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_calipo_calipo_tucua",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_calipo_cusse",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_iuluti_ilute_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_iuluti_mochiua_naholoco",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_iuluti_mputo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_muatua_mavuruta",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_muatua_muatua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_nametil_moquito",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_nametil_namitil_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_nametil_rieque",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_nanhupo_rio_namachepa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_nanhupo_rio_nanhupo_rio",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mogovolas_nanhupo_rio_nantira",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mogovolas is 14 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_chalaua_chalaua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_chalaua_naicolane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_chalaua_namiwi",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_chalaua_piqueira",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_moma_jagoma",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_moma_mirrupi",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_moma_mpaco",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_moma_naicole",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_moma_moma_pilivili",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Moma is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_ituculo_chihiri",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_ituculo_ituculo_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_ituculo_murruto",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_monapo_canacue",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_monapo_macujua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_monapo_nacololo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_netia_muatuca",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_netia_naculue",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_monapo_netia_netia_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Monapo is 9 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mossuril_lunga_lunga_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mossuril is 5 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mossuril_lunga_vida_nova",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mossuril is 5 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mossuril_matibane_matibane_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mossuril is 5 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mossuril_matibane_nacuxa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mossuril is 5 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_mossuril_mossuril_sede_namitatar",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Mossuril is 5 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_muecate_imala_gracio",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_imala_imala_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_imala_muariua",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_muculuone_kavula",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_muculuone_mocone",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_muculuone_mucoluane_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_muecate_muecate_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_muecate_muecate_napala",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Muecate exactly matches the reconciled official MozGIS/INE locality list (8)."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_chinga_chinga_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_chinga_namilasse",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_murrupula_sede_kazuzu",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_murrupula_sede_murrupula_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_murrupula_sede_namitotelane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_nihessiue_mulhaniua",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_nihessiue_nacocolo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_murrupula_nihessiue_nihessiue_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Murrupula is 8 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_barragem_mangane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_barragem_micolene",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_covo_ger_ger_covo_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_covo_ger_ger_nacocolo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_covo_ger_ger_vida_nova",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_nacala_a_velha_sede_nacala_a_velha_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacala_a_velha_nacala_a_velha_sede_namalala",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Nacala-A-Velha is 7 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_inteta_maheta",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_inteta_nachere_intete",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_inteta_nacopo",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_inteta_novane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_nacaroa_mucotia_naputha",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_nacaroa_nacaroa_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_nacaroa_namaquetho",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_nacaroa_namirrupa",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_saua_saua_muchico_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_saua_saua_namila",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_saua_saua_saua_saua_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nacaroa_saua_saua_teterrene",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Nacarôa exactly matches the reconciled official MozGIS/INE locality list (12)."
+  },
+  {
+    "localityId": "locality_nampula_nampula_anchilo_anchilo_sede",
+    "sourceId": "ine-nampula-district-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the five current Nampula localities. Historical Nao Aplicavel records under urban posts are not promoted."
+  },
+  {
+    "localityId": "locality_nampula_nampula_anchilo_naburi",
+    "sourceId": "ine-nampula-district-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the five current Nampula localities. Historical Nao Aplicavel records under urban posts are not promoted."
+  },
+  {
+    "localityId": "locality_nampula_nampula_anchilo_namachilo",
+    "sourceId": "ine-nampula-district-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the five current Nampula localities. Historical Nao Aplicavel records under urban posts are not promoted."
+  },
+  {
+    "localityId": "locality_nampula_nampula_anchilo_namigonha",
+    "sourceId": "ine-nampula-district-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the five current Nampula localities. Historical Nao Aplicavel records under urban posts are not promoted."
+  },
+  {
+    "localityId": "locality_nampula_nampula_anchilo_saua_saua",
+    "sourceId": "ine-nampula-district-statistics-2020-2024",
+    "page": null,
+    "notes": "Promoted as one of the five current Nampula localities. Historical Nao Aplicavel records under urban posts are not promoted."
+  },
+  {
+    "localityId": "locality_nampula_rapale_mutivaze_muterrua",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_mutivaze_mutivaze_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_mutivaze_nacuca",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_namaita_namaita_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_namaita_namiconha",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_namaita_nicolomua",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_namaita_poene",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_rapale_caramaja_napome",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_rapale_nacuia",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_rapale_rapale_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_rapale_rapale_tchaiane",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 locality count for Rapale exactly matches the reconciled official MozGIS/INE locality list (11)."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_cunle_cunle_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_cunle_roieque",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_iapala_iapala_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_iapala_lupi",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_iapala_matharya",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_iapala_nore",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_iapala_riane_sede",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_ribaue_sede_chica",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_ribaue_sede_mecuasse",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  },
+  {
+    "localityId": "locality_nampula_ribaue_ribaue_sede_namiconha",
+    "sourceId": "ine-nampula-province-yearbook-2024",
+    "page": "4",
+    "notes": "Current INE 2024 target for Ribáuè is 10 localities. Historical Vila/Villa-labelled urban-centre duplicates were excluded from the canonical locality count."
+  }
+]

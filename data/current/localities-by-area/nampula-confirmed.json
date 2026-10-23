@@ -1,0 +1,1541 @@
+[
+  {
+    "id": "locality_nampula_angoche_aube_aube_sede",
+    "code": null,
+    "name": "Aube-Sede",
+    "slug": "aube-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_aube",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_aube_catamoio",
+    "code": null,
+    "name": "Catamoio",
+    "slug": "catamoio",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_aube",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namaponda_gelo",
+    "code": null,
+    "name": "Gelo",
+    "slug": "gelo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namaponda",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namaponda_mepapata",
+    "code": null,
+    "name": "Mepapata",
+    "slug": "mepapata",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namaponda",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namaponda_namaponda_sede",
+    "code": null,
+    "name": "Namaponda-Sede",
+    "slug": "namaponda-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namaponda",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namitoria_boila_sede",
+    "code": null,
+    "name": "Boila-Sede",
+    "slug": "boila-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namitoria",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namitoria_muchepua",
+    "code": null,
+    "name": "Muchepua",
+    "slug": "muchepua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namitoria",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namitoria_nabruma",
+    "code": null,
+    "name": "Nabruma",
+    "slug": "nabruma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namitoria",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namitoria_naiculo",
+    "code": null,
+    "name": "Naiculo",
+    "slug": "naiculo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namitoria",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_angoche_namitoria_parta",
+    "code": null,
+    "name": "Parta",
+    "slug": "parta",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_angoche_namitoria",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_alua_alua_sede",
+    "code": null,
+    "name": "Alua-Sede",
+    "slug": "alua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_alua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_alua_meliva",
+    "code": null,
+    "name": "Meliva",
+    "slug": "meliva",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_alua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_alua_samora_machel",
+    "code": null,
+    "name": "Samora Machel",
+    "slug": "samora-machel",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_alua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namapa_nagoro",
+    "code": null,
+    "name": "Nagoro",
+    "slug": "nagoro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namapa_nahopa",
+    "code": null,
+    "name": "Nahopa",
+    "slug": "nahopa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namapa_namapa_sede",
+    "code": null,
+    "name": "Namapa-Sede",
+    "slug": "namapa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namapa_odinepa",
+    "code": null,
+    "name": "Odinepa",
+    "slug": "odinepa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namiroa_mirote",
+    "code": null,
+    "name": "Mirote",
+    "slug": "mirote",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namiroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namiroa_muanona",
+    "code": null,
+    "name": "Muanona",
+    "slug": "muanona",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namiroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_erati_namiroa_namiroa_sede",
+    "code": null,
+    "name": "Namiroa-Sede",
+    "slug": "namiroa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_erati_namiroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_lalaua_lalaua_sede_lalaua_sede",
+    "code": null,
+    "name": "Lalaua-Sede",
+    "slug": "lalaua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_lalaua_lalaua_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_lalaua_lalaua_sede_lurio",
+    "code": null,
+    "name": "Lurio",
+    "slug": "lurio",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_lalaua_lalaua_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_lalaua_meti_meti_sede",
+    "code": null,
+    "name": "Meti-Sede",
+    "slug": "meti-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_lalaua_meti",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_lalaua_meti_naquessa",
+    "code": null,
+    "name": "Naquessa",
+    "slug": "naquessa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_lalaua_meti",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_larde_larde_larde_sede",
+    "code": null,
+    "name": "Larde-Sede",
+    "slug": "larde-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_larde_larde",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_larde_larde_topuito",
+    "code": null,
+    "name": "Topuito",
+    "slug": "topuito",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_larde_larde",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_larde_mucuali_mucuali_sede",
+    "code": null,
+    "name": "Mucuali-Sede",
+    "slug": "mucuali-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_larde_mucuali",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_larde_mucuali_najaca",
+    "code": null,
+    "name": "Najaca",
+    "slug": "najaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_larde_mucuali",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_liupo_liupo_liupo_sede",
+    "code": null,
+    "name": "Liupo-Sede",
+    "slug": "liupo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_liupo_liupo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_liupo_quinga_nacacane",
+    "code": null,
+    "name": "Nacacane",
+    "slug": "nacacane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_liupo_quinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_liupo_quinga_quinga_sede",
+    "code": null,
+    "name": "Quinga-Sede",
+    "slug": "quinga-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_liupo_quinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_chuhulo_chilulo_sede",
+    "code": null,
+    "name": "Chilulo-Sede",
+    "slug": "chilulo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_chuhulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_chuhulo_nihona",
+    "code": null,
+    "name": "Nihona",
+    "slug": "nihona",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_chuhulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_chuhulo_nipacue",
+    "code": null,
+    "name": "Nipacue",
+    "slug": "nipacue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_chuhulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_malema_malema_sede",
+    "code": null,
+    "name": "Malema-Sede",
+    "slug": "malema-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_malema",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_malema_muralelo",
+    "code": null,
+    "name": "Muralelo",
+    "slug": "muralelo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_malema",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_malema_nataleia",
+    "code": null,
+    "name": "Nataleia",
+    "slug": "nataleia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_malema",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_malema_nioce",
+    "code": null,
+    "name": "Nioce",
+    "slug": "nioce",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_malema",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_mutuali_muessi",
+    "code": null,
+    "name": "Muessi",
+    "slug": "muessi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_mutuali",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_malema_mutuali_nacata",
+    "code": null,
+    "name": "Nacata",
+    "slug": "nacata",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_malema_mutuali",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_7_de_abril_7_de_abril_nacavala",
+    "code": null,
+    "name": "7 de Abril (Nacavala)",
+    "slug": "7-de-abril-nacavala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_7_de_abril",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_7_de_abril_nacoma",
+    "code": null,
+    "name": "Nacoma",
+    "slug": "nacoma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_7_de_abril",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_corrane_corrane_sede",
+    "code": null,
+    "name": "Corrane-Sede",
+    "slug": "corrane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_corrane",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_corrane_mecua_1",
+    "code": null,
+    "name": "Mecua -1",
+    "slug": "mecua-1",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_corrane",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_corrane_mecua_2_japir",
+    "code": null,
+    "name": "Mecua-2 (Japir)",
+    "slug": "mecua-2-japir",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_corrane",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_meconta_sede_meconta_sede",
+    "code": null,
+    "name": "Meconta-Sede",
+    "slug": "meconta-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_meconta_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_namialo_25_de_setembro",
+    "code": null,
+    "name": "25 de Setembro",
+    "slug": "25-de-setembro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_namialo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_meconta_namialo_namialo_sede",
+    "code": null,
+    "name": "Namialo-Sede",
+    "slug": "namialo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_meconta_namialo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_mecuburi_sede_issipe",
+    "code": null,
+    "name": "Issipe",
+    "slug": "issipe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_mecuburi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_mecuburi_sede_mecuburi_sede",
+    "code": null,
+    "name": "Mecuburi-Sede",
+    "slug": "mecuburi-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_mecuburi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_mecuburi_sede_momane",
+    "code": null,
+    "name": "Momane",
+    "slug": "momane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_mecuburi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_mecuburi_sede_nahipa",
+    "code": null,
+    "name": "Nahipa",
+    "slug": "nahipa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_mecuburi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_mecuburi_sede_popue",
+    "code": null,
+    "name": "Popue",
+    "slug": "popue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_mecuburi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_milhana_malite",
+    "code": null,
+    "name": "Malite",
+    "slug": "malite",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_milhana",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_milhana_milhana_sede",
+    "code": null,
+    "name": "Milhana-Sede",
+    "slug": "milhana-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_milhana",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_muite_muite_sede",
+    "code": null,
+    "name": "Muite-Sede",
+    "slug": "muite-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_muite",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_muite_napai",
+    "code": null,
+    "name": "Napai",
+    "slug": "napai",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_muite",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_muite_ratane",
+    "code": null,
+    "name": "Ratane",
+    "slug": "ratane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_muite",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_namina_namina_sede",
+    "code": null,
+    "name": "Namina-Sede",
+    "slug": "namina-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_namina",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mecuburi_namina_ratane_sede",
+    "code": null,
+    "name": "Ratane-Sede",
+    "slug": "ratane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mecuburi_namina",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_chipene_chipene_sede",
+    "code": null,
+    "name": "Chipene-Sede",
+    "slug": "chipene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_chipene",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_lurio_lurio_sede",
+    "code": null,
+    "name": "Lurio-Sede",
+    "slug": "lurio-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_lurio",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_mazua_cava",
+    "code": null,
+    "name": "Cava",
+    "slug": "cava",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_mazua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_mazua_mazua_sede",
+    "code": null,
+    "name": "Mazua-Sede",
+    "slug": "mazua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_mazua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_mazua_simuco",
+    "code": null,
+    "name": "Simuco",
+    "slug": "simuco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_mazua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_memba_sede_7_de_abril",
+    "code": null,
+    "name": "7 de Abril",
+    "slug": "7-de-abril",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_memba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_memba_sede_memba_sede",
+    "code": null,
+    "name": "Memba-Sede",
+    "slug": "memba-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_memba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_memba_sede_niaca_geba",
+    "code": null,
+    "name": "Niaca Geba",
+    "slug": "niaca-geba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_memba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_memba_memba_sede_tropene",
+    "code": null,
+    "name": "Tropene",
+    "slug": "tropene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_memba_memba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogincual_namige_naminane",
+    "code": null,
+    "name": "Naminane",
+    "slug": "naminane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogincual_namige",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogincual_namige_naminge_sede",
+    "code": null,
+    "name": "Naminge-Sede",
+    "slug": "naminge-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogincual_namige",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogincual_quixaxe_mepoene",
+    "code": null,
+    "name": "Mepoene",
+    "slug": "mepoene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogincual_quixaxe",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogincual_quixaxe_quixaxe_sede",
+    "code": null,
+    "name": "Quixaxe-Sede",
+    "slug": "quixaxe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogincual_quixaxe",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_calipo_calipo_sede",
+    "code": null,
+    "name": "Calipo-Sede",
+    "slug": "calipo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_calipo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_calipo_calipo_tucua",
+    "code": null,
+    "name": "Calipo Tucua",
+    "slug": "calipo-tucua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_calipo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_calipo_cusse",
+    "code": null,
+    "name": "Cusse",
+    "slug": "cusse",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_calipo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_iuluti_ilute_sede",
+    "code": null,
+    "name": "Ilute-Sede",
+    "slug": "ilute-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_iuluti",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_iuluti_mochiua_naholoco",
+    "code": null,
+    "name": "Mochiua / Naholoco",
+    "slug": "mochiua-naholoco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_iuluti",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_iuluti_mputo",
+    "code": null,
+    "name": "Mputo",
+    "slug": "mputo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_iuluti",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_muatua_mavuruta",
+    "code": null,
+    "name": "Mavuruta",
+    "slug": "mavuruta",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_muatua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_muatua_muatua_sede",
+    "code": null,
+    "name": "Muatua-Sede",
+    "slug": "muatua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_muatua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_nametil_moquito",
+    "code": null,
+    "name": "Moquito",
+    "slug": "moquito",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_nametil",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_nametil_namitil_sede",
+    "code": null,
+    "name": "Namitil-Sede",
+    "slug": "namitil-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_nametil",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_nametil_rieque",
+    "code": null,
+    "name": "Rieque",
+    "slug": "rieque",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_nametil",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_nanhupo_rio_namachepa",
+    "code": null,
+    "name": "Namachepa",
+    "slug": "namachepa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_nanhupo_rio",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_nanhupo_rio_nanhupo_rio",
+    "code": null,
+    "name": "Nanhupo Rio",
+    "slug": "nanhupo-rio",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_nanhupo_rio",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mogovolas_nanhupo_rio_nantira",
+    "code": null,
+    "name": "Nantira",
+    "slug": "nantira",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mogovolas_nanhupo_rio",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_chalaua_chalaua_sede",
+    "code": null,
+    "name": "Chalaua-Sede",
+    "slug": "chalaua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_chalaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_chalaua_naicolane",
+    "code": null,
+    "name": "Naicolane",
+    "slug": "naicolane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_chalaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_chalaua_namiwi",
+    "code": null,
+    "name": "Namiwi",
+    "slug": "namiwi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_chalaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_chalaua_piqueira",
+    "code": null,
+    "name": "Piqueira",
+    "slug": "piqueira",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_chalaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_moma_jagoma",
+    "code": null,
+    "name": "Jagoma",
+    "slug": "jagoma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_moma",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_moma_mirrupi",
+    "code": null,
+    "name": "Mirrupi",
+    "slug": "mirrupi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_moma",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_moma_mpaco",
+    "code": null,
+    "name": "Mpaco",
+    "slug": "mpaco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_moma",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_moma_naicole",
+    "code": null,
+    "name": "Naicole",
+    "slug": "naicole",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_moma",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_moma_moma_pilivili",
+    "code": null,
+    "name": "Pilivili",
+    "slug": "pilivili",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_moma_moma",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_ituculo_chihiri",
+    "code": null,
+    "name": "Chihiri",
+    "slug": "chihiri",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_ituculo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_ituculo_ituculo_sede",
+    "code": null,
+    "name": "Ituculo-Sede",
+    "slug": "ituculo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_ituculo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_ituculo_murruto",
+    "code": null,
+    "name": "Murruto",
+    "slug": "murruto",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_ituculo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_monapo_canacue",
+    "code": null,
+    "name": "Canacue",
+    "slug": "canacue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_monapo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_monapo_macujua_sede",
+    "code": null,
+    "name": "Macujua-Sede",
+    "slug": "macujua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_monapo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_monapo_nacololo",
+    "code": null,
+    "name": "Nacololo",
+    "slug": "nacololo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_monapo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_netia_muatuca",
+    "code": null,
+    "name": "Muatuca",
+    "slug": "muatuca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_netia",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_netia_naculue",
+    "code": null,
+    "name": "Naculue",
+    "slug": "naculue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_netia",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_monapo_netia_netia_sede",
+    "code": null,
+    "name": "Netia-Sede",
+    "slug": "netia-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_monapo_netia",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mossuril_lunga_lunga_sede",
+    "code": null,
+    "name": "Lunga-Sede",
+    "slug": "lunga-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mossuril_lunga",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mossuril_lunga_vida_nova",
+    "code": null,
+    "name": "Vida Nova",
+    "slug": "vida-nova",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mossuril_lunga",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mossuril_matibane_matibane_sede",
+    "code": null,
+    "name": "Matibane-Sede",
+    "slug": "matibane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mossuril_matibane",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mossuril_matibane_nacuxa",
+    "code": null,
+    "name": "Nacuxa",
+    "slug": "nacuxa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mossuril_matibane",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_mossuril_mossuril_sede_namitatar",
+    "code": null,
+    "name": "Namitatar",
+    "slug": "namitatar",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_mossuril_mossuril_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_imala_gracio",
+    "code": null,
+    "name": "Gracio",
+    "slug": "gracio",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_imala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_imala_imala_sede",
+    "code": null,
+    "name": "Imala-Sede",
+    "slug": "imala-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_imala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_imala_muariua",
+    "code": null,
+    "name": "Muariua",
+    "slug": "muariua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_imala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_muculuone_kavula",
+    "code": null,
+    "name": "Kavula",
+    "slug": "kavula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_muculuone",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_muculuone_mocone",
+    "code": null,
+    "name": "Mocone",
+    "slug": "mocone",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_muculuone",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_muculuone_mucoluane_sede",
+    "code": null,
+    "name": "Mucoluane-Sede",
+    "slug": "mucoluane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_muculuone",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_muecate_muecate_sede",
+    "code": null,
+    "name": "Muecate-Sede",
+    "slug": "muecate-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_muecate",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_muecate_muecate_napala",
+    "code": null,
+    "name": "Napala",
+    "slug": "napala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_muecate_muecate",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_chinga_chinga_sede",
+    "code": null,
+    "name": "Chinga-Sede",
+    "slug": "chinga-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_chinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_chinga_namilasse",
+    "code": null,
+    "name": "Namilasse",
+    "slug": "namilasse",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_chinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_murrupula_sede_kazuzu",
+    "code": null,
+    "name": "Kazuzu",
+    "slug": "kazuzu",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_murrupula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_murrupula_sede_murrupula_sede",
+    "code": null,
+    "name": "Murrupula-Sede",
+    "slug": "murrupula-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_murrupula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_murrupula_sede_namitotelane",
+    "code": null,
+    "name": "Namitotelane",
+    "slug": "namitotelane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_murrupula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_nihessiue_mulhaniua",
+    "code": null,
+    "name": "Mulhaniua",
+    "slug": "mulhaniua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_nihessiue",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_nihessiue_nacocolo",
+    "code": null,
+    "name": "Nacocolo",
+    "slug": "nacocolo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_nihessiue",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_murrupula_nihessiue_nihessiue_sede",
+    "code": null,
+    "name": "Nihessiue-Sede",
+    "slug": "nihessiue-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_murrupula_nihessiue",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_barragem_mangane",
+    "code": null,
+    "name": "Mangane",
+    "slug": "mangane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_barragem",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_barragem_micolene",
+    "code": null,
+    "name": "Micolene",
+    "slug": "micolene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_barragem",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_covo_ger_ger_covo_sede",
+    "code": null,
+    "name": "Covo-Sede",
+    "slug": "covo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_covo_ger_ger",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_covo_ger_ger_nacocolo",
+    "code": null,
+    "name": "Nacocolo",
+    "slug": "nacocolo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_covo_ger_ger",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_covo_ger_ger_vida_nova",
+    "code": null,
+    "name": "Vida Nova",
+    "slug": "vida-nova",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_covo_ger_ger",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_nacala_a_velha_sede_nacala_a_velha_sede",
+    "code": null,
+    "name": "Nacala-A-Velha-Sede",
+    "slug": "nacala-a-velha-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_nacala_a_velha_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacala_a_velha_nacala_a_velha_sede_namalala",
+    "code": null,
+    "name": "Namalala",
+    "slug": "namalala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacala_a_velha_nacala_a_velha_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_inteta_maheta",
+    "code": null,
+    "name": "Maheta",
+    "slug": "maheta",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_inteta",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_inteta_nachere_intete",
+    "code": null,
+    "name": "Nachere/Intete",
+    "slug": "nachere-intete",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_inteta",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_inteta_nacopo",
+    "code": null,
+    "name": "Nacopo",
+    "slug": "nacopo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_inteta",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_inteta_novane",
+    "code": null,
+    "name": "Novane",
+    "slug": "novane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_inteta",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_nacaroa_mucotia_naputha",
+    "code": null,
+    "name": "Mucotia (Naputha)",
+    "slug": "mucotia-naputha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_nacaroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_nacaroa_nacaroa_sede",
+    "code": null,
+    "name": "Nacaroa-Sede",
+    "slug": "nacaroa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_nacaroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_nacaroa_namaquetho",
+    "code": null,
+    "name": "Namaquetho",
+    "slug": "namaquetho",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_nacaroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_nacaroa_namirrupa",
+    "code": null,
+    "name": "Namirrupa",
+    "slug": "namirrupa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_nacaroa",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_saua_saua_muchico_sede",
+    "code": null,
+    "name": "Muchico-Sede",
+    "slug": "muchico-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_saua_saua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_saua_saua_namila",
+    "code": null,
+    "name": "Namila",
+    "slug": "namila",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_saua_saua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_saua_saua_saua_saua_sede",
+    "code": null,
+    "name": "Saua-Saua-Sede",
+    "slug": "saua-saua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_saua_saua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nacaroa_saua_saua_teterrene",
+    "code": null,
+    "name": "Teterrene",
+    "slug": "teterrene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nacaroa_saua_saua",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nampula_anchilo_anchilo_sede",
+    "code": null,
+    "name": "Anchilo-Sede",
+    "slug": "anchilo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nampula_anchilo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nampula_anchilo_naburi",
+    "code": null,
+    "name": "Naburi",
+    "slug": "naburi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nampula_anchilo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nampula_anchilo_namachilo",
+    "code": null,
+    "name": "Namachilo",
+    "slug": "namachilo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nampula_anchilo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nampula_anchilo_namigonha",
+    "code": null,
+    "name": "Namigonha",
+    "slug": "namigonha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nampula_anchilo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_nampula_anchilo_saua_saua",
+    "code": null,
+    "name": "Saua-Saua",
+    "slug": "saua-saua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_nampula_anchilo",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_mutivaze_muterrua",
+    "code": null,
+    "name": "Muterrua",
+    "slug": "muterrua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_mutivaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_mutivaze_mutivaze_sede",
+    "code": null,
+    "name": "Mutivaze-Sede",
+    "slug": "mutivaze-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_mutivaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_mutivaze_nacuca",
+    "code": null,
+    "name": "Nacuca",
+    "slug": "nacuca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_mutivaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_namaita_namaita_sede",
+    "code": null,
+    "name": "Namaita-Sede",
+    "slug": "namaita-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_namaita",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_namaita_namiconha",
+    "code": null,
+    "name": "Namiconha",
+    "slug": "namiconha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_namaita",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_namaita_nicolomua",
+    "code": null,
+    "name": "Nicolomua",
+    "slug": "nicolomua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_namaita",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_namaita_poene",
+    "code": null,
+    "name": "Poene",
+    "slug": "poene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_namaita",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_rapale_caramaja_napome",
+    "code": null,
+    "name": "Caramaja Napome",
+    "slug": "caramaja-napome",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_rapale",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_rapale_nacuia",
+    "code": null,
+    "name": "Nacuia",
+    "slug": "nacuia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_rapale",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_rapale_rapale_sede",
+    "code": null,
+    "name": "Rapale-Sede",
+    "slug": "rapale-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_rapale",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_rapale_rapale_tchaiane",
+    "code": null,
+    "name": "Tchaiane",
+    "slug": "tchaiane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_rapale_rapale",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_cunle_cunle_sede",
+    "code": null,
+    "name": "Cunle-Sede",
+    "slug": "cunle-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_cunle",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_cunle_roieque",
+    "code": null,
+    "name": "Roieque",
+    "slug": "roieque",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_cunle",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_iapala_iapala_sede",
+    "code": null,
+    "name": "Iapala-Sede",
+    "slug": "iapala-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_iapala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_iapala_lupi",
+    "code": null,
+    "name": "Lupi",
+    "slug": "lupi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_iapala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_iapala_matharya",
+    "code": null,
+    "name": "Matharya",
+    "slug": "matharya",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_iapala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_iapala_nore",
+    "code": null,
+    "name": "Noré",
+    "slug": "nore",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_iapala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_iapala_riane_sede",
+    "code": null,
+    "name": "Riane-Sede",
+    "slug": "riane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_iapala",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_ribaue_sede_chica",
+    "code": null,
+    "name": "Chicá",
+    "slug": "chica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_ribaue_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_ribaue_sede_mecuasse",
+    "code": null,
+    "name": "Mecuasse",
+    "slug": "mecuasse",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_ribaue_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_nampula_ribaue_ribaue_sede_namiconha",
+    "code": null,
+    "name": "Namiconha",
+    "slug": "namiconha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_nampula_ribaue_ribaue_sede",
+    "districtId": null
+  }
+]

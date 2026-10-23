@@ -1,0 +1,230 @@
+{
+  "provinceId": "prov_08",
+  "province": "Inhambane",
+  "status": "COMPLETE",
+  "sourceId": "ine-inhambane-province-yearbook-2024",
+  "expected": {
+    "administrativePosts": 26,
+    "localities": 70,
+    "neighborhoods": 40
+  },
+  "loaded": {
+    "administrativePosts": 26,
+    "localities": 70,
+    "neighborhoods": 40
+  },
+  "districtSummary": {
+    "complete": 14,
+    "total": 14
+  },
+  "districts": [
+    {
+      "districtId": "dist_inhambane_inhambane",
+      "district": "Inhambane",
+      "administrativePosts": 0,
+      "localities": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "neighborhoods": {
+        "loaded": 23,
+        "expected": 23
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_funhalouro",
+      "district": "Funhalouro",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 6,
+        "expected": 6
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_govuro",
+      "district": "Govuro",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_homoine",
+      "district": "Homoíne",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 8,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_inharrime",
+      "district": "Inharrime",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_inhassoro",
+      "district": "Inhassoro",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_jangamo",
+      "district": "Jangamo",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_mabote",
+      "district": "Mabote",
+      "administrativePosts": 3,
+      "localities": {
+        "loaded": 8,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_massinga",
+      "district": "Massinga",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_maxixe",
+      "district": "Maxixe",
+      "administrativePosts": 0,
+      "localities": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "neighborhoods": {
+        "loaded": 17,
+        "expected": 17
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_morrumbene",
+      "district": "Morrumbene",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 6,
+        "expected": 6
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_panda",
+      "district": "Panda",
+      "administrativePosts": 3,
+      "localities": {
+        "loaded": 8,
+        "expected": 8
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_vilankulo",
+      "district": "Vilankulo",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 5,
+        "expected": 5
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    },
+    {
+      "districtId": "dist_inhambane_zavala",
+      "district": "Zavala",
+      "administrativePosts": 2,
+      "localities": {
+        "loaded": 4,
+        "expected": 4
+      },
+      "neighborhoods": {
+        "loaded": 0,
+        "expected": 0
+      },
+      "status": "COMPLETE"
+    }
+  ],
+  "urbanNeighborhoods": {
+    "Inhambane": 23,
+    "Maxixe": 17
+  },
+  "notes": [
+    "Current provincial targets come from the INE Inhambane Province Statistical Yearbook 2024.",
+    "Coverage is generated from the canonical localities dataset and all localities-by-area shards at generation time.",
+    "Funhalouro, Jangamo, Mabote and Panda were promoted from exact historical/current locality-count matches.",
+    "Govuro, Homoíne, Inharrime, Inhassoro, Massinga, Morrumbene, Vilankulo and Zavala were reconciled by separating the verified urban Vila record from the current locality layer.",
+    "Cidade de Inhambane contributes 23 confirmed neighborhoods and Maxixe contributes 17 confirmed neighborhoods.",
+    "The province is marked COMPLETE only because every district-level locality/neighborhood target and all provincial totals match exactly."
+  ]
+}

@@ -103,7 +103,7 @@ describe("API integration tests", () => {
     );
   });
 
-  it("returns the 105 loaded neighborhoods", async () => {
+  it("returns the 227 loaded neighborhoods", async () => {
     const response =
       await app.inject({
         method: "GET",
@@ -121,7 +121,7 @@ describe("API integration tests", () => {
 
     assert.equal(
       body.meta.pagination.total,
-      105
+      227
     );
 
     assert.equal(
@@ -276,6 +276,150 @@ describe("API integration tests", () => {
           item.type ===
           "MUNICIPAL_DISTRICT"
       )
+    );
+  });
+
+  it("returns the 26 Beira neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/beira/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      26
+    );
+  });
+
+  it("returns the 10 Dondo neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/dondo/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      10
+    );
+  });
+
+  it("returns the 16 Xai-Xai neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/xai-xai/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      16
+    );
+  });
+
+  it("returns the 8 Chókwè neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/chokwe/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      8
+    );
+  });
+
+
+  it("returns the 23 Cidade de Inhambane neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/inhambane/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      23
+    );
+
+    assert.equal(
+      body.data.length,
+      23
+    );
+  });
+
+
+  it("returns the 17 Maxixe neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/maxixe/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      17
+    );
+
+    assert.equal(
+      body.data.length,
+      17
     );
   });
 

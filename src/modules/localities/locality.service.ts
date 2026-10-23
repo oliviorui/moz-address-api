@@ -259,36 +259,73 @@ export async function getLocalityById(
 export async function getNeighborhoodsByDistrict(
   districtIdentifier: string
 ) {
-  return prisma.district.findFirst({
-    where: {
-      status: "ACTIVE",
+  const district =
+    await prisma.district.findFirst({
+      where: {
+        status: "ACTIVE",
 
-      OR: [
-        {
-          id: districtIdentifier
-        },
-        {
-          slug:
-            districtIdentifier.toLowerCase()
-        }
-      ]
-    },
+        OR: [
+          {
+            id: districtIdentifier
+          },
+          {
+            slug:
+              districtIdentifier.toLowerCase()
+          }
+        ]
+      },
 
-    include: {
-      province: true,
-
-      localities: {
-        where: {
-          status: "ACTIVE",
-          type: "NEIGHBORHOOD"
-        },
-
-        orderBy: {
-          name: "asc"
-        }
+      include: {
+        province: true
       }
-    }
-  });
+    });
+
+  if (!district) {
+    return null;
+  }
+
+  const localities =
+    await prisma.locality.findMany({
+      where: {
+        status: "ACTIVE",
+        type: "NEIGHBORHOOD",
+
+        OR: [
+          {
+            districtId:
+              district.id
+          },
+          {
+            administrativePost: {
+              is: {
+                status: "ACTIVE",
+                districtId:
+                  district.id
+              }
+            }
+          }
+        ]
+      },
+
+      orderBy: [
+        {
+          name: "asc"
+        },
+        {
+          id: "asc"
+        }
+      ],
+
+      include: {
+        administrativePost: true,
+        district: true
+      }
+    });
+
+  return {
+    ...district,
+    localities
+  };
 }
 
 export async function getNeighborhoodByDistrictAndSlug(
@@ -322,14 +359,39 @@ export async function getNeighborhoodByDistrictAndSlug(
 
   return prisma.locality.findFirst({
     where: {
-      districtId: district.id,
       slug:
         neighborhoodSlug.toLowerCase(),
       type: "NEIGHBORHOOD",
-      status: "ACTIVE"
+      status: "ACTIVE",
+
+      OR: [
+        {
+          districtId:
+            district.id
+        },
+        {
+          administrativePost: {
+            is: {
+              status: "ACTIVE",
+              districtId:
+                district.id
+            }
+          }
+        }
+      ]
     },
 
     include: {
+      administrativePost: {
+        include: {
+          district: {
+            include: {
+              province: true
+            }
+          }
+        }
+      },
+
       district: {
         include: {
           province: true
