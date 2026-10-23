@@ -64,7 +64,8 @@ const errors: string[] = [];
 const directNeighborhoodDistrictIds =
   new Set([
     "dist_inhambane_inhambane",
-    "dist_inhambane_maxixe"
+    "dist_inhambane_maxixe",
+    "dist_tete_tete"
   ]);
 
 function allowsDirectNeighborhoods(

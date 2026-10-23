@@ -1,0 +1,1634 @@
+[
+  {
+    "localityId": "locality_tete_angonia_domue_binga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_binga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_camphessa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_camphessa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_catondo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_catondo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_chifumbe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_chifumbe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_domue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_domue_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_khombe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_khombe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_liranga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_liranga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_mpandula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_mpandula",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_ndaula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_ndaula",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_nkhame",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_nkhame",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_seze",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_domue_seze",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_chimwala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_chimwala",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_dziwanga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_dziwanga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_kalomue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_kalomue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_mangane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_mangane",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_mawonekera",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_mawonekera",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_namingona",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_namingona",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_vila_de_ulongue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_angonia_ulongue_vila_de_ulongue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chintholo_chintholo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chintholo_chintholo_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chintholo_mulinje",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chintholo_mulinje",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_chibagadigo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_chibagadigo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_chicoa_nova",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_chicoa_nova",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_chitima_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_chitima_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_nhabando",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_nhabando",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_nhacapiriri",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_chitima_nhacapiriri",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_songo_dzunsa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_songo_dzunsa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_songo_vila_de_songo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_cahora_bassa_songo_vila_de_songo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_changara_chioco_chipembere",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_changara_chioco_chipembere",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_changara_chioco_mazoe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_changara_chioco_mazoe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_changara_chioco_ntchenga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_changara_chioco_ntchenga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_changara_luenha_dzunga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_changara_luenha_dzunga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_changara_luenha_luenha_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_changara_luenha_luenha_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_changara_luenha_ntemangau",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_changara_luenha_ntemangau",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_chifunde_camwenge",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_chifunde_camwenge",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_chifunde_chifunde_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_chifunde_chifunde_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_chifunde_tsacale",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_chifunde_tsacale",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_bolimo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_bolimo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_khamande",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_khamande",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_mwaladzi_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_mwaladzi_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_nkantha",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_mualadzi_nkantha",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_angombe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_angombe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_mussalala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_mussalala",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_mziwe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_mziwe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_nsadzu_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chifunde_nsadzo_nsadzu_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_chipiri",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_chipiri",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_kazula_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_kazula_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_matenje",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_matenje",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_muchena",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_kazula_muchena",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_caunda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_caunda",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_lumadzi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_lumadzi",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_manje_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_manje_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_nfigo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_chiuta_manje_nfigo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_doa_chueza_ancuaze",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_doa_chueza_ancuaze",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_doa_chueza_chueza",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_doa_chueza_chueza",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_doa_doa_sede_doa_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_doa_doa_sede_doa_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_doa_doa_sede_salima",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_doa_doa_sede_salima",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_chidzolomondo_bawe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_chidzolomondo_bawe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_chidzolomondo_campala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_chidzolomondo_campala",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_chidzolomondo_chidzolomondo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_chidzolomondo_chidzolomondo_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_furancungo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_furancungo_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_gandale",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_gandale",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_kassupe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_kassupe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_namandende",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_macanga_furancungo_namandende",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_chinthopo_chinthopo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_chinthopo_chinthopo_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_chinthopo_chitete",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_chinthopo_chitete",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_chinthopo_mussenguezi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_chinthopo_mussenguezi",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_mphende_cazindira",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_mphende_cazindira",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_mphende_daque",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_mphende_daque",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_mphende_mphende_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_mphende_mphende_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_mucumbura_deueteue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_mucumbura_deueteue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_magoe_mucumbura_mucumbura_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_magoe_mucumbura_mucumbura_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_marara_marara_sede_cachembe_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_marara_marara_sede_cachembe_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_marara_marara_sede_chacocoma",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_marara_marara_sede_chacocoma",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_marara_mufa_boroma_boroma_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_marara_mufa_boroma_boroma_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_marara_mufa_boroma_mufa_caconde",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_marara_mufa_boroma_mufa_caconde",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_capirinkhondo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_capirinkhondo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_chipera_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_chipera_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_chiringa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_chiringa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_chissete",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_chissete",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_ntayantsupa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chipera_ntayantsupa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chiputo_chipungo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chiputo_chipungo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chiputo_chiputo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chiputo_chiputo_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_chiputo_chizame",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_chiputo_chizame",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_fingoe_fingoe_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_fingoe_fingoe_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_fingoe_mazeze",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_fingoe_mazeze",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_fingoe_nhenda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_fingoe_nhenda",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_malowera_cassuende",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_malowera_cassuende",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_malowera_malowera_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_malowera_malowera_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_maravia_malowera_uncanha",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_maravia_malowera_uncanha",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_kambulatsitsi_kambulatsitsi_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_kambulatsitsi_kambulatsitsi_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_kambulatsitsi_necungas",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_kambulatsitsi_necungas",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_benga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_benga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_moatize_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_moatize_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_mphanzu",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_mphanzu",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_msungu",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_msungu",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_vila_de_moatize",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_moatize_vila_de_moatize",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_caphiridzanje",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_caphiridzanje",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_mussacama",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_mussacama",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_nkondedzi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_nkondedzi",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_samoa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_samoa",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_zobue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_moatize_zobue_zobue_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_charre_charre_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_charre_charre_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_charre_nhaphale",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_charre_nhaphale",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_charre_vila_nova_de_fronteira",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_charre_vila_nova_de_fronteira",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_inhangoma_canhungwe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_inhangoma_canhungwe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_inhangoma_inhangoma_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_inhangoma_inhangoma_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_inhangoma_jardim_kanamua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_inhangoma_jardim_kanamua",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_nhamayabwe_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_nhamayabwe_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_sinjal",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_sinjal",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_vila_de_nhamayabwe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_vila_de_nhamayabwe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_zambawe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_mutarara_nhamayabue_zambawe",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_tsangano_ntengo_wa_mbalame_banga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_tsangano_ntengo_wa_mbalame_banga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_tsangano_ntengo_wa_mbalame_chinvano",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_tsangano_ntengo_wa_mbalame_chinvano",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_tsangano_ntengo_wa_mbalame_ntengo_wa_mbalame_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_tsangano_ntengo_wa_mbalame_ntengo_wa_mbalame_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_tsangano_tsangano_chiandame",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_tsangano_tsangano_chiandame",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_tsangano_tsangano_maconje",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_tsangano_tsangano_maconje",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_tsangano_tsangano_tsangano_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_tsangano_tsangano_tsangano_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_muze_mazamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_muze_mazamba",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_muze_minga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_muze_minga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_muze_muze_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_muze_muze_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_cassenga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_cassenga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_chaualo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_chaualo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_mukangadzi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_mukangadzi",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_zambue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zambue_zambue_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zumbo_sede_miruro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zumbo_sede_miruro",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zumbo_sede_mphangula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zumbo_sede_mphangula",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zumbo_sede_zumbu_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "locality_tete_zumbo_zumbo_sede_zumbu_sede",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_chingodzi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_chingodzi",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_degue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_degue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_filipe_samuel_magaia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_filipe_samuel_magaia",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_francisco_manyanga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_francisco_manyanga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_josina_machel",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_josina_machel",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mateus_s_muthemba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mateus_s_muthemba",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_matundo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_matundo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mpadue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mpadue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_samora_machel",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_samora_machel",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  }
+]

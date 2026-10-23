@@ -1,0 +1,403 @@
+{
+  "generatedAt": "2026-10-23T15:12:14.927Z",
+  "province": {
+    "name": "Tete",
+    "slug": "tete",
+    "expectedAdministrativePosts": 36,
+    "expectedLocalities": 127,
+    "expectedNeighborhoods": 9,
+    "source": "INE — Anuário Estatístico, Província de Tete, 2024 — Quadro 1.2.1",
+    "sourcePage": "14",
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-tete-province-yearbook-2024"
+  },
+  "totals": {
+    "historical": {
+      "localities": 127,
+      "neighborhoods": 9
+    },
+    "expectedCurrent": {
+      "localities": 127,
+      "neighborhoods": 9
+    },
+    "canonicalAdministrativePosts": 36
+  },
+  "summary": {
+    "exactStructuralMatches": 15,
+    "postReconciliationRequired": 0,
+    "countGaps": 0
+  },
+  "districts": [
+    {
+      "district": "Cidade de Tete",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 9
+      },
+      "historical": {
+        "localities": 0,
+        "neighborhoods": 9,
+        "administrativePosts": []
+      },
+      "current": {
+        "administrativePosts": []
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Angónia",
+      "expected": {
+        "localities": 18,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 18,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Dómue",
+          "Ulóngue"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Domue",
+          "Ulongué"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Cahora Bassa",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 9,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chintholo",
+          "Chitima",
+          "Songo"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chintholo",
+          "Chitima",
+          "Songo"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Changara",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 6,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chioco",
+          "Luenha"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chioco",
+          "Luenha"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Chifunde",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 11,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chifunde",
+          "Mwaladzi",
+          "N’sadzu"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chifunde",
+          "Mualadzi",
+          "Nsadzo"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Chiúta",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Kazula",
+          "Manje"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Kazula",
+          "Manje"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Macanga",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 7,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chidzolomondo",
+          "Furancungo"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chidzolomondo",
+          "Furancungo"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Mágoe",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chinthopo",
+          "Mphende",
+          "Mucumbura"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chinthopo",
+          "Mphende",
+          "Mucumbura"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Marávia",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 14,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chipera",
+          "Chiputo",
+          "Fíngoe",
+          "Malowera"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chipera",
+          "Chiputo",
+          "Fingoe",
+          "Malowera"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Moatize",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 12,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Kambulatsitsi",
+          "Moatize",
+          "Zóbue"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Kambulatsitsi",
+          "Moatize",
+          "Zobué"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Mutarara",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 10,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chare",
+          "Charre",
+          "Inhangoma",
+          "Nhamayabwe"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Charre",
+          "Inhangoma",
+          "Nhamayabue"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Tsangano",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 6,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Ntengo-Wa-Mbalame",
+          "Tsangano"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Ntengo-Wa-Mbalame",
+          "Tsangano"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Zumbo",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 10,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Muze",
+          "Zambue",
+          "Zumbu"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Muze",
+          "Zambue",
+          "Zumbo-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Doa",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 4,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chueza",
+          "Dôa"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Chueza",
+          "Doa-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Marara",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 4,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Marara",
+          "Mufa Boroma"
+        ]
+      },
+      "current": {
+        "administrativePosts": [
+          "Marara-Sede",
+          "Mufa Boroma"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    }
+  ]
+}

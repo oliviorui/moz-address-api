@@ -237,6 +237,66 @@ async function seedAdministrativePosts() {
     "🏘️ Seeding administrative posts..."
   );
 
+  const canonicalIds =
+    administrativePostRecords.map(
+      (post) => post.id
+    );
+
+  // Remove stale source links and obsolete administrative posts
+  // that no longer exist in the canonical dataset. This prevents
+  // renamed posts from surviving as "ghost" rows after an upsert seed.
+  const stalePosts =
+    await prisma.administrativePost.findMany({
+      where: {
+        id: {
+          notIn: canonicalIds
+        }
+      },
+      select: {
+        id: true
+      }
+    });
+
+  if (stalePosts.length > 0) {
+    const staleIds =
+      stalePosts.map((post) => post.id);
+
+    const blockingLocalities =
+      await prisma.locality.count({
+        where: {
+          administrativePostId: {
+            in: staleIds
+          }
+        }
+      });
+
+    if (blockingLocalities > 0) {
+      throw new Error(
+        `Cannot remove ${staleIds.length} stale administrative post(s): ${blockingLocalities} locality record(s) still reference them.`
+      );
+    }
+
+    await prisma.administrativePostSource.deleteMany({
+      where: {
+        administrativePostId: {
+          in: staleIds
+        }
+      }
+    });
+
+    await prisma.administrativePost.deleteMany({
+      where: {
+        id: {
+          in: staleIds
+        }
+      }
+    });
+
+    console.log(
+      `🧹 Removed ${staleIds.length} stale administrative post(s).`
+    );
+  }
+
   for (const post of administrativePostRecords) {
     await prisma.administrativePost.upsert({
       where: {
@@ -415,7 +475,8 @@ async function seedAdministrativePostSources() {
         administrativePostId_sourceId: {
           administrativePostId:
             reference.administrativePostId,
-          sourceId: reference.sourceId
+          sourceId:
+            reference.sourceId
         }
       },
 

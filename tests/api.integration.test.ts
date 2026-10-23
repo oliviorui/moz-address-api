@@ -103,7 +103,7 @@ describe("API integration tests", () => {
     );
   });
 
-  it("returns the 249 loaded neighborhoods", async () => {
+  it("returns the 258 loaded neighborhoods", async () => {
     const response =
       await app.inject({
         method: "GET",
@@ -121,7 +121,7 @@ describe("API integration tests", () => {
 
     assert.equal(
       body.meta.pagination.total,
-      249
+      258
     );
 
     assert.equal(

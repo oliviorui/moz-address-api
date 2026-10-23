@@ -1,0 +1,105 @@
+{
+  "districtAliases": {
+    "Zumbo": [
+      "Zumbu"
+    ]
+  },
+  "postAliases": {
+    "Chifunde": {
+      "Mualadzi": [
+        "Mwaladzi"
+      ],
+      "Nsadzo": [
+        "N’sadzu",
+        "N'sadzu"
+      ]
+    },
+    "Mutarara": {
+      "Charre": [
+        "Chare"
+      ],
+      "Nhamayabue": [
+        "Nhamayabwe"
+      ]
+    },
+    "Zumbo": {
+      "Zumbo-Sede": [
+        "Zumbu",
+        "Zumbo Sede"
+      ]
+    }
+  },
+  "province": {
+    "name": "Tete",
+    "slug": "tete",
+    "expectedAdministrativePosts": 36,
+    "expectedLocalities": 127,
+    "expectedNeighborhoods": 9,
+    "source": "INE — Anuário Estatístico, Província de Tete, 2024 — Quadro 1.2.1",
+    "sourcePage": "14",
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-tete-province-yearbook-2024"
+  },
+  "districts": {
+    "Cidade de Tete": {
+      "localities": 0,
+      "neighborhoods": 9
+    },
+    "Angónia": {
+      "localities": 18,
+      "neighborhoods": 0
+    },
+    "Cahora Bassa": {
+      "localities": 9,
+      "neighborhoods": 0
+    },
+    "Changara": {
+      "localities": 6,
+      "neighborhoods": 0
+    },
+    "Chifunde": {
+      "localities": 11,
+      "neighborhoods": 0
+    },
+    "Chiúta": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Macanga": {
+      "localities": 7,
+      "neighborhoods": 0
+    },
+    "Mágoe": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Marávia": {
+      "localities": 14,
+      "neighborhoods": 0
+    },
+    "Moatize": {
+      "localities": 12,
+      "neighborhoods": 0
+    },
+    "Mutarara": {
+      "localities": 10,
+      "neighborhoods": 0
+    },
+    "Tsangano": {
+      "localities": 6,
+      "neighborhoods": 0
+    },
+    "Zumbo": {
+      "localities": 10,
+      "neighborhoods": 0
+    },
+    "Doa": {
+      "localities": 4,
+      "neighborhoods": 0
+    },
+    "Marara": {
+      "localities": 4,
+      "neighborhoods": 0
+    }
+  }
+}

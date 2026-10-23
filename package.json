@@ -31,7 +31,9 @@
     "db:migrate": "prisma migrate dev",
     "db:seed": "prisma db seed",
     "db:seed:all": "tsx prisma/seed.ts && tsx prisma/seed-locality-shards.ts",
-    "db:studio": "prisma studio"
+    "db:studio": "prisma studio",
+    "data:reconcile": "tsx scripts/reconcile-province.ts",
+    "data:promote": "tsx scripts/promote-reconciled.ts"
   },
   "engines": {
     "node": ">=24"
