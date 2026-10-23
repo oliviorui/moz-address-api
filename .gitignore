@@ -29,3 +29,7 @@ tmp/
 temp/
 
 /generated/prisma
+
+# Local data workbench
+data/raw/
+
