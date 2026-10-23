@@ -27,8 +27,6 @@
     "data:validate": "tsx scripts/validate-data.ts && tsx scripts/validate-locality-shards.ts && tsx scripts/validate-coverage.ts",
     "data:coverage": "tsx scripts/validate-coverage.ts",
     "data:research:mozgis": "tsx scripts/fetch-mozgis-localities.ts",
-    "data:reconcile:maputo": "tsx scripts/reconcile-maputo-localities.ts",
-    "data:promote:maputo-ready": "tsx scripts/promote-maputo-ready-localities.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:seed": "prisma db seed",
