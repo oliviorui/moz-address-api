@@ -1,0 +1,205 @@
+{
+  "province": {
+    "name": "Zambézia",
+    "slug": "zambezia",
+    "expectedAdministrativePosts": 54,
+    "expectedLocalities": 191,
+    "expectedNeighborhoods": 128,
+    "source": "INE — Anuário Estatístico, Província da Zambézia, 2024 — Quadro 1.2.1",
+    "sourcePage": "3",
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-zambezia-province-yearbook-2024"
+  },
+  "districts": {
+    "Quelimane": {
+      "localities": 6,
+      "neighborhoods": 51
+    },
+    "Nicoadala": {
+      "localities": 4,
+      "neighborhoods": 0
+    },
+    "Molumbo": {
+      "localities": 4,
+      "neighborhoods": 0
+    },
+    "Namacurra": {
+      "localities": 9,
+      "neighborhoods": 0
+    },
+    "Milange": {
+      "localities": 11,
+      "neighborhoods": 0
+    },
+    "Chinde": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Luabo": {
+      "localities": 7,
+      "neighborhoods": 0
+    },
+    "Inhassunge": {
+      "localities": 5,
+      "neighborhoods": 0
+    },
+    "Mocuba": {
+      "localities": 6,
+      "neighborhoods": 31
+    },
+    "Gurué": {
+      "localities": 16,
+      "neighborhoods": 46
+    },
+    "Morrumbala": {
+      "localities": 10,
+      "neighborhoods": 0
+    },
+    "Mopeia": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Derre": {
+      "localities": 4,
+      "neighborhoods": 0
+    },
+    "Lugela": {
+      "localities": 16,
+      "neighborhoods": 0
+    },
+    "Namarroi": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Ile": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Alto Molocué": {
+      "localities": 12,
+      "neighborhoods": 0
+    },
+    "Gilé": {
+      "localities": 15,
+      "neighborhoods": 0
+    },
+    "Mulevala": {
+      "localities": 6,
+      "neighborhoods": 0
+    },
+    "Mocubela": {
+      "localities": 5,
+      "neighborhoods": 0
+    },
+    "Maganja da Costa": {
+      "localities": 9,
+      "neighborhoods": 0
+    },
+    "Pebane": {
+      "localities": 14,
+      "neighborhoods": 0
+    }
+  },
+  "postAliases": {
+    "Derre": {
+      "Derre-Sede": [
+        "Machindo"
+      ]
+    },
+    "Pebane": {
+      "Mulela": [
+        "Mulela (Mualama)"
+      ]
+    },
+    "Luabo": {
+      "Chimbazo": [
+        "Chimbadzo"
+      ],
+      "Luabo-Sede": [
+        "Samora Machel"
+      ]
+    },
+    "Quelimane": {
+      "Urbano Nº 1": [
+        "Urbano 1"
+      ],
+      "Urbano Nº 2": [
+        "Urbano 2"
+      ],
+      "Urbano Nº 3": [
+        "Urbano 3"
+      ],
+      "Urbano Nº 4": [
+        "Urbano 4"
+      ],
+      "Urbano Nº 5": [
+        "Urbano 5"
+      ]
+    },
+    "Gurué": {
+      "Gurué": [
+        "Cidade de Gurue"
+      ]
+    },
+    "Mulevala": {
+      "Mbauane": [
+        "M'bauane"
+      ]
+    }
+  },
+  "ignoreHistoricalLocalities": {
+    "Alto Molocué": [
+      "Villa de Alto Molocue"
+    ],
+    "Chinde": [
+      "Vila de Chinde"
+    ],
+    "Maganja da Costa": [
+      "Vila de Maganja da Costa"
+    ],
+    "Milange": [
+      "Vila de Milange"
+    ],
+    "Morrumbala": [
+      "Vila de Morrumbala"
+    ],
+    "Pebane": [
+      "Vila de Pebane"
+    ],
+    "Luabo": [
+      "Vila de Luabo"
+    ],
+    "Namacurra": [
+      "Funganha",
+      "Muodo",
+      "Vurruca",
+      "Vila de Namacurra"
+    ],
+    "Nicoadala": [
+      "Dugudiua",
+      "Maconde",
+      "Momede",
+      "Ilalane",
+      "Mirremene"
+    ]
+  },
+  "localityAliases": {
+    "Namacurra": {
+      "Malei": [
+        "Malei-Sede"
+      ],
+      "Muiebele": [
+        "Muebele",
+        "Muiebele"
+      ]
+    },
+    "Nicoadala": {
+      "Namacata": [
+        "Namacata-Sede"
+      ],
+      "Munhonha": [
+        "Munhonha-Sede"
+      ]
+    }
+  }
+}

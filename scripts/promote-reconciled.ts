@@ -47,6 +47,8 @@ type Source = {
 type Config = {
   districtAliases?: Record<string, string[]>;
   postAliases?: Record<string, Record<string, string[]>>;
+  ignoreHistoricalLocalities?: Record<string, string[]>;
+  localityAliases?: Record<string, Record<string, string[]>>;
   province: {
     name: string;
     slug: string;
@@ -137,6 +139,57 @@ function normalize(value: string | undefined | null): string {
 function isApplicable(value: string | undefined | null): boolean {
   const normalized = normalize(value);
   return Boolean(normalized) && normalized !== "nao aplicavel";
+}
+
+
+
+function getCurrentLocalityName(
+  config: { localityAliases?: Record<string, Record<string, string[]>> },
+  districtName: string,
+  historicalLocalityName: string,
+): string {
+  const districtAliases = Object.entries(
+    config.localityAliases ?? {},
+  ).find(
+    ([configuredDistrict]) =>
+      normalize(configuredDistrict) === normalize(districtName),
+  )?.[1];
+
+  if (!districtAliases) {
+    return historicalLocalityName;
+  }
+
+  const match = Object.entries(districtAliases).find(
+    ([currentName, historicalNames]) =>
+      normalize(currentName) === normalize(historicalLocalityName) ||
+      historicalNames.some(
+        (name) =>
+          normalize(name) === normalize(historicalLocalityName),
+      ),
+  );
+
+  return match?.[0] ?? historicalLocalityName;
+}
+
+function shouldIgnoreHistoricalLocality(
+  config: { ignoreHistoricalLocalities?: Record<string, string[]> },
+  districtName: string,
+  localityName: string | undefined | null,
+): boolean {
+  if (!isApplicable(localityName)) {
+    return false;
+  }
+
+  const configured = Object.entries(
+    config.ignoreHistoricalLocalities ?? {},
+  ).find(
+    ([configuredDistrict]) =>
+      normalize(configuredDistrict) === normalize(districtName),
+  )?.[1] ?? [];
+
+  return configured.some(
+    (name) => normalize(name) === normalize(localityName),
+  );
 }
 
 function getPostAliases(
@@ -369,7 +422,12 @@ for (const diagnosticDistrict of exactDistricts) {
     (record) =>
       normalize(record.province) === normalize(config.province.name) &&
       historicalDistrictNames.includes(normalize(record.district)) &&
-      (isApplicable(record.locality) || isApplicable(record.neighborhood)),
+      (isApplicable(record.locality) || isApplicable(record.neighborhood)) &&
+      !shouldIgnoreHistoricalLocality(
+        config,
+        district.name,
+        record.locality,
+      ),
   );
 
   const localityCount = historicalRecords.filter(

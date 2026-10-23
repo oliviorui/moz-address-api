@@ -1,0 +1,1352 @@
+[
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_alto_molocue_sede",
+    "code": null,
+    "name": "Alto Molocue-Sede",
+    "slug": "alto-molocue-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_caiaia",
+    "code": null,
+    "name": "Caiaia",
+    "slug": "caiaia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_chapala",
+    "code": null,
+    "name": "Chapala",
+    "slug": "chapala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_ecole",
+    "code": null,
+    "name": "Ecole",
+    "slug": "ecole",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_mutala",
+    "code": null,
+    "name": "Mutala",
+    "slug": "mutala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_nacuaca",
+    "code": null,
+    "name": "Nacuaca",
+    "slug": "nacuaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_nimala",
+    "code": null,
+    "name": "Nimala",
+    "slug": "nimala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_nivava",
+    "code": null,
+    "name": "Nivava",
+    "slug": "nivava",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_alto_molocue_novanana",
+    "code": null,
+    "name": "Novanana",
+    "slug": "novanana",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_alto_molocue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_nauela_cololo",
+    "code": null,
+    "name": "Cololo",
+    "slug": "cololo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_nauela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_nauela_muhiua",
+    "code": null,
+    "name": "Muhiua",
+    "slug": "muhiua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_nauela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_alto_molocue_nauela_nauela",
+    "code": null,
+    "name": "Nauela",
+    "slug": "nauela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_alto_molocue_nauela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_chinde_sede_matilde",
+    "code": null,
+    "name": "Matilde",
+    "slug": "matilde",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_chinde_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_chinde_sede_mucuandaia",
+    "code": null,
+    "name": "Mucuandaia",
+    "slug": "mucuandaia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_chinde_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_chinde_sede_pambane",
+    "code": null,
+    "name": "Pambane",
+    "slug": "pambane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_chinde_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_micaune_arijuane",
+    "code": null,
+    "name": "Arijuane",
+    "slug": "arijuane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_micaune",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_micaune_magaza",
+    "code": null,
+    "name": "Magaza",
+    "slug": "magaza",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_micaune",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_micaune_micaune_sede",
+    "code": null,
+    "name": "Micaune-Sede",
+    "slug": "micaune-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_micaune",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_micaune_mitange",
+    "code": null,
+    "name": "Mitange",
+    "slug": "mitange",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_micaune",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_chinde_micaune_nhamatamanga",
+    "code": null,
+    "name": "Nhamatamanga",
+    "slug": "nhamatamanga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_chinde_micaune",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_derre_derre_sede_derre_sede",
+    "code": null,
+    "name": "Derre-sede",
+    "slug": "derre-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_derre_derre_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_derre_derre_sede_machindo_sede",
+    "code": null,
+    "name": "Machindo-sede",
+    "slug": "machindo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_derre_derre_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_derre_guerissa_guerissa_sede",
+    "code": null,
+    "name": "Guerissa-sede",
+    "slug": "guerissa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_derre_guerissa",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_derre_guerissa_nambui",
+    "code": null,
+    "name": "Nambui",
+    "slug": "nambui",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_derre_guerissa",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_alto_ligonha_alto_ligonha",
+    "code": null,
+    "name": "Alto Ligonha",
+    "slug": "alto-ligonha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_alto_ligonha",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_alto_ligonha_mirali",
+    "code": null,
+    "name": "Mirali",
+    "slug": "mirali",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_alto_ligonha",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_alto_ligonha_muiane",
+    "code": null,
+    "name": "Muiane",
+    "slug": "muiane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_alto_ligonha",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_alto_ligonha_namihali",
+    "code": null,
+    "name": "Namihali",
+    "slug": "namihali",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_alto_ligonha",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_alto_ligonha_namireco",
+    "code": null,
+    "name": "Namireco",
+    "slug": "namireco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_alto_ligonha",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_alto_ligonha_namithathar",
+    "code": null,
+    "name": "Namithathar",
+    "slug": "namithathar",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_alto_ligonha",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_gile_sede",
+    "code": null,
+    "name": "Gile-Sede",
+    "slug": "gile-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_intxotcha",
+    "code": null,
+    "name": "Intxotcha",
+    "slug": "intxotcha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_khayane",
+    "code": null,
+    "name": "Khayane",
+    "slug": "khayane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_mamala",
+    "code": null,
+    "name": "Mamala",
+    "slug": "mamala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_moneia",
+    "code": null,
+    "name": "Moneia",
+    "slug": "moneia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_naheche",
+    "code": null,
+    "name": "Naheche",
+    "slug": "naheche",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_nanhope",
+    "code": null,
+    "name": "Nanhope",
+    "slug": "nanhope",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_pury",
+    "code": null,
+    "name": "Pury",
+    "slug": "pury",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_gile_gile_sede_uape",
+    "code": null,
+    "name": "Uapé",
+    "slug": "uape",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_gile_gile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_ile_sede_ile_sede",
+    "code": null,
+    "name": "Ile-Sede",
+    "slug": "ile-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_ile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_ile_sede_mugulama",
+    "code": null,
+    "name": "Mugulama",
+    "slug": "mugulama",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_ile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_ile_sede_namanda",
+    "code": null,
+    "name": "Namanda",
+    "slug": "namanda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_ile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_ile_sede_nampevo",
+    "code": null,
+    "name": "Nampevo",
+    "slug": "nampevo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_ile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_ile_sede_nipiode",
+    "code": null,
+    "name": "Nipiode",
+    "slug": "nipiode",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_ile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_ile_sede_phalane",
+    "code": null,
+    "name": "Phalane",
+    "slug": "phalane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_ile_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_socone_corruane",
+    "code": null,
+    "name": "Corruane",
+    "slug": "corruane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_socone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_ile_socone_mualacamue",
+    "code": null,
+    "name": "Mualacamue",
+    "slug": "mualacamue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_ile_socone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_inhassunge_gonhane_gonhane",
+    "code": null,
+    "name": "Gonhane",
+    "slug": "gonhane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_inhassunge_gonhane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_inhassunge_mucupia_bingagira",
+    "code": null,
+    "name": "Bingagira",
+    "slug": "bingagira",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_inhassunge_mucupia",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_inhassunge_mucupia_chirimane",
+    "code": null,
+    "name": "Chirimane",
+    "slug": "chirimane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_inhassunge_mucupia",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_inhassunge_mucupia_ilova",
+    "code": null,
+    "name": "Ilova",
+    "slug": "ilova",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_inhassunge_mucupia",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_inhassunge_mucupia_mucupia_sede",
+    "code": null,
+    "name": "Mucupia-Sede",
+    "slug": "mucupia-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_inhassunge_mucupia",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_chimbazo_25_de_setembro",
+    "code": null,
+    "name": "25 de Setembro",
+    "slug": "25-de-setembro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_chimbazo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_chimbazo_chissamba",
+    "code": null,
+    "name": "Chissamba",
+    "slug": "chissamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_chimbazo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_chimbazo_maginge",
+    "code": null,
+    "name": "Maginge",
+    "slug": "maginge",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_chimbazo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_chimbazo_nzama",
+    "code": null,
+    "name": "Nzama",
+    "slug": "nzama",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_chimbazo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_luabo_sede_luabo_sede",
+    "code": null,
+    "name": "Luabo-Sede",
+    "slug": "luabo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_luabo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_luabo_sede_rovuma",
+    "code": null,
+    "name": "Rovuma",
+    "slug": "rovuma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_luabo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_luabo_luabo_sede_samora_machel_sede",
+    "code": null,
+    "name": "Samora Machel-Sede",
+    "slug": "samora-machel-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_luabo_luabo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_lugela_sede_iaba",
+    "code": null,
+    "name": "Iaba",
+    "slug": "iaba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_lugela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_lugela_sede_mobede",
+    "code": null,
+    "name": "Mobede",
+    "slug": "mobede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_lugela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_lugela_sede_mussengane",
+    "code": null,
+    "name": "Mussengane",
+    "slug": "mussengane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_lugela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_lugela_sede_nagobo",
+    "code": null,
+    "name": "Nagobo",
+    "slug": "nagobo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_lugela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_lugela_sede_puthine",
+    "code": null,
+    "name": "Puthine",
+    "slug": "puthine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_lugela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_muabanama_comone",
+    "code": null,
+    "name": "Comone",
+    "slug": "comone",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_muabanama",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_muabanama_mpemula",
+    "code": null,
+    "name": "M'pemula",
+    "slug": "mpemula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_muabanama",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_muabanama_muabanama_sede",
+    "code": null,
+    "name": "Muabanama-sede",
+    "slug": "muabanama-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_muabanama",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_munhamade_alto_lugela",
+    "code": null,
+    "name": "Alto Lugela",
+    "slug": "alto-lugela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_munhamade",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_munhamade_cuba",
+    "code": null,
+    "name": "Cuba",
+    "slug": "cuba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_munhamade",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_munhamade_mulide",
+    "code": null,
+    "name": "Mulide",
+    "slug": "mulide",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_munhamade",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_munhamade_munhamade",
+    "code": null,
+    "name": "Munhamade",
+    "slug": "munhamade",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_munhamade",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_munhamade_tenede",
+    "code": null,
+    "name": "Tenede",
+    "slug": "tenede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_munhamade",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_tacuane_ebide",
+    "code": null,
+    "name": "Ebide",
+    "slug": "ebide",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_tacuane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_tacuane_mabu",
+    "code": null,
+    "name": "Mabu",
+    "slug": "mabu",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_tacuane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_lugela_tacuane_tacuane",
+    "code": null,
+    "name": "Tacuane",
+    "slug": "tacuane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_lugela_tacuane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_maganja_da_costa_cabuir",
+    "code": null,
+    "name": "Cabuir",
+    "slug": "cabuir",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_maganja_da_costa",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_maganja_da_costa_cariua",
+    "code": null,
+    "name": "Cariua",
+    "slug": "cariua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_maganja_da_costa",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_maganja_da_costa_maganja_sede_bala",
+    "code": null,
+    "name": "Maganja-Sede (Bala)",
+    "slug": "maganja-sede-bala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_maganja_da_costa",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_maganja_da_costa_muzo",
+    "code": null,
+    "name": "Muzo",
+    "slug": "muzo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_maganja_da_costa",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_nante_alto_mutota",
+    "code": null,
+    "name": "Alto Mutota",
+    "slug": "alto-mutota",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_nante",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_nante_moneia",
+    "code": null,
+    "name": "Moneia",
+    "slug": "moneia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_nante",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_nante_muoloa",
+    "code": null,
+    "name": "Muoloa",
+    "slug": "muoloa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_nante",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_nante_nante_sede",
+    "code": null,
+    "name": "Nante-Sede",
+    "slug": "nante-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_nante",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_maganja_da_costa_nante_nomiua",
+    "code": null,
+    "name": "Nomiua",
+    "slug": "nomiua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_maganja_da_costa_nante",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_majaua_dachudua",
+    "code": null,
+    "name": "Dachúdua",
+    "slug": "dachudua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_majaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_majaua_majaua_sede",
+    "code": null,
+    "name": "Majaua-Sede",
+    "slug": "majaua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_majaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_majaua_zalimba",
+    "code": null,
+    "name": "Zalimba",
+    "slug": "zalimba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_majaua",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_milange_sede_chitambo",
+    "code": null,
+    "name": "Chitambo",
+    "slug": "chitambo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_milange_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_milange_sede_liciro",
+    "code": null,
+    "name": "Liciro",
+    "slug": "liciro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_milange_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_milange_sede_milange_sede",
+    "code": null,
+    "name": "Milange-Sede",
+    "slug": "milange-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_milange_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_milange_sede_tengua",
+    "code": null,
+    "name": "Tengua",
+    "slug": "tengua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_milange_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_milange_sede_vulalo",
+    "code": null,
+    "name": "Vulalo",
+    "slug": "vulalo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_milange_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_mongue_dulanha",
+    "code": null,
+    "name": "Dulanha",
+    "slug": "dulanha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_mongue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_mongue_mongue_sede",
+    "code": null,
+    "name": "Mongue-Sede",
+    "slug": "mongue-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_mongue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_milange_mongue_sabelua",
+    "code": null,
+    "name": "Sabelua",
+    "slug": "sabelua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_milange_mongue",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mocubela_bajone_missal",
+    "code": null,
+    "name": "Missal",
+    "slug": "missal",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mocubela_bajone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mocubela_bajone_nacuda",
+    "code": null,
+    "name": "Nacuda",
+    "slug": "nacuda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mocubela_bajone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mocubela_bajone_naico_mussipa",
+    "code": null,
+    "name": "Naico Mussipa",
+    "slug": "naico-mussipa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mocubela_bajone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mocubela_mocubela_sede_maneia",
+    "code": null,
+    "name": "Maneia",
+    "slug": "maneia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mocubela_mocubela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mocubela_mocubela_sede_mocubela_sede",
+    "code": null,
+    "name": "Mocubela-Sede",
+    "slug": "mocubela-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mocubela_mocubela_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_molumbo_corromana_corromana_sede",
+    "code": null,
+    "name": "Corromana-Sede",
+    "slug": "corromana-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_molumbo_corromana",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_molumbo_corromana_nangoma",
+    "code": null,
+    "name": "Nangoma",
+    "slug": "nangoma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_molumbo_corromana",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_molumbo_molumbo_sede_capitao_mor",
+    "code": null,
+    "name": "Capitao Mor",
+    "slug": "capitao-mor",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_molumbo_molumbo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_molumbo_molumbo_sede_molumbo_sede",
+    "code": null,
+    "name": "Molumbo-Sede",
+    "slug": "molumbo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_molumbo_molumbo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_campo_campo_sede",
+    "code": null,
+    "name": "Campo-Sede",
+    "slug": "campo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_campo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_campo_catale",
+    "code": null,
+    "name": "Catale",
+    "slug": "catale",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_campo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_campo_lua_lua",
+    "code": null,
+    "name": "Lua Lua",
+    "slug": "lua-lua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_campo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_campo_mungane",
+    "code": null,
+    "name": "Mungane",
+    "slug": "mungane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_campo",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_mopeia_sede_mopeia_sede",
+    "code": null,
+    "name": "Mopeia-Sede",
+    "slug": "mopeia-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_mopeia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_mopeia_sede_nzanza",
+    "code": null,
+    "name": "N'zanza",
+    "slug": "nzanza",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_mopeia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_mopeia_sede_rovuma",
+    "code": null,
+    "name": "Rovuma",
+    "slug": "rovuma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_mopeia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mopeia_mopeia_sede_sambalendo",
+    "code": null,
+    "name": "Sambalendo",
+    "slug": "sambalendo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mopeia_mopeia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_chire_chilomo",
+    "code": null,
+    "name": "Chilomo",
+    "slug": "chilomo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_chire",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_chire_chire_sede",
+    "code": null,
+    "name": "Chire-Sede",
+    "slug": "chire-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_chire",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_chire_gorro",
+    "code": null,
+    "name": "Gorro",
+    "slug": "gorro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_chire",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_megaza_megaza_sede",
+    "code": null,
+    "name": "Megaza-Sede",
+    "slug": "megaza-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_megaza",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_megaza_pinda",
+    "code": null,
+    "name": "Pinda",
+    "slug": "pinda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_megaza",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_morrumbala_sede_borroma",
+    "code": null,
+    "name": "Borroma",
+    "slug": "borroma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_morrumbala_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_morrumbala_sede_mepinha",
+    "code": null,
+    "name": "Mepinha",
+    "slug": "mepinha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_morrumbala_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_morrumbala_sede_morrumbala_sede",
+    "code": null,
+    "name": "Morrumbala-Sede",
+    "slug": "morrumbala-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_morrumbala_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_morrumbala_sede_muandiua",
+    "code": null,
+    "name": "Muandiua",
+    "slug": "muandiua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_morrumbala_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_morrumbala_morrumbala_sede_sabe",
+    "code": null,
+    "name": "Sabe",
+    "slug": "sabe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_morrumbala_morrumbala_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mulevala_chiraco_chiraco_sede",
+    "code": null,
+    "name": "Chiraco-Sede",
+    "slug": "chiraco-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mulevala_chiraco",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mulevala_chiraco_inturro",
+    "code": null,
+    "name": "Inturro",
+    "slug": "inturro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mulevala_chiraco",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mulevala_chiraco_mucata",
+    "code": null,
+    "name": "Mucata",
+    "slug": "mucata",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mulevala_chiraco",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mulevala_mbauane_jajo",
+    "code": null,
+    "name": "Jajo",
+    "slug": "jajo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mulevala_mbauane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mulevala_mbauane_mbauane_sede",
+    "code": null,
+    "name": "M'bauane-Sede",
+    "slug": "mbauane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mulevala_mbauane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_mulevala_mbauane_namigonha",
+    "code": null,
+    "name": "Namigonha",
+    "slug": "namigonha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_mulevala_mbauane",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_namarroi_sede_lipali",
+    "code": null,
+    "name": "Lipali",
+    "slug": "lipali",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_namarroi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_namarroi_sede_marrea",
+    "code": null,
+    "name": "Marrea",
+    "slug": "marrea",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_namarroi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_namarroi_sede_mudine",
+    "code": null,
+    "name": "Mudine",
+    "slug": "mudine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_namarroi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_namarroi_sede_muemue",
+    "code": null,
+    "name": "Muemue",
+    "slug": "muemue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_namarroi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_namarroi_sede_namarroi_sede",
+    "code": null,
+    "name": "Namarroi sede",
+    "slug": "namarroi-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_namarroi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_regone_mutatala",
+    "code": null,
+    "name": "Mutatala",
+    "slug": "mutatala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_regone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_regone_nemone",
+    "code": null,
+    "name": "Nemone",
+    "slug": "nemone",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_regone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_namarroi_regone_regone_sede",
+    "code": null,
+    "name": "Regone-Sede",
+    "slug": "regone-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_namarroi_regone",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_mulela_alto_maganha",
+    "code": null,
+    "name": "Alto Maganha",
+    "slug": "alto-maganha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_mulela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_mulela_malema",
+    "code": null,
+    "name": "Malema",
+    "slug": "malema",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_mulela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_mulela_mucocoro",
+    "code": null,
+    "name": "Mucocoro",
+    "slug": "mucocoro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_mulela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_mulela_mulela",
+    "code": null,
+    "name": "Mulela",
+    "slug": "mulela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_mulela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_mulela_namanla",
+    "code": null,
+    "name": "Namanla",
+    "slug": "namanla",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_mulela",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_naburi_mihecue",
+    "code": null,
+    "name": "Mihecue",
+    "slug": "mihecue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_naburi",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_naburi_namahipe",
+    "code": null,
+    "name": "Namahipe",
+    "slug": "namahipe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_naburi",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_naburi_nuburi",
+    "code": null,
+    "name": "Nuburi",
+    "slug": "nuburi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_naburi",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_naburi_tomeia",
+    "code": null,
+    "name": "Tomeia",
+    "slug": "tomeia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_naburi",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_naburi_txalalane",
+    "code": null,
+    "name": "Txalalane",
+    "slug": "txalalane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_naburi",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_pebane_sede_impaca",
+    "code": null,
+    "name": "Impaca",
+    "slug": "impaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_pebane_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_pebane_sede_magiga",
+    "code": null,
+    "name": "Magiga",
+    "slug": "magiga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_pebane_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_pebane_sede_nicadine",
+    "code": null,
+    "name": "Nicadine",
+    "slug": "nicadine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_pebane_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_zambezia_pebane_pebane_sede_quichanga",
+    "code": null,
+    "name": "Quichanga",
+    "slug": "quichanga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_zambezia_pebane_pebane_sede",
+    "districtId": null
+  }
+]

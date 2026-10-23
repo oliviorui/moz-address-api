@@ -227,7 +227,7 @@ const expectedAdministrativePostCountsByDistrict:
     dist_nampula_liupo: 2,
 
     // Zambézia
-    dist_zambezia_quelimane: 5,
+    dist_zambezia_quelimane: 6,
     dist_zambezia_alto_molocue: 2,
     dist_zambezia_chinde: 2,
     dist_zambezia_gile: 2,
@@ -242,7 +242,7 @@ const expectedAdministrativePostCountsByDistrict:
     dist_zambezia_morrumbala: 3,
     dist_zambezia_namacurra: 2,
     dist_zambezia_namarroi: 2,
-    dist_zambezia_nicoadala: 2,
+    dist_zambezia_nicoadala: 1,
     dist_zambezia_pebane: 3,
     dist_zambezia_derre: 2,
     dist_zambezia_luabo: 2,

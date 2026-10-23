@@ -1099,11 +1099,11 @@
     "districtId": "dist_zambezia_nicoadala"
   },
   {
-    "id": "adm_post_zambezia_nicoadala_maquival",
+    "id": "adm_post_zambezia_quelimane_maquival",
     "code": null,
     "name": "Maquival",
     "slug": "maquival",
-    "districtId": "dist_zambezia_nicoadala"
+    "districtId": "dist_zambezia_quelimane"
   },
   {
     "id": "adm_post_zambezia_pebane_pebane_sede",
@@ -1183,10 +1183,10 @@
     "districtId": "dist_zambezia_molumbo"
   },
   {
-    "id": "adm_post_zambezia_mulevala_mulevala_sede",
+    "id": "adm_post_zambezia_mulevala_mbauane",
     "code": null,
-    "name": "Mulevala-Sede",
-    "slug": "mulevala-sede",
+    "name": "Mbauane",
+    "slug": "mbauane",
     "districtId": "dist_zambezia_mulevala"
   },
   {

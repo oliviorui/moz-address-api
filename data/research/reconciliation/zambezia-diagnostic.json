@@ -1,0 +1,1075 @@
+{
+  "generatedAt": "2026-10-23T16:04:22.094Z",
+  "province": {
+    "name": "Zambézia",
+    "slug": "zambezia",
+    "expectedAdministrativePosts": 54,
+    "expectedLocalities": 191,
+    "expectedNeighborhoods": 128,
+    "source": "INE — Anuário Estatístico, Província da Zambézia, 2024 — Quadro 1.2.1",
+    "sourcePage": "3",
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-zambezia-province-yearbook-2024"
+  },
+  "totals": {
+    "historical": {
+      "localities": 191,
+      "neighborhoods": 109
+    },
+    "expectedCurrent": {
+      "localities": 191,
+      "neighborhoods": 128
+    },
+    "canonicalAdministrativePosts": 54
+  },
+  "summary": {
+    "exactStructuralMatches": 17,
+    "postReconciliationRequired": 2,
+    "countGaps": 3
+  },
+  "districts": [
+    {
+      "district": "Quelimane",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 51
+      },
+      "historical": {
+        "localities": 6,
+        "neighborhoods": 60,
+        "administrativePosts": [
+          "Maquival",
+          "Urbano 1",
+          "Urbano 2",
+          "Urbano 3",
+          "Urbano 4",
+          "Urbano 5"
+        ],
+        "localityNamesByPost": {
+          "Maquival": [
+            "Ionge",
+            "Madal",
+            "Maquival-Sede",
+            "Marrongane",
+            "Nangoela",
+            "Zalala"
+          ]
+        },
+        "neighborhoodNamesByPost": {
+          "Urbano 1": [
+            "24 de Julho",
+            "Aeroporto A",
+            "Aeroporto B",
+            "Aeroporto C",
+            "Bairro 1º De Maio",
+            "Bairro Novo",
+            "Chirangano",
+            "Chuabo Dembe",
+            "Filipe Samuel Magaia",
+            "Kansa",
+            "Liberdade",
+            "Mapiazua",
+            "PILOTO",
+            "POPULAR",
+            "SAGUAR A",
+            "Saguar B",
+            "SINACURA",
+            "TORRONE VELHO"
+          ],
+          "Urbano 2": [
+            "7 De Abril",
+            "Coalane 2A",
+            "Coalane 2B",
+            "Icidua",
+            "Ivagalane",
+            "Janeiro",
+            "Murropue",
+            "NHANHIBUA",
+            "SANGARIVEIRA  A",
+            "SANGARIVEIRA B",
+            "Sangarivera A",
+            "TORRONE NOVO A",
+            "TORRONE NOVO B"
+          ],
+          "Urbano 3": [
+            "1º de Maio A",
+            "1º de Maio B",
+            "25 de Setembro",
+            "3 de Fevereiro",
+            "Acordos de Lusaka A",
+            "Acordos De Lusaka B",
+            "Coalane 1",
+            "Cololo",
+            "SAMPENE A",
+            "SAMPENE B",
+            "SAMUGUE"
+          ],
+          "Urbano 4": [
+            "17 de Setembro",
+            "Brandao",
+            "Floresta A",
+            "Floresta B",
+            "Inhangome",
+            "Manhaua A",
+            "Manhaua B",
+            "Mariana",
+            "Micajune A",
+            "Micajune B",
+            "SANTAGUA A",
+            "SANTAGUA B"
+          ],
+          "Urbano 5": [
+            "Bazar",
+            "Gogone",
+            "Mborio",
+            "Migano",
+            "Namuinho",
+            "TORRONE 3"
+          ]
+        }
+      },
+      "current": {
+        "administrativePosts": [
+          "Maquival",
+          "Urbano Nº 1",
+          "Urbano Nº 2",
+          "Urbano Nº 3",
+          "Urbano Nº 4",
+          "Urbano Nº 5"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "COUNT_GAP"
+    },
+    {
+      "district": "Alto Molocué",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 12,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Alto Molocue",
+          "Nauela"
+        ],
+        "localityNamesByPost": {
+          "Alto Molocue": [
+            "Alto Molocue-Sede",
+            "Caiaia",
+            "Chapala",
+            "Ecole",
+            "Mutala",
+            "Nacuaca",
+            "Nimala",
+            "Nivava",
+            "Novanana"
+          ],
+          "Nauela": [
+            "Cololo",
+            "Muhiua",
+            "Nauela"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Alto Molocué",
+          "Nauela"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Chinde",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chinde-Sede",
+          "Micaune"
+        ],
+        "localityNamesByPost": {
+          "Chinde-Sede": [
+            "Matilde",
+            "Mucuandaia",
+            "Pambane"
+          ],
+          "Micaune": [
+            "Arijuane",
+            "Magaza",
+            "Micaune-Sede",
+            "Mitange",
+            "Nhamatamanga"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Chinde-Sede",
+          "Micaune"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Gilé",
+      "expected": {
+        "localities": 15,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 15,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Alto Ligonha",
+          "Gile"
+        ],
+        "localityNamesByPost": {
+          "Alto Ligonha": [
+            "Alto Ligonha",
+            "Mirali",
+            "Muiane",
+            "Namihali",
+            "Namireco",
+            "Namithathar"
+          ],
+          "Gile": [
+            "Gile-Sede",
+            "Intxotcha",
+            "Khayane",
+            "Mamala",
+            "Moneia",
+            "Naheche",
+            "Nanhope",
+            "Pury",
+            "Uapé"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Alto Ligonha",
+          "Gilé-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Gurué",
+      "expected": {
+        "localities": 16,
+        "neighborhoods": 46
+      },
+      "historical": {
+        "localities": 16,
+        "neighborhoods": 27,
+        "administrativePosts": [
+          "Cidade de Gurue",
+          "Lioma",
+          "Mepuagiua"
+        ],
+        "localityNamesByPost": {
+          "Cidade de Gurue": [
+            "Invinha",
+            "Muagiua",
+            "Mucunha",
+            "Murrimo",
+            "Muximua"
+          ],
+          "Lioma": [
+            "Lioma-Sede",
+            "Magige",
+            "Mualijane",
+            "Nintulo",
+            "Tetete"
+          ],
+          "Mepuagiua": [
+            "Incize",
+            "Mepuagiua-Sede",
+            "Mugaveia",
+            "Nicoropale",
+            "Nipive",
+            "Vehiua"
+          ]
+        },
+        "neighborhoodNamesByPost": {
+          "Cidade de Gurue": [
+            "1 de Maio",
+            "25 de Junho",
+            "Archote",
+            "Artes E Oficios",
+            "Barragem",
+            "Cimento",
+            "Coconhia",
+            "Coctchi",
+            "Contape",
+            "Cooperativa",
+            "Escola Secundaria",
+            "Eucalipital",
+            "Lussa",
+            "Macaruene",
+            "Malessane",
+            "Miaco",
+            "Moneia",
+            "Muela",
+            "Murece 1",
+            "Murece 2",
+            "Nacuacue",
+            "Namilimete",
+            "Serra",
+            "UP1",
+            "Up3 Veleta",
+            "UP4-Eduardo Mondlane",
+            "UP5 Namaroi"
+          ]
+        }
+      },
+      "current": {
+        "administrativePosts": [
+          "Gurué",
+          "Lioma",
+          "Mepuagiua"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "COUNT_GAP"
+    },
+    {
+      "district": "Ile",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Ile",
+          "Socone"
+        ],
+        "localityNamesByPost": {
+          "Ile": [
+            "Ile-Sede",
+            "Mugulama",
+            "Namanda",
+            "Nampevo",
+            "Nipiode",
+            "Phalane"
+          ],
+          "Socone": [
+            "Corruane",
+            "Mualacamue"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Ile-Sede",
+          "Socone"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Inhassunge",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 5,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Gonhane",
+          "Mucupia"
+        ],
+        "localityNamesByPost": {
+          "Gonhane": [
+            "Gonhane"
+          ],
+          "Mucupia": [
+            "Bingagira",
+            "Chirimane",
+            "Ilova",
+            "Mucupia-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Gonhane",
+          "Mucupia"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Lugela",
+      "expected": {
+        "localities": 16,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 16,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Lugela-sede",
+          "Muabanama",
+          "Munhamade",
+          "Tacuane"
+        ],
+        "localityNamesByPost": {
+          "Lugela-sede": [
+            "Iaba",
+            "Mobede",
+            "Mussengane",
+            "Nagobo",
+            "Puthine"
+          ],
+          "Muabanama": [
+            "Comone",
+            "M'pemula",
+            "Muabanama-sede"
+          ],
+          "Munhamade": [
+            "Alto Lugela",
+            "Cuba",
+            "Mulide",
+            "Munhamade",
+            "Tenede"
+          ],
+          "Tacuane": [
+            "Ebide",
+            "Mabu",
+            "Tacuane"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Lugela-Sede",
+          "Muabanama",
+          "Munhamade",
+          "Tacuane"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Maganja da Costa",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 9,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Maganja da Costa-Sede",
+          "Nante"
+        ],
+        "localityNamesByPost": {
+          "Maganja da Costa-Sede": [
+            "Cabuir",
+            "Cariua",
+            "Maganja-Sede (Bala)",
+            "Muzo"
+          ],
+          "Nante": [
+            "Alto Mutota",
+            "Moneia",
+            "Muoloa",
+            "Nante-Sede",
+            "Nomiua"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Maganja da Costa",
+          "Nante"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Milange",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 11,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Majaua",
+          "Milange-Sede",
+          "Mongue"
+        ],
+        "localityNamesByPost": {
+          "Majaua": [
+            "Dachúdua",
+            "Majaua-Sede",
+            "Zalimba"
+          ],
+          "Milange-Sede": [
+            "Chitambo",
+            "Liciro",
+            "Milange-Sede",
+            "Tengua",
+            "Vulalo"
+          ],
+          "Mongue": [
+            "Dulanha",
+            "Mongue-Sede",
+            "Sabelua"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Majaua",
+          "Milange-Sede",
+          "Mongue"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Mocuba",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 31
+      },
+      "historical": {
+        "localities": 6,
+        "neighborhoods": 22,
+        "administrativePosts": [
+          "Cidade de Mocuba",
+          "Mugeba",
+          "Namanjavira"
+        ],
+        "localityNamesByPost": {
+          "Cidade de Mocuba": [
+            "Mocuba-Sede",
+            "Munhiba"
+          ],
+          "Mugeba": [
+            "Muaquiua",
+            "Mugeba-Sede"
+          ],
+          "Namanjavira": [
+            "Alto Benfica",
+            "Namanjavira-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {
+          "Cidade de Mocuba": [
+            "16 de Junho",
+            "25 de Setembro",
+            "3 de Fevereiro",
+            "Aeroporto 1",
+            "Aeroporto 2",
+            "Bairro Pedreira",
+            "Carreira De Tiro 1",
+            "Carreira De Tiro 2",
+            "Central",
+            "CFM",
+            "Deruba",
+            "Lugela",
+            "Macuvine",
+            "Marmanelo 1",
+            "Marmanelo 2",
+            "Muanaco",
+            "Naverua",
+            "Nedegudo",
+            "SACRES",
+            "SAMORA MACHEL",
+            "Tomba de Agua 1",
+            "Tomba de Agua 2"
+          ]
+        }
+      },
+      "current": {
+        "administrativePosts": [
+          "Cidade de Mocuba",
+          "Mugeba",
+          "Namanjavira"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "COUNT_GAP"
+    },
+    {
+      "district": "Mopeia",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Campo",
+          "Mopeia"
+        ],
+        "localityNamesByPost": {
+          "Campo": [
+            "Campo-Sede",
+            "Catale",
+            "Lua Lua",
+            "Mungane"
+          ],
+          "Mopeia": [
+            "Mopeia-Sede",
+            "N'zanza",
+            "Rovuma",
+            "Sambalendo"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Campo",
+          "Mopeia-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Morrumbala",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 10,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chire",
+          "Megaza",
+          "Morrumbala-Sede"
+        ],
+        "localityNamesByPost": {
+          "Chire": [
+            "Chilomo",
+            "Chire-Sede",
+            "Gorro"
+          ],
+          "Megaza": [
+            "Megaza-Sede",
+            "Pinda"
+          ],
+          "Morrumbala-Sede": [
+            "Borroma",
+            "Mepinha",
+            "Morrumbala-Sede",
+            "Muandiua",
+            "Sabe"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Chire",
+          "Megaza",
+          "Morrumbala-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Namacurra",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 9,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Macuse",
+          "Malei",
+          "Namacurra-Sede"
+        ],
+        "localityNamesByPost": {
+          "Macuse": [
+            "Furquia",
+            "Macuse-Sede",
+            "Mbaua",
+            "Mexixine"
+          ],
+          "Malei": [
+            "Malei-Sede"
+          ],
+          "Namacurra-Sede": [
+            "Muiebele",
+            "Mutange",
+            "Namacurra-Sede",
+            "Pida"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Macuse",
+          "Namacurra"
+        ]
+      },
+      "historicalOnlyPosts": [
+        "Malei"
+      ],
+      "currentOnlyPosts": [],
+      "status": "POST_RECONCILIATION_REQUIRED"
+    },
+    {
+      "district": "Namarroi",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Namarroi",
+          "Regone"
+        ],
+        "localityNamesByPost": {
+          "Namarroi": [
+            "Lipali",
+            "Marrea",
+            "Mudine",
+            "Muemue",
+            "Namarroi sede"
+          ],
+          "Regone": [
+            "Mutatala",
+            "Nemone",
+            "Regone-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Namarroi-Sede",
+          "Regone"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Nicoadala",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 4,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Munhonha",
+          "Namacata",
+          "Nicoadala-Sede"
+        ],
+        "localityNamesByPost": {
+          "Munhonha": [
+            "Munhonha-Sede"
+          ],
+          "Namacata": [
+            "Namacata-Sede"
+          ],
+          "Nicoadala-Sede": [
+            "Nhafuba",
+            "Nicoadala-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Nicoadala-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [
+        "Munhonha",
+        "Namacata"
+      ],
+      "currentOnlyPosts": [],
+      "status": "POST_RECONCILIATION_REQUIRED"
+    },
+    {
+      "district": "Pebane",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 14,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Mulela (Mualama)",
+          "Naburi",
+          "Pebane-Sede"
+        ],
+        "localityNamesByPost": {
+          "Mulela (Mualama)": [
+            "Alto Maganha",
+            "Malema",
+            "Mucocoro",
+            "Mulela",
+            "Namanla"
+          ],
+          "Naburi": [
+            "Mihecue",
+            "Namahipe",
+            "Nuburi",
+            "Tomeia",
+            "Txalalane"
+          ],
+          "Pebane-Sede": [
+            "Impaca",
+            "Magiga",
+            "Nicadine",
+            "Quichanga"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Mulela",
+          "Naburi",
+          "Pebane-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Derre",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 4,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Guerissa",
+          "Machindo"
+        ],
+        "localityNamesByPost": {
+          "Guerissa": [
+            "Guerissa-sede",
+            "Nambui"
+          ],
+          "Machindo": [
+            "Derre-sede",
+            "Machindo-sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Derre-Sede",
+          "Guerissa"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Luabo",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 7,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chimbadzo",
+          "Samora Machel"
+        ],
+        "localityNamesByPost": {
+          "Chimbadzo": [
+            "25 de Setembro",
+            "Chissamba",
+            "Maginge",
+            "Nzama"
+          ],
+          "Samora Machel": [
+            "Luabo-Sede",
+            "Rovuma",
+            "Samora Machel-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Chimbazo",
+          "Luabo-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Mocubela",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 5,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Bajone",
+          "Mocubela"
+        ],
+        "localityNamesByPost": {
+          "Bajone": [
+            "Missal",
+            "Nacuda",
+            "Naico Mussipa"
+          ],
+          "Mocubela": [
+            "Maneia",
+            "Mocubela-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Bajone",
+          "Mocubela-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Molumbo",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 4,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Corromana",
+          "Molumbo-Sede"
+        ],
+        "localityNamesByPost": {
+          "Corromana": [
+            "Corromana-Sede",
+            "Nangoma"
+          ],
+          "Molumbo-Sede": [
+            "Capitao Mor",
+            "Molumbo-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Corromana",
+          "Molumbo-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Mulevala",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 6,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chiraco",
+          "M'bauane"
+        ],
+        "localityNamesByPost": {
+          "Chiraco": [
+            "Chiraco-Sede",
+            "Inturro",
+            "Mucata"
+          ],
+          "M'bauane": [
+            "Jajo",
+            "M'bauane-Sede",
+            "Namigonha"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Chiraco",
+          "Mbauane"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    }
+  ]
+}

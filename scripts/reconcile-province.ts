@@ -41,6 +41,8 @@ type DistrictExpectation = {
 type ReconciliationConfig = {
   districtAliases?: Record<string, string[]>;
   postAliases?: Record<string, Record<string, string[]>>;
+  ignoreHistoricalLocalities?: Record<string, string[]>;
+  localityAliases?: Record<string, Record<string, string[]>>;
   province: {
     name: string;
     slug: string;
@@ -79,6 +81,98 @@ function normalize(value: string | undefined | null): string {
 function isApplicable(value: string | undefined | null): boolean {
   const normalized = normalize(value);
   return Boolean(normalized) && normalized !== "nao aplicavel";
+}
+
+function groupHistoricalNamesByPost(
+  records: SnapshotRecord[],
+  field: "locality" | "neighborhood",
+): Record<string, string[]> {
+  const grouped = new Map<string, Set<string>>();
+
+  for (const record of records) {
+    const value = record[field];
+
+    if (!isApplicable(value)) {
+      continue;
+    }
+
+    if (
+      field === "locality" &&
+      isApplicable(record.neighborhood)
+    ) {
+      continue;
+    }
+
+    const postName = isApplicable(record.administrativePost)
+      ? record.administrativePost!
+      : "(direct district)";
+
+    if (!grouped.has(postName)) {
+      grouped.set(postName, new Set<string>());
+    }
+
+    grouped.get(postName)!.add(value!);
+  }
+
+  return Object.fromEntries(
+    [...grouped.entries()]
+      .sort(([a], [b]) => a.localeCompare(b, "pt"))
+      .map(([postName, names]) => [
+        postName,
+        [...names].sort((a, b) => a.localeCompare(b, "pt")),
+      ]),
+  );
+}
+
+
+
+function getCurrentLocalityName(
+  config: { localityAliases?: Record<string, Record<string, string[]>> },
+  districtName: string,
+  historicalLocalityName: string,
+): string {
+  const districtAliases = Object.entries(
+    config.localityAliases ?? {},
+  ).find(
+    ([configuredDistrict]) =>
+      normalize(configuredDistrict) === normalize(districtName),
+  )?.[1];
+
+  if (!districtAliases) {
+    return historicalLocalityName;
+  }
+
+  const match = Object.entries(districtAliases).find(
+    ([currentName, historicalNames]) =>
+      normalize(currentName) === normalize(historicalLocalityName) ||
+      historicalNames.some(
+        (name) =>
+          normalize(name) === normalize(historicalLocalityName),
+      ),
+  );
+
+  return match?.[0] ?? historicalLocalityName;
+}
+
+function shouldIgnoreHistoricalLocality(
+  config: { ignoreHistoricalLocalities?: Record<string, string[]> },
+  districtName: string,
+  localityName: string | undefined | null,
+): boolean {
+  if (!isApplicable(localityName)) {
+    return false;
+  }
+
+  const configured = Object.entries(
+    config.ignoreHistoricalLocalities ?? {},
+  ).find(
+    ([configuredDistrict]) =>
+      normalize(configuredDistrict) === normalize(districtName),
+  )?.[1] ?? [];
+
+  return configured.some(
+    (name) => normalize(name) === normalize(localityName),
+  );
 }
 
 function getPostAliases(
@@ -213,6 +307,8 @@ type DistrictResult = {
     localities: number;
     neighborhoods: number;
     administrativePosts: string[];
+    localityNamesByPost: Record<string, string[]>;
+    neighborhoodNamesByPost: Record<string, string[]>;
   };
   current: {
     administrativePosts: string[];
@@ -245,19 +341,28 @@ for (const district of provinceDistricts) {
     (r) => historicalDistrictNames.includes(normalize(r.district)),
   );
 
-  const historicalLocalities = historical.filter(
+  const effectiveHistorical = historical.filter(
+    (record) =>
+      !shouldIgnoreHistoricalLocality(
+        config,
+        district.name,
+        record.locality,
+      ),
+  );
+
+  const historicalLocalities = effectiveHistorical.filter(
     (r) =>
       isApplicable(r.locality) &&
       !isApplicable(r.neighborhood),
   ).length;
 
-  const historicalNeighborhoods = historical.filter(
+  const historicalNeighborhoods = effectiveHistorical.filter(
     (r) => isApplicable(r.neighborhood),
   ).length;
 
   const historicalPostNames = [
     ...new Set(
-      historical
+      effectiveHistorical
         .map((r) => r.administrativePost)
         .filter(
           (v): v is string => isApplicable(v),
@@ -332,6 +437,14 @@ for (const district of provinceDistricts) {
       localities: historicalLocalities,
       neighborhoods: historicalNeighborhoods,
       administrativePosts: historicalPostNames,
+      localityNamesByPost: groupHistoricalNamesByPost(
+        effectiveHistorical,
+        "locality",
+      ),
+      neighborhoodNamesByPost: groupHistoricalNamesByPost(
+        effectiveHistorical,
+        "neighborhood",
+      ),
     },
     current: {
       administrativePosts: canonicalPostNames,
