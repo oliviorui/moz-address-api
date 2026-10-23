@@ -1,0 +1,102 @@
+{
+  "generatedAt": "2026-10-23T12:18:48.319Z",
+  "district": "Chibuto",
+  "province": "Gaza",
+  "status": "BLOCKED_MISSING_COMPLETE_CURRENT_NAME_LIST",
+  "rules": {
+    "canonicalWritePerformed": false,
+    "expectedCurrentNeighborhoods": 32,
+    "historicalMozgisNeighborhoods": 12,
+    "currentlyCanonicalChibutoNeighborhoods": 0,
+    "minimumMissingNamesToReachCurrentTotal": 20
+  },
+  "sources": [
+    {
+      "label": "INE Gaza Statistical Yearbook 2024",
+      "authority": "Instituto Nacional de Estatística",
+      "year": 2024,
+      "url": "https://www.ine.gov.mz/documents/20119/334668/ANUARIO_ESTATISTICO_PROVINCIA_GAZA_2024.pdf/facd30cd-f7dc-83ac-1a35-3e92df08ea22?download=true&t=1751365783760&version=1.0",
+      "supports": "Chibuto has 32 bairros das cidades in 2024."
+    },
+    {
+      "label": "DIISB Município de Chibuto",
+      "authority": "MAEFP / MOPHRH / PDUL",
+      "year": 2020,
+      "url": "https://pdul.gov.mz/layout/set/print/content/download/642/3507/version/1/file/DIISB%2Bchibuto%2BEIII.pdf",
+      "supports": "Named municipal neighborhoods; report contains internal differences between the 10-neighborhood list and demographic table."
+    },
+    {
+      "label": "Electoral registration posts 2024",
+      "authority": "República de Moçambique / Boletim da República",
+      "year": 2024,
+      "supports": "Current urban toponyms under Município/Sede; candidates only until administrative status is verified."
+    }
+  ],
+  "historicalMozgisNames": [
+    "Bairro 1",
+    "Bairro 2",
+    "Bairro 25 de Junho",
+    "Bairro 3",
+    "Bairro Canhanda",
+    "Bairro Cimento",
+    "Bairro Mudada",
+    "Bairro Mussavene",
+    "Bairro Nhocane",
+    "Bairro Samora Machel",
+    "Bairro Unidade",
+    "Chimundo"
+  ],
+  "pdul2020NamedNeighborhoods": [
+    "Bairro Samora Machel",
+    "Bairro Chimundo",
+    "Bairro 25 de Junho",
+    "Bairro Canhanga",
+    "Bairro 1 da Cidade",
+    "Bairro 2 da Cidade",
+    "Bairro 3 da Cidade",
+    "Bairro Cimento",
+    "Bairro Mussavene",
+    "Bairro Nhocane"
+  ],
+  "pdul2020AdditionalTableNames": [
+    "Bairro Mudumeia",
+    "Bairro Mudada",
+    "Bairro Unidade",
+    "Bairro Mutsicuane"
+  ],
+  "electoral2024UrbanToponymCandidates": [
+    "Nhocane",
+    "Koluanhane",
+    "Mudada",
+    "25 de Junho",
+    "Canhanda",
+    "Samora Machel",
+    "Chimundo",
+    "Macunene",
+    "Mussavene",
+    "Unidade",
+    "Mupaiaia",
+    "Uaculalene",
+    "Canhavano",
+    "Muxequiua",
+    "Uahamuza",
+    "Mudumeia",
+    "Coxombane"
+  ],
+  "historicalNamesSupportedByPdul2020": [
+    "Bairro Samora Machel",
+    "Bairro Chimundo",
+    "Bairro 25 de Junho",
+    "Bairro Cimento",
+    "Bairro Mussavene",
+    "Bairro Nhocane",
+    "Bairro Mudada",
+    "Bairro Unidade"
+  ],
+  "alreadyCanonical": [],
+  "decision": {
+    "promoteNow": false,
+    "reason": "INE confirms 32 current neighborhoods, but no authoritative complete 32-name list has been verified. Partial promotion would make coverage ambiguous and could preserve obsolete spellings/units.",
+    "nextEvidenceNeeded": "An official current municipality/INE/cartography source enumerating all 32 Chibuto neighborhood names or a current geospatial bairro layer with names."
+  }
+}

@@ -1,0 +1,36 @@
+[
+  {
+    "districtId": "dist_gaza_guija",
+    "district": "Guijá",
+    "historicalCandidates": 8,
+    "currentLocalities": 7,
+    "excludedHistoricalRecord": {
+      "id": "locality_gaza_guija_vila_de_canicado_vila_canicado",
+      "name": "Vila Caniçado",
+      "reason": "Administrative-post/urban-seat record. It is not promoted as a current LOCALITY because current INE territorial statistics report 7 localities for Guijá while the reconciled historical set contains 8 including Vila Caniçado under the Vila de Caniçado administrative post."
+    },
+    "promotedLocalities": 7,
+    "evidence": [
+      "INE Gaza Statistical Yearbook 2024: Guijá = 4 administrative posts and 7 localities.",
+      "INE Guijá district statistics 2019-2023: Vila de Caniçado is treated as one of the district territorial/administrative-post units alongside Chivonguene, Mubanguene and Nalazi.",
+      "INE/MozGIS 2017 historical layer: 8 reconciled candidate records, one of which is Vila Caniçado under the Vila de Caniçado administrative post."
+    ]
+  },
+  {
+    "districtId": "dist_gaza_mandlakazi",
+    "district": "Mandlakazi",
+    "historicalCandidates": 15,
+    "currentLocalities": 14,
+    "excludedHistoricalRecord": {
+      "id": "locality_gaza_mandlakazi_mandlakazi_sede_vila_de_mandlakazi",
+      "name": "Vila de Mandlakazi",
+      "reason": "Urban vila/municipal-seat record. It is not promoted as a current LOCALITY because current INE territorial statistics report 14 localities for Mandlakazi while the reconciled historical set contains 15 including this vila record."
+    },
+    "promotedLocalities": 14,
+    "evidence": [
+      "INE Gaza Statistical Yearbook 2024: Mandlakazi = 5 administrative posts and 14 localities.",
+      "INE Mandlakazi district indicators 2020: Mandlakazi = 5 administrative posts and 14 localities; district seat identified as Vila Sede.",
+      "INE/MozGIS 2017 historical layer: 15 reconciled candidate records, one of which is Vila de Mandlakazi."
+    ]
+  }
+]

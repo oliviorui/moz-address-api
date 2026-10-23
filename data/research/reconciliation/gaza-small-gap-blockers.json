@@ -1,0 +1,188 @@
+[
+  {
+    "districtId": "dist_gaza_bilene",
+    "district": "Bilene",
+    "historicalCandidates": 14,
+    "currentINECount": 13,
+    "difference": 1,
+    "candidates": [
+      {
+        "id": "locality_gaza_bilene_incaia_chimonzo",
+        "name": "Chimonzo",
+        "administrativePostId": "adm_post_gaza_bilene_incaia"
+      },
+      {
+        "id": "locality_gaza_bilene_incaia_incaia",
+        "name": "Incaia",
+        "administrativePostId": "adm_post_gaza_bilene_incaia"
+      },
+      {
+        "id": "locality_gaza_bilene_incaia_moianine",
+        "name": "Moianine",
+        "administrativePostId": "adm_post_gaza_bilene_incaia"
+      },
+      {
+        "id": "locality_gaza_bilene_macuane_chichango",
+        "name": "Chichango",
+        "administrativePostId": "adm_post_gaza_bilene_macuane"
+      },
+      {
+        "id": "locality_gaza_bilene_macuane_macuane_sede",
+        "name": "Macuane-Sede",
+        "administrativePostId": "adm_post_gaza_bilene_macuane"
+      },
+      {
+        "id": "locality_gaza_bilene_macuane_tuane_oriental",
+        "name": "Tuane Oriental",
+        "administrativePostId": "adm_post_gaza_bilene_macuane"
+      },
+      {
+        "id": "locality_gaza_bilene_mazivila_dzimbene",
+        "name": "Dzimbene",
+        "administrativePostId": "adm_post_gaza_bilene_mazivila"
+      },
+      {
+        "id": "locality_gaza_bilene_mazivila_mazivila_sede",
+        "name": "Mazivila-Sede",
+        "administrativePostId": "adm_post_gaza_bilene_mazivila"
+      },
+      {
+        "id": "locality_gaza_bilene_mazivila_olombe",
+        "name": "Olombe",
+        "administrativePostId": "adm_post_gaza_bilene_mazivila"
+      },
+      {
+        "id": "locality_gaza_bilene_messano_magul",
+        "name": "Magul",
+        "administrativePostId": "adm_post_gaza_bilene_messano"
+      },
+      {
+        "id": "locality_gaza_bilene_messano_mamonho",
+        "name": "Mamonho",
+        "administrativePostId": "adm_post_gaza_bilene_messano"
+      },
+      {
+        "id": "locality_gaza_bilene_messano_messano_sede",
+        "name": "Messano Sede",
+        "administrativePostId": "adm_post_gaza_bilene_messano"
+      },
+      {
+        "id": "locality_gaza_bilene_macia_vila_da_macia",
+        "name": "Vila da Macia",
+        "administrativePostId": "adm_post_gaza_bilene_macia"
+      },
+      {
+        "id": "locality_gaza_bilene_praia_de_bilene_vila_da_praia_de_bilene",
+        "name": "Vila da Praia de Bilene",
+        "administrativePostId": "adm_post_gaza_bilene_praia_de_bilene"
+      }
+    ],
+    "status": "BLOCKED_SOURCE_CONFLICT",
+    "reason": "The 2017 reconciled set has 14 candidates, while INE Gaza 2024 reports 13 current localities. Both Vila da Macia and Vila da Praia de Bilene are also municipal/urban entities, but current official material does not yet establish which single historical locality candidate must be excluded from the canonical locality layer.",
+    "evidence": [
+      "INE Gaza Statistical Yearbook 2024: Bilene = 6 administrative posts, 13 localities and 2 municipalities.",
+      "INE Bilene 2020 profile: Bilene had 14 localities and 2 municipal councils, including one locality under Macia and one under Praia de Bilene.",
+      "2023 electoral administrative tables separately identify Município da Vila da Macia and Município da Praia do Bilene while also listing locality-level units in the district."
+    ],
+    "nextEvidenceNeeded": "An official current locality-by-name list (preferably INE 2024 cartography or district administration) that explicitly identifies all 13 Bilene localities."
+  },
+  {
+    "districtId": "dist_gaza_chicualacuala",
+    "district": "Chicualacuala",
+    "historicalCandidates": 5,
+    "currentINECount": 4,
+    "difference": 1,
+    "candidates": [
+      {
+        "id": "locality_gaza_chicualacuala_eduardo_mondlane_chicualacuala_rio",
+        "name": "Chicualacuala Rio",
+        "administrativePostId": "adm_post_gaza_chicualacuala_eduardo_mondlane"
+      },
+      {
+        "id": "locality_gaza_chicualacuala_eduardo_mondlane_chitanga",
+        "name": "Chitanga",
+        "administrativePostId": "adm_post_gaza_chicualacuala_eduardo_mondlane"
+      },
+      {
+        "id": "locality_gaza_chicualacuala_eduardo_mondlane_vila_eduardo_mondlane",
+        "name": "Vila Eduardo Mondlane",
+        "administrativePostId": "adm_post_gaza_chicualacuala_eduardo_mondlane"
+      },
+      {
+        "id": "locality_gaza_chicualacuala_pafuri_macandezulo",
+        "name": "Macandezulo",
+        "administrativePostId": "adm_post_gaza_chicualacuala_pafuri"
+      },
+      {
+        "id": "locality_gaza_chicualacuala_pafuri_mbuzi",
+        "name": "Mbuzi",
+        "administrativePostId": "adm_post_gaza_chicualacuala_pafuri"
+      }
+    ],
+    "status": "BLOCKED_SOURCE_CONFLICT",
+    "reason": "The reconciled historical set has 5 candidates but INE Gaza 2024 reports 4 current localities. Vila Eduardo Mondlane is the district seat, yet other recent official records still use 'Localidade Vila Eduardo Mondlane', so excluding it solely because it is a vila would be unsafe.",
+    "evidence": [
+      "INE Gaza Statistical Yearbook 2024: Chicualacuala = 2 administrative posts and 4 localities.",
+      "INE Chicualacuala 2020 profile: 2 administrative posts and 5 localities.",
+      "Recent official records continue to refer to Vila Eduardo Mondlane as a territorial locality/seat in some contexts, creating a classification conflict."
+    ],
+    "nextEvidenceNeeded": "A current official Chicualacuala locality-by-name list that resolves whether Vila Eduardo Mondlane remains a locality and identifies the four current localities."
+  },
+  {
+    "districtId": "dist_gaza_chokwe",
+    "district": "Chókwè",
+    "historicalCandidates": 8,
+    "currentINECount": 7,
+    "difference": 1,
+    "candidates": [
+      {
+        "id": "locality_gaza_chokwe_lionde_conhane",
+        "name": "Conhane",
+        "administrativePostId": "adm_post_gaza_chokwe_lionde"
+      },
+      {
+        "id": "locality_gaza_chokwe_lionde_lionde_sede",
+        "name": "Lionde-Sede",
+        "administrativePostId": "adm_post_gaza_chokwe_lionde"
+      },
+      {
+        "id": "locality_gaza_chokwe_lionde_malau",
+        "name": "Malau",
+        "administrativePostId": "adm_post_gaza_chokwe_lionde"
+      },
+      {
+        "id": "locality_gaza_chokwe_macarretane_macarretane_sede",
+        "name": "Macarretane-Sede",
+        "administrativePostId": "adm_post_gaza_chokwe_macarretane"
+      },
+      {
+        "id": "locality_gaza_chokwe_macarretane_machinho",
+        "name": "Machinho",
+        "administrativePostId": "adm_post_gaza_chokwe_macarretane"
+      },
+      {
+        "id": "locality_gaza_chokwe_macarretane_matuba",
+        "name": "Matuba",
+        "administrativePostId": "adm_post_gaza_chokwe_macarretane"
+      },
+      {
+        "id": "locality_gaza_chokwe_xilembene_chiduachine",
+        "name": "Chiduachine",
+        "administrativePostId": "adm_post_gaza_chokwe_xilembene"
+      },
+      {
+        "id": "locality_gaza_chokwe_xilembene_vila_de_xilembene",
+        "name": "Vila de Xilembene",
+        "administrativePostId": "adm_post_gaza_chokwe_xilembene"
+      }
+    ],
+    "status": "BLOCKED_SOURCE_CONFLICT",
+    "reason": "The reconciled historical rural set has 8 candidates while INE Gaza 2024 reports 7 current localities. Official 2023 electoral material still lists Xilembene-Sede and Chiduachine as localities, so excluding Vila de Xilembene from the historical set without a newer by-name source would risk deleting a real current locality.",
+    "evidence": [
+      "INE Gaza Statistical Yearbook 2024: Chókwè = 4 administrative posts, 7 localities and 8 city neighborhoods.",
+      "Official 2023 electoral tables list locality-level units including Lionde-Sede, Malau, Conhane, Machinho, Matuba, Xilembene-Sede and Chiduachine, plus urban localities under Chókwè-Sede.",
+      "Older government/INE profiles distinguish the Vila de Chilembene/Xilembene from locality structures inconsistently across years."
+    ],
+    "nextEvidenceNeeded": "INE 2024 cartographic/locality-by-name data for Chókwè clarifying which one of the eight reconciled rural candidates is no longer counted as a current locality."
+  }
+]

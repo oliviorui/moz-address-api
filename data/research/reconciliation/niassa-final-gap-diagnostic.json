@@ -1,0 +1,154 @@
+{
+  "generatedAt": "2026-10-23T14:03:16.716Z",
+  "province": "Niassa",
+  "status": "PARTIAL_FINAL_GAPS",
+  "referenceCounts": {
+    "source": "INE Niassa 2024 territorial table",
+    "province": {
+      "administrativePosts": 45,
+      "localities": 97,
+      "cityNeighborhoods": 22
+    }
+  },
+  "districts": {
+    "Sanga": {
+      "historicalCount": 7,
+      "currentExpectedCount": 8,
+      "delta": 1,
+      "historicalCandidates": [
+        {
+          "administrativePost": "Lussimbesse",
+          "locality": "Canjamba"
+        },
+        {
+          "administrativePost": "Lussimbesse",
+          "locality": "Luchimua"
+        },
+        {
+          "administrativePost": "Lussimbesse",
+          "locality": "Nsauca"
+        },
+        {
+          "administrativePost": "Macaloge",
+          "locality": "Lumbiza/Njesse"
+        },
+        {
+          "administrativePost": "Macaloge",
+          "locality": "Macaloge-sede"
+        },
+        {
+          "administrativePost": "Matchedje",
+          "locality": "Matchedje-Sede"
+        },
+        {
+          "administrativePost": "Unango",
+          "locality": "Sanga-Sede"
+        }
+      ],
+      "status": "STRUCTURAL_RECONCILIATION_REQUIRED",
+      "notes": [
+        "Current expected count is 8, historical count is 7.",
+        "The administrative-post structure changed materially between historical and current sources.",
+        "Current documents reference posts such as Matchedje, Massangulo, Lussangue and Lussimbesse, while historical records include Macaloge and Unango.",
+        "Do not infer the eighth locality from district-seat or post-name changes alone."
+      ]
+    },
+    "Mecanhelas": {
+      "historicalCount": 6,
+      "currentExpectedCount": 7,
+      "delta": 1,
+      "historicalCandidates": [
+        {
+          "administrativePost": "Chiuta",
+          "locality": "Chiuta-Sede"
+        },
+        {
+          "administrativePost": "Chiuta",
+          "locality": "Matequesso"
+        },
+        {
+          "administrativePost": "Insaca",
+          "locality": "Chissaua"
+        },
+        {
+          "administrativePost": "Insaca",
+          "locality": "Entre Lagos"
+        },
+        {
+          "administrativePost": "Insaca",
+          "locality": "Iataria (Chamba)"
+        },
+        {
+          "administrativePost": "Insaca",
+          "locality": "Insaca-Sede"
+        }
+      ],
+      "status": "LIKELY_SPLIT_REQUIRES_HIERARCHY_CONFIRMATION",
+      "candidateResolution": {
+        "historical": "Iataria (Chamba)",
+        "possibleCurrentRecords": [
+          "Iataria",
+          "Chamba"
+        ],
+        "rationale": [
+          "Recent sources refer to Iataria and Chamba separately as localities in Mecanhelas.",
+          "Do not promote until both names and their current administrative-post parent are confirmed from an authoritative current source."
+        ]
+      }
+    },
+    "Marrupa": {
+      "historicalCount": 7,
+      "currentExpectedCount": 8,
+      "delta": 1,
+      "historicalCandidates": [
+        {
+          "administrativePost": "Marrangira",
+          "locality": "Marangira"
+        },
+        {
+          "administrativePost": "Marrupa-Sede",
+          "locality": "Messalo"
+        },
+        {
+          "administrativePost": "Marrupa-Sede",
+          "locality": "Messenguesse"
+        },
+        {
+          "administrativePost": "Marrupa-Sede",
+          "locality": "Pringilane"
+        },
+        {
+          "administrativePost": "Marrupa-Sede",
+          "locality": "Tumpue"
+        },
+        {
+          "administrativePost": "Marrupa-Sede",
+          "locality": "Vila de Marrupa"
+        },
+        {
+          "administrativePost": "Nungo",
+          "locality": "Nungo-Sede"
+        }
+      ],
+      "status": "UNKNOWN_NEW_LOCALITY",
+      "excludedHypotheses": [
+        {
+          "name": "Manhula",
+          "reason": "2024 government budget/Conta Geral do Estado identifies Manhula as a povoado inside Localidade de Messalo, Posto Administrativo de Marrupa-Sede; it must not be promoted as a locality."
+        }
+      ],
+      "notes": [
+        "Current expected count is 8, historical count is 7.",
+        "The additional locality remains unidentified."
+      ]
+    }
+  },
+  "conclusions": {
+    "safeToPromoteNow": [],
+    "blocked": [
+      "Sanga",
+      "Mecanhelas",
+      "Marrupa"
+    ]
+  }
+}
