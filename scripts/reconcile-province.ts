@@ -39,6 +39,8 @@ type DistrictExpectation = {
 };
 
 type ReconciliationConfig = {
+  auditOnly?: boolean;
+  auditCompare?: Array<"localities" | "neighborhoods" | "administrativePosts">;
   districtAliases?: Record<string, string[]>;
   postAliases?: Record<string, Record<string, string[]>>;
   ignoreHistoricalLocalities?: Record<string, string[]>;
@@ -282,8 +284,9 @@ const currentPosts = posts.filter((p) =>
 );
 
 if (
+  !config.auditOnly &&
   currentPosts.length !==
-  config.province.expectedAdministrativePosts
+    config.province.expectedAdministrativePosts
 ) {
   throw new Error(
     `${config.province.name}: expected ${config.province.expectedAdministrativePosts} canonical administrative posts, found ${currentPosts.length}.`,
@@ -350,19 +353,33 @@ for (const district of provinceDistricts) {
       ),
   );
 
-  const historicalLocalities = effectiveHistorical.filter(
+  const deduplicatedHistorical = [
+    ...new Map(
+      effectiveHistorical.map((record) => [
+        [
+          normalize(record.district),
+          normalize(record.administrativePost),
+          normalize(record.locality),
+          normalize(record.neighborhood),
+        ].join("|"),
+        record,
+      ]),
+    ).values(),
+  ];
+
+  const historicalLocalities = deduplicatedHistorical.filter(
     (r) =>
       isApplicable(r.locality) &&
       !isApplicable(r.neighborhood),
   ).length;
 
-  const historicalNeighborhoods = effectiveHistorical.filter(
+  const historicalNeighborhoods = deduplicatedHistorical.filter(
     (r) => isApplicable(r.neighborhood),
   ).length;
 
   const historicalPostNames = [
     ...new Set(
-      effectiveHistorical
+      deduplicatedHistorical
         .map((r) => r.administrativePost)
         .filter(
           (v): v is string => isApplicable(v),
@@ -375,6 +392,17 @@ for (const district of provinceDistricts) {
     .map((p) => p.name)
     .sort((a, b) => a.localeCompare(b, "pt"));
 
+  const auditCompare = new Set(
+    config.auditCompare ??
+      ["localities", "neighborhoods", "administrativePosts"],
+  );
+  const compareAdministrativePosts =
+    !config.auditOnly || auditCompare.has("administrativePosts");
+  const effectiveCurrentPostNames =
+    config.auditOnly && !compareAdministrativePosts
+      ? historicalPostNames
+      : canonicalPostNames;
+
   const historicalByNormalized = new Map(
     historicalPostNames.map((name) => [normalize(name), name]),
   );
@@ -382,7 +410,7 @@ for (const district of provinceDistricts) {
   const acceptedHistoricalNamesByCurrent =
     new Map<string, Set<string>>();
 
-  for (const currentName of canonicalPostNames) {
+  for (const currentName of effectiveCurrentPostNames) {
     const accepted = new Set<string>([
       normalize(currentName),
       ...getPostAliases(
@@ -406,7 +434,7 @@ for (const district of provinceDistricts) {
       ),
   );
 
-  const currentOnlyPosts = canonicalPostNames.filter(
+  const currentOnlyPosts = effectiveCurrentPostNames.filter(
     (currentName) => {
       const accepted =
         acceptedHistoricalNamesByCurrent.get(currentName) ??
@@ -420,8 +448,10 @@ for (const district of provinceDistricts) {
   );
 
   const countGap =
-    historicalLocalities !== expectation.localities ||
-    historicalNeighborhoods !== expectation.neighborhoods;
+    ((!config.auditOnly || auditCompare.has("localities")) &&
+      historicalLocalities !== expectation.localities) ||
+    ((!config.auditOnly || auditCompare.has("neighborhoods")) &&
+      historicalNeighborhoods !== expectation.neighborhoods);
 
   const status: DistrictResult["status"] = countGap
     ? "COUNT_GAP"
@@ -438,11 +468,11 @@ for (const district of provinceDistricts) {
       neighborhoods: historicalNeighborhoods,
       administrativePosts: historicalPostNames,
       localityNamesByPost: groupHistoricalNamesByPost(
-        effectiveHistorical,
+        deduplicatedHistorical,
         "locality",
       ),
       neighborhoodNamesByPost: groupHistoricalNamesByPost(
-        effectiveHistorical,
+        deduplicatedHistorical,
         "neighborhood",
       ),
     },
@@ -497,6 +527,12 @@ const summary = {
 
 const report = {
   generatedAt: new Date().toISOString(),
+  audit: {
+    enabled: Boolean(config.auditOnly),
+    compare: config.auditCompare ??
+      ["localities", "neighborhoods", "administrativePosts"],
+    promotionAllowed: !config.auditOnly,
+  },
   province: config.province,
   totals: {
     historical: historicalTotals,

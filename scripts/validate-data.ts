@@ -157,6 +157,7 @@ const expectedDistrictCounts: Record<string, number> = {
 const expectedAdministrativePostCountsByProvince:
   Record<string, number> = {
     prov_01: 45,
+    prov_02: 56,
     prov_03: 72,
     prov_04: 54,
     prov_05: 36,
@@ -190,6 +191,25 @@ const expectedAdministrativePostCountsByDistrict:
     dist_niassa_ngauma: 2,
     dist_niassa_chimbunila: 2,
     dist_niassa_majune: 3,
+
+    // Cabo Delgado
+    dist_cabo_delgado_pemba: 0,
+    dist_cabo_delgado_ancuabe: 3,
+    dist_cabo_delgado_balama: 4,
+    dist_cabo_delgado_chiure: 6,
+    dist_cabo_delgado_ibo: 2,
+    dist_cabo_delgado_macomia: 4,
+    dist_cabo_delgado_mecufi: 2,
+    dist_cabo_delgado_meluco: 2,
+    dist_cabo_delgado_metuge: 2,
+    dist_cabo_delgado_mocimboa_da_praia: 3,
+    dist_cabo_delgado_montepuez: 5,
+    dist_cabo_delgado_mueda: 5,
+    dist_cabo_delgado_muidumbe: 3,
+    dist_cabo_delgado_namuno: 6,
+    dist_cabo_delgado_nangade: 2,
+    dist_cabo_delgado_palma: 4,
+    dist_cabo_delgado_quissanga: 3,
 
     // Maputo Province
     dist_maputo_matola: 3,

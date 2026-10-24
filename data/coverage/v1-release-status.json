@@ -1,0 +1,30 @@
+{
+  "generatedAt": "2026-10-24T09:40:56.778Z",
+  "release": "v1.0.0",
+  "policy": "Documented official-source gaps do not block release. Engineering integrity checks do.",
+  "coverageDispositions": {
+    "completeOrEffectivelyComplete": [
+      "Maputo",
+      "Cidade de Maputo",
+      "Nampula",
+      "Sofala",
+      "Inhambane",
+      "Tete",
+      "Manica"
+    ],
+    "acceptedPartialForV1": [
+      "Niassa",
+      "Gaza",
+      "Zambézia",
+      "Cabo Delgado"
+    ]
+  },
+  "remainingReleaseGates": [
+    "npm run data:validate",
+    "npm run db:seed",
+    "npm run typecheck",
+    "npm run build",
+    "npm run test:integration",
+    "repository cleanup and documentation audit"
+  ]
+}

@@ -65,7 +65,9 @@ const directNeighborhoodDistrictIds =
   new Set([
     "dist_inhambane_inhambane",
     "dist_inhambane_maxixe",
-    "dist_tete_tete"
+    "dist_tete_tete",
+    "dist_cabo_delgado_pemba",
+    "dist_manica_chimoio"
   ]);
 
 function allowsDirectNeighborhoods(

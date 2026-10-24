@@ -119,8 +119,6 @@
     "accessedAt": "2026-10-20",
     "notes": "Official INE statistical yearbook used to verify the seven municipal districts of Maputo City."
   },
-
-
   {
     "id": "ine-niassa-territorial-statistics",
     "institution": "Instituto Nacional de Estatística",
@@ -220,5 +218,25 @@
     "url": "https://cmmaputo.gov.mz/wp-content/uploads/2025/10/PROPOSTA-DO-PDM-2024-2028-31.05.2024-Versao-Pos-Sessao-do-CM-2.pdf",
     "accessedAt": "2026-10-21",
     "notes": "Official municipal source for Maputo City neighborhood names. The document prose mentions 64 neighborhoods, but its enumerated district lists total 63; INE 2024 independently confirms 63."
+  },
+  {
+    "id": "cabo-delgado-56-posts-verified-2022",
+    "institution": "Electricidade de Moçambique / Governo de Moçambique",
+    "title": "Cabo Delgado — 56 postos administrativos existentes; electrificação do PA de Impire",
+    "type": "OFFICIAL",
+    "year": 2022,
+    "url": "https://www.edm.flexibihost.com/pt/website-mobile/article/not%C3%ADcia/posto-administrativo-de-ipire-est%C3%A1-ligado-%C3%A0-rede-el%C3%A9ctrica-nacional-0",
+    "accessedAt": "2026-10-23",
+    "notes": "Official government utility publication explicitly states that Cabo Delgado had 56 administrative posts. Names are cross-checked against INE/district administrative publications; this source is used as the province-level count checksum."
+  },
+  {
+    "id": "ine-cabo-delgado-province-yearbook-2023",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico da Província de Cabo Delgado, 2023",
+    "type": "OFFICIAL",
+    "year": 2023,
+    "url": "https://www.ine.gov.mz/documents/20119/277959/Anuario%20de%20Cabo%20de%20Delgado%202023.pdf",
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE territorial baseline used for coherent district-level locality and neighborhood counts in Cabo Delgado."
   }
 ]

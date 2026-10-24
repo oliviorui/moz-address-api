@@ -1,0 +1,1181 @@
+[
+  {
+    "id": "locality_cabo_delgado_ancuabe_ancuabe_sede_ancuabe_sede",
+    "code": null,
+    "name": "Ancuabe-Sede",
+    "slug": "ancuabe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_ancuabe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_ancuabe_sede_gihote",
+    "code": null,
+    "name": "Gihote",
+    "slug": "gihote",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_ancuabe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_ancuabe_sede_nacuale",
+    "code": null,
+    "name": "Nacuale",
+    "slug": "nacuale",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_ancuabe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_metoro_metoro_sede",
+    "code": null,
+    "name": "Metoro-Sede",
+    "slug": "metoro-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_metoro",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_metoro_salaue",
+    "code": null,
+    "name": "Salaue",
+    "slug": "salaue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_metoro",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_meza_campine",
+    "code": null,
+    "name": "Campine",
+    "slug": "campine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_meza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_meza_meza_sede",
+    "code": null,
+    "name": "Meza-Sede",
+    "slug": "meza-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_meza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_meza_minheuene",
+    "code": null,
+    "name": "Minheuene",
+    "slug": "minheuene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_meza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ancuabe_meza_nanjua",
+    "code": null,
+    "name": "Nanjua",
+    "slug": "nanjua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_meza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_balama_sede_balama_sede_ntete",
+    "code": null,
+    "name": "Balama-Sede (Ntete)",
+    "slug": "balama-sede-ntete",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_balama_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_balama_sede_muripa",
+    "code": null,
+    "name": "Muripa",
+    "slug": "muripa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_balama_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_impire_namara",
+    "code": null,
+    "name": "Namara",
+    "slug": "namara",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_impire",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_impire_sivaca",
+    "code": null,
+    "name": "Sivaca",
+    "slug": "sivaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_impire",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_kwekwe_jamira",
+    "code": null,
+    "name": "Jamira",
+    "slug": "jamira",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_kwekwe",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_kwekwe_tauane",
+    "code": null,
+    "name": "Tauane",
+    "slug": "tauane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_kwekwe",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_balama_mavala_mpaka",
+    "code": null,
+    "name": "Mpaka",
+    "slug": "mpaka",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_balama_mavala",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_chiure_sede_jonga",
+    "code": null,
+    "name": "Jonga",
+    "slug": "jonga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_chiure_sede_milamba",
+    "code": null,
+    "name": "Milamba",
+    "slug": "milamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_chiure_velho_chiure_velho_sede",
+    "code": null,
+    "name": "Chiure Velho Sede",
+    "slug": "chiure-velho-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_velho",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_chiure_velho_micolene",
+    "code": null,
+    "name": "Micolene",
+    "slug": "micolene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_velho",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_chiure_velho_mugipala",
+    "code": null,
+    "name": "Mugipala",
+    "slug": "mugipala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_velho",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_katapua_meculane",
+    "code": null,
+    "name": "Meculane",
+    "slug": "meculane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_katapua",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_mazeze_juravo",
+    "code": null,
+    "name": "Juravo",
+    "slug": "juravo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_mazeze",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_mazeze_mazeze_sede",
+    "code": null,
+    "name": "Mazeze-Sede",
+    "slug": "mazeze-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_mazeze",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_mazeze_murrocue",
+    "code": null,
+    "name": "Murrocue",
+    "slug": "murrocue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_mazeze",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_namogelia_bilibiza",
+    "code": null,
+    "name": "Bilibiza",
+    "slug": "bilibiza",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_namogelia",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_namogelia_namogelia_sede",
+    "code": null,
+    "name": "Namogelia-Sede",
+    "slug": "namogelia-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_namogelia",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_ocua_marera",
+    "code": null,
+    "name": "Marera",
+    "slug": "marera",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_ocua",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_ocua_ocua_sede",
+    "code": null,
+    "name": "Ocua-Sede",
+    "slug": "ocua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_ocua",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_chiure_ocua_samora_machel",
+    "code": null,
+    "name": "Samora Machel",
+    "slug": "samora-machel",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_chiure_ocua",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ibo_ibo_sede_matemo",
+    "code": null,
+    "name": "Matemo",
+    "slug": "matemo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ibo_ibo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_ibo_quirimba_quirimba_sede",
+    "code": null,
+    "name": "Quirimba-Sede",
+    "slug": "quirimba-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_ibo_quirimba",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_chai_chai_sede",
+    "code": null,
+    "name": "Chai-Sede",
+    "slug": "chai-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_chai",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_chai_nkoe",
+    "code": null,
+    "name": "Nkoe",
+    "slug": "nkoe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_chai",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_macomia_sede_nacate",
+    "code": null,
+    "name": "Nacate",
+    "slug": "nacate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_macomia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_macomia_sede_nguida",
+    "code": null,
+    "name": "Nguida",
+    "slug": "nguida",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_macomia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_mucojo_manica",
+    "code": null,
+    "name": "Manica",
+    "slug": "manica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_mucojo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_mucojo_mucojo_sede",
+    "code": null,
+    "name": "Mucojo-Sede",
+    "slug": "mucojo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_mucojo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_mucojo_naunde",
+    "code": null,
+    "name": "Naunde",
+    "slug": "naunde",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_mucojo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_mucojo_pangane",
+    "code": null,
+    "name": "Pangane",
+    "slug": "pangane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_mucojo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_quiterajo_ilala_imala",
+    "code": null,
+    "name": "Ilala/Imala",
+    "slug": "ilala-imala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_quiterajo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_macomia_quiterajo_quiterajo_sede",
+    "code": null,
+    "name": "Quiterajo-Sede",
+    "slug": "quiterajo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_macomia_quiterajo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mecufi_mecufi_sede_muaria_sede",
+    "code": null,
+    "name": "Muaria-Sede",
+    "slug": "muaria-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_mecufi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mecufi_mecufi_sede_natuco",
+    "code": null,
+    "name": "Natuco",
+    "slug": "natuco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_mecufi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mecufi_mecufi_sede_sambene",
+    "code": null,
+    "name": "Sambene",
+    "slug": "sambene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_mecufi_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mecufi_murrebue_maueia",
+    "code": null,
+    "name": "Maueia",
+    "slug": "maueia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_murrebue",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mecufi_murrebue_muitua",
+    "code": null,
+    "name": "Muitua",
+    "slug": "muitua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_murrebue",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_meluco_sede_meluco_sede",
+    "code": null,
+    "name": "Meluco-Sede",
+    "slug": "meluco-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_meluco_sede_minhanha",
+    "code": null,
+    "name": "Minhanha",
+    "slug": "minhanha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_meluco_sede_mitepo",
+    "code": null,
+    "name": "Mitepo",
+    "slug": "mitepo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_meluco_sede_ravia",
+    "code": null,
+    "name": "Ravia",
+    "slug": "ravia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_muaguide_citate",
+    "code": null,
+    "name": "Citate",
+    "slug": "citate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_muaguide",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_muaguide_iba",
+    "code": null,
+    "name": "Iba",
+    "slug": "iba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_muaguide",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_muaguide_mitambo",
+    "code": null,
+    "name": "Mitambo",
+    "slug": "mitambo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_muaguide",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_meluco_muaguide_muaguide_sede",
+    "code": null,
+    "name": "Muaguide-Sede",
+    "slug": "muaguide-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_meluco_muaguide",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_metuge_metuge_sede_messanja",
+    "code": null,
+    "name": "Messanja",
+    "slug": "messanja",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_metuge_metuge_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_metuge_metuge_sede_metuge_sede",
+    "code": null,
+    "name": "Metuge-Sede",
+    "slug": "metuge-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_metuge_metuge_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_metuge_metuge_sede_nacuta",
+    "code": null,
+    "name": "Nacuta",
+    "slug": "nacuta",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_metuge_metuge_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_metuge_mieze_mieze_sede",
+    "code": null,
+    "name": "Mieze-Sede",
+    "slug": "mieze-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_metuge_mieze",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_metuge_mieze_nanlia",
+    "code": null,
+    "name": "Nanlia",
+    "slug": "nanlia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_metuge_mieze",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mocimboa_da_praia_diaca_diaca_sede",
+    "code": null,
+    "name": "Diaca-Sede",
+    "slug": "diaca-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_diaca",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mocimboa_da_praia_diaca_nnango",
+    "code": null,
+    "name": "Nnango",
+    "slug": "nnango",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_diaca",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mocimboa_da_praia_mbau_marere",
+    "code": null,
+    "name": "Marere",
+    "slug": "marere",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mbau",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mocimboa_da_praia_mbau_mbau_sede",
+    "code": null,
+    "name": "Mbau-Sede",
+    "slug": "mbau-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mbau",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede_nanquidunga",
+    "code": null,
+    "name": "Nanquidunga",
+    "slug": "nanquidunga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede_quelimane",
+    "code": null,
+    "name": "Quelimane",
+    "slug": "quelimane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mapupulo_mapupulo_sede",
+    "code": null,
+    "name": "Mapupulo-Sede",
+    "slug": "mapupulo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mapupulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mapupulo_massingir",
+    "code": null,
+    "name": "Massingir",
+    "slug": "massingir",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mapupulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mapupulo_mputo",
+    "code": null,
+    "name": "Mputo",
+    "slug": "mputo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mapupulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mirate_sede_chipembe",
+    "code": null,
+    "name": "Chipembe",
+    "slug": "chipembe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mirate_sede_mararange",
+    "code": null,
+    "name": "Mararange",
+    "slug": "mararange",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mirate_sede_mirate_sede",
+    "code": null,
+    "name": "Mirate-Sede",
+    "slug": "mirate-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_mirate_sede_unidade",
+    "code": null,
+    "name": "Unidade",
+    "slug": "unidade",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_nairoto_nacololo",
+    "code": null,
+    "name": "Nacololo",
+    "slug": "nacololo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_nairoto",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_nairoto_nairoto_sede",
+    "code": null,
+    "name": "Nairoto-Sede",
+    "slug": "nairoto-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_nairoto",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_namanhumbir_mpupene",
+    "code": null,
+    "name": "Mpupene",
+    "slug": "mpupene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_namanhumbir",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_montepuez_namanhumbir_namanhumir_sede",
+    "code": null,
+    "name": "Namanhumir-Sede",
+    "slug": "namanhumir-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_namanhumbir",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_chapa_chapa_sede",
+    "code": null,
+    "name": "Chapa-Sede",
+    "slug": "chapa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_chapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_chapa_chudi",
+    "code": null,
+    "name": "Chudi",
+    "slug": "chudi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_chapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_chapa_lipelua",
+    "code": null,
+    "name": "Lipelua",
+    "slug": "lipelua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_chapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_chapa_nanhala",
+    "code": null,
+    "name": "Nanhala",
+    "slug": "nanhala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_chapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_imbuho_imbuho_sede",
+    "code": null,
+    "name": "Imbuho-Sede",
+    "slug": "imbuho-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_imbuho",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_imbuho_namaua",
+    "code": null,
+    "name": "Namaua",
+    "slug": "namaua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_imbuho",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_mueda_sede_litembo",
+    "code": null,
+    "name": "Litembo",
+    "slug": "litembo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_mueda_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_mueda_sede_miula",
+    "code": null,
+    "name": "Miula",
+    "slug": "miula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_mueda_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_mueda_sede_mpeme",
+    "code": null,
+    "name": "Mpeme",
+    "slug": "mpeme",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_mueda_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_negomano_negomano_sede",
+    "code": null,
+    "name": "Negomano-Sede",
+    "slug": "negomano-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_negomano",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_ngapa_chipingo",
+    "code": null,
+    "name": "Chipingo",
+    "slug": "chipingo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_ngapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_ngapa_natsenge",
+    "code": null,
+    "name": "Natsenge",
+    "slug": "natsenge",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_ngapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_ngapa_ngapa_sede",
+    "code": null,
+    "name": "Ngapa-Sede",
+    "slug": "ngapa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_ngapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_mueda_ngapa_nonge",
+    "code": null,
+    "name": "Nonge",
+    "slug": "nonge",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_mueda_ngapa",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_chitunda_chitunda_sede",
+    "code": null,
+    "name": "Chitunda-Sede",
+    "slug": "chitunda-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_chitunda",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_chitunda_miengueleua",
+    "code": null,
+    "name": "Miengueleua",
+    "slug": "miengueleua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_chitunda",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_miteda_miteda_sede",
+    "code": null,
+    "name": "Miteda-Sede",
+    "slug": "miteda-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_miteda",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_miteda_muatide",
+    "code": null,
+    "name": "Muatide",
+    "slug": "muatide",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_miteda",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_muidumbe_sede_mapate",
+    "code": null,
+    "name": "Mapate",
+    "slug": "mapate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_muidumbe_sede_muidumbe_sede",
+    "code": null,
+    "name": "Muidumbe-Sede",
+    "slug": "muidumbe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_muidumbe_sede_namacande",
+    "code": null,
+    "name": "Namacande",
+    "slug": "namacande",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_muidumbe_muidumbe_sede_nampanha",
+    "code": null,
+    "name": "Nampanha",
+    "slug": "nampanha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_hucula_hucula_sede",
+    "code": null,
+    "name": "Hucula-Sede",
+    "slug": "hucula-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_hucula",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_hucula_semenhe",
+    "code": null,
+    "name": "Semenhe",
+    "slug": "semenhe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_hucula",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_machoca_mucheremule",
+    "code": null,
+    "name": "Mucheremule",
+    "slug": "mucheremule",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_machoca",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_machoca_phome",
+    "code": null,
+    "name": "Phome",
+    "slug": "phome",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_machoca",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_meloco_meloco_sede",
+    "code": null,
+    "name": "Meloco-Sede",
+    "slug": "meloco-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_meloco",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_meloco_muatuca",
+    "code": null,
+    "name": "Muatuca",
+    "slug": "muatuca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_meloco",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_namuno_sede_mahusseine",
+    "code": null,
+    "name": "Mahusseine",
+    "slug": "mahusseine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_namuno_sede_milipone",
+    "code": null,
+    "name": "Milipone",
+    "slug": "milipone",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_namuno_sede_nicane",
+    "code": null,
+    "name": "Nicane",
+    "slug": "nicane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_namuno_sede_nicuita",
+    "code": null,
+    "name": "Nicuita",
+    "slug": "nicuita",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_ncumpe_nassupia",
+    "code": null,
+    "name": "Nassupia",
+    "slug": "nassupia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_ncumpe",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_ncumpe_pambara",
+    "code": null,
+    "name": "Pambara",
+    "slug": "pambara",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_ncumpe",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_papai_luli",
+    "code": null,
+    "name": "Luli",
+    "slug": "luli",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_papai",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_namuno_papai_papai_sede",
+    "code": null,
+    "name": "Papai-Sede",
+    "slug": "papai-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_namuno_papai",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_nangade_nangade_sede_litingina",
+    "code": null,
+    "name": "Litingina",
+    "slug": "litingina",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_nangade_nangade_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_nangade_nangade_sede_nangade_sede",
+    "code": null,
+    "name": "Nangade-Sede",
+    "slug": "nangade-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_nangade_nangade_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_nangade_ntamba_itanda",
+    "code": null,
+    "name": "Itanda",
+    "slug": "itanda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_nangade_ntamba",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_nangade_ntamba_mualela",
+    "code": null,
+    "name": "Mualela",
+    "slug": "mualela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_nangade_ntamba",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_nangade_ntamba_nambedo",
+    "code": null,
+    "name": "Nambedo",
+    "slug": "nambedo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_nangade_ntamba",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_palma_olumbe_olumbe_sede",
+    "code": null,
+    "name": "Olumbe-Sede",
+    "slug": "olumbe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_palma_olumbe",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_palma_olumbe_quissangue",
+    "code": null,
+    "name": "Quissangue",
+    "slug": "quissangue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_palma_olumbe",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_palma_palma_sede_mute",
+    "code": null,
+    "name": "Mute",
+    "slug": "mute",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_palma_palma_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_palma_palma_sede_palma_sede",
+    "code": null,
+    "name": "Palma-Sede",
+    "slug": "palma-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_palma_palma_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_palma_pundanhar_pundanhar_sede",
+    "code": null,
+    "name": "Pundanhar-Sede",
+    "slug": "pundanhar-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_palma_pundanhar",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_palma_quionga_quirinde",
+    "code": null,
+    "name": "Quirinde",
+    "slug": "quirinde",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_palma_quionga",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_bilibiza_bilibiza_sede",
+    "code": null,
+    "name": "Bilibiza-Sede",
+    "slug": "bilibiza-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_bilibiza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_bilibiza_napuate",
+    "code": null,
+    "name": "Napuate",
+    "slug": "napuate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_bilibiza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_bilibiza_tororo",
+    "code": null,
+    "name": "Tororo",
+    "slug": "tororo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_bilibiza",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_mahate_cagembe",
+    "code": null,
+    "name": "Cagembe",
+    "slug": "cagembe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_mahate",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_mahate_mahate_sede",
+    "code": null,
+    "name": "Mahate-Sede",
+    "slug": "mahate-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_mahate",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_mahate_namaluco",
+    "code": null,
+    "name": "Namaluco",
+    "slug": "namaluco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_mahate",
+    "districtId": null
+  },
+  {
+    "id": "locality_cabo_delgado_quissanga_quissanga_quissanga",
+    "code": null,
+    "name": "Quissanga",
+    "slug": "quissanga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_quissanga",
+    "districtId": null
+  }
+]

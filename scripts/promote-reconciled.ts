@@ -45,6 +45,9 @@ type Source = {
 };
 
 type Config = {
+  auditOnly?: boolean;
+  auditCompare?: Array<"localities" | "neighborhoods" | "administrativePosts">;
+  promotionLayers?: Array<"localities" | "neighborhoods">;
   districtAliases?: Record<string, string[]>;
   postAliases?: Record<string, Record<string, string[]>>;
   ignoreHistoricalLocalities?: Record<string, string[]>;
@@ -255,6 +258,27 @@ const config = readJson<Config>(
   `${provinceSlug}.json`,
 );
 
+const promotionLayers = new Set(
+  config.promotionLayers ?? ["localities", "neighborhoods"],
+);
+
+if (config.auditOnly) {
+  const auditCompare = new Set(
+    config.auditCompare ??
+      ["localities", "neighborhoods", "administrativePosts"],
+  );
+
+  const unsafePromotionLayer = [...promotionLayers].find(
+    (layer) => !auditCompare.has(layer),
+  );
+
+  if (unsafePromotionLayer) {
+    throw new Error(
+      `${config.province.name}: cannot promote "${unsafePromotionLayer}" because that layer is not included in auditCompare.`,
+    );
+  }
+}
+
 const diagnostic = readJson<Diagnostic>(
   "data",
   "research",
@@ -441,15 +465,33 @@ for (const diagnosticDistrict of exactDistricts) {
   ).length;
 
   if (
-    localityCount !== diagnosticDistrict.expected.localities ||
-    neighborhoodCount !== diagnosticDistrict.expected.neighborhoods
+    promotionLayers.has("localities") &&
+    localityCount !== diagnosticDistrict.expected.localities
   ) {
     throw new Error(
-      `${district.name}: historical records changed since diagnostic; expected ${diagnosticDistrict.expected.localities} localities / ${diagnosticDistrict.expected.neighborhoods} neighborhoods, found ${localityCount}/${neighborhoodCount}.`,
+      `${district.name}: historical locality records changed since diagnostic; expected ${diagnosticDistrict.expected.localities}, found ${localityCount}.`,
     );
   }
 
-  for (const historical of historicalRecords) {
+  if (
+    promotionLayers.has("neighborhoods") &&
+    neighborhoodCount !== diagnosticDistrict.expected.neighborhoods
+  ) {
+    throw new Error(
+      `${district.name}: historical neighborhood records changed since diagnostic; expected ${diagnosticDistrict.expected.neighborhoods}, found ${neighborhoodCount}.`,
+    );
+  }
+
+  const promotableHistoricalRecords = historicalRecords.filter(
+    (record) =>
+      (promotionLayers.has("localities") &&
+        isApplicable(record.locality) &&
+        !isApplicable(record.neighborhood)) ||
+      (promotionLayers.has("neighborhoods") &&
+        isApplicable(record.neighborhood)),
+  );
+
+  for (const historical of promotableHistoricalRecords) {
     const type: CanonicalRecord["type"] = isApplicable(
       historical.neighborhood,
     )
@@ -550,8 +592,10 @@ for (const diagnosticDistrict of exactDistricts) {
 
   summary.push({
     district: district.name,
-    localities: localityCount,
-    neighborhoods: neighborhoodCount,
+    localities: promotionLayers.has("localities") ? localityCount : 0,
+    neighborhoods: promotionLayers.has("neighborhoods")
+      ? neighborhoodCount
+      : 0,
   });
 }
 
@@ -569,8 +613,12 @@ sourceRefs.sort((a, b) =>
 const expectedPromotedCount = exactDistricts.reduce(
   (sum, item) =>
     sum +
-    item.expected.localities +
-    item.expected.neighborhoods,
+    (promotionLayers.has("localities")
+      ? item.expected.localities
+      : 0) +
+    (promotionLayers.has("neighborhoods")
+      ? item.expected.neighborhoods
+      : 0),
   0,
 );
 
@@ -580,7 +628,12 @@ if (outputRecords.length !== expectedPromotedCount) {
   );
 }
 
-const areaName = `${provinceSlug}-exact`;
+const promotedLayerSuffix =
+  promotionLayers.size === 2
+    ? "exact"
+    : [...promotionLayers].sort().join("-") + "-exact";
+
+const areaName = `${provinceSlug}-${promotedLayerSuffix}`;
 
 const canonicalPath = path.join(
   ROOT,

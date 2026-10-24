@@ -2707,5 +2707,397 @@
     "name": "Changalane",
     "slug": "changalane",
     "districtId": "dist_maputo_namaacha"
+  },
+  {
+    "id": "adm_post_cabo_delgado_ancuabe_ancuabe_sede",
+    "code": null,
+    "name": "Ancuabe-Sede",
+    "slug": "ancuabe-sede",
+    "districtId": "dist_cabo_delgado_ancuabe"
+  },
+  {
+    "id": "adm_post_cabo_delgado_ancuabe_metoro",
+    "code": null,
+    "name": "Metoro",
+    "slug": "metoro",
+    "districtId": "dist_cabo_delgado_ancuabe"
+  },
+  {
+    "id": "adm_post_cabo_delgado_ancuabe_meza",
+    "code": null,
+    "name": "Meza",
+    "slug": "meza",
+    "districtId": "dist_cabo_delgado_ancuabe"
+  },
+  {
+    "id": "adm_post_cabo_delgado_balama_balama_sede",
+    "code": null,
+    "name": "Balama-Sede",
+    "slug": "balama-sede",
+    "districtId": "dist_cabo_delgado_balama"
+  },
+  {
+    "id": "adm_post_cabo_delgado_balama_impire",
+    "code": null,
+    "name": "Impire",
+    "slug": "impire",
+    "districtId": "dist_cabo_delgado_balama"
+  },
+  {
+    "id": "adm_post_cabo_delgado_balama_kwekwe",
+    "code": null,
+    "name": "Kwekwe",
+    "slug": "kwekwe",
+    "districtId": "dist_cabo_delgado_balama"
+  },
+  {
+    "id": "adm_post_cabo_delgado_balama_mavala",
+    "code": null,
+    "name": "Mavala",
+    "slug": "mavala",
+    "districtId": "dist_cabo_delgado_balama"
+  },
+  {
+    "id": "adm_post_cabo_delgado_chiure_chiure_sede",
+    "code": null,
+    "name": "Chiúre-Sede",
+    "slug": "chiure-sede",
+    "districtId": "dist_cabo_delgado_chiure"
+  },
+  {
+    "id": "adm_post_cabo_delgado_chiure_chiure_velho",
+    "code": null,
+    "name": "Chiúre Velho",
+    "slug": "chiure-velho",
+    "districtId": "dist_cabo_delgado_chiure"
+  },
+  {
+    "id": "adm_post_cabo_delgado_chiure_katapua",
+    "code": null,
+    "name": "Katapua",
+    "slug": "katapua",
+    "districtId": "dist_cabo_delgado_chiure"
+  },
+  {
+    "id": "adm_post_cabo_delgado_chiure_mazeze",
+    "code": null,
+    "name": "Mazeze",
+    "slug": "mazeze",
+    "districtId": "dist_cabo_delgado_chiure"
+  },
+  {
+    "id": "adm_post_cabo_delgado_chiure_namogelia",
+    "code": null,
+    "name": "Namogelia",
+    "slug": "namogelia",
+    "districtId": "dist_cabo_delgado_chiure"
+  },
+  {
+    "id": "adm_post_cabo_delgado_chiure_ocua",
+    "code": null,
+    "name": "Ocua",
+    "slug": "ocua",
+    "districtId": "dist_cabo_delgado_chiure"
+  },
+  {
+    "id": "adm_post_cabo_delgado_ibo_ibo_sede",
+    "code": null,
+    "name": "Ibo-Sede",
+    "slug": "ibo-sede",
+    "districtId": "dist_cabo_delgado_ibo"
+  },
+  {
+    "id": "adm_post_cabo_delgado_ibo_quirimba",
+    "code": null,
+    "name": "Quirimba",
+    "slug": "quirimba",
+    "districtId": "dist_cabo_delgado_ibo"
+  },
+  {
+    "id": "adm_post_cabo_delgado_macomia_macomia_sede",
+    "code": null,
+    "name": "Macomia-Sede",
+    "slug": "macomia-sede",
+    "districtId": "dist_cabo_delgado_macomia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_macomia_chai",
+    "code": null,
+    "name": "Chai",
+    "slug": "chai",
+    "districtId": "dist_cabo_delgado_macomia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_macomia_mucojo",
+    "code": null,
+    "name": "Mucojo",
+    "slug": "mucojo",
+    "districtId": "dist_cabo_delgado_macomia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_macomia_quiterajo",
+    "code": null,
+    "name": "Quiterajo",
+    "slug": "quiterajo",
+    "districtId": "dist_cabo_delgado_macomia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mecufi_mecufi_sede",
+    "code": null,
+    "name": "Mecúfi-Sede",
+    "slug": "mecufi-sede",
+    "districtId": "dist_cabo_delgado_mecufi"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mecufi_murrebue",
+    "code": null,
+    "name": "Murrebue",
+    "slug": "murrebue",
+    "districtId": "dist_cabo_delgado_mecufi"
+  },
+  {
+    "id": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "code": null,
+    "name": "Meluco-Sede",
+    "slug": "meluco-sede",
+    "districtId": "dist_cabo_delgado_meluco"
+  },
+  {
+    "id": "adm_post_cabo_delgado_meluco_muaguide",
+    "code": null,
+    "name": "Muaguide",
+    "slug": "muaguide",
+    "districtId": "dist_cabo_delgado_meluco"
+  },
+  {
+    "id": "adm_post_cabo_delgado_metuge_metuge_sede",
+    "code": null,
+    "name": "Metuge-Sede",
+    "slug": "metuge-sede",
+    "districtId": "dist_cabo_delgado_metuge"
+  },
+  {
+    "id": "adm_post_cabo_delgado_metuge_mieze",
+    "code": null,
+    "name": "Mieze",
+    "slug": "mieze",
+    "districtId": "dist_cabo_delgado_metuge"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede",
+    "code": null,
+    "name": "Mocímboa da Praia-Sede",
+    "slug": "mocimboa-da-praia-sede",
+    "districtId": "dist_cabo_delgado_mocimboa_da_praia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mocimboa_da_praia_diaca",
+    "code": null,
+    "name": "Diaca",
+    "slug": "diaca",
+    "districtId": "dist_cabo_delgado_mocimboa_da_praia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mocimboa_da_praia_mbau",
+    "code": null,
+    "name": "Mbau",
+    "slug": "mbau",
+    "districtId": "dist_cabo_delgado_mocimboa_da_praia"
+  },
+  {
+    "id": "adm_post_cabo_delgado_montepuez_montepuez_sede",
+    "code": null,
+    "name": "Montepuez-Sede",
+    "slug": "montepuez-sede",
+    "districtId": "dist_cabo_delgado_montepuez"
+  },
+  {
+    "id": "adm_post_cabo_delgado_montepuez_mapupulo",
+    "code": null,
+    "name": "Mapupulo",
+    "slug": "mapupulo",
+    "districtId": "dist_cabo_delgado_montepuez"
+  },
+  {
+    "id": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "code": null,
+    "name": "Mirate-Sede",
+    "slug": "mirate-sede",
+    "districtId": "dist_cabo_delgado_montepuez"
+  },
+  {
+    "id": "adm_post_cabo_delgado_montepuez_nairoto",
+    "code": null,
+    "name": "Nairoto",
+    "slug": "nairoto",
+    "districtId": "dist_cabo_delgado_montepuez"
+  },
+  {
+    "id": "adm_post_cabo_delgado_montepuez_namanhumbir",
+    "code": null,
+    "name": "Namanhumbir",
+    "slug": "namanhumbir",
+    "districtId": "dist_cabo_delgado_montepuez"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mueda_mueda_sede",
+    "code": null,
+    "name": "Mueda-Sede",
+    "slug": "mueda-sede",
+    "districtId": "dist_cabo_delgado_mueda"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mueda_chapa",
+    "code": null,
+    "name": "Chapa",
+    "slug": "chapa",
+    "districtId": "dist_cabo_delgado_mueda"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mueda_imbuho",
+    "code": null,
+    "name": "Imbuho",
+    "slug": "imbuho",
+    "districtId": "dist_cabo_delgado_mueda"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mueda_ngapa",
+    "code": null,
+    "name": "N'gapa",
+    "slug": "ngapa",
+    "districtId": "dist_cabo_delgado_mueda"
+  },
+  {
+    "id": "adm_post_cabo_delgado_mueda_negomano",
+    "code": null,
+    "name": "Negomano",
+    "slug": "negomano",
+    "districtId": "dist_cabo_delgado_mueda"
+  },
+  {
+    "id": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "code": null,
+    "name": "Muidumbe-Sede",
+    "slug": "muidumbe-sede",
+    "districtId": "dist_cabo_delgado_muidumbe"
+  },
+  {
+    "id": "adm_post_cabo_delgado_muidumbe_chitunda",
+    "code": null,
+    "name": "Chitunda",
+    "slug": "chitunda",
+    "districtId": "dist_cabo_delgado_muidumbe"
+  },
+  {
+    "id": "adm_post_cabo_delgado_muidumbe_miteda",
+    "code": null,
+    "name": "Miteda",
+    "slug": "miteda",
+    "districtId": "dist_cabo_delgado_muidumbe"
+  },
+  {
+    "id": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "code": null,
+    "name": "Namuno-Sede",
+    "slug": "namuno-sede",
+    "districtId": "dist_cabo_delgado_namuno"
+  },
+  {
+    "id": "adm_post_cabo_delgado_namuno_hucula",
+    "code": null,
+    "name": "Hucula",
+    "slug": "hucula",
+    "districtId": "dist_cabo_delgado_namuno"
+  },
+  {
+    "id": "adm_post_cabo_delgado_namuno_machoca",
+    "code": null,
+    "name": "Machoca",
+    "slug": "machoca",
+    "districtId": "dist_cabo_delgado_namuno"
+  },
+  {
+    "id": "adm_post_cabo_delgado_namuno_meloco",
+    "code": null,
+    "name": "Meloco",
+    "slug": "meloco",
+    "districtId": "dist_cabo_delgado_namuno"
+  },
+  {
+    "id": "adm_post_cabo_delgado_namuno_ncumpe",
+    "code": null,
+    "name": "Ncumpe",
+    "slug": "ncumpe",
+    "districtId": "dist_cabo_delgado_namuno"
+  },
+  {
+    "id": "adm_post_cabo_delgado_namuno_papai",
+    "code": null,
+    "name": "Papai",
+    "slug": "papai",
+    "districtId": "dist_cabo_delgado_namuno"
+  },
+  {
+    "id": "adm_post_cabo_delgado_nangade_nangade_sede",
+    "code": null,
+    "name": "Nangade-Sede",
+    "slug": "nangade-sede",
+    "districtId": "dist_cabo_delgado_nangade"
+  },
+  {
+    "id": "adm_post_cabo_delgado_nangade_ntamba",
+    "code": null,
+    "name": "Ntamba",
+    "slug": "ntamba",
+    "districtId": "dist_cabo_delgado_nangade"
+  },
+  {
+    "id": "adm_post_cabo_delgado_palma_palma_sede",
+    "code": null,
+    "name": "Palma-Sede",
+    "slug": "palma-sede",
+    "districtId": "dist_cabo_delgado_palma"
+  },
+  {
+    "id": "adm_post_cabo_delgado_palma_olumbe",
+    "code": null,
+    "name": "Olumbe",
+    "slug": "olumbe",
+    "districtId": "dist_cabo_delgado_palma"
+  },
+  {
+    "id": "adm_post_cabo_delgado_palma_pundanhar",
+    "code": null,
+    "name": "Pundanhar",
+    "slug": "pundanhar",
+    "districtId": "dist_cabo_delgado_palma"
+  },
+  {
+    "id": "adm_post_cabo_delgado_palma_quionga",
+    "code": null,
+    "name": "Quionga",
+    "slug": "quionga",
+    "districtId": "dist_cabo_delgado_palma"
+  },
+  {
+    "id": "adm_post_cabo_delgado_quissanga_quissanga",
+    "code": null,
+    "name": "Quissanga",
+    "slug": "quissanga",
+    "districtId": "dist_cabo_delgado_quissanga"
+  },
+  {
+    "id": "adm_post_cabo_delgado_quissanga_bilibiza",
+    "code": null,
+    "name": "Bilibiza",
+    "slug": "bilibiza",
+    "districtId": "dist_cabo_delgado_quissanga"
+  },
+  {
+    "id": "adm_post_cabo_delgado_quissanga_mahate",
+    "code": null,
+    "name": "Mahate",
+    "slug": "mahate",
+    "districtId": "dist_cabo_delgado_quissanga"
   }
 ]

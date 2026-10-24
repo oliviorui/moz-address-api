@@ -1,0 +1,604 @@
+{
+  "generatedAt": "2026-10-23T16:49:15.621Z",
+  "audit": {
+    "enabled": true,
+    "compare": [
+      "localities",
+      "administrativePosts"
+    ],
+    "promotionAllowed": false
+  },
+  "province": {
+    "name": "Manica",
+    "slug": "manica",
+    "expectedAdministrativePosts": 37,
+    "expectedLocalities": 97,
+    "expectedNeighborhoods": 43,
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-manica-province-yearbook-2024",
+    "source": "INE - Anuário Estatístico, Província de Manica, 2024"
+  },
+  "totals": {
+    "historical": {
+      "localities": 97,
+      "neighborhoods": 43
+    },
+    "expectedCurrent": {
+      "localities": 97,
+      "neighborhoods": 43
+    },
+    "canonicalAdministrativePosts": 37
+  },
+  "summary": {
+    "exactStructuralMatches": 12,
+    "postReconciliationRequired": 0,
+    "countGaps": 0
+  },
+  "districts": [
+    {
+      "district": "Chimoio",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 33
+      },
+      "historical": {
+        "localities": 0,
+        "neighborhoods": 33,
+        "administrativePosts": [
+          "Urbano N°1",
+          "Urbano N°2",
+          "Urbano N°3"
+        ],
+        "localityNamesByPost": {},
+        "neighborhoodNamesByPost": {
+          "Urbano N°1": [
+            "25 de Junho",
+            "Agostinho Neto",
+            "Centro Hipico",
+            "Chissui",
+            "Herois Mocambicanos",
+            "Hombwa",
+            "Nhamadjessa",
+            "Nhamatsane",
+            "Tembwe",
+            "Trangapasso"
+          ],
+          "Urbano N°2": [
+            "16 de Junho",
+            "3 de Fevereiro",
+            "7 de Setembro",
+            "Bairro 1",
+            "Bairro 2",
+            "Bairro 3",
+            "Bloco 9",
+            "Chinfura",
+            "Circulo de Mudzingadzi",
+            "Eduardo Modlane",
+            "Josina Machel",
+            "Vila Nova"
+          ],
+          "Urbano N°3": [
+            "1 de Maio",
+            "7 de Abril",
+            "Bairro 4",
+            "Bairro 5",
+            "Chianga",
+            "Francisco Manyanga",
+            "Mudzingadzi",
+            "Nhamaonha",
+            "Nhaurir",
+            "Stanha",
+            "Textafrica"
+          ]
+        }
+      },
+      "current": {
+        "administrativePosts": [
+          "Urbano Nº 1",
+          "Urbano Nº 2",
+          "Urbano Nº 3"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Báruè",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Catandica",
+          "Choa",
+          "Nhampassa"
+        ],
+        "localityNamesByPost": {
+          "Catandica": [
+            "Chuala",
+            "Inhazonia",
+            "Villa de Catandica"
+          ],
+          "Choa": [
+            "Choa-sede",
+            "Nhabuto",
+            "Nhauroa"
+          ],
+          "Nhampassa": [
+            "Nhampassa-Sede",
+            "Nhassacara"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Catandica",
+          "Choa",
+          "Nhampassa"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Gondola",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 9,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Amatongas",
+          "Cafumpe",
+          "Gondola",
+          "Inchope"
+        ],
+        "localityNamesByPost": {
+          "Amatongas": [
+            "Amatongas-Sede",
+            "Nhambonda"
+          ],
+          "Cafumpe": [
+            "Cafumpe-Sede",
+            "Chiongo",
+            "Mudima"
+          ],
+          "Gondola": [
+            "Villa de Gondola"
+          ],
+          "Inchope": [
+            "Doeroi",
+            "Inchope-Sede",
+            "Muda Serracao"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Amatongas",
+          "Cafumpe",
+          "Gondola-Sede",
+          "Inchope"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Guro",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Guro-Sede",
+          "Mandie",
+          "Mungari",
+          "Nhamassonge"
+        ],
+        "localityNamesByPost": {
+          "Guro-Sede": [
+            "Bunga",
+            "Sanga"
+          ],
+          "Mandie": [
+            "Demaufe",
+            "Massangano"
+          ],
+          "Mungari": [
+            "Bamba",
+            "Chivuli"
+          ],
+          "Nhamassonge": [
+            "Nhacaduzuduzu",
+            "Thanda"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Guro-Sede",
+          "Mandie",
+          "Mungari",
+          "Nhamassonge"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Machaze",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 9,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chitobe",
+          "Save"
+        ],
+        "localityNamesByPost": {
+          "Chitobe": [
+            "Bassane",
+            "Chipopopo",
+            "Chipudje",
+            "Chitobe-Sede",
+            "Mutefo"
+          ],
+          "Save": [
+            "Mavende",
+            "Mazvissanga",
+            "Sambassoca",
+            "Urima"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Chitobe",
+          "Save"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Macossa",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Macossa-Sede",
+          "Nguawala",
+          "Nhamagua"
+        ],
+        "localityNamesByPost": {
+          "Macossa-Sede": [
+            "Macossa-Sede",
+            "Mussangadzi",
+            "Rio dos Elefantes"
+          ],
+          "Nguawala": [
+            "Mussenguere",
+            "Nguawala-Sede",
+            "Nhacassoro"
+          ],
+          "Nhamagua": [
+            "Dunda",
+            "Nhamagua-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Macossa-Sede",
+          "Nguawala",
+          "Nhamagua"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Manica",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 10
+      },
+      "historical": {
+        "localities": 9,
+        "neighborhoods": 10,
+        "administrativePosts": [
+          "Machipanda",
+          "Manica",
+          "Mavonde",
+          "Messica"
+        ],
+        "localityNamesByPost": {
+          "Machipanda": [
+            "Maridza",
+            "Muzongo",
+            "Vila de Machipanda"
+          ],
+          "Mavonde": [
+            "Chitunga",
+            "Mavonde"
+          ],
+          "Messica": [
+            "Bandula",
+            "Chinhambuzi",
+            "Nhaucaca",
+            "Vila de Messica"
+          ]
+        },
+        "neighborhoodNamesByPost": {
+          "Manica": [
+            "25 de Setembro",
+            "7 de Abril",
+            "Cacarue",
+            "Chinhagore",
+            "Chinhamapere",
+            "IV Congresso",
+            "Josina Machel",
+            "Macorreia",
+            "Manhate",
+            "Vumba"
+          ]
+        }
+      },
+      "current": {
+        "administrativePosts": [
+          "Machipanda",
+          "Manica",
+          "Mavonde",
+          "Messica"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Mossurize",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 11,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Chiurairue",
+          "Dacata",
+          "Espungabera"
+        ],
+        "localityNamesByPost": {
+          "Chiurairue": [
+            "Chikuekuete",
+            "Chirera",
+            "Chiurairue-Sede"
+          ],
+          "Dacata": [
+            "Bangonhe",
+            "Dacata-Sede",
+            "Macuvo",
+            "Mave",
+            "Muchenedze"
+          ],
+          "Espungabera": [
+            "Dibi",
+            "Espungabera-Sede",
+            "Matengane"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Chiurairue",
+          "Dacata",
+          "Espungabera"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Sussundenga",
+      "expected": {
+        "localities": 15,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 15,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Dombe",
+          "Muoha",
+          "Rotanda",
+          "Sussundenga-Sede"
+        ],
+        "localityNamesByPost": {
+          "Dombe": [
+            "Bunga",
+            "Dáruè",
+            "Mabaia",
+            "Matarara",
+            "Muoco",
+            "Zinguena"
+          ],
+          "Muoha": [
+            "Muoha-Sede",
+            "Mupandeia"
+          ],
+          "Rotanda": [
+            "Mussapa",
+            "Rotanda-Sede",
+            "Tsetsera"
+          ],
+          "Sussundenga-Sede": [
+            "Matica",
+            "Munhinga",
+            "Nhaurombe",
+            "Vila de Sussundenga"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Dombe",
+          "Muôha",
+          "Rotanda",
+          "Sussundenga-Sede"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Tambara",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 8,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Buzua",
+          "Nhacafula",
+          "Nhacolo"
+        ],
+        "localityNamesByPost": {
+          "Buzua": [
+            "Buzua-Sede",
+            "Marimanao",
+            "Ntheme"
+          ],
+          "Nhacafula": [
+            "Nhacafula-Sede",
+            "Nhacalapho"
+          ],
+          "Nhacolo": [
+            "Casado",
+            "Nhacolo-Sede",
+            "Sabeta"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Buzua",
+          "Nhacafula",
+          "Nhacolo"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Macate",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 7,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Macate-Sede",
+          "Zembe"
+        ],
+        "localityNamesByPost": {
+          "Macate-Sede": [
+            "Chissassa",
+            "Macate-Sede",
+            "Maconha",
+            "Marera"
+          ],
+          "Zembe": [
+            "Boa Vista",
+            "Tranga Passo",
+            "Zembe-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Macate-Sede",
+          "Zembe"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    },
+    {
+      "district": "Vanduzi",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      },
+      "historical": {
+        "localities": 5,
+        "neighborhoods": 0,
+        "administrativePosts": [
+          "Matsinho",
+          "Vanduzi"
+        ],
+        "localityNamesByPost": {
+          "Matsinho": [
+            "Chiremera",
+            "Matsinho-Sede"
+          ],
+          "Vanduzi": [
+            "Chigodole",
+            "Pungue Sul",
+            "Vanduzi-Sede"
+          ]
+        },
+        "neighborhoodNamesByPost": {}
+      },
+      "current": {
+        "administrativePosts": [
+          "Matsinho",
+          "Vanduzi"
+        ]
+      },
+      "historicalOnlyPosts": [],
+      "currentOnlyPosts": [],
+      "status": "EXACT_STRUCTURAL_MATCH"
+    }
+  ]
+}

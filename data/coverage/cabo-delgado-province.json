@@ -1,0 +1,29 @@
+{
+  "provinceId": "prov_02",
+  "province": "Cabo Delgado",
+  "status": "PARTIAL",
+  "releaseDisposition": "ACCEPTED_PARTIAL_FOR_V1",
+  "reference": {
+    "administrativePostsExpected": 56,
+    "localitiesExpected": 131,
+    "neighborhoodBaselineNote": "Older provincial statistical tables are not used as a current canonical neighborhood checksum because current municipal nominal evidence differs for Pemba."
+  },
+  "loaded": {
+    "localities": 131,
+    "neighborhoods": 13
+  },
+  "verified": {
+    "administrativePosts": 56,
+    "localities": 131,
+    "pembaNeighborhoods": 13
+  },
+  "blockers": [
+    {
+      "code": "MISSING_COMPLETE_CURRENT_NOMINAL_LIST",
+      "layer": "neighborhoods",
+      "scope": "remaining Cabo Delgado urban/municipal neighborhood layer",
+      "note": "Pemba current neighborhoods are canonical. Remaining neighborhood names are not promoted without a current authoritative nominal source, even where historical counts appear compatible."
+    }
+  ],
+  "v1Policy": "The unresolved neighborhood layer is explicitly documented and does not block v1.0.0."
+}

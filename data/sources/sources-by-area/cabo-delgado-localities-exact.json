@@ -1,0 +1,22 @@
+[
+  {
+    "id": "ine-mozgis-localities-2017",
+    "institution": "Instituto Nacional de Estatística / MozGIS",
+    "title": "SociedPopulacaoLocalidadeBairro2017",
+    "type": "OFFICIAL",
+    "year": 2017,
+    "url": "https://www.mozgis.gov.mz/server/rest/services/MEF/MEFAAPAnaliseInfraestruturas/MapServer/24",
+    "accessedAt": "2026-10-23",
+    "notes": "Official historical INE/MozGIS locality layer used for locality names and administrative-post hierarchy after reconciliation."
+  },
+  {
+    "id": "ine-cabo-delgado-province-yearbook-2023",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico da Província de Cabo Delgado, 2023",
+    "type": "OFFICIAL",
+    "year": 2023,
+    "url": "https://www.ine.gov.mz/documents/20119/277959/Anuario%20de%20Cabo%20de%20Delgado%202023.pdf",
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE territorial baseline used for coherent district-level locality and neighborhood counts in Cabo Delgado."
+  }
+]

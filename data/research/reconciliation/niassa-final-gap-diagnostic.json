@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-23T14:03:16.716Z",
+  "generatedAt": "2026-10-24T09:19:46.478Z",
   "province": "Niassa",
   "status": "PARTIAL_FINAL_GAPS",
   "referenceCounts": {
@@ -83,18 +83,13 @@
           "locality": "Insaca-Sede"
         }
       ],
-      "status": "LIKELY_SPLIT_REQUIRES_HIERARCHY_CONFIRMATION",
-      "candidateResolution": {
-        "historical": "Iataria (Chamba)",
-        "possibleCurrentRecords": [
-          "Iataria",
-          "Chamba"
-        ],
-        "rationale": [
-          "Recent sources refer to Iataria and Chamba separately as localities in Mecanhelas.",
-          "Do not promote until both names and their current administrative-post parent are confirmed from an authoritative current source."
-        ]
-      }
+      "status": "CURRENT_NOMINAL_SOURCE_REQUIRED",
+      "notes": [
+        "Current expected count remains 7.",
+        "Do NOT split historical Iataria (Chamba) into Iataria + Chamba without explicit current INE confirmation.",
+        "The 2024 electoral delimitation still lists Itaria (Chamba) as one locality.",
+        "Use the INE 2026 Mecanhelas territorial publication as the primary source for the missing seventh locality and current parent post."
+      ]
     },
     "Marrupa": {
       "historicalCount": 7,
@@ -150,5 +145,22 @@
       "Mecanhelas",
       "Marrupa"
     ]
+  },
+  "latestOfficialSources": {
+    "Mecanhelas": {
+      "year": 2026,
+      "title": "0110_Mecanhelas_Junho2026DG",
+      "status": "SOURCE_IDENTIFIED_PENDING_NOMINAL_EXTRACTION"
+    },
+    "Marrupa": {
+      "year": 2026,
+      "title": "0107_Marrupa_Junho2026T",
+      "status": "SOURCE_IDENTIFIED_PENDING_NOMINAL_EXTRACTION"
+    },
+    "Sanga": {
+      "year": 2026,
+      "title": "0116_Sanga_Junho2026DG",
+      "status": "SOURCE_IDENTIFIED_PENDING_NOMINAL_EXTRACTION"
+    }
   }
 }

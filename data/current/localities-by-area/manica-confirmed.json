@@ -790,5 +790,473 @@
     "type": "LOCALITY",
     "administrativePostId": "adm_post_manica_vanduzi_vanduzi",
     "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_machipanda_vila_de_machipanda",
+    "code": null,
+    "name": "Vila de Machipanda",
+    "slug": "vila-de-machipanda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_machipanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_machipanda_maridza",
+    "code": null,
+    "name": "Maridza",
+    "slug": "maridza",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_machipanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_machipanda_muzongo",
+    "code": null,
+    "name": "Muzongo",
+    "slug": "muzongo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_machipanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_vila_de_messica",
+    "code": null,
+    "name": "Vila de Messica",
+    "slug": "vila-de-messica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_bandula",
+    "code": null,
+    "name": "Bandula",
+    "slug": "bandula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_chinhambuzi",
+    "code": null,
+    "name": "Chinhambuzi",
+    "slug": "chinhambuzi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_nhaucaca",
+    "code": null,
+    "name": "Nhaucaca",
+    "slug": "nhaucaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_mavonde_mavonde",
+    "code": null,
+    "name": "Mavonde",
+    "slug": "mavonde",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_mavonde",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_mavonde_chitunga",
+    "code": null,
+    "name": "Chitunga",
+    "slug": "chitunga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_mavonde",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_cacarue",
+    "code": null,
+    "name": "Cacarue",
+    "slug": "cacarue",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_7_de_abril",
+    "code": null,
+    "name": "7 de Abril",
+    "slug": "7-de-abril",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_josina_machel",
+    "code": null,
+    "name": "Josina Machel",
+    "slug": "josina-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_25_de_setembro",
+    "code": null,
+    "name": "25 de Setembro",
+    "slug": "25-de-setembro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_manhate",
+    "code": null,
+    "name": "Manhate",
+    "slug": "manhate",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_iv_congresso",
+    "code": null,
+    "name": "IV Congresso",
+    "slug": "iv-congresso",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_macorreia",
+    "code": null,
+    "name": "Macorreia",
+    "slug": "macorreia",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_chinhagore",
+    "code": null,
+    "name": "Chinhagore",
+    "slug": "chinhagore",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_chinhamapere",
+    "code": null,
+    "name": "Chinhamapere",
+    "slug": "chinhamapere",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_manica_vumba",
+    "code": null,
+    "name": "Vumba",
+    "slug": "vumba",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_manica_manica_manica",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_manica_chimoio_centro_hipico",
+    "code": null,
+    "name": "Centro Hípico",
+    "slug": "centro-hipico",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_nhamadjessa",
+    "code": null,
+    "name": "Nhamadjessa",
+    "slug": "nhamadjessa",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_nhamatsane",
+    "code": null,
+    "name": "Nhamatsane",
+    "slug": "nhamatsane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_25_de_junho",
+    "code": null,
+    "name": "25 de Junho",
+    "slug": "25-de-junho",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_agostinho_neto",
+    "code": null,
+    "name": "Agostinho Neto",
+    "slug": "agostinho-neto",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_chissui",
+    "code": null,
+    "name": "Chissui",
+    "slug": "chissui",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_herois_mocambicanos",
+    "code": null,
+    "name": "Heróis Moçambicanos",
+    "slug": "herois-mocambicanos",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_trangapasso",
+    "code": null,
+    "name": "Trangapasso",
+    "slug": "trangapasso",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_hombwa",
+    "code": null,
+    "name": "Hombwa",
+    "slug": "hombwa",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_tembwe",
+    "code": null,
+    "name": "Tembwe",
+    "slug": "tembwe",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_bloco_9",
+    "code": null,
+    "name": "Bloco 9",
+    "slug": "bloco-9",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_chinfura",
+    "code": null,
+    "name": "Chinfura",
+    "slug": "chinfura",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_eduardo_mondlane",
+    "code": null,
+    "name": "Eduardo Mondlane",
+    "slug": "eduardo-mondlane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_josina_machel",
+    "code": null,
+    "name": "Josina Machel",
+    "slug": "josina-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_vila_nova",
+    "code": null,
+    "name": "Vila Nova",
+    "slug": "vila-nova",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_bairro_1",
+    "code": null,
+    "name": "Bairro 1",
+    "slug": "bairro-1",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_bairro_2",
+    "code": null,
+    "name": "Bairro 2",
+    "slug": "bairro-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_bairro_3",
+    "code": null,
+    "name": "Bairro 3",
+    "slug": "bairro-3",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_3_de_fevereiro",
+    "code": null,
+    "name": "3 de Fevereiro",
+    "slug": "3-de-fevereiro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_7_de_setembro",
+    "code": null,
+    "name": "7 de Setembro",
+    "slug": "7-de-setembro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_16_de_junho",
+    "code": null,
+    "name": "16 de Junho",
+    "slug": "16-de-junho",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_circulo_de_mudzingadzi",
+    "code": null,
+    "name": "Círculo de Mudzingadzi",
+    "slug": "circulo-de-mudzingadzi",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_bairro_4",
+    "code": null,
+    "name": "Bairro 4",
+    "slug": "bairro-4",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_bairro_5",
+    "code": null,
+    "name": "Bairro 5",
+    "slug": "bairro-5",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_7_de_abril",
+    "code": null,
+    "name": "7 de Abril",
+    "slug": "7-de-abril",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_chianga",
+    "code": null,
+    "name": "Chianga",
+    "slug": "chianga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_stanha",
+    "code": null,
+    "name": "Stanha",
+    "slug": "stanha",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_nhauir",
+    "code": null,
+    "name": "Nhauir",
+    "slug": "nhauir",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_1_de_maio",
+    "code": null,
+    "name": "1 de Maio",
+    "slug": "1-de-maio",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_francisco_manyanga",
+    "code": null,
+    "name": "Francisco Manyanga",
+    "slug": "francisco-manyanga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_textafrica",
+    "code": null,
+    "name": "Textáfrica",
+    "slug": "textafrica",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_nhamaonha",
+    "code": null,
+    "name": "Nhamaonha",
+    "slug": "nhamaonha",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
+  },
+  {
+    "id": "neighborhood_manica_chimoio_mudzingadzi",
+    "code": null,
+    "name": "Mudzingadzi",
+    "slug": "mudzingadzi",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_manica_chimoio"
   }
 ]

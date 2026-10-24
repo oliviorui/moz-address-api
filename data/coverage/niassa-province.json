@@ -243,5 +243,15 @@
       },
       "blocker": "Historical 7 vs INE 2024 expected 8; current post structure changed and the additional locality is not yet safely identified."
     }
-  ]
+  ],
+  "releaseDisposition": "ACCEPTED_PARTIAL_FOR_V1",
+  "blockerPolicy": {
+    "code": "BLOCKED_ON_OFFICIAL_SOURCE_EXTRACTION",
+    "note": "The remaining 23 locality records are confined to Mecanhelas (7), Marrupa (8) and Sanga (8). Current INE 2026 territorial publications are identified, but their nominal locality tables have not yet been safely extracted/reconciled. These gaps do not block v1.",
+    "currentOfficialSources": [
+      "0110_Mecanhelas_Junho2026DG",
+      "0107_Marrupa_Junho2026T",
+      "0116_Sanga_Junho2026DG"
+    ]
+  }
 }

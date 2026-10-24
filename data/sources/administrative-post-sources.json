@@ -2320,5 +2320,341 @@
     "sourceId": "ine-gaza-territorial-statistics",
     "page": null,
     "notes": "Verified in official INE territorial statistics for Gaza Province."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_ancuabe_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_metoro",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_meza",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_balama_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_impire",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_kwekwe",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_mavala",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_velho",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_katapua",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_mazeze",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_namogelia",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_ocua",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ibo_ibo_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ibo_quirimba",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_macomia_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_chai",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_mucojo",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_quiterajo",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_mecufi_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_murrebue",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_meluco_muaguide",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_metuge_metuge_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_metuge_mieze",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_diaca",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mbau",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_montepuez_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mapupulo",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_nairoto",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_namanhumbir",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_mueda_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_chapa",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_imbuho",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_ngapa",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_negomano",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_chitunda",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_miteda",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_hucula",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_machoca",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_meloco",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_ncumpe",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_papai",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_nangade_nangade_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_nangade_ntamba",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_palma_sede",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_olumbe",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_pundanhar",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_quionga",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_quissanga",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_bilibiza",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_mahate",
+    "sourceId": "ine-administrative-divisions",
+    "page": null,
+    "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
   }
 ]

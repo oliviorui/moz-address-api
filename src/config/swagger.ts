@@ -14,7 +14,7 @@ export async function registerSwagger(
 
       info: {
         title: "Moz Address API",
-        version: "0.1.0",
+        version: "1.0.0",
 
         description:
           "Open-source REST API for Mozambique's administrative divisions, including provinces, districts, administrative posts, localities and neighborhoods.",

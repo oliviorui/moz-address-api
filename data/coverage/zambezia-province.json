@@ -1,0 +1,62 @@
+{
+  "provinceId": "prov_04",
+  "province": "Zambézia",
+  "status": "PARTIAL",
+  "releaseDisposition": "ACCEPTED_PARTIAL_FOR_V1",
+  "reference": {
+    "source": "INE — Anuário Estatístico, Província da Zambézia, 2024",
+    "localitiesExpected": 191,
+    "neighborhoodsExpected": 128
+  },
+  "loaded": {
+    "localities": 150,
+    "neighborhoods": 0
+  },
+  "verified": {
+    "localities": "Canonical locality layer reconciled for all 22 districts."
+  },
+  "blockers": [
+    {
+      "code": "MISSING_COMPLETE_CURRENT_NOMINAL_LIST",
+      "layer": "neighborhoods",
+      "districts": [
+        "Quelimane",
+        "Gurué",
+        "Mocuba"
+      ],
+      "expectedNeighborhoods": {
+        "Quelimane": 51,
+        "Gurué": 46,
+        "Mocuba": 31
+      },
+      "note": "Current aggregate neighborhood counts are known, but complete authoritative current nominal lists/crosswalks are not available for safe canonical promotion."
+    }
+  ],
+  "urbanDistricts": [
+    {
+      "districtId": "dist_zambezia_quelimane",
+      "district": "Quelimane",
+      "loaded": {
+        "localities": 0,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_gurue",
+      "district": "Gurué",
+      "loaded": {
+        "localities": 0,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_mocuba",
+      "district": "Mocuba",
+      "loaded": {
+        "localities": 0,
+        "neighborhoods": 0
+      }
+    }
+  ],
+  "v1Policy": "The unresolved urban neighborhood layer is explicitly documented and does not block v1.0.0."
+}

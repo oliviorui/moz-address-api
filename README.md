@@ -1,271 +1,242 @@
 # 🇲🇿 moz-address-api
 
-Open-source REST API and dataset for Mozambique's administrative divisions.
+Open-source REST API and canonical dataset for Mozambique's administrative divisions.
 
-`moz-address-api` provides structured and developer-friendly information about Mozambique's provinces, districts, administrative posts and localities.
+The project provides structured, source-aware location data for applications such as e-commerce, logistics, delivery systems, address forms, ERPs, CRMs, fintech and public-sector software.
 
-The project is designed for developers building e-commerce platforms, delivery systems, forms, ERPs, CRMs, government applications, fintech products and other applications that require standardized Mozambican location data.
+## v1.0.0
 
----
+Version 1.0.0 establishes a stable API, canonical administrative hierarchy, PostgreSQL persistence, source provenance, dataset validation and explicit coverage reporting.
 
-## ✨ Features
+### Current canonical dataset
 
-- 🇲🇿 Mozambique administrative divisions
-- Provinces
-- Districts
-- Administrative posts
-- Localities
-- REST API
-- JSON datasets
-- TypeScript support
-- Search
-- PostgreSQL support
-- OpenAPI documentation
-- NPM package planned
-- Open-source
+- **11** province/top-level records
+- **161** districts
+- **443** administrative posts
+- **1080** localities
+- **314** neighborhoods
 
----
+Canonical locality and neighborhood data is loaded from both the main dataset and verified area shards under `data/current/localities-by-area/`.
 
-## 🚀 API
+## Coverage policy
 
-Base URL:
+The project does **not** invent administrative records to force 100% coverage.
+
+Where current official sources conflict, provide aggregate counts without complete nominal lists, or cannot yet be reconciled safely, the gap remains documented instead of being guessed.
+
+### Complete or effectively complete for v1
+
+- Maputo
+- Cidade de Maputo
+- Nampula
+- Sofala
+- Inhambane
+- Tete
+- Manica
+
+### Accepted partial coverage for v1
+
+- Niassa
+- Gaza
+- Zambézia
+- Cabo Delgado
+
+Detailed coverage and blocker information is stored under:
 
 ```text
-/api/v1
+data/coverage/
+data/issues/
 ```
 
-### Get all provinces
+See `data/coverage/README.md` for the release coverage policy.
 
-```http
-GET /api/v1/provinces
-```
+## Administrative model
 
-Example response:
-
-```json
-{
-  "data": [
-    {
-      "id": "prov_10",
-      "code": null,
-      "name": "Maputo",
-      "slug": "maputo",
-      "type": "province",
-      "capital": "Matola"
-    }
-  ],
-  "meta": {
-    "total": 11
-  }
-}
-```
-
-### Get a province
-
-By slug:
-
-```http
-GET /api/v1/provinces/maputo
-```
-
-Or by ID:
-
-```http
-GET /api/v1/provinces/prov_10
-```
-
----
-
-## 🗺 Administrative hierarchy
-
-The project follows the administrative hierarchy used in Mozambique:
+The primary hierarchy is:
 
 ```text
 Mozambique
-└── Province
+└── Province / Cidade de Maputo
     └── District
         └── Administrative Post
             └── Locality
 ```
 
-Maputo City may require specific treatment because its administrative organization differs from the other provinces.
+Urban data may also include neighborhoods. Where the official hierarchy is ambiguous or a municipality publishes neighborhoods independently of state administrative posts, the dataset can preserve district-level neighborhoods without inventing a parent administrative post.
 
----
+## API
 
-## 📦 Planned endpoints
+Default API prefix:
+
+```text
+/api/v1
+```
+
+Core resources:
 
 ```http
 GET /api/v1/provinces
 GET /api/v1/provinces/:identifier
+GET /api/v1/provinces/:identifier/districts
 
 GET /api/v1/districts
 GET /api/v1/districts/:identifier
 
-GET /api/v1/provinces/:provinceId/districts
-
 GET /api/v1/administrative-posts
-GET /api/v1/administrative-posts/:identifier
-
-GET /api/v1/districts/:districtId/administrative-posts
-
 GET /api/v1/localities
-GET /api/v1/localities/:identifier
+GET /api/v1/sources
 
-GET /api/v1/administrative-posts/:id/localities
-
-GET /api/v1/search?q=matola
-
+GET /api/v1/search
 GET /api/v1/tree
+GET /api/v1/coverage
 ```
 
----
+District routes also expose related administrative posts, localities and neighborhoods where available.
 
-## 🛠 Tech stack
+For the complete live route contract, use the generated OpenAPI documentation.
 
-- Node.js
+## OpenAPI / Swagger
+
+When the server is running:
+
+```text
+http://localhost:3333/docs
+```
+
+The API publishes an OpenAPI 3.1 specification through Fastify Swagger.
+
+## Search
+
+Global search covers:
+
+- provinces
+- districts
+- administrative posts
+- localities
+- neighborhoods
+
+Example:
+
+```http
+GET /api/v1/search?q=matola
+```
+
+## Tech stack
+
+- Node.js 24+
 - TypeScript
-- Fastify
+- Fastify 5
 - PostgreSQL
-- Prisma ORM
+- Prisma 7
 - Zod
 - OpenAPI / Swagger
 - Docker
-- Vitest
+- Node test runner through `tsx --test`
 - GitHub Actions
 
----
-
-## 📁 Project structure
+## Project structure
 
 ```text
 moz-address-api/
-│
 ├── data/
-│   ├── current/
-│   ├── raw/
-│   └── sources/
-│
+│   ├── current/          # canonical normalized data
+│   ├── coverage/         # completeness and release coverage state
+│   ├── issues/           # unresolved source/hierarchy issues
+│   ├── research/         # non-canonical reconciliation material
+│   └── sources/          # provenance metadata and references
+├── prisma/
+│   ├── schema.prisma
+│   └── seed.ts
+├── scripts/
+│   ├── fetch-mozgis-localities.ts
+│   ├── reconcile-province.ts
+│   ├── promote-reconciled.ts
+│   ├── validate-data.ts
+│   ├── validate-locality-shards.ts
+│   └── validate-coverage.ts
 ├── src/
-│   ├── config/
-│   ├── modules/
-│   ├── routes/
-│   ├── app.ts
-│   └── server.ts
-│
 ├── tests/
-│
-├── .env.example
-├── LICENSE
-├── README.md
+├── docker-compose.yml
 ├── package.json
-└── tsconfig.json
+└── README.md
 ```
 
----
+Raw local research downloads belong in `data/raw/` and are ignored by Git.
 
-## 💾 Dataset
+## Data principles
 
-The canonical dataset is stored under:
+Canonical records must be backed by verifiable evidence.
 
-```text
-data/current/
-```
+Preferred sources include:
 
-Current files:
+1. Instituto Nacional de Estatística (INE)
+2. Government / legal publications
+3. Municipal authorities
+4. Other authoritative administrative sources
 
-```text
-provinces.json
-districts.json
-administrative-posts.json
-localities.json
-```
+Historical MozGIS/INE data may be used for reconciliation, but historical names are not automatically promoted as current records.
 
-Raw source material and imported datasets are kept separately from normalized data.
+The project intentionally distinguishes:
 
-```text
-data/raw/
-```
+- canonical data
+- historical/research data
+- source metadata
+- unresolved issues
+- coverage status
 
-Information about original data sources is stored under:
+## Development
 
-```text
-data/sources/
-```
-
-This separation allows the project to preserve provenance while providing normalized data to developers.
-
----
-
-## 🔎 Data quality
-
-Administrative information should not be added without a verifiable source.
-
-Where possible, data should include information about:
-
-- Source institution
-- Source document
-- Publication year
-- Source URL
-- Access date
-
-The Instituto Nacional de Estatística de Moçambique (INE) is intended to be one of the primary sources of administrative information.
-
-Community contributions correcting or updating administrative information are welcome, but must include an appropriate source.
-
----
-
-## 🧑‍💻 Development
-
-Clone the repository:
+Clone and install:
 
 ```bash
 git clone https://github.com/oliviorui/moz-address-api.git
-```
-
-Enter the project:
-
-```bash
 cd moz-address-api
-```
-
-Install dependencies:
-
-```bash
 npm install
 ```
 
-Create your environment file:
+Create the environment file:
 
 ```bash
 cp .env.example .env
 ```
 
-Run the development server:
+Start PostgreSQL with Docker if desired:
+
+```bash
+docker compose up -d
+```
+
+Generate Prisma client and seed the database:
+
+```bash
+npm run db:generate
+npm run db:seed
+```
+
+Run development server:
 
 ```bash
 npm run dev
 ```
 
-The API will be available by default at:
+Default server:
 
 ```text
 http://localhost:3333
 ```
 
-Health check:
+Health endpoint:
 
 ```http
 GET /health
 ```
 
----
+## Validation and tests
 
-## 📜 Scripts
-
-Development:
+Dataset validation:
 
 ```bash
-npm run dev
+npm run data:validate
 ```
 
 Type checking:
@@ -280,132 +251,76 @@ Build:
 npm run build
 ```
 
-Production:
+Smoke tests:
 
 ```bash
-npm start
+npm test
 ```
 
----
+Integration tests:
 
-## 🛣 Roadmap
+```bash
+npm run test:integration
+```
 
-### v0.1
+All tests:
 
-- [x] Project foundation
-- [x] TypeScript
-- [x] Fastify
-- [x] Province dataset
-- [x] Provinces endpoint
-- [ ] Province data sources
+```bash
+npm run test:all
+```
 
-### v0.2
+## Data reconciliation tools
 
-- [ ] District dataset
-- [ ] District endpoints
-- [ ] Province → district relationships
+Reconcile one province without modifying canonical data:
 
-### v0.3
+```bash
+npm run data:reconcile -- <province-slug>
+```
 
-- [ ] Administrative posts
-- [ ] Administrative post endpoints
+Promote verified reconciled records:
 
-### v0.4
+```bash
+npm run data:promote -- <province-slug>
+```
 
-- [ ] Localities
-- [ ] Locality endpoints
+These tools are designed to keep historical/research material separate from canonical records until structural checks pass.
 
-### v0.5
+## Database
 
-- [ ] PostgreSQL
-- [ ] Prisma ORM
-- [ ] Database migrations
-- [ ] Database seeding
+Prisma is used for PostgreSQL persistence and query operations.
 
-### v0.6
+Useful commands:
 
-- [ ] Search
-- [ ] Filters
-- [ ] Administrative tree endpoint
+```bash
+npm run db:generate
+npm run db:migrate
+npm run db:seed
+npm run db:studio
+```
 
-### v0.7
+## Contributing
 
-- [ ] Swagger / OpenAPI
-- [ ] API documentation
+Contributions are welcome for:
 
-### v0.8
+- missing or corrected administrative data
+- updated official sources
+- API improvements
+- tests
+- documentation
+- reconciliation rules
 
-- [ ] Automated tests
-- [ ] CI with GitHub Actions
-- [ ] Docker support
+Administrative data contributions should include an authoritative source whenever possible.
 
-### v0.9
+Do not submit inferred locality or neighborhood names merely to make coverage totals match.
 
-- [ ] NPM package
-- [ ] TypeScript package
-- [ ] JSON downloads
+## License
 
-### v1.0
+Source code is licensed under the MIT License.
 
-- [ ] Complete verified dataset
-- [ ] Stable REST API
-- [ ] Public deployment
-- [ ] Complete documentation
+The dataset aggregates and normalizes information from external sources. Source-specific attribution and reuse requirements may differ from the software license and should be respected.
 
----
+## Why this project?
 
-## 🤝 Contributing
+Mozambican applications repeatedly need reliable address hierarchy data. Instead of each project maintaining a different inconsistent list, `moz-address-api` provides a reusable, inspectable and source-aware foundation.
 
-Contributions are welcome.
-
-You can contribute by:
-
-- Adding missing administrative divisions
-- Reporting incorrect data
-- Providing updated official sources
-- Improving documentation
-- Fixing bugs
-- Adding tests
-- Suggesting API improvements
-
-When contributing location data, please provide a reliable source whenever possible.
-
----
-
-## 📄 Licensing
-
-### Source code
-
-The source code of this project is licensed under the MIT License.
-
-### Dataset
-
-The dataset contains information collected and normalized from external sources.
-
-Dataset licensing and attribution requirements may differ from the software license and will be documented according to the terms of the original data providers.
-
----
-
-## 🇲🇿 Why this project?
-
-Developers building applications for Mozambique often need province, district and locality information for:
-
-- Checkout forms
-- Delivery systems
-- Address forms
-- E-commerce
-- Government systems
-- Financial applications
-- CRMs
-- ERPs
-- Registration systems
-
-Instead of every project maintaining its own inconsistent list, `moz-address-api` aims to provide a reusable, verifiable and open foundation for Mozambican administrative location data.
-
----
-
-## ⭐ Support
-
-If this project is useful to you, consider giving the repository a star.
-
-Contributions, corrections and suggestions are welcome.
+If the project is useful, contributions, corrections and repository stars are welcome.

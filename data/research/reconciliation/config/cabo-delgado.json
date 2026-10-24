@@ -1,0 +1,130 @@
+{
+  "auditOnly": true,
+  "auditCompare": [
+    "localities",
+    "administrativePosts"
+  ],
+  "districtAliases": {
+    "Pemba": [
+      "Cidade de Pemba"
+    ]
+  },
+  "ignoreHistoricalLocalities": {
+    "Chiúre": [
+      "Vila de Chiure"
+    ],
+    "Ibo": [
+      "Vila de Ibo"
+    ],
+    "Macomia": [
+      "Vila de Macomia"
+    ],
+    "Mocímboa da Praia": [
+      "Villa de Mocimboa da Praia"
+    ],
+    "Mueda": [
+      "Villa de Mueda"
+    ]
+  },
+  "province": {
+    "name": "Cabo Delgado",
+    "slug": "cabo-delgado",
+    "expectedAdministrativePosts": 56,
+    "expectedLocalities": 131,
+    "expectedNeighborhoods": 78,
+    "source": "INE — Anuário Estatístico da Província de Cabo Delgado, 2023 — Quadro 1.2.1",
+    "sourcePage": "11",
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-cabo-delgado-province-yearbook-2023"
+  },
+  "districts": {
+    "Pemba": {
+      "localities": 0,
+      "neighborhoods": 12
+    },
+    "Ancuabe": {
+      "localities": 9,
+      "neighborhoods": 1
+    },
+    "Balama": {
+      "localities": 7,
+      "neighborhoods": 1
+    },
+    "Chiúre": {
+      "localities": 14,
+      "neighborhoods": 11
+    },
+    "Ibo": {
+      "localities": 2,
+      "neighborhoods": 5
+    },
+    "Macomia": {
+      "localities": 10,
+      "neighborhoods": 9
+    },
+    "Mecúfi": {
+      "localities": 5,
+      "neighborhoods": 1
+    },
+    "Meluco": {
+      "localities": 8,
+      "neighborhoods": 1
+    },
+    "Metuge": {
+      "localities": 5,
+      "neighborhoods": 1
+    },
+    "Mocímboa da Praia": {
+      "localities": 6,
+      "neighborhoods": 8
+    },
+    "Montepuez": {
+      "localities": 11,
+      "neighborhoods": 17
+    },
+    "Mueda": {
+      "localities": 14,
+      "neighborhoods": 6
+    },
+    "Muidumbe": {
+      "localities": 8,
+      "neighborhoods": 1
+    },
+    "Namuno": {
+      "localities": 14,
+      "neighborhoods": 1
+    },
+    "Nangade": {
+      "localities": 5,
+      "neighborhoods": 1
+    },
+    "Palma": {
+      "localities": 6,
+      "neighborhoods": 1
+    },
+    "Quissanga": {
+      "localities": 7,
+      "neighborhoods": 1
+    }
+  },
+  "postAliases": {
+    "Montepuez": {
+      "Montepuez-Sede": [
+        "Cidade de Montepuez"
+      ]
+    },
+    "Muidumbe": {
+      "Muidumbe-Sede": [
+        "Muambula"
+      ]
+    },
+    "Palma": {
+      "Palma-Sede": [
+        "Palma"
+      ]
+    }
+  },
+  "promotionLayers": [
+    "localities"
+  ]
+}

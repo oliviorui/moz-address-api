@@ -98,5 +98,25 @@
     "url": "https://www.ine.gov.mz/web/guest/d/folheto_vanduzi_2026",
     "accessedAt": "2026-10-22",
     "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (5). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  },
+  {
+    "id": "ine-manica-manica-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico do Distrito de Manica, 2025",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": null,
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE 2025 district statistical leaflet. The detailed territorial table enumerates 9 rural localities in Machipanda, Messica and Mavonde. The municipal neighborhood layer remains research-only because the leaflet header and detailed table use inconsistent counting conventions."
+  },
+  {
+    "id": "ine-manica-chimoio-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico da Cidade de Chimoio, 2025",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": null,
+    "accessedAt": "2026-10-24",
+    "notes": "Official INE 2025 Chimoio leaflet. The detailed territorial table explicitly enumerates 33 neighborhoods. Because the same leaflet conflicts on whether Chimoio has 3 or 4 urban administrative posts, neighborhoods are promoted at district level while the post-level grouping remains unresolved."
   }
 ]

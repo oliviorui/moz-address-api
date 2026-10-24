@@ -1,6 +1,6 @@
 {
   "name": "moz-address-api",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Open-source REST API and dataset for Mozambique's administrative divisions.",
   "keywords": [
     "mozambique",

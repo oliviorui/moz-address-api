@@ -238,5 +238,10 @@
     "Chibuto remains incomplete at neighborhood level until a complete current official 32-name list is found.",
     "Bilene, Chicualacuala and Chókwè locality gaps remain blocked where official current count and nominal sources conflict.",
     "A district is marked COMPLETE only when both its loaded locality and neighborhood counts exactly equal the INE 2024 targets."
-  ]
+  ],
+  "releaseDisposition": "ACCEPTED_PARTIAL_FOR_V1",
+  "blockerPolicy": {
+    "code": "BLOCKED_ON_OFFICIAL_SOURCE_CONFLICT",
+    "note": "Bilene, Chibuto, Chicualacuala and Chókwè retain documented current-source conflicts or incomplete official nominal lists. These gaps remain explicit and do not block v1."
+  }
 }

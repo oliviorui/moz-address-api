@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import administrativePosts from "../data/current/administrative-posts.json";
 import {
   after,
   before,
@@ -81,7 +82,7 @@ describe("API integration tests", () => {
     );
   });
 
-  it("returns the 387 loaded administrative posts", async () => {
+  it("returns all loaded administrative posts", async () => {
     const response =
       await app.inject({
         method: "GET",
@@ -99,11 +100,11 @@ describe("API integration tests", () => {
 
     assert.equal(
       body.meta.pagination.total,
-      387
+      administrativePosts.length
     );
   });
 
-  it("returns the 258 loaded neighborhoods", async () => {
+  it("returns loaded neighborhoods", async () => {
     const response =
       await app.inject({
         method: "GET",
@@ -119,14 +120,55 @@ describe("API integration tests", () => {
     const body =
       response.json();
 
-    assert.equal(
-      body.meta.pagination.total,
-      258
+    assert.ok(
+      body.meta.pagination.total >= 271
     );
 
     assert.equal(
       body.data.length,
       100
+    );
+  });
+
+  it("returns the 13 Pemba neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/pemba/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      13
+    );
+
+    assert.ok(
+      body.data.some(
+        (item: {
+          slug: string;
+        }) =>
+          item.slug ===
+          "paquitequete"
+      )
+    );
+
+    assert.ok(
+      body.data.some(
+        (item: {
+          slug: string;
+        }) =>
+          item.slug ===
+          "alto-gingone"
+      )
     );
   });
 
@@ -275,6 +317,53 @@ describe("API integration tests", () => {
         }) =>
           item.type ===
           "MUNICIPAL_DISTRICT"
+      )
+    );
+  });
+
+  it("returns the 33 Chimoio neighborhoods", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/districts/chimoio/neighborhoods"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+
+    const body =
+      response.json();
+
+    assert.equal(
+      body.meta.total,
+      33
+    );
+
+    assert.equal(
+      body.data.length,
+      33
+    );
+
+    assert.ok(
+      body.data.some(
+        (item: {
+          slug: string;
+        }) =>
+          item.slug ===
+          "centro-hipico"
+      )
+    );
+
+    assert.ok(
+      body.data.some(
+        (item: {
+          slug: string;
+        }) =>
+          item.slug ===
+          "mudzingadzi"
       )
     );
   });

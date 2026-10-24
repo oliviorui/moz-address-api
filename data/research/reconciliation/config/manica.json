@@ -1,0 +1,88 @@
+{
+  "auditOnly": true,
+  "auditCompare": [
+    "localities",
+    "administrativePosts"
+  ],
+  "promotionLayers": [
+    "localities"
+  ],
+  "province": {
+    "name": "Manica",
+    "slug": "manica",
+    "expectedAdministrativePosts": 37,
+    "expectedLocalities": 97,
+    "expectedNeighborhoods": 43,
+    "historicalSourceId": "ine-mozgis-localities-2017",
+    "currentSourceId": "ine-manica-province-yearbook-2024",
+    "source": "INE - Anuário Estatístico, Província de Manica, 2024"
+  },
+  "districts": {
+    "Chimoio": {
+      "localities": 0,
+      "neighborhoods": 33
+    },
+    "Gondola": {
+      "localities": 9,
+      "neighborhoods": 0
+    },
+    "Guro": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Macate": {
+      "localities": 7,
+      "neighborhoods": 0
+    },
+    "Machaze": {
+      "localities": 9,
+      "neighborhoods": 0
+    },
+    "Macossa": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Manica": {
+      "localities": 9,
+      "neighborhoods": 10
+    },
+    "Mossurize": {
+      "localities": 11,
+      "neighborhoods": 0
+    },
+    "Sussundenga": {
+      "localities": 15,
+      "neighborhoods": 0
+    },
+    "Tambara": {
+      "localities": 8,
+      "neighborhoods": 0
+    },
+    "Vanduzi": {
+      "localities": 5,
+      "neighborhoods": 0
+    },
+    "Báruè": {
+      "localities": 8,
+      "neighborhoods": 0
+    }
+  },
+  "districtAliases": {
+    "Báruè": [
+      "Barue"
+    ]
+  },
+  "postAliases": {
+    "Chimoio": {
+      "Urbano Nº 1": [
+        "Urbano N°1"
+      ],
+      "Urbano Nº 2": [
+        "Urbano N°2"
+      ],
+      "Urbano Nº 3": [
+        "Urbano N°3"
+      ]
+    }
+  }
+}
