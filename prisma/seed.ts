@@ -27,11 +27,11 @@ import administrativePostSources from "../data/sources/administrative-post-sourc
   type: "json"
 };
 
-import localities from "../data/current/localities.json" with {
+import localities from "../data/generated/localities.json" with {
   type: "json"
 };
 
-import localitySources from "../data/sources/locality-sources.json" with {
+import localitySources from "../data/generated/locality-sources.json" with {
   type: "json"
 };
 

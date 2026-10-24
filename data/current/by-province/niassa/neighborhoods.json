@@ -1,0 +1,200 @@
+[
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_adine",
+    "code": null,
+    "name": "Adine",
+    "slug": "adine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_aeroporto",
+    "code": null,
+    "name": "Aeroporto",
+    "slug": "aeroporto",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_maganga",
+    "code": null,
+    "name": "Maganga",
+    "slug": "maganga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_marocotela",
+    "code": null,
+    "name": "Marocotela",
+    "slug": "marocotela",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_matia",
+    "code": null,
+    "name": "Matia",
+    "slug": "matia",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_mutxora",
+    "code": null,
+    "name": "Mutxora",
+    "slug": "mutxora",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_cuamba_cuamba_sede_rimbane",
+    "code": null,
+    "name": "Rimbane",
+    "slug": "rimbane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_cuamba_cuamba_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_chiuaula_ceramica",
+    "code": null,
+    "name": "Ceramica",
+    "slug": "ceramica",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_chiuaula",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_chiuaula_estacao",
+    "code": null,
+    "name": "Estacao",
+    "slug": "estacao",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_chiuaula",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_chiuaula_lucheringo",
+    "code": null,
+    "name": "Lucheringo",
+    "slug": "lucheringo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_chiuaula",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_lulimile_lulimile",
+    "code": null,
+    "name": "Lulimile",
+    "slug": "lulimile",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_lulimile",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_lulimile_mitava",
+    "code": null,
+    "name": "Mitava",
+    "slug": "mitava",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_lulimile",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_lulimile_nomba",
+    "code": null,
+    "name": "Nomba",
+    "slug": "nomba",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_lulimile",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_massenger_assumane",
+    "code": null,
+    "name": "Assumane",
+    "slug": "assumane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_massenger",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_massenger_massenger",
+    "code": null,
+    "name": "Massenger",
+    "slug": "massenger",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_massenger",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_massenger_sambula",
+    "code": null,
+    "name": "Sambula",
+    "slug": "sambula",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_massenger",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_sanjala_chiulugo",
+    "code": null,
+    "name": "Chiulugo",
+    "slug": "chiulugo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_sanjala_muchenga",
+    "code": null,
+    "name": "Muchenga",
+    "slug": "muchenga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_sanjala_namacula",
+    "code": null,
+    "name": "Namacula",
+    "slug": "namacula",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_sanjala_nzinje",
+    "code": null,
+    "name": "Nzinje",
+    "slug": "nzinje",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_sanjala_popular",
+    "code": null,
+    "name": "Popular",
+    "slug": "popular",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_niassa_lichinga_sanjala_sanjala",
+    "code": null,
+    "name": "Sanjala",
+    "slug": "sanjala",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_niassa_lichinga_sanjala",
+    "districtId": null
+  }
+]

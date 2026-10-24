@@ -1,0 +1,1100 @@
+[
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_cupo",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 6 localities for Funhalouro; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_cupo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_manhica",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 6 localities for Funhalouro; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_manhica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_mavume",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 6 localities for Funhalouro; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_mavume",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_mucuine",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 6 localities for Funhalouro; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_funhalouro_mucuine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_tome_tome_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 6 localities for Funhalouro; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_tome_tome_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_tome_tsenane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 6 localities for Funhalouro; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_funhalouro_tome_tsenane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_nova_mambone_nova_mambone_sede",
+    "sourceId": "ine-govuro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_nova_mambone_nova_mambone_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Govuro."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_nova_mambone_nova_mambone_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_nova_mambone_pande",
+    "sourceId": "ine-govuro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_nova_mambone_pande",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Govuro."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_nova_mambone_pande",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_jofane",
+    "sourceId": "ine-govuro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_jofane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Govuro."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_jofane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_luido",
+    "sourceId": "ine-govuro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_luido",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Govuro."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_luido",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_machacame",
+    "sourceId": "ine-govuro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_machacame",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Govuro."
+  },
+  {
+    "localityId": "locality_inhambane_govuro_save_machacame",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_chinjinguir",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_chinjinguir",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_chinjinguir",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_chizapela",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_chizapela",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_chizapela",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_golo",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_golo",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_golo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_homoine_sede",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_homoine_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_homoine_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_inhamussua",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_inhamussua",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_inhamussua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_mubecua",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_mubecua",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_homoine_mubecua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_pembe_nhaulane",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_pembe_nhaulane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_pembe_nhaulane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_pembe_pembe_sede",
+    "sourceId": "ine-homoine-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 8 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_pembe_pembe_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 8 localities for Homoine."
+  },
+  {
+    "localityId": "locality_inhambane_homoine_pembe_pembe_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_chacane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inharrime."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_chacane",
+    "sourceId": "ine-inharrime-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_chacane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_dongane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inharrime."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_dongane",
+    "sourceId": "ine-inharrime-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_dongane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_inharrime_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inharrime."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_inharrime_sede",
+    "sourceId": "ine-inharrime-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_inharrime_inharrime_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_mocumbi_mahalamba",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inharrime."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_mocumbi_mahalamba",
+    "sourceId": "ine-inharrime-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_mocumbi_mahalamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_mocumbi_nhapadiane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inharrime."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_mocumbi_nhapadiane",
+    "sourceId": "ine-inharrime-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inharrime_mocumbi_nhapadiane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_bazaruto_bazaruto_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inhassoro."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_bazaruto_bazaruto_sede",
+    "sourceId": "ine-inhassoro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_bazaruto_bazaruto_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_cometela",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inhassoro."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_cometela",
+    "sourceId": "ine-inhassoro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_cometela",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_inhassoro_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inhassoro."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_inhassoro_sede",
+    "sourceId": "ine-inhassoro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_inhassoro_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_maimelane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inhassoro."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_maimelane",
+    "sourceId": "ine-inhassoro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_maimelane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_nhapele",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Inhassoro."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_nhapele",
+    "sourceId": "ine-inhassoro-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_inhassoro_inhassoro_nhapele",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_cumbana_bambela",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 5 localities for Jangamo; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_cumbana_bambela",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_cumbana_cumbana_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 5 localities for Jangamo; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_cumbana_cumbana_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_jangamo_jangamo_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 5 localities for Jangamo; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_jangamo_jangamo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_jangamo_ligogo",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 5 localities for Jangamo; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_jangamo_ligogo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_jangamo_massavane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 5 localities for Jangamo; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_jangamo_jangamo_massavane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_mabote_chitanga",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_mabote_chitanga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_mabote_mabote_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_mabote_mabote_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_mabote_papatane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_mabote_papatane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zimane_benzane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zimane_benzane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zimane_zimane_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zimane_zimane_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zinave_maculuve",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zinave_maculuve",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zinave_mussengue",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zinave_mussengue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zinave_tanguane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Mabote; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_mabote_zinave_tanguane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_chicomo_chicomo_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Massinga."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_chicomo_chicomo_sede",
+    "sourceId": "ine-massinga-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_chicomo_chicomo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_chicomo_malamba",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Massinga."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_chicomo_malamba",
+    "sourceId": "ine-massinga-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_chicomo_malamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_guma",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Massinga."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_guma",
+    "sourceId": "ine-massinga-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_guma",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_lionzuane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Massinga."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_lionzuane",
+    "sourceId": "ine-massinga-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_lionzuane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_rovene",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Massinga."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_rovene",
+    "sourceId": "ine-massinga-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to separate the urban Vila record from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_massinga_massinga_rovene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_gotite",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 6 localities for Morrumbene."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_gotite",
+    "sourceId": "ine-morrumbene-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 6 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_gotite",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_mocoduene",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 6 localities for Morrumbene."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_mocoduene",
+    "sourceId": "ine-morrumbene-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 6 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_mocoduene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_sitila",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 6 localities for Morrumbene."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_sitila",
+    "sourceId": "ine-morrumbene-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 6 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_mocodoene_sitila",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_cambine",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 6 localities for Morrumbene."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_cambine",
+    "sourceId": "ine-morrumbene-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 6 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_cambine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_malaia",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 6 localities for Morrumbene."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_malaia",
+    "sourceId": "ine-morrumbene-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 6 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_malaia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_morrumbene_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 6 localities for Morrumbene."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_morrumbene_sede",
+    "sourceId": "ine-morrumbene-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 6 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_morrumbene_morrumbene_morrumbene_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_panda_mawayela_macavelane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_mawayela_macavelane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_mawayela_mawayela_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_mawayela_mawayela_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_chivalo",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_chivalo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_machokwe",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_machokwe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_massalane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_massalane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_panda_sede",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_panda_panda_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_urrene_bilanhane",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_urrene_bilanhane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_panda_urrene_djodjo",
+    "sourceId": "ine-inhambane-province-yearbook-2024",
+    "page": "Quadro 1.2.1",
+    "notes": "INE 2024 confirms exactly 8 localities for Panda; historical unique candidates match this total exactly."
+  },
+  {
+    "localityId": "locality_inhambane_panda_urrene_djodjo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and hierarchy taken from official INE/MozGIS 2017 layer after exact structural mapping."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_belane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Vilankulo."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_belane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_belane",
+    "sourceId": "ine-vilankulo-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_mapinhane_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Vilankulo."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_mapinhane_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_mapinhane_sede",
+    "sourceId": "ine-vilankulo-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_muabsa",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Vilankulo."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_muabsa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_mapinhane_muabsa",
+    "sourceId": "ine-vilankulo-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_vilankulo_queuene",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Vilankulo."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_vilankulo_queuene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_vilankulo_queuene",
+    "sourceId": "ine-vilankulo-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_vilankulo_vilankulo_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 5 localities for Vilankulo."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_vilankulo_vilankulo_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_vilankulo_vilankulo_vilankulo_sede",
+    "sourceId": "ine-vilankulo-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 5 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_quissico_muane",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 4 localities for Zavala."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_quissico_muane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_quissico_muane",
+    "sourceId": "ine-zavala-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 4 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_quissico_quissico_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 4 localities for Zavala."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_quissico_quissico_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_quissico_quissico_sede",
+    "sourceId": "ine-zavala-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 4 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_zandamela_maculuva",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 4 localities for Zavala."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_zandamela_maculuva",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_zandamela_maculuva",
+    "sourceId": "ine-zavala-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 4 locality layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_zandamela_zandamela_sede",
+    "sourceId": "ine-inhambane-yearbook-2024",
+    "page": null,
+    "notes": "Current Inhambane 2024 territorial count confirms 4 localities for Zavala."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_zandamela_zandamela_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy from official historical INE/MozGIS 2017 layer."
+  },
+  {
+    "localityId": "locality_inhambane_zavala_zandamela_zandamela_sede",
+    "sourceId": "ine-zavala-statistics-2020-2024",
+    "page": null,
+    "notes": "Current district publication supports the administrative structure used to reconcile the urban Vila record separately from the 4 locality layer."
+  }
+]

@@ -1,0 +1,83 @@
+[
+  {
+    "id": "neighborhood_tete_tete_chingodzi",
+    "code": null,
+    "name": "Chingodzi",
+    "slug": "chingodzi",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_degue",
+    "code": null,
+    "name": "Dégue",
+    "slug": "degue",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_filipe_samuel_magaia",
+    "code": null,
+    "name": "Filipe Samuel Magaia",
+    "slug": "filipe-samuel-magaia",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_francisco_manyanga",
+    "code": null,
+    "name": "Francisco Manyanga",
+    "slug": "francisco-manyanga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_josina_machel",
+    "code": null,
+    "name": "Josina Machel",
+    "slug": "josina-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_mateus_s_muthemba",
+    "code": null,
+    "name": "Mateus S. Muthemba",
+    "slug": "mateus-s-muthemba",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_matundo",
+    "code": null,
+    "name": "Matundo",
+    "slug": "matundo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_mpadue",
+    "code": null,
+    "name": "Mpadue",
+    "slug": "mpadue",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  },
+  {
+    "id": "neighborhood_tete_tete_samora_machel",
+    "code": null,
+    "name": "Samora Machel",
+    "slug": "samora-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_tete_tete"
+  }
+]

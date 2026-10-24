@@ -1,0 +1,434 @@
+[
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_chaimite",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_chaimite",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_chipangara",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_chipangara",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_esturro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_esturro",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_macurungo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_macurungo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_macuti",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_macuti",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_matacuane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_matacuane",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_pioneiros",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_pioneiros",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_ponta_gea",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_1_central_ponta_gea",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_chota",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_chota",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_mananga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_mananga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_maraza",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_maraza",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_munhava_central",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_munhava_central",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_vaz",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_2_munhava_vaz",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_alto_da_manga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_alto_da_manga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_chingussura",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_chingussura",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_inhaconjo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_inhaconjo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_inhamizua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_inhamizua",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_matadouro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_matadouro",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_vila_massane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_3_inhamizua_vila_massane",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_manga_mascarenhas",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_manga_mascarenhas",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_muave",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_muave",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_mungassa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_mungassa",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_ndunda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_4_manga_loforte_ndunda",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_5_nhangau_nhangau",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_5_nhangau_nhangau",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_5_nhangau_nhangoma",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_5_nhangau_nhangoma",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_5_nhangau_tchonja",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_beira_urbano_5_nhangau_tchonja",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 0 localities and 26 city neighborhoods for Beira."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_canhandula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_canhandula",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_central",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_central",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_consito",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_consito",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_macharote",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_macharote",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_mafarinha",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_mafarinha",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_mandruze",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_mandruze",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_nhamaiabue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_nhamaiabue",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_nhamainga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_nhamainga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_samora_machel",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_samora_machel",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_thundani",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "neighborhood_sofala_dondo_dondo_sede_thundani",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  }
+]

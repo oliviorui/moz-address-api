@@ -16,7 +16,7 @@ Version 1.0.0 establishes a stable API, canonical administrative hierarchy, Post
 - **1080** localities
 - **314** neighborhoods
 
-Canonical locality and neighborhood data is loaded from both the main dataset and verified area shards under `data/current/localities-by-area/`.
+Canonical locality and neighborhood data is organized by province under `data/current/by-province/`. Machine-generated aggregate files are created by `npm run data:build` and are not edited manually.
 
 ## Coverage policy
 
@@ -139,29 +139,36 @@ GET /api/v1/search?q=matola
 ```text
 moz-address-api/
 ├── data/
-│   ├── current/          # canonical normalized data
-│   ├── coverage/         # completeness and release coverage state
-│   ├── issues/           # unresolved source/hierarchy issues
-│   ├── research/         # non-canonical reconciliation material
-│   └── sources/          # provenance metadata and references
+│   ├── current/
+│   │   ├── provinces.json
+│   │   ├── districts.json
+│   │   ├── administrative-posts.json
+│   │   └── by-province/
+│   │       └── <province>/
+│   │           ├── localities.json
+│   │           └── neighborhoods.json
+│   ├── sources/
+│   │   ├── sources.json
+│   │   └── by-province/
+│   │       └── <province>/
+│   │           ├── locality-references.json
+│   │           └── neighborhood-references.json
+│   ├── coverage/
+│   ├── issues/
+│   └── research/
 ├── prisma/
-│   ├── schema.prisma
-│   └── seed.ts
 ├── scripts/
-│   ├── fetch-mozgis-localities.ts
-│   ├── reconcile-province.ts
-│   ├── promote-reconciled.ts
-│   ├── validate-data.ts
-│   ├── validate-locality-shards.ts
-│   └── validate-coverage.ts
 ├── src/
 ├── tests/
-├── docker-compose.yml
-├── package.json
+├── CONTRIBUTING.md
 └── README.md
 ```
 
-Raw local research downloads belong in `data/raw/` and are ignored by Git.
+### Human-edited vs generated data
+
+Contributors edit the canonical province files under `data/current/by-province/` and their source references under `data/sources/by-province/`.
+
+`npm run data:build` compiles those files into `data/generated/` for validation and database seeding. Generated files are ignored by Git and must not be edited manually.
 
 ## Data principles
 
@@ -233,7 +240,13 @@ GET /health
 
 ## Validation and tests
 
-Dataset validation:
+Build machine-readable aggregates:
+
+```bash
+npm run data:build
+```
+
+Dataset validation (builds first automatically):
 
 ```bash
 npm run data:validate

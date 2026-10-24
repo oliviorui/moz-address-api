@@ -166,30 +166,15 @@ async function main() {
       )
     );
 
-  const baseLocalities =
+  const localities =
     await readJson<Locality[]>(
       path.join(
         rootDir,
         "data",
-        "current",
+        "generated",
         "localities.json"
       )
     );
-
-  const shardLocalities =
-    await readJsonArrays<Locality>(
-      path.join(
-        rootDir,
-        "data",
-        "current",
-        "localities-by-area"
-      )
-    );
-
-  const localities = [
-    ...baseLocalities,
-    ...shardLocalities
-  ];
 
   const errors: string[] = [];
 

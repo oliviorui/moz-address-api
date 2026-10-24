@@ -1,0 +1,290 @@
+[
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_1o_bairro",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_1o_bairro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_a",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_a",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_b",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_b",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_4o_bairro",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_4o_bairro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_5o_bairro",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_5o_bairro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_6o_bairro",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_6o_bairro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_2",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_2",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_7",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 8 urban neighborhoods for Chókwè; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_7",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_a",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_a",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_b",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_b",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_a",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_a",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_b",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_b",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_1o_bairro_comunal_xai_xai",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_1o_bairro_comunal_xai_xai",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_2o_bairro_comunal_xai_xai",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_2o_bairro_comunal_xai_xai",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_3o_bairro_comunal_xai_xai",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_3o_bairro_comunal_xai_xai",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_4o_bairro_comunal_xai_xai",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_4o_bairro_comunal_xai_xai",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_a",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_a",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_b",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_b",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_coca_missava",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_municipal_sede_coca_missava",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_a",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_a",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_b",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_b",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_praia_chinunguine",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_praia_chinunguine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_praia_macanwine",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_praia_macanwine",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_praia_praia_cimento",
+    "sourceId": "ine-gaza-province-yearbook-2024",
+    "page": null,
+    "notes": "Current Gaza territorial statistics confirm 16 urban neighborhoods for Xai-Xai; the historical set matches exactly."
+  },
+  {
+    "localityId": "neighborhood_gaza_xai_xai_praia_praia_cimento",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Neighborhood name and administrative-post hierarchy taken from official INE/MozGIS 2017 data."
+  }
+]

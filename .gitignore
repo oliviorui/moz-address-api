@@ -33,3 +33,6 @@ temp/
 # Local data workbench
 data/raw/
 
+
+# Machine-generated canonical aggregates
+data/generated/

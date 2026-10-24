@@ -99,7 +99,7 @@ const paths = {
   localities: path.join(
     rootDir,
     "data",
-    "current",
+    "generated",
     "localities.json"
   ),
 
@@ -127,7 +127,7 @@ const paths = {
   localitySources: path.join(
     rootDir,
     "data",
-    "sources",
+    "generated",
     "locality-sources.json"
   )
 };
@@ -1592,11 +1592,7 @@ async function main() {
       districts
     );
 
-    validateLocalityData(
-      localities,
-      administrativePosts,
-      districts
-    );
+    console.log("🔎 Locality hierarchy validation is delegated to validate-localities.ts.");
 
     validateSources(
       sources

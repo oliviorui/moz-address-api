@@ -1,0 +1,632 @@
+[
+  {
+    "id": "locality_inhambane_funhalouro_funhalouro_cupo",
+    "code": null,
+    "name": "Cupo",
+    "slug": "cupo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_funhalouro_funhalouro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_funhalouro_funhalouro_manhica",
+    "code": null,
+    "name": "Manhica",
+    "slug": "manhica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_funhalouro_funhalouro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_funhalouro_funhalouro_mavume",
+    "code": null,
+    "name": "Mavume",
+    "slug": "mavume",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_funhalouro_funhalouro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_funhalouro_funhalouro_mucuine",
+    "code": null,
+    "name": "Mucuine",
+    "slug": "mucuine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_funhalouro_funhalouro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_funhalouro_tome_tome_sede",
+    "code": null,
+    "name": "Tome-Sede",
+    "slug": "tome-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_funhalouro_tome",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_funhalouro_tome_tsenane",
+    "code": null,
+    "name": "Tsenane",
+    "slug": "tsenane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_funhalouro_tome",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_govuro_nova_mambone_nova_mambone_sede",
+    "code": null,
+    "name": "Nova Mambone-Sede",
+    "slug": "nova-mambone-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_govuro_nova_mambone",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_govuro_nova_mambone_pande",
+    "code": null,
+    "name": "Pande",
+    "slug": "pande",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_govuro_nova_mambone",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_govuro_save_jofane",
+    "code": null,
+    "name": "Jofane",
+    "slug": "jofane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_govuro_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_govuro_save_luido",
+    "code": null,
+    "name": "Luido",
+    "slug": "luido",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_govuro_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_govuro_save_machacame",
+    "code": null,
+    "name": "Machacame",
+    "slug": "machacame",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_govuro_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_homoine_chinjinguir",
+    "code": null,
+    "name": "Chinjinguir",
+    "slug": "chinjinguir",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_homoine",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_homoine_chizapela",
+    "code": null,
+    "name": "Chizapela",
+    "slug": "chizapela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_homoine",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_homoine_golo",
+    "code": null,
+    "name": "Golo",
+    "slug": "golo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_homoine",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_homoine_homoine_sede",
+    "code": null,
+    "name": "Homoine-Sede",
+    "slug": "homoine-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_homoine",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_homoine_inhamussua",
+    "code": null,
+    "name": "Inhamussua",
+    "slug": "inhamussua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_homoine",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_homoine_mubecua",
+    "code": null,
+    "name": "Mubecua",
+    "slug": "mubecua",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_homoine",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_pembe_nhaulane",
+    "code": null,
+    "name": "Nhaulane",
+    "slug": "nhaulane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_pembe",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_homoine_pembe_pembe_sede",
+    "code": null,
+    "name": "Pembe-Sede",
+    "slug": "pembe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_homoine_pembe",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inharrime_inharrime_chacane",
+    "code": null,
+    "name": "Chacane",
+    "slug": "chacane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inharrime_inharrime",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inharrime_inharrime_dongane",
+    "code": null,
+    "name": "Dongane",
+    "slug": "dongane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inharrime_inharrime",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inharrime_inharrime_inharrime_sede",
+    "code": null,
+    "name": "Inharrime-Sede",
+    "slug": "inharrime-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inharrime_inharrime",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inharrime_mocumbi_mahalamba",
+    "code": null,
+    "name": "Mahalamba",
+    "slug": "mahalamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inharrime_mocumbi",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inharrime_mocumbi_nhapadiane",
+    "code": null,
+    "name": "Nhapadiane",
+    "slug": "nhapadiane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inharrime_mocumbi",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inhassoro_bazaruto_bazaruto_sede",
+    "code": null,
+    "name": "Bazaruto-Sede",
+    "slug": "bazaruto-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inhassoro_bazaruto",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inhassoro_inhassoro_cometela",
+    "code": null,
+    "name": "Cometela",
+    "slug": "cometela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inhassoro_inhassoro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inhassoro_inhassoro_inhassoro_sede",
+    "code": null,
+    "name": "Inhassoro-Sede",
+    "slug": "inhassoro-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inhassoro_inhassoro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inhassoro_inhassoro_maimelane",
+    "code": null,
+    "name": "Maimelane",
+    "slug": "maimelane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inhassoro_inhassoro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_inhassoro_inhassoro_nhapele",
+    "code": null,
+    "name": "Nhapele",
+    "slug": "nhapele",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_inhassoro_inhassoro",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_jangamo_cumbana_bambela",
+    "code": null,
+    "name": "Bambela",
+    "slug": "bambela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_jangamo_cumbana",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_jangamo_cumbana_cumbana_sede",
+    "code": null,
+    "name": "Cumbana-Sede",
+    "slug": "cumbana-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_jangamo_cumbana",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_jangamo_jangamo_jangamo_sede",
+    "code": null,
+    "name": "Jangamo-Sede",
+    "slug": "jangamo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_jangamo_jangamo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_jangamo_jangamo_ligogo",
+    "code": null,
+    "name": "Ligogo",
+    "slug": "ligogo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_jangamo_jangamo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_jangamo_jangamo_massavane",
+    "code": null,
+    "name": "Massavane",
+    "slug": "massavane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_jangamo_jangamo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_mabote_chitanga",
+    "code": null,
+    "name": "Chitanga",
+    "slug": "chitanga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_mabote",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_mabote_mabote_sede",
+    "code": null,
+    "name": "Mabote-Sede",
+    "slug": "mabote-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_mabote",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_mabote_papatane",
+    "code": null,
+    "name": "Papatane",
+    "slug": "papatane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_mabote",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_zimane_benzane",
+    "code": null,
+    "name": "Benzane",
+    "slug": "benzane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_zimane",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_zimane_zimane_sede",
+    "code": null,
+    "name": "Zimane-Sede",
+    "slug": "zimane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_zimane",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_zinave_maculuve",
+    "code": null,
+    "name": "Maculuve",
+    "slug": "maculuve",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_zinave",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_zinave_mussengue",
+    "code": null,
+    "name": "Mussengue",
+    "slug": "mussengue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_zinave",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_mabote_zinave_tanguane",
+    "code": null,
+    "name": "Tanguane",
+    "slug": "tanguane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_mabote_zinave",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_massinga_chicomo_chicomo_sede",
+    "code": null,
+    "name": "Chicomo-Sede",
+    "slug": "chicomo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_massinga_chicomo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_massinga_chicomo_malamba",
+    "code": null,
+    "name": "Malamba",
+    "slug": "malamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_massinga_chicomo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_massinga_massinga_guma",
+    "code": null,
+    "name": "Guma",
+    "slug": "guma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_massinga_massinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_massinga_massinga_lionzuane",
+    "code": null,
+    "name": "Lionzuane",
+    "slug": "lionzuane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_massinga_massinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_massinga_massinga_rovene",
+    "code": null,
+    "name": "Rovene",
+    "slug": "rovene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_massinga_massinga",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_morrumbene_mocodoene_gotite",
+    "code": null,
+    "name": "Gotite",
+    "slug": "gotite",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_morrumbene_mocodoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_morrumbene_mocodoene_mocoduene",
+    "code": null,
+    "name": "Mocoduene",
+    "slug": "mocoduene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_morrumbene_mocodoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_morrumbene_mocodoene_sitila",
+    "code": null,
+    "name": "Sitila",
+    "slug": "sitila",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_morrumbene_mocodoene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_morrumbene_morrumbene_cambine",
+    "code": null,
+    "name": "Cambine",
+    "slug": "cambine",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_morrumbene_morrumbene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_morrumbene_morrumbene_malaia",
+    "code": null,
+    "name": "Malaia",
+    "slug": "malaia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_morrumbene_morrumbene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_morrumbene_morrumbene_morrumbene_sede",
+    "code": null,
+    "name": "Morrumbene-Sede",
+    "slug": "morrumbene-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_morrumbene_morrumbene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_mawayela_macavelane",
+    "code": null,
+    "name": "Macavelane",
+    "slug": "macavelane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_mawayela",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_mawayela_mawayela_sede",
+    "code": null,
+    "name": "Mawayela-Sede",
+    "slug": "mawayela-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_mawayela",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_panda_chivalo",
+    "code": null,
+    "name": "Chivalo",
+    "slug": "chivalo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_panda",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_panda_machokwe",
+    "code": null,
+    "name": "Machokwe",
+    "slug": "machokwe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_panda",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_panda_massalane",
+    "code": null,
+    "name": "Massalane",
+    "slug": "massalane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_panda",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_panda_panda_sede",
+    "code": null,
+    "name": "Panda-Sede",
+    "slug": "panda-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_panda",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_urrene_bilanhane",
+    "code": null,
+    "name": "Bilanhane",
+    "slug": "bilanhane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_urrene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_panda_urrene_djodjo",
+    "code": null,
+    "name": "Djodjo",
+    "slug": "djodjo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_panda_urrene",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_vilankulo_mapinhane_belane",
+    "code": null,
+    "name": "Belane",
+    "slug": "belane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_vilankulo_mapinhane",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_vilankulo_mapinhane_mapinhane_sede",
+    "code": null,
+    "name": "Mapinhane-Sede",
+    "slug": "mapinhane-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_vilankulo_mapinhane",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_vilankulo_mapinhane_muabsa",
+    "code": null,
+    "name": "Muabsa",
+    "slug": "muabsa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_vilankulo_mapinhane",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_vilankulo_vilankulo_queuene",
+    "code": null,
+    "name": "Queuene",
+    "slug": "queuene",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_vilankulo_vilankulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_vilankulo_vilankulo_vilankulo_sede",
+    "code": null,
+    "name": "Vilankulo-Sede",
+    "slug": "vilankulo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_vilankulo_vilankulo",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_zavala_quissico_muane",
+    "code": null,
+    "name": "Muane",
+    "slug": "muane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_zavala_quissico",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_zavala_quissico_quissico_sede",
+    "code": null,
+    "name": "Quissico-Sede",
+    "slug": "quissico-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_zavala_quissico",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_zavala_zandamela_maculuva",
+    "code": null,
+    "name": "Maculuva",
+    "slug": "maculuva",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_zavala_zandamela",
+    "districtId": null
+  },
+  {
+    "id": "locality_inhambane_zavala_zandamela_zandamela_sede",
+    "code": null,
+    "name": "Zandamela-Sede",
+    "slug": "zandamela-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_inhambane_zavala_zandamela",
+    "districtId": null
+  }
+]

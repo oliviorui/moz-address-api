@@ -1,0 +1,584 @@
+[
+  {
+    "localityId": "locality_manica_barue_catandica_chuala",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_catandica_inhazonia",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_catandica_villa_de_catandica",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_choa_choa_sede",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_choa_nhabuto",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_choa_nhauroa",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_nhampassa_nhampassa_sede",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_barue_nhampassa_nhassacara",
+    "sourceId": "ine-manica-barue-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_amatongas_amatongas_sede",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_amatongas_nhambonda",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_cafumpe_cafumpe_sede",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_cafumpe_chiongo",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_cafumpe_mudima",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_gondola_sede_villa_de_gondola",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_inchope_doeroi",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_inchope_inchope_sede",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_gondola_inchope_muda_serracao",
+    "sourceId": "ine-manica-gondola-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_guro_sede_bunga",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_guro_sede_sanga",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_mandie_demaufe",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_mandie_massangano",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_mungari_bamba",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_mungari_chivuli",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_nhamassonge_nhacaduzuduzu",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_guro_nhamassonge_thanda",
+    "sourceId": "ine-manica-guro-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_macate_sede_chissassa",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_macate_sede_macate_sede",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_macate_sede_maconha",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_macate_sede_marera",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_zembe_boa_vista",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_zembe_tranga_passo",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macate_zembe_zembe_sede",
+    "sourceId": "ine-manica-macate-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_machaze_bassane",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_machaze_chipopopo",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_machaze_chipudje",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_machaze_chitobe_sede",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_machaze_mutefo",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_save_mavende",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_save_mazvissanga",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_save_sambassoca",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_machaze_save_urima",
+    "sourceId": "ine-manica-machaze-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_macossa_sede_macossa_sede",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_macossa_sede_mussangadzi",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_macossa_sede_rio_dos_elefantes",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_nguawala_mussenguere",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_nguawala_nguawala_sede",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_nguawala_nhacassoro",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_nhamagua_dunda",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_macossa_nhamagua_nhamagua_sede",
+    "sourceId": "ine-manica-macossa-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_manica_machipanda_maridza",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_machipanda_muzongo",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_machipanda_vila_de_machipanda",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_mavonde_chitunga",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_mavonde_mavonde",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_messica_bandula",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_messica_chinhambuzi",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_messica_nhaucaca",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_manica_messica_vila_de_messica",
+    "sourceId": "ine-manica-manica-folheto-2025",
+    "page": null,
+    "notes": "Current rural locality enumerated in the 2025 INE Manica district territorial table. Municipal bairros are intentionally excluded from canonical promotion."
+  },
+  {
+    "localityId": "locality_manica_mossurize_chiuirane_chikuekuete",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_chiuirane_chirera",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_chiuirane_chiurairue_sede",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_dacata_bangonhe",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_dacata_dacata_sede",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_dacata_macuvo",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_dacata_mave",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_dacata_muchenedze",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_espungabera_dibi",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_espungabera_espungabera_sede",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_mossurize_espungabera_matengane",
+    "sourceId": "ine-manica-mossurize-folheto-2025",
+    "page": null,
+    "notes": "Current district locality count confirmed by the 2025 INE district statistical leaflet; locality name and parent post reconciled against official MozGIS/INE historical data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_dombe_bunga",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_dombe_darue",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_dombe_mabaia",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_dombe_matarara",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_dombe_muoco",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_dombe_zinguena",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_muhoa_muoha_sede",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_muhoa_mupandeia",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_rotanda_mussapa",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_rotanda_rotanda_sede",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_rotanda_tsetsera",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_sussundenga_sede_matica",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_sussundenga_sede_munhinga",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_sussundenga_sede_nhaurombe",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_sussundenga_sussundenga_sede_vila_de_sussundenga",
+    "sourceId": "ine-manica-sussundenga-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_buzua_buzua_sede",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_buzua_marimanao",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_buzua_ntheme",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_nhacafula_nhacafula_sede",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_nhacafula_nhacalapho",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_nhacolo_casado",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_nhacolo_nhacolo_sede",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_tambara_nhacolo_sabeta",
+    "sourceId": "ine-manica-tambara-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_vanduzi_matsinho_chiremera",
+    "sourceId": "ine-manica-vanduzi-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_vanduzi_matsinho_matsinho_sede",
+    "sourceId": "ine-manica-vanduzi-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_vanduzi_vanduzi_chigodole",
+    "sourceId": "ine-manica-vanduzi-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_vanduzi_vanduzi_pungue_sul",
+    "sourceId": "ine-manica-vanduzi-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  },
+  {
+    "localityId": "locality_manica_vanduzi_vanduzi_vanduzi_sede",
+    "sourceId": "ine-manica-vanduzi-2026",
+    "page": null,
+    "notes": "Current district publication confirms the district territorial structure; locality name and parent administrative post are reconciled from official INE/MozGIS data."
+  }
+]

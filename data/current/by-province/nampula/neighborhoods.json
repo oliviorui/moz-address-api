@@ -1,0 +1,200 @@
+[
+  {
+    "id": "neighborhood_nampula_ilha_de_mocambique_ilha_de_mocambique_macaripe",
+    "code": null,
+    "name": "Macaripe",
+    "slug": "macaripe",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_ilha_de_mocambique_ilha_de_mocambique",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_ilha_de_mocambique_ilha_de_mocambique_unidade",
+    "code": null,
+    "name": "Unidade",
+    "slug": "unidade",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_ilha_de_mocambique_ilha_de_mocambique",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_ilha_de_mocambique_lumbo_ampapa",
+    "code": null,
+    "name": "Ampapa",
+    "slug": "ampapa",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_ilha_de_mocambique_lumbo",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_ilha_de_mocambique_lumbo_lumbo_sede",
+    "code": null,
+    "name": "Lumbo-Sede",
+    "slug": "lumbo-sede",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_ilha_de_mocambique_lumbo",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_muatala_muatala",
+    "code": null,
+    "name": "Muatala",
+    "slug": "muatala",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_muatala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_muatala_mutauhanha",
+    "code": null,
+    "name": "Mutauhanha",
+    "slug": "mutauhanha",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_muatala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_muhala_muhaivire",
+    "code": null,
+    "name": "Muhaivire",
+    "slug": "muhaivire",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_muhala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_muhala_muhala",
+    "code": null,
+    "name": "Muhala",
+    "slug": "muhala",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_muhala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_muhala_namutaqueliua",
+    "code": null,
+    "name": "Namutaqueliua",
+    "slug": "namutaqueliua",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_muhala",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_namicopo_mutava_rex",
+    "code": null,
+    "name": "Mutava-Rex",
+    "slug": "mutava-rex",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_namicopo",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_namicopo_namikopo",
+    "code": null,
+    "name": "Namikopo",
+    "slug": "namikopo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_namicopo",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_napipine_carrupeia",
+    "code": null,
+    "name": "Carrupeia",
+    "slug": "carrupeia",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_napipine",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_napipine_napipine",
+    "code": null,
+    "name": "Napipine",
+    "slug": "napipine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_napipine",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_natikiri_marrere",
+    "code": null,
+    "name": "Marrere",
+    "slug": "marrere",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_natikiri",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_natikiri_marrupaniua",
+    "code": null,
+    "name": "Marrupaniua",
+    "slug": "marrupaniua",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_natikiri",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_natikiri_natikire",
+    "code": null,
+    "name": "Natikire",
+    "slug": "natikire",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_natikiri",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_urbano_central_1o_de_maio",
+    "code": null,
+    "name": "1º de Maio",
+    "slug": "1o-de-maio",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_urbano_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_urbano_central_25_de_setembro",
+    "code": null,
+    "name": "25 de Setembro",
+    "slug": "25-de-setembro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_urbano_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_urbano_central_bombeiros",
+    "code": null,
+    "name": "Bombeiros",
+    "slug": "bombeiros",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_urbano_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_urbano_central_liberdade",
+    "code": null,
+    "name": "Liberdade",
+    "slug": "liberdade",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_urbano_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_urbano_central_limoeiros",
+    "code": null,
+    "name": "Limoeiros",
+    "slug": "limoeiros",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_urbano_central",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_nampula_nampula_urbano_central_militar",
+    "code": null,
+    "name": "Militar",
+    "slug": "militar",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_nampula_nampula_urbano_central",
+    "districtId": null
+  }
+]

@@ -1,0 +1,890 @@
+[
+  {
+    "localityId": "locality_niassa_chimbunila_chimbonila_cholue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Chimbunila."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_chimbonila_cholue",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Chimbunila; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_chimbonila_mussa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Chimbunila."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_chimbonila_mussa",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Chimbunila; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_chimbonila_namuanica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Chimbunila."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_chimbonila_namuanica",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Chimbunila; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_lione_chala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Chimbunila."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_lione_chala",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Chimbunila; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_lione_lione_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Chimbunila."
+  },
+  {
+    "localityId": "locality_niassa_chimbunila_lione_lione_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Chimbunila; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_etatara_etatara_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_etatara_etatara_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_etatara_malapa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_etatara_malapa",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_etatara_titimane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_etatara_titimane",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_lurio_lurio_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_lurio_lurio_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_lurio_muitetere",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_lurio_muitetere",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_mepica_mepica_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_mepica_mepica_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_mepica_mitucue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_mepica_mitucue",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_mepica_napacala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_cuamba_mepica_napacala",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 8 current localities for Cuamba; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_chiwindi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_chiwindi",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_cobue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_cobue_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_lupilichi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_lupilichi",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_ngofi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_ngofi",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_ngoo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_cobue_ngoo",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_lunho_lunho_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_lunho_lunho_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_lunho_mepochi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_lunho_mepochi",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_lunho_messumba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_lunho_messumba",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_maniamba_maniamba_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_maniamba_maniamba_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_maniamba_mbandeze",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_maniamba_mbandeze",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_meluluca_meluluca",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_meluluca_meluluca",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_meluluca_timba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_meluluca_timba",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lago_metangula_vila_de_metangula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lago_metangula_vila_de_metangula",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 13 current localities for Lago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lichinga_lussanhando_malica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lichinga_lussanhando_malica",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 2 current localities for Lichinga; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_lichinga_meponda_meponda_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_lichinga_meponda_meponda_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 2 current localities for Lichinga; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_majune_malanga_malanga_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_malanga_malanga_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_majune_malanga_mecualo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_malanga_mecualo",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_majune_malanga_mecuinha",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_malanga_mecuinha",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_majune_muaquia_pindura",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_muaquia_pindura",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_majune_muaquia_riate",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_muaquia_riate",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_majune_nairubi_nairrubi_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_nairubi_nairrubi_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_majune_nairubi_nambilange",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Majune."
+  },
+  {
+    "localityId": "locality_niassa_majune_nairubi_nambilange",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 7 current localities for Majune; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_lissiete_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Mandimba."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_lissiete_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 6 current localities for Mandimba; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_luelele",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Mandimba."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_luelele",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 6 current localities for Mandimba; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_meluluca",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Mandimba."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_meluluca",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 6 current localities for Mandimba; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_vila_de_mandimba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Mandimba."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mandimba_sede_vila_de_mandimba",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 6 current localities for Mandimba; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mitande_mississi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Mandimba."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mitande_mississi",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 6 current localities for Mandimba; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mitande_mitande_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Mandimba."
+  },
+  {
+    "localityId": "locality_niassa_mandimba_mitande_mitande_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 6 current localities for Mandimba; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_maua_maiaca_maiaca",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_maua_maiaca_maiaca",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Maúa; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_maua_maiaca_ntepia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_maua_maiaca_ntepia",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Maúa; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_maua_maua_sede_maua_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_maua_maua_sede_maua_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Maúa; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_maua_maua_sede_muapula",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_maua_maua_sede_muapula",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Maúa; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_maua_maua_sede_mugoma",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_maua_maua_sede_mugoma",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Maúa; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mavago_mavago_sede_mavago_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mavago_mavago_sede_mavago_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 3 current localities for Mavago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mavago_mavago_sede_ncalapa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mavago_mavago_sede_ncalapa",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 3 current localities for Mavago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mavago_msawize_msawize_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mavago_msawize_msawize_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 3 current localities for Mavago; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mecula_matondovela_matondovela_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mecula_matondovela_matondovela_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Mecula; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_lugenda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_lugenda",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Mecula; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_mbamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_mbamba",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Mecula; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_mecula_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_mecula_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Mecula; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_naulala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_mecula_mecula_sede_naulala",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Mecula; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_metarica_metarica_sede_mecunica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Metarica."
+  },
+  {
+    "localityId": "locality_niassa_metarica_metarica_sede_mecunica",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Metarica; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_metarica_metarica_sede_nambuara",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Metarica."
+  },
+  {
+    "localityId": "locality_niassa_metarica_metarica_sede_nambuara",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Metarica; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_metarica_nacumua_mepuera",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Metarica."
+  },
+  {
+    "localityId": "locality_niassa_metarica_nacumua_mepuera",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Metarica; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_metarica_nacumua_muhemela",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Metarica."
+  },
+  {
+    "localityId": "locality_niassa_metarica_nacumua_muhemela",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Metarica; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_metarica_nacumua_nacumua_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Metarica."
+  },
+  {
+    "localityId": "locality_niassa_metarica_nacumua_nacumua_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Metarica; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_muembe_chiconono_chiuanjota",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_muembe_chiconono_chiuanjota",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Muembe; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_muembe_chiconono_ligogolo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_muembe_chiconono_ligogolo",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Muembe; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_muembe_muembe_sede_lutuesse",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_muembe_muembe_sede_lutuesse",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Muembe; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_muembe_muembe_sede_muembe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_muembe_muembe_sede_muembe",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Muembe; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_muembe_muembe_sede_nzizi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and administrative-post hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Niassa."
+  },
+  {
+    "localityId": "locality_niassa_muembe_muembe_sede_nzizi",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Muembe; the reconciled historical set matches exactly."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_itepela_chitanda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Ngauma."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_itepela_chitanda",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Ngauma; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_itepela_lupalane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Ngauma."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_itepela_lupalane",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Ngauma; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_massangulo_sede_chissimbire",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Ngauma."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_massangulo_sede_chissimbire",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Ngauma; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_massangulo_sede_massangulo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Ngauma."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_massangulo_sede_massangulo",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Ngauma; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_massangulo_sede_ngauma",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Ngauma."
+  },
+  {
+    "localityId": "locality_niassa_ngauma_massangulo_sede_ngauma",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Ngauma; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_muipite_cheia_cheia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Nipepe."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_muipite_cheia_cheia",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Nipepe; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_muipite_muluco",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Nipepe."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_muipite_muluco",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Nipepe; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_nipepe_sede_mutumar",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Nipepe."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_nipepe_sede_mutumar",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Nipepe; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_nipepe_sede_nipepe_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Nipepe."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_nipepe_sede_nipepe_sede",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Nipepe; historical count matches after explicit post-name reconciliation."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_nipepe_sede_tamica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Historical locality name from INE/MozGIS 2017; administrative post reconciled explicitly for Nipepe."
+  },
+  {
+    "localityId": "locality_niassa_nipepe_nipepe_sede_tamica",
+    "sourceId": "ine-niassa-province-yearbook-2024",
+    "page": null,
+    "notes": "INE Niassa 2024 confirms 5 current localities for Nipepe; historical count matches after explicit post-name reconciliation."
+  }
+]

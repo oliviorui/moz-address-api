@@ -1,0 +1,668 @@
+[
+  {
+    "id": "locality_niassa_chimbunila_chimbonila_cholue",
+    "code": null,
+    "name": "Cholue",
+    "slug": "cholue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_chimbunila_chimbonila",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_chimbunila_chimbonila_mussa",
+    "code": null,
+    "name": "Mussa",
+    "slug": "mussa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_chimbunila_chimbonila",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_chimbunila_chimbonila_namuanica",
+    "code": null,
+    "name": "Namuanica",
+    "slug": "namuanica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_chimbunila_chimbonila",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_chimbunila_lione_chala",
+    "code": null,
+    "name": "Chala",
+    "slug": "chala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_chimbunila_lione",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_chimbunila_lione_lione_sede",
+    "code": null,
+    "name": "Lione-Sede",
+    "slug": "lione-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_chimbunila_lione",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_etatara_etatara_sede",
+    "code": null,
+    "name": "Etatara-Sede",
+    "slug": "etatara-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_etatara",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_etatara_malapa",
+    "code": null,
+    "name": "Malapa",
+    "slug": "malapa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_etatara",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_etatara_titimane",
+    "code": null,
+    "name": "Titimane",
+    "slug": "titimane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_etatara",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_lurio_lurio_sede",
+    "code": null,
+    "name": "Lúrio-Sede",
+    "slug": "lurio-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_lurio",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_lurio_muitetere",
+    "code": null,
+    "name": "Muitetere",
+    "slug": "muitetere",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_lurio",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_mepica_mepica_sede",
+    "code": null,
+    "name": "Mepica-Sede",
+    "slug": "mepica-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_mepica",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_mepica_mitucue",
+    "code": null,
+    "name": "Mitucue",
+    "slug": "mitucue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_mepica",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_cuamba_mepica_napacala",
+    "code": null,
+    "name": "Napacala",
+    "slug": "napacala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_cuamba_mepica",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_cobue_chiwindi",
+    "code": null,
+    "name": "Chiwindi",
+    "slug": "chiwindi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_cobue",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_cobue_cobue_sede",
+    "code": null,
+    "name": "Cóbue-Sede",
+    "slug": "cobue-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_cobue",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_cobue_lupilichi",
+    "code": null,
+    "name": "Lupilichi",
+    "slug": "lupilichi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_cobue",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_cobue_ngofi",
+    "code": null,
+    "name": "Ngofi",
+    "slug": "ngofi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_cobue",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_cobue_ngoo",
+    "code": null,
+    "name": "Ngôo",
+    "slug": "ngoo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_cobue",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_lunho_lunho_sede",
+    "code": null,
+    "name": "Lunho-Sede",
+    "slug": "lunho-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_lunho",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_lunho_mepochi",
+    "code": null,
+    "name": "Mepochi",
+    "slug": "mepochi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_lunho",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_lunho_messumba",
+    "code": null,
+    "name": "Messumba",
+    "slug": "messumba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_lunho",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_maniamba_maniamba_sede",
+    "code": null,
+    "name": "Maniamba-Sede",
+    "slug": "maniamba-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_maniamba",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_maniamba_mbandeze",
+    "code": null,
+    "name": "Mbandeze",
+    "slug": "mbandeze",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_maniamba",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_meluluca_meluluca",
+    "code": null,
+    "name": "Meluluca",
+    "slug": "meluluca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_meluluca",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_meluluca_timba",
+    "code": null,
+    "name": "Timba",
+    "slug": "timba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_meluluca",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lago_metangula_vila_de_metangula",
+    "code": null,
+    "name": "Vila de Metangula",
+    "slug": "vila-de-metangula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lago_metangula",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lichinga_lussanhando_malica",
+    "code": null,
+    "name": "Malica",
+    "slug": "malica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lichinga_lussanhando",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_lichinga_meponda_meponda_sede",
+    "code": null,
+    "name": "Meponda-Sede",
+    "slug": "meponda-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_lichinga_meponda",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_malanga_malanga_sede",
+    "code": null,
+    "name": "Malanga-Sede",
+    "slug": "malanga-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_malanga",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_malanga_mecualo",
+    "code": null,
+    "name": "Mecualo",
+    "slug": "mecualo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_malanga",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_malanga_mecuinha",
+    "code": null,
+    "name": "Mecuinha",
+    "slug": "mecuinha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_malanga",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_muaquia_pindura",
+    "code": null,
+    "name": "Pindura",
+    "slug": "pindura",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_muaquia",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_muaquia_riate",
+    "code": null,
+    "name": "Riate",
+    "slug": "riate",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_muaquia",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_nairubi_nairrubi_sede",
+    "code": null,
+    "name": "Nairrubi-Sede",
+    "slug": "nairrubi-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_nairubi",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_majune_nairubi_nambilange",
+    "code": null,
+    "name": "Nambilange",
+    "slug": "nambilange",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_majune_nairubi",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mandimba_mandimba_sede_lissiete_sede",
+    "code": null,
+    "name": "Lissiete-Sede",
+    "slug": "lissiete-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mandimba_mandimba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mandimba_mandimba_sede_luelele",
+    "code": null,
+    "name": "Luelele",
+    "slug": "luelele",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mandimba_mandimba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mandimba_mandimba_sede_meluluca",
+    "code": null,
+    "name": "Meluluca",
+    "slug": "meluluca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mandimba_mandimba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mandimba_mandimba_sede_vila_de_mandimba",
+    "code": null,
+    "name": "Vila de Mandimba",
+    "slug": "vila-de-mandimba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mandimba_mandimba_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mandimba_mitande_mississi",
+    "code": null,
+    "name": "Mississi",
+    "slug": "mississi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mandimba_mitande",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mandimba_mitande_mitande_sede",
+    "code": null,
+    "name": "Mitande-Sede",
+    "slug": "mitande-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mandimba_mitande",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_maua_maiaca_maiaca",
+    "code": null,
+    "name": "Maiaca",
+    "slug": "maiaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_maua_maiaca",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_maua_maiaca_ntepia",
+    "code": null,
+    "name": "Ntepia",
+    "slug": "ntepia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_maua_maiaca",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_maua_maua_sede_maua_sede",
+    "code": null,
+    "name": "Maúa-Sede",
+    "slug": "maua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_maua_maua_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_maua_maua_sede_muapula",
+    "code": null,
+    "name": "Muapula",
+    "slug": "muapula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_maua_maua_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_maua_maua_sede_mugoma",
+    "code": null,
+    "name": "Mugoma",
+    "slug": "mugoma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_maua_maua_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mavago_mavago_sede_mavago_sede",
+    "code": null,
+    "name": "Mavago-Sede",
+    "slug": "mavago-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mavago_mavago_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mavago_mavago_sede_ncalapa",
+    "code": null,
+    "name": "Ncalapa",
+    "slug": "ncalapa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mavago_mavago_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mavago_msawize_msawize_sede",
+    "code": null,
+    "name": "Msawize-Sede",
+    "slug": "msawize-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mavago_msawize",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mecula_matondovela_matondovela_sede",
+    "code": null,
+    "name": "Matondovela-Sede",
+    "slug": "matondovela-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mecula_matondovela",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mecula_mecula_sede_lugenda",
+    "code": null,
+    "name": "Lugenda",
+    "slug": "lugenda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mecula_mecula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mecula_mecula_sede_mbamba",
+    "code": null,
+    "name": "Mbamba",
+    "slug": "mbamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mecula_mecula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mecula_mecula_sede_mecula_sede",
+    "code": null,
+    "name": "Mecula-Sede",
+    "slug": "mecula-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mecula_mecula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_mecula_mecula_sede_naulala",
+    "code": null,
+    "name": "Naulala",
+    "slug": "naulala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_mecula_mecula_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_metarica_metarica_sede_mecunica",
+    "code": null,
+    "name": "Mecunica",
+    "slug": "mecunica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_metarica_metarica_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_metarica_metarica_sede_nambuara",
+    "code": null,
+    "name": "Nambuara",
+    "slug": "nambuara",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_metarica_metarica_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_metarica_nacumua_mepuera",
+    "code": null,
+    "name": "Mepuera",
+    "slug": "mepuera",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_metarica_nacumua",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_metarica_nacumua_muhemela",
+    "code": null,
+    "name": "Muhemela",
+    "slug": "muhemela",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_metarica_nacumua",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_metarica_nacumua_nacumua_sede",
+    "code": null,
+    "name": "Nacumua-Sede",
+    "slug": "nacumua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_metarica_nacumua",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_muembe_chiconono_chiuanjota",
+    "code": null,
+    "name": "Chiuanjota",
+    "slug": "chiuanjota",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_muembe_chiconono",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_muembe_chiconono_ligogolo",
+    "code": null,
+    "name": "Ligogolo",
+    "slug": "ligogolo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_muembe_chiconono",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_muembe_muembe_sede_lutuesse",
+    "code": null,
+    "name": "Lutuesse",
+    "slug": "lutuesse",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_muembe_muembe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_muembe_muembe_sede_muembe",
+    "code": null,
+    "name": "Muembe",
+    "slug": "muembe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_muembe_muembe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_muembe_muembe_sede_nzizi",
+    "code": null,
+    "name": "Nzizi",
+    "slug": "nzizi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_muembe_muembe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_ngauma_itepela_chitanda",
+    "code": null,
+    "name": "Chitanda",
+    "slug": "chitanda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_ngauma_itepela",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_ngauma_itepela_lupalane",
+    "code": null,
+    "name": "Lupalane",
+    "slug": "lupalane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_ngauma_itepela",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_ngauma_massangulo_sede_chissimbire",
+    "code": null,
+    "name": "Chissimbire",
+    "slug": "chissimbire",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_ngauma_massangulo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_ngauma_massangulo_sede_massangulo",
+    "code": null,
+    "name": "Massangulo",
+    "slug": "massangulo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_ngauma_massangulo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_ngauma_massangulo_sede_ngauma",
+    "code": null,
+    "name": "Ngauma",
+    "slug": "ngauma",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_ngauma_massangulo_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_nipepe_muipite_cheia_cheia",
+    "code": null,
+    "name": "Cheia-Cheia",
+    "slug": "cheia-cheia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_nipepe_muipite",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_nipepe_muipite_muluco",
+    "code": null,
+    "name": "Muluco",
+    "slug": "muluco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_nipepe_muipite",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_nipepe_nipepe_sede_mutumar",
+    "code": null,
+    "name": "Mutumar",
+    "slug": "mutumar",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_nipepe_nipepe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_nipepe_nipepe_sede_nipepe_sede",
+    "code": null,
+    "name": "Nipepe-Sede",
+    "slug": "nipepe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_nipepe_nipepe_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_niassa_nipepe_nipepe_sede_tamica",
+    "code": null,
+    "name": "Tamica",
+    "slug": "tamica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_niassa_nipepe_nipepe_sede",
+    "districtId": null
+  }
+]

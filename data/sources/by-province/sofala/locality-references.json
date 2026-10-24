@@ -1,0 +1,1070 @@
+[
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_bandua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_bandua",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_grudja",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_grudja",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_guaraguara",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_guaraguara",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_inhamichindo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_inhamichindo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_nharongue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_nharongue",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_vila_do_buzi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_buzi_sede_vila_do_buzi",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_estaquinha_chissinguana",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_estaquinha_chissinguana",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_estaquinha_estaquinha_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_estaquinha_estaquinha_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_nova_sofala_ampara",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_nova_sofala_ampara",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_buzi_nova_sofala_nova_sofala_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_buzi_nova_sofala_nova_sofala_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Búzi; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_caia_caia_sede_caia_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_caia_caia_sede_caia_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Caia; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_caia_caia_sede_ndoro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_caia_caia_sede_ndoro",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Caia; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_caia_caia_sede_vila_de_caia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_caia_caia_sede_vila_de_caia",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Caia; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_caia_murraca_murraca_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_caia_murraca_murraca_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Caia; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_caia_sena_licoma",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_caia_sena_licoma",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Caia; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_caia_sena_sena_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_caia_sena_sena_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Caia; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chemba_sede_3_de_fevereiro",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chemba_sede_3_de_fevereiro",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Chemba; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chemba_sede_chemba_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chemba_sede_chemba_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Chemba; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chiramba_catulene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chiramba_catulene",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Chemba; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chiramba_chiramba_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chemba_chiramba_chiramba_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Chemba; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chemba_mulima_goe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chemba_mulima_goe",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Chemba; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chemba_mulima_mulima_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chemba_mulima_mulima_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Chemba; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_josina_machel",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_josina_machel",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Cheringoma; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_maciamboza",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_maciamboza",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Cheringoma; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_mazamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_mazamba",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Cheringoma; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_vila_de_inhaminga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhaminga_vila_de_inhaminga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Cheringoma; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhamitanga_inhamitanga_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhamitanga_inhamitanga_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Cheringoma; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhamitanga_nangue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_cheringoma_inhamitanga_nangue",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 6 localities for Cheringoma; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_chibabava_chibabava_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_chibabava_chibabava_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_chinhica",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_chinhica",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_goonda_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_goonda_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_hamamba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_hamamba",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_mutindire",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_mutindire",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_tronga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_goonda_tronga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_hode",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_hode",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_mucheve",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_mucheve",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_muxungue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_muxungue_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_pandja",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_chibabava_muxungue_pandja",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 10 localities for Chibabava; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_dondo_mafambisse_mafambisse_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_dondo_mafambisse_mafambisse_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "locality_sofala_dondo_mafambisse_mutua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_dondo_mafambisse_mutua",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "locality_sofala_dondo_savane_chinamacondo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_dondo_savane_chinamacondo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "locality_sofala_dondo_savane_savane_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_dondo_savane_savane_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala territorial table confirms 4 localities and 10 city neighborhoods for Dondo."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_gorongosa_sede_gorongosa_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_gorongosa_sede_gorongosa_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_gorongosa_sede_pungue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_gorongosa_sede_pungue",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_gorongosa_sede_vila_de_gorongosa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_gorongosa_sede_vila_de_gorongosa",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_nhamadzi_canda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_nhamadzi_canda",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_nhamadzi_cudzo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_nhamadzi_cudzo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_vunduzi_casa_banana",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_vunduzi_casa_banana",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_vunduzi_cavalo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_vunduzi_cavalo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_vunduzi_muzuangungune",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_gorongosa_vunduzi_muzuangungune",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Gorongosa; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_chiloane_chiloane_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_chiloane_chiloane_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_chiloane_inharingue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_chiloane_inharingue",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_divinhe_buene",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_divinhe_buene",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_divinhe_divinhe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_divinhe_divinhe",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_divinhe_maropanhe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_divinhe_maropanhe",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_machanga_sede_javane",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_machanga_sede_javane",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_machanga_sede_machanga_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_machanga_sede_machanga_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_machanga_machanga_sede_zimuala",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_machanga_machanga_sede_zimuala",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Machanga; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_maringue_canxixe_canxixe",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_maringue_canxixe_canxixe",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 5 localities for Maringue; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_maringue_canxixe_senga_senga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_maringue_canxixe_senga_senga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 5 localities for Maringue; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_maringue_maringue_sede_gumbalacai",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_maringue_maringue_sede_gumbalacai",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 5 localities for Maringue; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_maringue_maringue_sede_maringue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_maringue_maringue_sede_maringue_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 5 localities for Maringue; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_maringue_subue_subue_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_maringue_subue_subue_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 5 localities for Maringue; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_chupanga_chupanga_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_chupanga_chupanga_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_chupanga_mponda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_chupanga_mponda",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_chupanga_nensa",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_chupanga_nensa",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_malingapansi_malingapansi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_malingapansi_malingapansi",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_marromeu_sede_chueza",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_marromeu_sede_chueza",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_marromeu_sede_megugune",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_marromeu_sede_megugune",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_marromeu_sede_vila_de_marromeu",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_marromeu_marromeu_sede_vila_de_marromeu",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 7 localities for Marromeu; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_chenapamimba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_chenapamimba",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_galinha_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_galinha_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_houve",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_houve",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_mussapassua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_mussapassua",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_nhamassindzira",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_nhamassindzira",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_nhansato",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_nhansato",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_wirkizi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_galinha_wirkizi",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_muanza_muanza_muanza_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_muanza_muanza_muanza_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 8 localities for Muanza; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_bebedo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_bebedo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_chirassicua",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_chirassicua",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_macorococho",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_macorococho",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_matenga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_matenga",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_metuchira",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_metuchira",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_siluvo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_siluvo",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_vila_de_nhamatanda",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_nhamatanda_vila_de_nhamatanda",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_lamego",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_lamego",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_nhampoca",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_nhampoca",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_tcheadeia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_tcheadeia",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_tica_sede",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Locality name and administrative-post hierarchy taken from the official INE/MozGIS 2017 layer after structural reconciliation."
+  },
+  {
+    "localityId": "locality_sofala_nhamatanda_tica_tica_sede",
+    "sourceId": "ine-sofala-province-yearbook-2024",
+    "page": null,
+    "notes": "Current INE Sofala 2024 territorial table confirms 11 localities for Nhamatanda; the reconciled historical candidate set matches this total exactly."
+  }
+]

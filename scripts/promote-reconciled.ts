@@ -628,42 +628,207 @@ if (outputRecords.length !== expectedPromotedCount) {
   );
 }
 
-const promotedLayerSuffix =
-  promotionLayers.size === 2
-    ? "exact"
-    : [...promotionLayers].sort().join("-") + "-exact";
-
-const areaName = `${provinceSlug}-${promotedLayerSuffix}`;
-
-const canonicalPath = path.join(
+const provinceDataDir = path.join(
   ROOT,
   "data",
   "current",
-  "localities-by-area",
-  `${areaName}.json`,
+  "by-province",
+  provinceSlug,
 );
 
-const localitySourcesPath = path.join(
+const provinceSourceDir = path.join(
   ROOT,
   "data",
   "sources",
-  "locality-sources-by-area",
-  `${areaName}.json`,
+  "by-province",
+  provinceSlug,
 );
 
-const sourcesPath = path.join(
-  ROOT,
-  "data",
-  "sources",
-  "sources-by-area",
-  `${areaName}.json`,
+const localitiesPath = path.join(
+  provinceDataDir,
+  "localities.json",
 );
 
-writeJson(canonicalPath, outputRecords);
-writeJson(localitySourcesPath, sourceRefs);
+const neighborhoodsPath = path.join(
+  provinceDataDir,
+  "neighborhoods.json",
+);
+
+const localityReferencesPath = path.join(
+  provinceSourceDir,
+  "locality-references.json",
+);
+
+const neighborhoodReferencesPath = path.join(
+  provinceSourceDir,
+  "neighborhood-references.json",
+);
+
+function readOptionalArray<T>(filePath: string): T[] {
+  if (!fs.existsSync(filePath)) {
+    return [];
+  }
+
+  return JSON.parse(
+    fs.readFileSync(filePath, "utf8"),
+  ) as T[];
+}
+
+function mergeRecordsById(
+  existing: CanonicalRecord[],
+  incoming: CanonicalRecord[],
+): CanonicalRecord[] {
+  const byId = new Map(
+    existing.map((item) => [item.id, item]),
+  );
+
+  for (const item of incoming) {
+    const previous = byId.get(item.id);
+
+    if (
+      previous &&
+      JSON.stringify(previous) !== JSON.stringify(item)
+    ) {
+      throw new Error(
+        `Promotion conflicts with existing canonical record "${item.id}".`,
+      );
+    }
+
+    byId.set(item.id, item);
+  }
+
+  return [...byId.values()].sort(
+    (a, b) => a.id.localeCompare(b.id, "en"),
+  );
+}
+
+function mergeSourceReferences(
+  existing: LocalitySourceRef[],
+  incoming: LocalitySourceRef[],
+): LocalitySourceRef[] {
+  const byKey = new Map(
+    existing.map((item) => [
+      `${item.localityId}::${item.sourceId}`,
+      item,
+    ]),
+  );
+
+  for (const item of incoming) {
+    const key = `${item.localityId}::${item.sourceId}`;
+    const previous = byKey.get(key);
+
+    if (
+      previous &&
+      JSON.stringify(previous) !== JSON.stringify(item)
+    ) {
+      throw new Error(
+        `Promotion conflicts with existing source reference "${key}".`,
+      );
+    }
+
+    byKey.set(key, item);
+  }
+
+  return [...byKey.values()].sort(
+    (a, b) =>
+      `${a.localityId}:${a.sourceId}`.localeCompare(
+        `${b.localityId}:${b.sourceId}`,
+        "en",
+      ),
+  );
+}
+
+const promotedLocalities = outputRecords.filter(
+  (item) => item.type === "LOCALITY",
+);
+
+const promotedNeighborhoods = outputRecords.filter(
+  (item) => item.type === "NEIGHBORHOOD",
+);
+
+const existingLocalities =
+  readOptionalArray<CanonicalRecord>(localitiesPath);
+
+const existingNeighborhoods =
+  readOptionalArray<CanonicalRecord>(neighborhoodsPath);
+
+const localityIds = new Set(
+  promotedLocalities.map((item) => item.id),
+);
+
+const neighborhoodIds = new Set(
+  promotedNeighborhoods.map((item) => item.id),
+);
+
+const promotedLocalityRefs = sourceRefs.filter(
+  (item) => localityIds.has(item.localityId),
+);
+
+const promotedNeighborhoodRefs = sourceRefs.filter(
+  (item) => neighborhoodIds.has(item.localityId),
+);
+
 writeJson(
-  sourcesPath,
-  [historicalSource, currentSource],
+  localitiesPath,
+  mergeRecordsById(
+    existingLocalities,
+    promotedLocalities,
+  ),
+);
+
+writeJson(
+  neighborhoodsPath,
+  mergeRecordsById(
+    existingNeighborhoods,
+    promotedNeighborhoods,
+  ),
+);
+
+writeJson(
+  localityReferencesPath,
+  mergeSourceReferences(
+    readOptionalArray<LocalitySourceRef>(
+      localityReferencesPath,
+    ),
+    promotedLocalityRefs,
+  ),
+);
+
+writeJson(
+  neighborhoodReferencesPath,
+  mergeSourceReferences(
+    readOptionalArray<LocalitySourceRef>(
+      neighborhoodReferencesPath,
+    ),
+    promotedNeighborhoodRefs,
+  ),
+);
+
+const sourceCatalogPath = path.join(
+  ROOT,
+  "data",
+  "sources",
+  "sources.json",
+);
+
+const sourceCatalog =
+  readOptionalArray<Source>(sourceCatalogPath);
+
+const sourceById = new Map(
+  sourceCatalog.map((item) => [item.id, item]),
+);
+
+for (const source of [historicalSource, currentSource]) {
+  if (!sourceById.has(source.id)) {
+    sourceById.set(source.id, source);
+  }
+}
+
+writeJson(
+  sourceCatalogPath,
+  [...sourceById.values()].sort(
+    (a, b) => a.id.localeCompare(b.id, "en"),
+  ),
 );
 
 console.log(
@@ -681,15 +846,15 @@ console.log(
 );
 
 console.log(
-  `✅ Wrote ${path.relative(ROOT, canonicalPath)}`,
+  `✅ Updated data/current/by-province/${provinceSlug}/`,
 );
 
 console.log(
-  `✅ Wrote ${path.relative(ROOT, localitySourcesPath)}`,
+  `✅ Updated data/sources/by-province/${provinceSlug}/`,
 );
 
 console.log(
-  `✅ Wrote ${path.relative(ROOT, sourcesPath)}`,
+  "➡️ Run npm run data:validate to rebuild and validate generated data.",
 );
 
 const skipped = diagnostic.districts.filter(

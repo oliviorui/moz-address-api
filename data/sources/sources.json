@@ -1,223 +1,13 @@
 [
   {
-    "id": "ine-administrative-divisions",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Administrative divisions of Mozambique",
-    "type": "OFFICIAL",
-    "year": null,
-    "url": null,
-    "accessedAt": null,
-    "notes": "Primary reference for Mozambique administrative divisions."
-  },
-  {
-    "id": "ine-niassa-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico. Província do Niassa, 2024",
+    "id": "boletim-republica-magude-2024",
+    "institution": "República de Moçambique",
+    "title": "Boletim da República, I Série, n.º 32, 14 de Fevereiro de 2024",
     "type": "OFFICIAL",
     "year": 2024,
-    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincial-niassa-2024",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the territorial structure of Niassa Province."
-  },
-  {
-    "id": "ine-cabo-delgado-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Cabo Delgado, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/documents/20119/334647/ANUARIO_ESTATISTICO_PROVINCIAL_CABO_DELGADO_2025.pdf",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts of Cabo Delgado Province."
-  },
-  {
-    "id": "ine-nampula-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Nampula, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-nampula-2024-1",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts of Nampula Province."
-  },
-  {
-    "id": "ine-zambezia-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província da Zambézia, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/documents/20119/0/Anuario%202025%20Zambezia-2024_101751.pdf",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts of Zambézia Province."
-  },
-  {
-    "id": "ine-tete-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Tete, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincial-tete-2024-1-",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Tete Province."
-  },
-  {
-    "id": "ine-manica-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Manica, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincia-manica-2024-1",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Manica Province."
-  },
-  {
-    "id": "ine-sofala-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Sofala, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico_provincia-de-sofala_2024",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Sofala Province."
-  },
-  {
-    "id": "ine-inhambane-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Inhambane, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-inhambane-2024",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Inhambane Province."
-  },
-  {
-    "id": "ine-gaza-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Gaza, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/documents/20119/334668/ANUARIO_ESTATISTICO_PROVINCIA_GAZA_2024.pdf",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Gaza Province."
-  },
-  {
-    "id": "ine-maputo-province-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Província de Maputo, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/en/web/guest/d/aep_maputo_provincia",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Maputo Province."
-  },
-  {
-    "id": "ine-maputo-city-yearbook-2024",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Anuário Estatístico, Cidade de Maputo, 2024",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/o/adaptive-media/image/352347/Preview-1000x0/Anuario_Cidade%2B_Maputo%2B2024.pdf",
-    "accessedAt": "2026-10-20",
-    "notes": "Official INE statistical yearbook used to verify the seven municipal districts of Maputo City."
-  },
-  {
-    "id": "ine-niassa-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província do Niassa",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/web/guest/escola-nacional-de-estat%C3%ADstica/-/document_library/cvoo/view/45132",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE district territorial publications used to verify administrative posts of Niassa Province."
-  },
-  {
-    "id": "ine-nampula-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Nampula",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-nampula-2024-1",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Nampula Province."
-  },
-  {
-    "id": "ine-zambezia-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província da Zambézia",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/44394",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial and district territorial publications used to verify administrative posts of Zambézia Province."
-  },
-  {
-    "id": "ine-tete-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Tete",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/en/atlas/-/document_library/dzkb/view/337380",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Tete Province."
-  },
-  {
-    "id": "ine-manica-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Manica",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/en/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/45105",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Manica Province."
-  },
-  {
-    "id": "ine-sofala-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Sofala",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://www.ine.gov.mz/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/337745",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Sofala Province."
-  },
-  {
-    "id": "ine-inhambane-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Inhambane",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-inhambane-2024",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial yearbook and territorial statistics used to verify administrative posts of Inhambane Province."
-  },
-  {
-    "id": "ine-gaza-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Gaza",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://ine.gov.mz/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/45108",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Gaza Province."
-  },
-  {
-    "id": "ine-maputo-territorial-statistics",
-    "institution": "Instituto Nacional de Estatística",
-    "title": "Estatísticas Territoriais — Província de Maputo",
-    "type": "OFFICIAL",
-    "year": null,
-    "url": "https://www.ine.gov.mz/en/web/guest/atlas/-/document_library/dzkb/view/45111",
-    "accessedAt": "2026-10-21",
-    "notes": "Official INE territorial publications used to verify administrative posts of Maputo Province."
-  },
-  {
-    "id": "cmm-maputo-pdm-2024-2028",
-    "institution": "Conselho Municipal de Maputo",
-    "title": "Plano de Desenvolvimento Municipal de Maputo 2024–2028",
-    "type": "OFFICIAL",
-    "year": 2024,
-    "url": "https://cmmaputo.gov.mz/wp-content/uploads/2025/10/PROPOSTA-DO-PDM-2024-2028-31.05.2024-Versao-Pos-Sessao-do-CM-2.pdf",
-    "accessedAt": "2026-10-21",
-    "notes": "Official municipal source for Maputo City neighborhood names. The document prose mentions 64 neighborhoods, but its enumerated district lists total 63; INE 2024 independently confirms 63."
+    "url": "https://archive.gazettes.africa/archive/mz/2024/mz-government-gazette-series-i-dated-2024-02-14-no-32.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official gazette electoral territorial table used to reconcile the current Magude locality structure. The 17-locality set excludes Vila de Magude as a locality record and excludes the historical Pontia record; spelling follows the current territorial listing where supported."
   },
   {
     "id": "cabo-delgado-56-posts-verified-2022",
@@ -230,6 +20,56 @@
     "notes": "Official government utility publication explicitly states that Cabo Delgado had 56 administrative posts. Names are cross-checked against INE/district administrative publications; this source is used as the province-level count checksum."
   },
   {
+    "id": "cm-nampula-neighborhoods-2024",
+    "institution": "Conselho Municipal da Cidade de Nampula",
+    "title": "Conselho Municipal - estrutura administrativa e bairros",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://cmnampula.gov.mz/conselho-municipal/",
+    "accessedAt": "2026-10-22",
+    "notes": "Official municipal page enumerating the six urban administrative posts and their 18 neighborhoods. Source spelling 'Namikopo' is reconciled to canonical administrative post 'Namicopo'."
+  },
+  {
+    "id": "cmm-maputo-pdm-2024-2028",
+    "institution": "Conselho Municipal de Maputo",
+    "title": "Plano de Desenvolvimento Municipal de Maputo 2024–2028",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://cmmaputo.gov.mz/wp-content/uploads/2025/10/PROPOSTA-DO-PDM-2024-2028-31.05.2024-Versao-Pos-Sessao-do-CM-2.pdf",
+    "accessedAt": "2026-10-21",
+    "notes": "Official municipal source for Maputo City neighborhood names. The document prose mentions 64 neighborhoods, but its enumerated district lists total 63; INE 2024 independently confirms 63."
+  },
+  {
+    "id": "cmm-matola-pla-2025",
+    "institution": "Conselho Municipal da Cidade da Matola",
+    "title": "Plano de Adaptação Local do Município da Matola",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://cmcmatola.gov.mz/wp-content/uploads/2026/01/PLANO-DE-ADAPTACAO-MATOLA.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official municipal source for Matola's three administrative posts and 42 municipal neighborhoods. The table enumerates 15 names for Infulene, 14 for Machava and 13 for Matola Sede (42 total), although the displayed row subtotals for Machava and Matola Sede appear inverted as 13 and 14. Canonical records follow the enumerated names and the overall total of 42."
+  },
+  {
+    "id": "gov-maputo-manhica-district-profile",
+    "institution": "Ministério da Administração Estatal / Governo da Província de Maputo",
+    "title": "Perfil do Distrito da Manhiça",
+    "type": "OFFICIAL",
+    "year": 2005,
+    "url": "https://pmaputo.gov.mz/por/content/download/6179/44263/version/2/file/Perfil_Manhica.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official district profile explicitly distinguishes 2 vilas from 13 localidades and enumerates the 13 locality names by administrative post. The current INE Maputo Province total remains 13 localities."
+  },
+  {
+    "id": "ine-administrative-divisions",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Administrative divisions of Mozambique",
+    "type": "OFFICIAL",
+    "year": null,
+    "url": null,
+    "accessedAt": null,
+    "notes": "Primary reference for Mozambique administrative divisions."
+  },
+  {
     "id": "ine-cabo-delgado-province-yearbook-2023",
     "institution": "Instituto Nacional de Estatística",
     "title": "Anuário Estatístico da Província de Cabo Delgado, 2023",
@@ -238,5 +78,475 @@
     "url": "https://www.ine.gov.mz/documents/20119/277959/Anuario%20de%20Cabo%20de%20Delgado%202023.pdf",
     "accessedAt": "2026-10-23",
     "notes": "Official INE territorial baseline used for coherent district-level locality and neighborhood counts in Cabo Delgado."
+  },
+  {
+    "id": "ine-cabo-delgado-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Cabo Delgado, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/documents/20119/334647/ANUARIO_ESTATISTICO_PROVINCIAL_CABO_DELGADO_2025.pdf",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts of Cabo Delgado Province."
+  },
+  {
+    "id": "ine-gaza-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Gaza, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/documents/20119/334668/ANUARIO_ESTATISTICO_PROVINCIA_GAZA_2024.pdf",
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Gaza Province. | Official current territorial-unit statistics for Gaza Province. Confirms 7 localities for Guijá in 2024."
+  },
+  {
+    "id": "ine-gaza-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Gaza",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/45108",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Gaza Province."
+  },
+  {
+    "id": "ine-govuro-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas do Distrito de Govuro, 2020-2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/337834/Govuro_2024.pdf/d7cb3605-ea7a-17af-4590-f149330746de?download=true&t=1752235595178&version=1.0",
+    "accessedAt": "2026-10-23",
+    "notes": "Current district publication used to verify Govuro territorial structure."
+  },
+  {
+    "id": "ine-homoine-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Homoine_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/web/guest/d/homoine_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used to verify Homoíne territorial structure."
+  },
+  {
+    "id": "ine-inhambane-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Inhambane, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-inhambane-2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Inhambane Province. | Official INE 2024 territorial-unit statistics for Inhambane Province. Confirms 26 administrative posts, 70 localities, 40 city neighborhoods, and district-level counts used by this guarded exact-match promotion."
+  },
+  {
+    "id": "ine-inhambane-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Inhambane",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-inhambane-2024",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and territorial statistics used to verify administrative posts of Inhambane Province."
+  },
+  {
+    "id": "ine-inhambane-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Inhambane, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/documents/20119/334665/Anu%C3%A1rio%20Estat%C3%ADstico%20-Prov%C3%ADncia%20de%20Inhambane%2C%202024.pdf/b7e9086f-9700-44ef-d2fc-a327b57e8852?download=true&t=1750676295896&version=1.0",
+    "accessedAt": "2026-10-23",
+    "notes": "Official 2024 provincial locality totals used as mandatory count guards. | Official current provincial totals used as the count guard for locality promotion."
+  },
+  {
+    "id": "ine-inharrime-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Inharrime_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://www.ine.gov.mz/web/guest/d/inharrime_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used together with the 2024 provincial count to verify Inharrime."
+  },
+  {
+    "id": "ine-inhassoro-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Inhassoro_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://www.ine.gov.mz/web/guest/d/inhassoro_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used to verify Inhassoro territorial structure."
+  },
+  {
+    "id": "ine-manica-barue-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Báruè, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Barue_2025.pdf/238ebfee-055f-3974-1448-df06768acf1a?download=true&t=1752828904926&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 8 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-chimoio-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico da Cidade de Chimoio, 2025",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": null,
+    "accessedAt": "2026-10-24",
+    "notes": "Official INE 2025 Chimoio leaflet. The detailed territorial table explicitly enumerates 33 neighborhoods. Because the same leaflet conflicts on whether Chimoio has 3 or 4 urban administrative posts, neighborhoods are promoted at district level while the post-level grouping remains unresolved."
+  },
+  {
+    "id": "ine-manica-gondola-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Gondola, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Gondola_2025.pdf/70258082-e134-ed3d-4d01-dc826a052a5f?download=true&t=1752828887997&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 9 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-guro-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Guro, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Guro_2025.pdf/f334e1bb-42a5-360f-80e2-451d80a6215d?download=true&t=1752828849911&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 8 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-macate-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Macate, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Macate_2025.pdf/7011ec9c-5ae7-33ba-0e0a-2120a1494afc?download=true&t=1752828794351&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 7 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-machaze-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Machaze, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Machaze_2025.pdf/028363bd-1dc8-985e-8501-57d53a3d8294?download=true&t=1752828823817&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 9 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-macossa-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Macossa, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Macossa_2025.pdf/23a6a369-7e27-54fc-55ff-5ca82fd4d2e4?download=true&t=1752828837260&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 8 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-manica-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico do Distrito de Manica, 2025",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": null,
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE 2025 district statistical leaflet. The detailed territorial table enumerates 9 rural localities in Machipanda, Messica and Mavonde. The municipal neighborhood layer remains research-only because the leaflet header and detailed table use inconsistent counting conventions."
+  },
+  {
+    "id": "ine-manica-mossurize-folheto-2025",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Mossurize, 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/198445/Folheto_Mossurize_2025.pdf/5974b009-910b-43a4-0f22-6800a1c3b1b8?download=true&t=1752828930091&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE district statistical leaflet confirming the current district total of 11 localities. Locality names and administrative-post hierarchy are reconciled from the official INE/MozGIS 2017 layer."
+  },
+  {
+    "id": "ine-manica-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Manica, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincia-manica-2024-1",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Manica Province."
+  },
+  {
+    "id": "ine-manica-sussundenga-2026",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Sussundenga 2026",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://www.ine.gov.mz/web/guest/d/folheto_sussundenga_2026",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (15). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  },
+  {
+    "id": "ine-manica-tambara-2026",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Tambara 2026",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://www.ine.gov.mz/web/guest/d/folheto_tambara_2026",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (8). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  },
+  {
+    "id": "ine-manica-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Manica",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/en/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/45105",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Manica Province."
+  },
+  {
+    "id": "ine-manica-vanduzi-2026",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Folheto Estatístico Distrital de Vanduzi 2026",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://www.ine.gov.mz/web/guest/d/folheto_vanduzi_2026",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication. The current district locality count is consistent with the canonical target used for promotion (5). Locality names and administrative-post hierarchy are reconciled from official INE/MozGIS historical data."
+  },
+  {
+    "id": "ine-maputo-city-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Cidade de Maputo, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/o/adaptive-media/image/352347/Preview-1000x0/Anuario_Cidade%2B_Maputo%2B2024.pdf",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the seven municipal districts of Maputo City."
+  },
+  {
+    "id": "ine-maputo-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Maputo, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/en/web/guest/d/aep_maputo_provincia",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Maputo Province."
+  },
+  {
+    "id": "ine-maputo-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Maputo",
+    "type": "OFFICIAL",
+    "year": null,
+    "url": "https://www.ine.gov.mz/en/web/guest/atlas/-/document_library/dzkb/view/45111",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE territorial publications used to verify administrative posts of Maputo Province."
+  },
+  {
+    "id": "ine-massinga-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Massinga_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/web/guest/d/massinga_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used together with the 2024 provincial count to verify Massinga."
+  },
+  {
+    "id": "ine-morrumbene-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Morrumbene_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://www.ine.gov.mz/web/guest/d/morrumbene_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used to verify Morrumbene territorial structure."
+  },
+  {
+    "id": "ine-mozgis-localities-2017",
+    "institution": "Instituto Nacional de Estatística / MozGIS",
+    "title": "SociedPopulacaoLocalidadeBairro2017",
+    "type": "OFFICIAL",
+    "year": 2017,
+    "url": "https://www.mozgis.gov.mz/server/rest/services/MEF/MEFAAPAnaliseInfraestruturas/MapServer/24",
+    "accessedAt": "2026-10-23",
+    "notes": "Official historical INE/MozGIS locality layer used for locality names and administrative-post hierarchy after reconciliation. | Official historical INE/MozGIS locality and neighborhood layer. Names and hierarchy are promoted only where the unique historical count exactly matches the current INE 2024 count. | Official historical locality layer used for names and hierarchy after reconciliation with current INE territorial counts. | Official historical locality layer used for canonical names and hierarchy after reconciliation with current territorial counts. | Official INE/MozGIS layer used for Matutuíne locality names and hierarchy. Catembe M'Sime is reconciled to the canonical Catembe administrative post. | Official historical INE/MozGIS locality and neighborhood layer. Names/hierarchy promoted only where 2017 structure reconciles exactly with the 2024 territorial counts. | Official historical INE/MozGIS locality layer. Names/hierarchy promoted only after explicit administrative-post reconciliation against the current canonical structure. | Official historical INE/MozGIS locality layer used for locality names and administrative-post hierarchy after structural reconciliation. | Official historical INE/MozGIS locality layer used for locality names and administrative-post hierarchy after reconciliation. | Official historical INE/MozGIS locality layer used for locality names and administrative-post hierarchy after reconciliation."
+  },
+  {
+    "id": "ine-nampula-angoche-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas do Distrito de Angoche 2020 - 2024",
+    "year": 2025,
+    "url": "https://ine.gov.mz/web/guest/d/estatisticas-do-distrito-de-angoche-2020-2024",
+    "type": "OFFICIAL",
+    "accessedAt": "2026-10-22",
+    "notes": "Current district publication and official map confirm the Angoche administrative-post structure. The 10 current rural localities are the non-Angoche-Sede locality records; the seven Angoche-Sede names are retained as urban research records."
+  },
+  {
+    "id": "ine-nampula-district-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas do Distrito de Nampula 2020 - 2024",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/268758/Estatisticas%20do%20distrito%20de%20Nampula%202020%20-2024.pdf/0ddd1b85-38fb-deac-f6c3-95299b3f7a20?download=true&t=1751024787041&version=1.0",
+    "type": "OFFICIAL",
+    "accessedAt": "2026-10-22",
+    "notes": "Current district publication confirms the administrative-post structure of Nampula district/city. The five non-urban locality candidates are all under Anchilo."
+  },
+  {
+    "id": "ine-nampula-ilha-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas do Distrito de Ilha de Moçambique 2020 - 2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/documents/20119/337439/Estat%C3%ADsticas%20do%20Distrito%20de%20lha%20de%20Moc%CC%A7ambique%202020%20-%202024.pdf/36b6be19-e331-b341-7a1c-54fbb1c0a37b?download=true&t=1751283064708&version=1.0",
+    "accessedAt": "2026-10-22",
+    "notes": "Current INE district publication confirms four neighborhoods in Ilha de Moçambique. Names are reconciled from the official MozGIS/INE 2017 neighborhood layer, whose unique count also equals four."
+  },
+  {
+    "id": "ine-nampula-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Nampula, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-nampula-2024-1",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE statistical yearbook used to verify the districts of Nampula Province. | Current territorial-unit totals for Nampula Province. Used to confirm 5 localities for Nampula district/city and 10 localities for Angoche."
+  },
+  {
+    "id": "ine-nampula-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Nampula",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincia-de-nampula-2024-1",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Nampula Province."
+  },
+  {
+    "id": "ine-niassa-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico. Província do Niassa, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincial-niassa-2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Official INE statistical yearbook used to verify the territorial structure of Niassa Province. | Official 2024 Niassa territorial-unit table used to validate current locality and city-neighborhood totals before promotion. | Official 2024 Niassa territorial-unit table used to validate current locality totals before promotion."
+  },
+  {
+    "id": "ine-niassa-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província do Niassa",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/escola-nacional-de-estat%C3%ADstica/-/document_library/cvoo/view/45132",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE district territorial publications used to verify administrative posts of Niassa Province."
+  },
+  {
+    "id": "ine-sofala-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Sofala, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/web/guest/d/anuario-estatistico_provincia-de-sofala_2024",
+    "accessedAt": "2026-10-22",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Sofala Province. | Official current territorial-unit table for Sofala Province. Confirms 38 administrative posts, 89 localities and 36 city neighborhoods. Used here to validate exact district locality totals before promotion."
+  },
+  {
+    "id": "ine-sofala-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Sofala",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/337745",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Sofala Province."
+  },
+  {
+    "id": "ine-tete-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província de Tete, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/d/anuario-estatistico-provincial-tete-2024-1-",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts and territorial structure of Tete Province."
+  },
+  {
+    "id": "ine-tete-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província de Tete",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/en/atlas/-/document_library/dzkb/view/337380",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial yearbook and district territorial publications used to verify administrative posts of Tete Province."
+  },
+  {
+    "id": "ine-vilankulo-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Vilankulo_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://www.ine.gov.mz/web/guest/d/vilankulo_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used to verify Vilankulo territorial structure."
+  },
+  {
+    "id": "ine-zambezia-province-yearbook-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Anuário Estatístico, Província da Zambézia, 2024",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://ine.gov.mz/documents/20119/0/Anuario%202025%20Zambezia-2024_101751.pdf",
+    "accessedAt": "2026-10-20",
+    "notes": "Official INE statistical yearbook used to verify the districts of Zambézia Province."
+  },
+  {
+    "id": "ine-zambezia-territorial-statistics",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Estatísticas Territoriais — Província da Zambézia",
+    "type": "OFFICIAL",
+    "year": 2024,
+    "url": "https://www.ine.gov.mz/web/guest/estat%C3%ADsticas/-/document_library/pfpz/view/44394",
+    "accessedAt": "2026-10-21",
+    "notes": "Official INE provincial and district territorial publications used to verify administrative posts of Zambézia Province."
+  },
+  {
+    "id": "ine-zavala-statistics-2020-2024",
+    "institution": "Instituto Nacional de Estatística",
+    "title": "Zavala_2024",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://ine.gov.mz/web/guest/d/zavala_2024",
+    "accessedAt": "2026-10-23",
+    "notes": "Current INE district publication used to verify Zavala territorial structure."
+  },
+  {
+    "id": "maputo-boane-matola-rio-admin-2025",
+    "institution": "Governo do Distrito de Boane / Municípios de Boane e Matola-Rio",
+    "title": "Caracterização administrativa dos Municípios da Vila de Boane e Matola-Rio",
+    "type": "OFFICIAL",
+    "year": 2025,
+    "url": "https://sdgs.un.org/sites/default/files/2025-02/Session%204%20-%209%20Boane%20Districe.Municipios%20de%20Boane.Matola.pdf",
+    "accessedAt": "2026-10-22",
+    "notes": "Official administrative presentation confirming Gueguegue and Eduardo Mondlane as the two municipal localities of Boane and documenting the 2023 municipalization of Matola-Rio. Mulotana remains the non-municipal locality under the Matola-Rio administrative post; the current INE provincial target is 3 district localities."
+  },
+  {
+    "id": "municipio-pemba-current-neighborhoods",
+    "institution": "Conselho Municipal da Cidade de Pemba",
+    "title": "Bairros de Pemba",
+    "type": "OFFICIAL",
+    "year": 2026,
+    "url": "https://cmcpemba.gov.mz/bairros",
+    "accessedAt": "2026-10-23",
+    "notes": "Official municipal page listing 13 current urban neighborhoods of Pemba and their municipal administrative-post grouping."
   }
 ]

@@ -1,0 +1,875 @@
+[
+  {
+    "id": "locality_manica_barue_catandica_chuala",
+    "code": null,
+    "name": "Chuala",
+    "slug": "chuala",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_catandica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_catandica_inhazonia",
+    "code": null,
+    "name": "Inhazonia",
+    "slug": "inhazonia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_catandica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_catandica_villa_de_catandica",
+    "code": null,
+    "name": "Villa de Catandica",
+    "slug": "villa-de-catandica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_catandica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_choa_choa_sede",
+    "code": null,
+    "name": "Choa-sede",
+    "slug": "choa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_choa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_choa_nhabuto",
+    "code": null,
+    "name": "Nhabuto",
+    "slug": "nhabuto",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_choa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_choa_nhauroa",
+    "code": null,
+    "name": "Nhauroa",
+    "slug": "nhauroa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_choa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_nhampassa_nhampassa_sede",
+    "code": null,
+    "name": "Nhampassa-Sede",
+    "slug": "nhampassa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_nhampassa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_barue_nhampassa_nhassacara",
+    "code": null,
+    "name": "Nhassacara",
+    "slug": "nhassacara",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_barue_nhampassa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_amatongas_amatongas_sede",
+    "code": null,
+    "name": "Amatongas-Sede",
+    "slug": "amatongas-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_amatongas",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_amatongas_nhambonda",
+    "code": null,
+    "name": "Nhambonda",
+    "slug": "nhambonda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_amatongas",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_cafumpe_cafumpe_sede",
+    "code": null,
+    "name": "Cafumpe-Sede",
+    "slug": "cafumpe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_cafumpe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_cafumpe_chiongo",
+    "code": null,
+    "name": "Chiongo",
+    "slug": "chiongo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_cafumpe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_cafumpe_mudima",
+    "code": null,
+    "name": "Mudima",
+    "slug": "mudima",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_cafumpe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_gondola_sede_villa_de_gondola",
+    "code": null,
+    "name": "Villa de Gondola",
+    "slug": "villa-de-gondola",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_gondola_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_inchope_doeroi",
+    "code": null,
+    "name": "Doeroi",
+    "slug": "doeroi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_inchope",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_inchope_inchope_sede",
+    "code": null,
+    "name": "Inchope-Sede",
+    "slug": "inchope-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_inchope",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_gondola_inchope_muda_serracao",
+    "code": null,
+    "name": "Muda Serracao",
+    "slug": "muda-serracao",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_gondola_inchope",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_guro_sede_bunga",
+    "code": null,
+    "name": "Bunga",
+    "slug": "bunga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_guro_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_guro_sede_sanga",
+    "code": null,
+    "name": "Sanga",
+    "slug": "sanga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_guro_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_mandie_demaufe",
+    "code": null,
+    "name": "Demaufe",
+    "slug": "demaufe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_mandie",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_mandie_massangano",
+    "code": null,
+    "name": "Massangano",
+    "slug": "massangano",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_mandie",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_mungari_bamba",
+    "code": null,
+    "name": "Bamba",
+    "slug": "bamba",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_mungari",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_mungari_chivuli",
+    "code": null,
+    "name": "Chivuli",
+    "slug": "chivuli",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_mungari",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_nhamassonge_nhacaduzuduzu",
+    "code": null,
+    "name": "Nhacaduzuduzu",
+    "slug": "nhacaduzuduzu",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_nhamassonge",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_guro_nhamassonge_thanda",
+    "code": null,
+    "name": "Thanda",
+    "slug": "thanda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_guro_nhamassonge",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_macate_sede_chissassa",
+    "code": null,
+    "name": "Chissassa",
+    "slug": "chissassa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_macate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_macate_sede_macate_sede",
+    "code": null,
+    "name": "Macate-Sede",
+    "slug": "macate-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_macate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_macate_sede_maconha",
+    "code": null,
+    "name": "Maconha",
+    "slug": "maconha",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_macate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_macate_sede_marera",
+    "code": null,
+    "name": "Marera",
+    "slug": "marera",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_macate_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_zembe_boa_vista",
+    "code": null,
+    "name": "Boa Vista",
+    "slug": "boa-vista",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_zembe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_zembe_tranga_passo",
+    "code": null,
+    "name": "Tranga Passo",
+    "slug": "tranga-passo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_zembe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macate_zembe_zembe_sede",
+    "code": null,
+    "name": "Zembe-Sede",
+    "slug": "zembe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macate_zembe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_machaze_bassane",
+    "code": null,
+    "name": "Bassane",
+    "slug": "bassane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_machaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_machaze_chipopopo",
+    "code": null,
+    "name": "Chipopopo",
+    "slug": "chipopopo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_machaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_machaze_chipudje",
+    "code": null,
+    "name": "Chipudje",
+    "slug": "chipudje",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_machaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_machaze_chitobe_sede",
+    "code": null,
+    "name": "Chitobe-Sede",
+    "slug": "chitobe-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_machaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_machaze_mutefo",
+    "code": null,
+    "name": "Mutefo",
+    "slug": "mutefo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_machaze",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_save_mavende",
+    "code": null,
+    "name": "Mavende",
+    "slug": "mavende",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_save_mazvissanga",
+    "code": null,
+    "name": "Mazvissanga",
+    "slug": "mazvissanga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_save_sambassoca",
+    "code": null,
+    "name": "Sambassoca",
+    "slug": "sambassoca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_machaze_save_urima",
+    "code": null,
+    "name": "Urima",
+    "slug": "urima",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_machaze_save",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_macossa_sede_macossa_sede",
+    "code": null,
+    "name": "Macossa-Sede",
+    "slug": "macossa-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_macossa_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_macossa_sede_mussangadzi",
+    "code": null,
+    "name": "Mussangadzi",
+    "slug": "mussangadzi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_macossa_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_macossa_sede_rio_dos_elefantes",
+    "code": null,
+    "name": "Rio dos Elefantes",
+    "slug": "rio-dos-elefantes",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_macossa_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_nguawala_mussenguere",
+    "code": null,
+    "name": "Mussenguere",
+    "slug": "mussenguere",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_nguawala",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_nguawala_nguawala_sede",
+    "code": null,
+    "name": "Nguawala-Sede",
+    "slug": "nguawala-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_nguawala",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_nguawala_nhacassoro",
+    "code": null,
+    "name": "Nhacassoro",
+    "slug": "nhacassoro",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_nguawala",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_nhamagua_dunda",
+    "code": null,
+    "name": "Dunda",
+    "slug": "dunda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_nhamagua",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_macossa_nhamagua_nhamagua_sede",
+    "code": null,
+    "name": "Nhamagua-Sede",
+    "slug": "nhamagua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_macossa_nhamagua",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_machipanda_maridza",
+    "code": null,
+    "name": "Maridza",
+    "slug": "maridza",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_machipanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_machipanda_muzongo",
+    "code": null,
+    "name": "Muzongo",
+    "slug": "muzongo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_machipanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_machipanda_vila_de_machipanda",
+    "code": null,
+    "name": "Vila de Machipanda",
+    "slug": "vila-de-machipanda",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_machipanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_mavonde_chitunga",
+    "code": null,
+    "name": "Chitunga",
+    "slug": "chitunga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_mavonde",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_mavonde_mavonde",
+    "code": null,
+    "name": "Mavonde",
+    "slug": "mavonde",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_mavonde",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_bandula",
+    "code": null,
+    "name": "Bandula",
+    "slug": "bandula",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_chinhambuzi",
+    "code": null,
+    "name": "Chinhambuzi",
+    "slug": "chinhambuzi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_nhaucaca",
+    "code": null,
+    "name": "Nhaucaca",
+    "slug": "nhaucaca",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_manica_messica_vila_de_messica",
+    "code": null,
+    "name": "Vila de Messica",
+    "slug": "vila-de-messica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_manica_messica",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_chiuirane_chikuekuete",
+    "code": null,
+    "name": "Chikuekuete",
+    "slug": "chikuekuete",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_chiuirane",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_chiuirane_chirera",
+    "code": null,
+    "name": "Chirera",
+    "slug": "chirera",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_chiuirane",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_chiuirane_chiurairue_sede",
+    "code": null,
+    "name": "Chiurairue-Sede",
+    "slug": "chiurairue-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_chiuirane",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_dacata_bangonhe",
+    "code": null,
+    "name": "Bangonhe",
+    "slug": "bangonhe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_dacata",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_dacata_dacata_sede",
+    "code": null,
+    "name": "Dacata-Sede",
+    "slug": "dacata-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_dacata",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_dacata_macuvo",
+    "code": null,
+    "name": "Macuvo",
+    "slug": "macuvo",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_dacata",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_dacata_mave",
+    "code": null,
+    "name": "Mave",
+    "slug": "mave",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_dacata",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_dacata_muchenedze",
+    "code": null,
+    "name": "Muchenedze",
+    "slug": "muchenedze",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_dacata",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_espungabera_dibi",
+    "code": null,
+    "name": "Dibi",
+    "slug": "dibi",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_espungabera",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_espungabera_espungabera_sede",
+    "code": null,
+    "name": "Espungabera-Sede",
+    "slug": "espungabera-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_espungabera",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_mossurize_espungabera_matengane",
+    "code": null,
+    "name": "Matengane",
+    "slug": "matengane",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_mossurize_espungabera",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_dombe_bunga",
+    "code": null,
+    "name": "Bunga",
+    "slug": "bunga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_dombe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_dombe_darue",
+    "code": null,
+    "name": "Dáruè",
+    "slug": "darue",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_dombe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_dombe_mabaia",
+    "code": null,
+    "name": "Mabaia",
+    "slug": "mabaia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_dombe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_dombe_matarara",
+    "code": null,
+    "name": "Matarara",
+    "slug": "matarara",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_dombe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_dombe_muoco",
+    "code": null,
+    "name": "Muoco",
+    "slug": "muoco",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_dombe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_dombe_zinguena",
+    "code": null,
+    "name": "Zinguena",
+    "slug": "zinguena",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_dombe",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_muhoa_muoha_sede",
+    "code": null,
+    "name": "Muoha-Sede",
+    "slug": "muoha-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_muhoa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_muhoa_mupandeia",
+    "code": null,
+    "name": "Mupandeia",
+    "slug": "mupandeia",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_muhoa",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_rotanda_mussapa",
+    "code": null,
+    "name": "Mussapa",
+    "slug": "mussapa",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_rotanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_rotanda_rotanda_sede",
+    "code": null,
+    "name": "Rotanda-Sede",
+    "slug": "rotanda-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_rotanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_rotanda_tsetsera",
+    "code": null,
+    "name": "Tsetsera",
+    "slug": "tsetsera",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_rotanda",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_sussundenga_sede_matica",
+    "code": null,
+    "name": "Matica",
+    "slug": "matica",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_sussundenga_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_sussundenga_sede_munhinga",
+    "code": null,
+    "name": "Munhinga",
+    "slug": "munhinga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_sussundenga_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_sussundenga_sede_nhaurombe",
+    "code": null,
+    "name": "Nhaurombe",
+    "slug": "nhaurombe",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_sussundenga_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_sussundenga_sussundenga_sede_vila_de_sussundenga",
+    "code": null,
+    "name": "Vila de Sussundenga",
+    "slug": "vila-de-sussundenga",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_sussundenga_sussundenga_sede",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_buzua_buzua_sede",
+    "code": null,
+    "name": "Buzua-Sede",
+    "slug": "buzua-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_buzua",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_buzua_marimanao",
+    "code": null,
+    "name": "Marimanao",
+    "slug": "marimanao",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_buzua",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_buzua_ntheme",
+    "code": null,
+    "name": "Ntheme",
+    "slug": "ntheme",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_buzua",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_nhacafula_nhacafula_sede",
+    "code": null,
+    "name": "Nhacafula-Sede",
+    "slug": "nhacafula-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_nhacafula",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_nhacafula_nhacalapho",
+    "code": null,
+    "name": "Nhacalapho",
+    "slug": "nhacalapho",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_nhacafula",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_nhacolo_casado",
+    "code": null,
+    "name": "Casado",
+    "slug": "casado",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_nhacolo",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_nhacolo_nhacolo_sede",
+    "code": null,
+    "name": "Nhacolo-Sede",
+    "slug": "nhacolo-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_nhacolo",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_tambara_nhacolo_sabeta",
+    "code": null,
+    "name": "Sabeta",
+    "slug": "sabeta",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_tambara_nhacolo",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_vanduzi_matsinho_chiremera",
+    "code": null,
+    "name": "Chiremera",
+    "slug": "chiremera",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_vanduzi_matsinho",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_vanduzi_matsinho_matsinho_sede",
+    "code": null,
+    "name": "Matsinho-Sede",
+    "slug": "matsinho-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_vanduzi_matsinho",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_vanduzi_vanduzi_chigodole",
+    "code": null,
+    "name": "Chigodole",
+    "slug": "chigodole",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_vanduzi_vanduzi",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_vanduzi_vanduzi_pungue_sul",
+    "code": null,
+    "name": "Pungue Sul",
+    "slug": "pungue-sul",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_vanduzi_vanduzi",
+    "districtId": null
+  },
+  {
+    "id": "locality_manica_vanduzi_vanduzi_vanduzi_sede",
+    "code": null,
+    "name": "Vanduzi-Sede",
+    "slug": "vanduzi-sede",
+    "type": "LOCALITY",
+    "administrativePostId": "adm_post_manica_vanduzi_vanduzi",
+    "districtId": null
+  }
+]

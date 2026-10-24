@@ -1,0 +1,119 @@
+[
+  {
+    "id": "neighborhood_cabo_delgado_pemba_alto_gingone",
+    "code": null,
+    "name": "Alto Gingone",
+    "slug": "alto-gingone",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_cariaco",
+    "code": null,
+    "name": "Cariacó",
+    "slug": "cariaco",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_chuiba",
+    "code": null,
+    "name": "Chuíba",
+    "slug": "chuiba",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_cimento",
+    "code": null,
+    "name": "Cimento",
+    "slug": "cimento",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_eduardo_mondlane",
+    "code": null,
+    "name": "Eduardo Mondlane",
+    "slug": "eduardo-mondlane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_ingonane",
+    "code": null,
+    "name": "Ingonane",
+    "slug": "ingonane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_josina_machel",
+    "code": null,
+    "name": "Josina Machel",
+    "slug": "josina-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_mahate",
+    "code": null,
+    "name": "Mahate",
+    "slug": "mahate",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_maringanha",
+    "code": null,
+    "name": "Maringanha",
+    "slug": "maringanha",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_metula",
+    "code": null,
+    "name": "Metula",
+    "slug": "metula",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_muxara",
+    "code": null,
+    "name": "Muxára",
+    "slug": "muxara",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_natite",
+    "code": null,
+    "name": "Natite",
+    "slug": "natite",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  },
+  {
+    "id": "neighborhood_cabo_delgado_pemba_paquitequete",
+    "code": null,
+    "name": "Paquitequete",
+    "slug": "paquitequete",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_cabo_delgado_pemba"
+  }
+]

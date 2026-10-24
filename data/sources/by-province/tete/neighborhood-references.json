@@ -1,0 +1,110 @@
+[
+  {
+    "localityId": "neighborhood_tete_tete_chingodzi",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_chingodzi",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_degue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_degue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_filipe_samuel_magaia",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_filipe_samuel_magaia",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_francisco_manyanga",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_francisco_manyanga",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_josina_machel",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_josina_machel",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mateus_s_muthemba",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mateus_s_muthemba",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_matundo",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_matundo",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mpadue",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_mpadue",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_samora_machel",
+    "sourceId": "ine-mozgis-localities-2017",
+    "page": null,
+    "notes": "Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for Tete."
+  },
+  {
+    "localityId": "neighborhood_tete_tete_samora_machel",
+    "sourceId": "ine-tete-province-yearbook-2024",
+    "page": "14",
+    "notes": "Current Tete territorial counts confirm this exact structural batch."
+  }
+]

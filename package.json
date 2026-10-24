@@ -24,16 +24,17 @@
     "test": "tsx --test tests/api.smoke.test.ts",
     "test:integration": "tsx --test tests/api.integration.test.ts",
     "test:all": "npm run test && npm run test:integration",
-    "data:validate": "tsx scripts/validate-data.ts && tsx scripts/validate-locality-shards.ts && tsx scripts/validate-coverage.ts",
+    "data:validate": "npm run data:build && tsx scripts/validate-data.ts && tsx scripts/validate-localities.ts && tsx scripts/validate-coverage.ts",
     "data:coverage": "tsx scripts/validate-coverage.ts",
     "data:research:mozgis": "tsx scripts/fetch-mozgis-localities.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
     "db:seed": "prisma db seed",
-    "db:seed:all": "tsx prisma/seed.ts && tsx prisma/seed-locality-shards.ts",
+    "db:seed:all": "npm run data:build && tsx prisma/seed.ts",
     "db:studio": "prisma studio",
     "data:reconcile": "tsx scripts/reconcile-province.ts",
-    "data:promote": "tsx scripts/promote-reconciled.ts"
+    "data:promote": "tsx scripts/promote-reconciled.ts",
+    "data:build": "tsx scripts/build-data.ts"
   },
   "engines": {
     "node": ">=24"

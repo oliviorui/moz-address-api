@@ -1,0 +1,218 @@
+[
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_1o_bairro",
+    "code": null,
+    "name": "1º Bairro",
+    "slug": "1o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_a",
+    "code": null,
+    "name": "3º Bairro A",
+    "slug": "3o-bairro-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_3o_bairro_b",
+    "code": null,
+    "name": "3º Bairro B",
+    "slug": "3o-bairro-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_4o_bairro",
+    "code": null,
+    "name": "4º Bairro",
+    "slug": "4o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_5o_bairro",
+    "code": null,
+    "name": "5º Bairro",
+    "slug": "5o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_6o_bairro",
+    "code": null,
+    "name": "6º Bairro",
+    "slug": "6o-bairro",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_2",
+    "code": null,
+    "name": "Bairro 2",
+    "slug": "bairro-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_chokwe_cidade_de_chokwe_bairro_7",
+    "code": null,
+    "name": "Bairro 7",
+    "slug": "bairro-7",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_chokwe_cidade_de_chokwe",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_a",
+    "code": null,
+    "name": "Inhamissa A",
+    "slug": "inhamissa-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_inhamissa_b",
+    "code": null,
+    "name": "Inhamissa B",
+    "slug": "inhamissa-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_a",
+    "code": null,
+    "name": "Marien Ngouaby A",
+    "slug": "marien-ngouaby-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_inhamissa_marien_ngouaby_b",
+    "code": null,
+    "name": "Marien Ngouaby B",
+    "slug": "marien-ngouaby-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_inhamissa",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_1o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "1º Bairro Comunal Xai-Xai",
+    "slug": "1o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_2o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "2º Bairro Comunal Xai-Xai",
+    "slug": "2o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_3o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "3º Bairro Comunal Xai-Xai",
+    "slug": "3o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_4o_bairro_comunal_xai_xai",
+    "code": null,
+    "name": "4º Bairro Comunal Xai-Xai",
+    "slug": "4o-bairro-comunal-xai-xai",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_a",
+    "code": null,
+    "name": "Bairro Cumunal Unidade A",
+    "slug": "bairro-cumunal-unidade-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_bairro_cumunal_unidade_b",
+    "code": null,
+    "name": "Bairro Cumunal Unidade B",
+    "slug": "bairro-cumunal-unidade-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_municipal_sede_coca_missava",
+    "code": null,
+    "name": "Coca Missava",
+    "slug": "coca-missava",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_municipal_sede",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_a",
+    "code": null,
+    "name": "Patrice Lumumba A",
+    "slug": "patrice-lumumba-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_patrice_lumumba",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_patrice_lumumba_patrice_lumumba_b",
+    "code": null,
+    "name": "Patrice Lumumba B",
+    "slug": "patrice-lumumba-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_patrice_lumumba",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_praia_chinunguine",
+    "code": null,
+    "name": "Chinunguine",
+    "slug": "chinunguine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_praia",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_praia_macanwine",
+    "code": null,
+    "name": "Macanwine",
+    "slug": "macanwine",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_praia",
+    "districtId": null
+  },
+  {
+    "id": "neighborhood_gaza_xai_xai_praia_praia_cimento",
+    "code": null,
+    "name": "Praia Cimento",
+    "slug": "praia-cimento",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": "adm_post_gaza_xai_xai_praia",
+    "districtId": null
+  }
+]

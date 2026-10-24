@@ -1,0 +1,362 @@
+[
+  {
+    "id": "neighborhood_inhambane_inhambane_balane_1",
+    "code": null,
+    "name": "Balane 1",
+    "slug": "balane-1",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_balane_2",
+    "code": null,
+    "name": "Balane 2",
+    "slug": "balane-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_balane_3",
+    "code": null,
+    "name": "Balane 3",
+    "slug": "balane-3",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_chalambe_1",
+    "code": null,
+    "name": "Chalambe 1",
+    "slug": "chalambe-1",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_chalambe_2",
+    "code": null,
+    "name": "Chalambe 2",
+    "slug": "chalambe-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_chemane",
+    "code": null,
+    "name": "Chemane",
+    "slug": "chemane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_conguiana",
+    "code": null,
+    "name": "Conguiana",
+    "slug": "conguiana",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_guitambatuno",
+    "code": null,
+    "name": "Guitambatuno",
+    "slug": "guitambatuno",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_ilha_de_inhambane",
+    "code": null,
+    "name": "Ilha de Inhambane",
+    "slug": "ilha-de-inhambane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_inhamua",
+    "code": null,
+    "name": "Inhamua",
+    "slug": "inhamua",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_josina_machel",
+    "code": null,
+    "name": "Josina Machel",
+    "slug": "josina-machel",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_liberdade_1",
+    "code": null,
+    "name": "Liberdade 1",
+    "slug": "liberdade-1",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_liberdade_2",
+    "code": null,
+    "name": "Liberdade 2",
+    "slug": "liberdade-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_liberdade_3",
+    "code": null,
+    "name": "Liberdade 3",
+    "slug": "liberdade-3",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_machavenga",
+    "code": null,
+    "name": "Machavenga",
+    "slug": "machavenga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_malembuane",
+    "code": null,
+    "name": "Malembuane",
+    "slug": "malembuane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_marrambone",
+    "code": null,
+    "name": "Marrambone",
+    "slug": "marrambone",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_mucucune",
+    "code": null,
+    "name": "Mucucune",
+    "slug": "mucucune",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_muele_1",
+    "code": null,
+    "name": "Muele 1",
+    "slug": "muele-1",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_muele_2",
+    "code": null,
+    "name": "Muele 2",
+    "slug": "muele-2",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_muele_3",
+    "code": null,
+    "name": "Muele 3",
+    "slug": "muele-3",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_salela",
+    "code": null,
+    "name": "Salela",
+    "slug": "salela",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_inhambane_sequeriva",
+    "code": null,
+    "name": "Sequeriva",
+    "slug": "sequeriva",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_inhambane"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_bembe",
+    "code": null,
+    "name": "Bembe",
+    "slug": "bembe",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_chambone_a",
+    "code": null,
+    "name": "Chambone A",
+    "slug": "chambone-a",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_chambone_b",
+    "code": null,
+    "name": "Chambone B",
+    "slug": "chambone-b",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_dambo",
+    "code": null,
+    "name": "Dambo",
+    "slug": "dambo",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_eduardo_mondlane",
+    "code": null,
+    "name": "Eduardo Mondlane",
+    "slug": "eduardo-mondlane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_mabil",
+    "code": null,
+    "name": "Mabil",
+    "slug": "mabil",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_macuamene",
+    "code": null,
+    "name": "Macuamene",
+    "slug": "macuamene",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_macupula",
+    "code": null,
+    "name": "Macupula",
+    "slug": "macupula",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_malalane",
+    "code": null,
+    "name": "Malalane",
+    "slug": "malalane",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_manhala",
+    "code": null,
+    "name": "Manhala",
+    "slug": "manhala",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_maueue",
+    "code": null,
+    "name": "Maueue",
+    "slug": "maueue",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_nhabanda",
+    "code": null,
+    "name": "Nhabanda",
+    "slug": "nhabanda",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_nhaguiviga",
+    "code": null,
+    "name": "Nhaguiviga",
+    "slug": "nhaguiviga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_nhambiho",
+    "code": null,
+    "name": "Nhambiho",
+    "slug": "nhambiho",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_nhanguila",
+    "code": null,
+    "name": "Nhanguila",
+    "slug": "nhanguila",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_rumbana",
+    "code": null,
+    "name": "Rumbana",
+    "slug": "rumbana",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  },
+  {
+    "id": "neighborhood_inhambane_maxixe_tinga_tinga",
+    "code": null,
+    "name": "Tinga Tinga",
+    "slug": "tinga-tinga",
+    "type": "NEIGHBORHOOD",
+    "administrativePostId": null,
+    "districtId": "dist_inhambane_maxixe"
+  }
+]
