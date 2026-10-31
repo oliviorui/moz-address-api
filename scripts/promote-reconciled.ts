@@ -112,6 +112,7 @@ type CanonicalRecord = {
 type LocalitySourceRef = {
   localityId: string;
   sourceId: string;
+  supports: "NAME" | "COUNT";
   page: string | null;
   notes: string;
 };
@@ -578,6 +579,7 @@ for (const diagnosticDistrict of exactDistricts) {
       {
         localityId: id,
         sourceId: historicalSource.id,
+        supports: "NAME",
         page: null,
         notes:
           `Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for ${config.province.name}.`,
@@ -585,6 +587,7 @@ for (const diagnosticDistrict of exactDistricts) {
       {
         localityId: id,
         sourceId: currentSource.id,
+        supports: "COUNT",
         page: config.province.sourcePage ?? null,
         notes:
           `Current ${config.province.name} territorial counts confirm this exact structural batch.`,

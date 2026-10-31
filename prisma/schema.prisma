@@ -32,6 +32,22 @@ enum SourceType {
   SECONDARY
 }
 
+enum NameEvidence {
+  CURRENT_SOURCE
+  HISTORICAL_SOURCE_COUNT_CONFIRMED
+  HISTORICAL_SOURCE_ONLY
+}
+
+enum ReferenceSupport {
+  NAME
+  COUNT
+}
+
+enum CoverageStatus {
+  COMPLETE
+  PARTIAL
+}
+
 model Province {
   id   String  @id
   code String? @unique
@@ -52,10 +68,29 @@ model Province {
 
   districts District[]
   sources   ProvinceSource[]
+  coverage  ProvinceCoverage?
 
   @@index([name])
   @@index([slug])
   @@map("provinces")
+}
+
+model ProvinceCoverage {
+  provinceId String @id
+
+  status CoverageStatus
+
+  expectedAdministrativePosts Int?
+  expectedLocalities          Int?
+  expectedNeighborhoods       Int?
+
+  blockers  Json
+  notes     String[]
+  sourceIds String[]
+
+  province Province @relation(fields: [provinceId], references: [id], onDelete: Cascade)
+
+  @@map("province_coverage")
 }
 
 model District {
@@ -126,6 +161,8 @@ model Locality {
 
   type LocalityType @default(LOCALITY)
 
+  nameEvidence NameEvidence?
+
   administrativePostId String?
   districtId           String?
 
@@ -148,6 +185,7 @@ model Locality {
   @@index([districtId])
   @@index([name])
   @@index([type])
+  @@index([nameEvidence])
   @@map("localities")
 }
 
@@ -158,6 +196,8 @@ model Source {
   title       String
 
   type SourceType @default(OFFICIAL)
+
+  isHistorical Boolean @default(false)
 
   year       Int?
   url        String?
@@ -229,6 +269,7 @@ model LocalitySource {
   localityId String
   sourceId   String
 
+  supports   ReferenceSupport?
   page       String?
   notes      String?
   verifiedAt DateTime?

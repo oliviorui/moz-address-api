@@ -1,5 +1,6 @@
 import {
   LocalityType,
+  NameEvidence,
   type Prisma
 } from "../../generated/prisma/client.js";
 
@@ -15,6 +16,7 @@ export type LocalityFilters = {
   type?: LocalityType;
   district?: string;
   administrativePost?: string;
+  nameEvidence?: NameEvidence;
   page?: number;
   limit?: number;
 };
@@ -55,6 +57,10 @@ export async function getAllLocalities(
    */
   if (filters.type) {
     where.type = filters.type;
+  }
+
+  if (filters.nameEvidence) {
+    where.nameEvidence = filters.nameEvidence;
   }
 
   /*

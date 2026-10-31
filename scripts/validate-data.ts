@@ -1397,6 +1397,30 @@ async function main() {
       sources
     );
 
+    const usedSourceIds =
+      new Set([
+        ...districtSources,
+        ...administrativePostSources,
+        ...localitySources
+      ].map(
+        (reference) =>
+          reference.sourceId
+      ));
+
+    for (const source of sources) {
+      if (!usedSourceIds.has(source.id)) {
+        errors.push(
+          `Source "${source.id}" is not referenced by any record.`
+        );
+      }
+
+      if (source.url === null) {
+        warnings.push(
+          `Source "${source.id}" has no URL. See data/issues/sources-without-url.md.`
+        );
+      }
+    }
+
     console.log(
       "\n📊 Dataset summary"
     );

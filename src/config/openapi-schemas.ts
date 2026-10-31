@@ -438,6 +438,13 @@ export const localityRouteSchemas = {
             "Filter by administrative post ID or slug."
         },
 
+        nameEvidence: {
+          type: "string",
+          description:
+            "CURRENT_SOURCE: a current source lists the name. HISTORICAL_SOURCE_COUNT_CONFIRMED: the name comes from a historical source and a current source confirms only the number of records. HISTORICAL_SOURCE_ONLY: the name comes from a historical source with no current confirmation.",
+          examples: ["CURRENT_SOURCE"]
+        },
+
         ...paginationQueryProperties
       }
     },

@@ -211,6 +211,25 @@ describe("API smoke tests", () => {
     );
   });
 
+  it("rejects invalid name evidence", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/localities?nameEvidence=INVALID"
+      });
+
+    assert.equal(
+      response.statusCode,
+      400
+    );
+
+    assert.equal(
+      response.json().error,
+      "INVALID_NAME_EVIDENCE"
+    );
+  });
+
   it("rejects invalid source year", async () => {
     const response =
       await app.inject({
