@@ -58,7 +58,13 @@ for historical evidence, diagnostics, unresolved conflicts and coverage tracking
 
 ## Before opening a pull request
 
-Run:
+Data-only changes can be checked without a database:
+
+```bash
+npm run data:validate
+```
+
+For code changes, follow the development setup in the README, then run:
 
 ```bash
 npm run data:validate

@@ -11,6 +11,19 @@ export type PaginationMeta = {
   hasPreviousPage: boolean;
 };
 
+/*
+ * Safe integers keep the computed offset within
+ * the range the database accepts.
+ */
+export function isValidPage(
+  page: number
+) {
+  return (
+    Number.isSafeInteger(page) &&
+    page >= 1
+  );
+}
+
 export function getPaginationInput(
   page?: number,
   limit?: number

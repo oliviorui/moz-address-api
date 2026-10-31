@@ -66,12 +66,29 @@ function allowsDirectNeighborhoods(district: District) {
 }
 
 const ids = new Set<string>();
+const parentSlugs = new Set<string>();
+const codes = new Set<string>();
 
 for (const locality of localities) {
   if (ids.has(locality.id)) {
     errors.push(`Duplicate locality/neighborhood ID: "${locality.id}".`);
   }
   ids.add(locality.id);
+
+  const parentSlug =
+    `${locality.administrativePostId ?? locality.districtId}:${locality.slug}`;
+
+  if (parentSlugs.has(parentSlug)) {
+    errors.push(`Duplicate slug under the same parent: "${parentSlug}".`);
+  }
+  parentSlugs.add(parentSlug);
+
+  if (locality.code !== null) {
+    if (codes.has(locality.code)) {
+      errors.push(`Duplicate locality/neighborhood code: "${locality.code}".`);
+    }
+    codes.add(locality.code);
+  }
 
   if (!locality.id.trim() || !locality.name.trim() || !locality.slug.trim()) {
     errors.push(`Invalid empty field in "${locality.id}".`);

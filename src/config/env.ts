@@ -29,6 +29,10 @@ const envSchema = z.object({
     z.string()
       .default("*"),
 
+  TRUST_PROXY:
+    z.string()
+      .default("false"),
+
   RATE_LIMIT_MAX:
     z.coerce
       .number()

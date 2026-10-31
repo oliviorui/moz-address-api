@@ -11,6 +11,10 @@ import {
 } from "../../config/openapi-schemas.js";
 
 import {
+  isValidPage
+} from "../../lib/pagination.js";
+
+import {
   getAllDistricts,
   getDistrictByIdentifier
 } from "./district.service.js";
@@ -91,10 +95,7 @@ export async function districtRoutes(
           ? Number(request.query.limit)
           : 20;
 
-      if (
-        !Number.isInteger(page) ||
-        page < 1
-      ) {
+      if (!isValidPage(page)) {
         return reply
           .status(400)
           .send({

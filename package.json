@@ -14,21 +14,30 @@
   ],
   "license": "MIT",
   "author": "Olívio Rui Cumbe",
+  "homepage": "https://github.com/oliviorui/moz-address-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviorui/moz-address-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oliviorui/moz-address-api/issues"
+  },
   "type": "module",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "prisma generate && tsc",
     "start": "node dist/src/server.js",
-    "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/api.smoke.test.ts",
-    "test:integration": "tsx --test tests/api.integration.test.ts",
+    "typecheck": "prisma generate && npm run data:build && tsc -p tsconfig.check.json",
+    "test": "tsx --test tests/api.smoke.test.ts tests/server.shutdown.test.ts",
+    "test:integration": "tsx --test tests/api.integration.test.ts tests/api.coverage.test.ts",
     "test:all": "npm run test && npm run test:integration",
     "data:validate": "npm run data:build && tsx scripts/validate-data.ts && tsx scripts/validate-localities.ts && tsx scripts/validate-coverage.ts",
     "data:coverage": "tsx scripts/validate-coverage.ts",
     "data:research:mozgis": "tsx scripts/fetch-mozgis-localities.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
     "db:seed": "prisma db seed",
     "db:seed:all": "npm run data:build && tsx prisma/seed.ts",
     "db:studio": "prisma studio",
@@ -39,15 +48,19 @@
   "engines": {
     "node": ">=24"
   },
+  "overrides": {
+    "glob": "^14.0.3"
+  },
   "dependencies": {
     "@fastify/cors": "^11.3.1",
     "@fastify/rate-limit": "^11.2.1",
     "@fastify/swagger": "^9.5.1",
-    "@fastify/swagger-ui": "^5.2.3",
+    "@fastify/swagger-ui": "^6.1.2",
     "@prisma/adapter-pg": "^7.10.1",
     "@prisma/client": "^7.10.1",
     "dotenv": "^17.0.0",
     "fastify": "^5.0.0",
+    "fastify-plugin": "^5.1.0",
     "pg": "^8.23.1",
     "zod": "^4.0.0"
   },

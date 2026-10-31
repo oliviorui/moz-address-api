@@ -531,9 +531,11 @@ for (const diagnosticDistrict of exactDistricts) {
         return accepted.has(normalizedPost);
       });
 
-      if (matches.length === 1) {
-        administrativePostId = matches[0].id;
-        postPart = `_${idPart(matches[0].slug || matches[0].name)}`;
+      const [match] = matches;
+
+      if (match && matches.length === 1) {
+        administrativePostId = match.id;
+        postPart = `_${idPart(match.slug || match.name)}`;
       } else if (matches.length === 0 && districtPosts.length === 0) {
         directDistrictId = district.id;
       } else {

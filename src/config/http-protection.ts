@@ -10,6 +10,23 @@ import {
   env
 } from "./env.js";
 
+export function resolveTrustProxy(
+  raw: string
+): boolean | string {
+  const value = raw.trim();
+
+  if (
+    value === "" ||
+    value.toLowerCase() === "false"
+  ) {
+    return false;
+  }
+
+  return value.toLowerCase() === "true"
+    ? true
+    : value;
+}
+
 function resolveCorsOrigin():
   boolean | string[] {
   const raw =

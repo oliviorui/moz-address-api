@@ -1,5 +1,7 @@
 import assert from "node:assert/strict";
-import administrativePosts from "../data/current/administrative-posts.json";
+import administrativePosts from "../data/current/administrative-posts.json" with {
+  type: "json"
+};
 import {
   after,
   before,
@@ -33,6 +35,19 @@ after(async () => {
 });
 
 describe("API integration tests", () => {
+  it("reports ready when the database responds", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url: "/health/ready"
+      });
+
+    assert.equal(
+      response.statusCode,
+      200
+    );
+  });
+
   it("returns the 11 provinces/equivalents", async () => {
     const response =
       await app.inject({

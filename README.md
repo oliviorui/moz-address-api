@@ -103,7 +103,7 @@ When the server is running:
 http://localhost:3333/docs
 ```
 
-The API publishes an OpenAPI 3.1 specification through Fastify Swagger.
+The API publishes an OpenAPI 3.1 specification through Fastify Swagger. The raw document is available at `/docs/json`.
 
 ## Search
 
@@ -130,7 +130,7 @@ GET /api/v1/search?q=matola
 - Prisma 7
 - Zod
 - OpenAPI / Swagger
-- Docker
+- Docker Compose (local PostgreSQL)
 - Node test runner through `tsx --test`
 - GitHub Actions
 
@@ -169,6 +169,8 @@ moz-address-api/
 Contributors edit the canonical province files under `data/current/by-province/` and their source references under `data/sources/by-province/`.
 
 `npm run data:build` compiles those files into `data/generated/` for validation and database seeding. Generated files are ignored by Git and must not be edited manually.
+
+The Prisma client under `src/generated/` is also generated and ignored by Git. Create it with `npm run db:generate`.
 
 ## Data principles
 
@@ -213,10 +215,11 @@ Start PostgreSQL with Docker if desired:
 docker compose up -d
 ```
 
-Generate Prisma client and seed the database:
+Generate the Prisma client, apply the migrations and seed the database:
 
 ```bash
 npm run db:generate
+npm run db:deploy
 npm run db:seed
 ```
 
@@ -232,11 +235,40 @@ Default server:
 http://localhost:3333
 ```
 
-Health endpoint:
+Health endpoints:
 
 ```http
 GET /health
+GET /health/ready
 ```
+
+`/health` confirms that the API process is responding. `/health/ready` also checks the database and returns `503` when it cannot be reached.
+
+## Running in production
+
+Build the API, prepare the database and start the compiled server:
+
+```bash
+npm ci --include=dev
+npm run build
+npm run db:deploy
+npm run db:seed
+npm start
+```
+
+`DATABASE_URL` must be set for all of these steps, and `NODE_ENV` should be `production`. The server finishes in-flight requests and closes its database connections when it receives `SIGTERM` or `SIGINT`.
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `HOST` | `0.0.0.0` | Address the server binds to. |
+| `PORT` | `3333` | Port the server listens on. |
+| `DATABASE_URL` | none | PostgreSQL connection string. Required. |
+| `CORS_ORIGIN` | `*` | Allowed browser origins, as a comma-separated list. |
+| `TRUST_PROXY` | `false` | Proxy IPs/CIDRs to trust for the client address, as a comma-separated list. |
+| `RATE_LIMIT_MAX` | `120` | Maximum requests per client during the window. |
+| `RATE_LIMIT_WINDOW` | `1 minute` | Rate-limit window. |
+
+Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all clients are counted as one and share a single rate limit. The value `true` trusts any `X-Forwarded-For` header, so use it only when clients cannot reach the API directly.
 
 ## Validation and tests
 
@@ -264,13 +296,13 @@ Build:
 npm run build
 ```
 
-Smoke tests:
+Smoke tests (need `DATABASE_URL` to be set and the Prisma client to be generated, but make no database queries):
 
 ```bash
 npm test
 ```
 
-Integration tests:
+Integration tests (need a migrated and seeded database):
 
 ```bash
 npm run test:integration
@@ -306,7 +338,8 @@ Useful commands:
 
 ```bash
 npm run db:generate
-npm run db:migrate
+npm run db:migrate # create a migration during development
+npm run db:deploy  # apply existing migrations
 npm run db:seed
 npm run db:studio
 ```
