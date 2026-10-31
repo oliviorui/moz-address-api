@@ -8,6 +8,9 @@ import {
   describe,
   it
 } from "node:test";
+import {
+  gunzipSync
+} from "node:zlib";
 
 import type {
   FastifyInstance
@@ -46,6 +49,180 @@ describe("API integration tests", () => {
       response.statusCode,
       200
     );
+  });
+
+  describe("search without accents or hyphens", () => {
+    for (
+      const [query, category, name] of [
+        ["Chokwè", "districts", "Chókwè"],
+        ["chokwe", "districts", "Chókwè"],
+        ["Xai Xai", "districts", "Xai-Xai"],
+        ["ilha de mocambique", "districts", "Ilha de Moçambique"],
+        ["Manhiça", "districts", "Manhiça"],
+        ["msawize", "administrativePosts", "M'Sawize"],
+        ["M’Sawize", "administrativePosts", "M'Sawize"]
+      ] as const
+    ) {
+      it(`finds ${name} when searching "${query}"`, async () => {
+        const response =
+          await app.inject({
+            method: "GET",
+            url: "/api/v1/search",
+            query: {
+              q: query
+            }
+          });
+
+        assert.equal(
+          response.statusCode,
+          200
+        );
+
+        const names =
+          response.json().data[category].map(
+            (item: { name: string }) =>
+              item.name
+          );
+
+        assert.ok(
+          names.includes(name),
+          `${name} is not in ${names.join(", ")}`
+        );
+      });
+    }
+
+    it("does not match everything when the query has no letters or digits", async () => {
+      const response =
+        await app.inject({
+          method: "GET",
+          url: "/api/v1/search",
+          query: {
+            q: "--"
+          }
+        });
+
+      assert.equal(
+        response.json().meta.total,
+        0
+      );
+    });
+
+    for (
+      const [route, query, name] of [
+        ["districts", "Xai Xai", "Xai-Xai"],
+        ["administrative-posts", "Chokwè", "Cidade de Chókwè"],
+        ["localities", "Xai Xai", "1º Bairro Comunal Xai-Xai"],
+        ["provinces", "Zambezia", "Zambézia"]
+      ] as const
+    ) {
+      it(`/${route}?q=${query} applies the same matching`, async () => {
+        const response =
+          await app.inject({
+            method: "GET",
+            url: `/api/v1/${route}`,
+            query: {
+              q: query,
+              limit: "100"
+            }
+          });
+
+        const names =
+          response.json().data.map(
+            (item: { name: string }) =>
+              item.name
+          );
+
+        assert.ok(
+          names.includes(name),
+          `${name} is not in ${names.join(", ")}`
+        );
+      });
+    }
+  });
+
+  describe("HTTP caching", () => {
+    it("lets clients cache API responses", async () => {
+      const response =
+        await app.inject({
+          method: "GET",
+          url: "/api/v1/provinces"
+        });
+
+      assert.equal(
+        response.headers["cache-control"],
+        "public, max-age=3600"
+      );
+
+      assert.ok(response.headers.etag);
+    });
+
+    it("answers 304 when the response has not changed", async () => {
+      const first =
+        await app.inject({
+          method: "GET",
+          url: "/api/v1/provinces"
+        });
+
+      const second =
+        await app.inject({
+          method: "GET",
+          url: "/api/v1/provinces",
+
+          headers: {
+            "if-none-match":
+              String(first.headers.etag)
+          }
+        });
+
+      assert.equal(
+        second.statusCode,
+        304
+      );
+
+      assert.equal(
+        second.body,
+        ""
+      );
+    });
+
+    it("compresses large responses", async () => {
+      const response =
+        await app.inject({
+          method: "GET",
+          url: "/api/v1/tree",
+
+          headers: {
+            "accept-encoding": "gzip"
+          }
+        });
+
+      assert.equal(
+        response.statusCode,
+        200
+      );
+
+      assert.equal(
+        response.headers["content-encoding"],
+        "gzip"
+      );
+
+      const body =
+        JSON.parse(
+          gunzipSync(response.rawPayload).toString()
+        );
+
+      assert.equal(
+        body.meta?.counts?.provinces ??
+          body.counts?.provinces ??
+          body.data.length,
+        11
+      );
+
+      assert.ok(
+        response.rawPayload.length < 100_000,
+        `compressed size was ${response.rawPayload.length}`
+      );
+    });
   });
 
   it("returns the 11 provinces/equivalents", async () => {

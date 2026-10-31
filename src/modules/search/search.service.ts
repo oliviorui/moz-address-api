@@ -1,5 +1,9 @@
 import { prisma } from "../../lib/prisma.js";
 
+import {
+  nameOrSlugFilters
+} from "../../lib/search.js";
+
 export type GlobalSearchOptions = {
   q: string;
   limit?: number;
@@ -22,19 +26,7 @@ export async function globalSearch(
         status: "ACTIVE",
 
         OR: [
-          {
-            name: {
-              contains: query,
-              mode: "insensitive"
-            }
-          },
-          {
-            slug: {
-              contains:
-                query.toLowerCase(),
-              mode: "insensitive"
-            }
-          },
+          ...nameOrSlugFilters(query),
           {
             capital: {
               contains: query,
@@ -56,19 +48,7 @@ export async function globalSearch(
         status: "ACTIVE",
 
         OR: [
-          {
-            name: {
-              contains: query,
-              mode: "insensitive"
-            }
-          },
-          {
-            slug: {
-              contains:
-                query.toLowerCase(),
-              mode: "insensitive"
-            }
-          }
+          ...nameOrSlugFilters(query)
         ]
       },
 
@@ -88,19 +68,7 @@ export async function globalSearch(
         status: "ACTIVE",
 
         OR: [
-          {
-            name: {
-              contains: query,
-              mode: "insensitive"
-            }
-          },
-          {
-            slug: {
-              contains:
-                query.toLowerCase(),
-              mode: "insensitive"
-            }
-          }
+          ...nameOrSlugFilters(query)
         ]
       },
 
@@ -124,19 +92,7 @@ export async function globalSearch(
         status: "ACTIVE",
 
         OR: [
-          {
-            name: {
-              contains: query,
-              mode: "insensitive"
-            }
-          },
-          {
-            slug: {
-              contains:
-                query.toLowerCase(),
-              mode: "insensitive"
-            }
-          }
+          ...nameOrSlugFilters(query)
         ]
       },
 
