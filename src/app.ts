@@ -3,9 +3,18 @@ import Fastify from "fastify";
 import cors from "@fastify/cors";
 import rateLimit from "@fastify/rate-limit";
 
+import packageJson from "../package.json" with {
+  type: "json"
+};
+
+import {
+  env
+} from "./config/env.js";
+
 import {
   corsOptions,
-  rateLimitOptions
+  rateLimitOptions,
+  resolveTrustProxy
 } from "./config/http-protection.js";
 
 import {
@@ -13,13 +22,59 @@ import {
 } from "./config/swagger.js";
 
 import {
+  pingDatabase
+} from "./lib/prisma.js";
+
+import {
   registerRoutes
 } from "./routes/index.js";
 
-export function buildApp() {
+export type BuildAppOptions = {
+  trustProxy?: boolean | string;
+  checkDatabase?: () => Promise<void>;
+};
+
+export function buildApp(
+  options: BuildAppOptions = {}
+) {
+  const checkDatabase =
+    options.checkDatabase ??
+    pingDatabase;
+
   const app = Fastify({
-    logger: true
+    logger: true,
+
+    trustProxy:
+      options.trustProxy ??
+      resolveTrustProxy(
+        env.TRUST_PROXY
+      )
   });
+
+  app.setErrorHandler<Error & {
+    statusCode?: number;
+  }>(
+    (error, request, reply) => {
+      if (
+        error.statusCode !== undefined &&
+        error.statusCode < 500
+      ) {
+        return reply.send(error);
+      }
+
+      request.log.error(error);
+
+      return reply
+        .status(500)
+        .send({
+          error:
+            "INTERNAL_SERVER_ERROR",
+
+          message:
+            "An unexpected error occurred."
+        });
+    }
+  );
 
   app.register(
     async function application(
@@ -57,7 +112,8 @@ export function buildApp() {
             name:
               "moz-address-api",
 
-            version: "0.1.0",
+            version:
+              packageJson.version,
 
             description:
               "Open-source API for Mozambique's administrative divisions.",
@@ -88,6 +144,42 @@ export function buildApp() {
           }
         },
         async () => {
+          return {
+            status: "ok"
+          };
+        }
+      );
+
+      instance.get(
+        "/health/ready",
+        {
+          config: {
+            rateLimit: false
+          },
+
+          schema: {
+            tags: ["System"],
+
+            summary:
+              "Readiness check",
+
+            description:
+              "Checks whether the API can reach its database."
+          }
+        },
+        async (request, reply) => {
+          try {
+            await checkDatabase();
+          } catch (error) {
+            request.log.error(error);
+
+            return reply
+              .status(503)
+              .send({
+                status: "unavailable"
+              });
+          }
+
           return {
             status: "ok"
           };

@@ -1,6 +1,6 @@
 # Canonical locality layout
 
-This directory is the contributor-friendly canonical layout planned for v1.1.
+This directory is the contributor-friendly canonical layout for localities and neighborhoods.
 
 Each province has exactly two human-edited locality files:
 

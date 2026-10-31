@@ -5,7 +5,13 @@ import type {
   FastifyInstance
 } from "fastify";
 
-export async function registerSwagger(
+import fastifyPlugin from "fastify-plugin";
+
+import packageJson from "../../package.json" with {
+  type: "json"
+};
+
+async function swaggerPlugin(
   app: FastifyInstance
 ) {
   await app.register(swagger, {
@@ -14,7 +20,7 @@ export async function registerSwagger(
 
       info: {
         title: "Moz Address API",
-        version: "1.0.0",
+        version: packageJson.version,
 
         description:
           "Open-source REST API for Mozambique's administrative divisions, including provinces, districts, administrative posts, localities and neighborhoods.",
@@ -94,3 +100,11 @@ export async function registerSwagger(
     staticCSP: true
   });
 }
+
+/*
+ * Without fastify-plugin the Swagger hooks stay
+ * encapsulated and never see the API routes,
+ * leaving the OpenAPI document empty.
+ */
+export const registerSwagger =
+  fastifyPlugin(swaggerPlugin);

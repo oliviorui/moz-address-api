@@ -19,7 +19,7 @@ jobs:
 
     services:
       postgres:
-        image: postgres:16
+        image: postgres:17-alpine
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
@@ -62,7 +62,7 @@ jobs:
         run: npm run build
 
       - name: Apply database migrations
-        run: npx prisma migrate deploy
+        run: npm run db:deploy
 
       - name: Seed database
         run: npm run db:seed
