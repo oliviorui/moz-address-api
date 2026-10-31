@@ -6,6 +6,10 @@ import {
 import { prisma } from "../../lib/prisma.js";
 
 import {
+  nameOrSlugFilters
+} from "../../lib/search.js";
+
+import {
   buildPaginationMeta,
   getPaginationInput
 } from "../../lib/pagination.js";
@@ -30,18 +34,7 @@ export async function getAllDistricts(
 
     if (query) {
       where.OR = [
-        {
-          name: {
-            contains: query,
-            mode: "insensitive"
-          }
-        },
-        {
-          slug: {
-            contains: query.toLowerCase(),
-            mode: "insensitive"
-          }
-        }
+        ...nameOrSlugFilters(query)
       ];
     }
   }

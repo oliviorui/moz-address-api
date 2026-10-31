@@ -72,3 +72,9 @@ jobs:
 
       - name: Run integration tests
         run: npm run test:integration
+
+      - name: Export dataset
+        run: npm run data:export
+
+      - name: Build Docker image
+        run: docker build .

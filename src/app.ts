@@ -1,6 +1,8 @@
 import Fastify from "fastify";
 
+import compress from "@fastify/compress";
 import cors from "@fastify/cors";
+import etag from "@fastify/etag";
 import rateLimit from "@fastify/rate-limit";
 
 import packageJson from "../package.json" with {
@@ -88,6 +90,22 @@ export function buildApp(
       await instance.register(
         rateLimit,
         rateLimitOptions
+      );
+
+      /*
+       * ETag must come first so that it hashes the
+       * response before it is compressed. It is weak
+       * because compressed and plain bodies differ.
+       */
+      await instance.register(
+        etag,
+        {
+          weak: true
+        }
+      );
+
+      await instance.register(
+        compress
       );
 
       await instance.register(

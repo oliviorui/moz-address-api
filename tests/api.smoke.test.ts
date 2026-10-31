@@ -249,6 +249,38 @@ describe("API smoke tests", () => {
     );
   });
 
+  it("does not let clients cache errors", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url:
+          "/api/v1/provinces?page=0"
+      });
+
+    assert.equal(
+      response.statusCode,
+      400
+    );
+
+    assert.equal(
+      response.headers["cache-control"],
+      undefined
+    );
+  });
+
+  it("does not let clients cache health checks", async () => {
+    const response =
+      await app.inject({
+        method: "GET",
+        url: "/health"
+      });
+
+    assert.equal(
+      response.headers["cache-control"],
+      undefined
+    );
+  });
+
   it("GET / reports the package version", async () => {
     const response =
       await app.inject({

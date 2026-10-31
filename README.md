@@ -130,6 +130,28 @@ Example:
 GET /api/v1/search?q=matola
 ```
 
+Accents, case and punctuation do not matter, so `Chokwe` finds `Chókwè` and `Xai Xai` finds `Xai-Xai`. List routes apply the same matching to their `q` filter.
+
+## Download the dataset
+
+You can use the data without running the API. Each [GitHub release](https://github.com/oliviorui/moz-address-api/releases) includes a zip file with UTF-8 JSON and CSV files for provinces, districts, administrative posts, localities and neighborhoods with their full hierarchy, sources and coverage.
+
+To create the same files locally in `release/`:
+
+```bash
+npm run data:export
+```
+
+## Run with Docker
+
+Start the API, a PostgreSQL database and a one-off job that applies the migrations and seeds the data:
+
+```bash
+docker compose --profile app up --build
+```
+
+The API is then available at `http://localhost:3333`. This setup uses the default database password and is meant for local use.
+
 ## Tech stack
 
 - Node.js 24+
@@ -139,7 +161,7 @@ GET /api/v1/search?q=matola
 - Prisma 7
 - Zod
 - OpenAPI / Swagger
-- Docker Compose (local PostgreSQL)
+- Docker and Docker Compose
 - Node test runner through `tsx --test`
 - GitHub Actions
 
@@ -269,6 +291,10 @@ npm start
 
 `DATABASE_URL` must be set for all of these steps, and `NODE_ENV` should be `production`. The server finishes in-flight requests and closes its database connections when it receives `SIGTERM` or `SIGINT`.
 
+The `Dockerfile` builds an image that contains only what the API needs to run. Its `setup` target has the tools for migrations and seeding.
+
+Responses are compressed, and successful API responses include `Cache-Control` and an `ETag`, so clients can reuse them and receive `304 Not Modified` when nothing has changed. Reduce `CACHE_MAX_AGE_SECONDS` if you re-seed often.
+
 | Variable | Default | Purpose |
 | --- | --- | --- |
 | `HOST` | `0.0.0.0` | Address the server binds to. |
@@ -278,6 +304,7 @@ npm start
 | `TRUST_PROXY` | `false` | Proxy IPs/CIDRs to trust for the client address, as a comma-separated list. |
 | `RATE_LIMIT_MAX` | `120` | Maximum requests per client during the window. |
 | `RATE_LIMIT_WINDOW` | `1 minute` | Rate-limit window. |
+| `CACHE_MAX_AGE_SECONDS` | `3600` | How long clients may reuse a successful API response. |
 
 Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all clients are counted as one and share a single rate limit. The value `true` trusts any `X-Forwarded-For` header, so use it only when clients cannot reach the API directly.
 

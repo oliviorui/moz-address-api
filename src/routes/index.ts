@@ -3,6 +3,10 @@ import type {
 } from "fastify";
 
 import {
+  env
+} from "../config/env.js";
+
+import {
   provinceRoutes
 } from "../modules/provinces/province.routes.js";
 
@@ -37,6 +41,27 @@ import {
 export async function registerRoutes(
   app: FastifyInstance
 ) {
+  /*
+   * The data only changes when the database is seeded,
+   * so successful responses can be reused by clients.
+   */
+  app.addHook(
+    "onSend",
+    async (_request, reply, payload) => {
+      if (
+        reply.statusCode === 200 ||
+        reply.statusCode === 304
+      ) {
+        reply.header(
+          "cache-control",
+          `public, max-age=${env.CACHE_MAX_AGE_SECONDS}`
+        );
+      }
+
+      return payload;
+    }
+  );
+
   await app.register(
     provinceRoutes,
     {

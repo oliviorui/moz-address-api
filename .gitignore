@@ -37,3 +37,6 @@ data/raw/
 
 # Machine-generated canonical aggregates
 data/generated/
+
+# Dataset export (npm run data:export)
+release/
