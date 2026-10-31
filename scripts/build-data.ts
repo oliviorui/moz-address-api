@@ -2,6 +2,12 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import {
+  deriveNameEvidence,
+  type ProvinceCoverage,
+  type ReferenceSupport
+} from "./lib/data-rules.js";
+
 type LocalityRecord = {
   id: string;
   code: string | null;
@@ -12,15 +18,15 @@ type LocalityRecord = {
   districtId: string | null;
 };
 
-type LocalitySourceReference = {
+type LocalitySourceReference = ReferenceSupport & {
   localityId: string;
-  sourceId: string;
   page: string | null;
   notes: string | null;
 };
 
 type SourceRecord = {
   id: string;
+  isHistorical: boolean;
 };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -115,9 +121,33 @@ references.sort((a, b) =>
   a.sourceId.localeCompare(b.sourceId)
 );
 
+const sourceById = new Map(sourceCatalog.map((item) => [item.id, item]));
+const referencesByRecord = new Map<string, LocalitySourceReference[]>();
+
+for (const ref of references) {
+  const list = referencesByRecord.get(ref.localityId) ?? [];
+  list.push(ref);
+  referencesByRecord.set(ref.localityId, list);
+}
+
+const recordsWithEvidence = records.map((record) => ({
+  ...record,
+  nameEvidence: deriveNameEvidence(
+    referencesByRecord.get(record.id) ?? [],
+    sourceById
+  )
+}));
+
+const coverageRoot = path.join(ROOT, "data", "coverage", "by-province");
+const coverage = fs.readdirSync(coverageRoot)
+  .filter((file) => file.endsWith(".json"))
+  .sort()
+  .map((file) => readJson<ProvinceCoverage>(path.join(coverageRoot, file)));
+
 fs.rmSync(generatedRoot, { recursive: true, force: true });
-writeJson(path.join(generatedRoot, "localities.json"), records);
+writeJson(path.join(generatedRoot, "localities.json"), recordsWithEvidence);
 writeJson(path.join(generatedRoot, "locality-sources.json"), references);
+writeJson(path.join(generatedRoot, "coverage.json"), coverage);
 
 const localities = records.filter((item) => item.type === "LOCALITY").length;
 const neighborhoods = records.filter((item) => item.type === "NEIGHBORHOOD").length;

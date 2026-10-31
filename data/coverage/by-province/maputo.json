@@ -1,0 +1,82 @@
+{
+  "provinceId": "prov_10",
+  "province": "Maputo",
+  "status": "COMPLETE",
+  "sourceIds": [
+    "ine-maputo-province-yearbook-2024",
+    "cmm-matola-pla-2025"
+  ],
+  "expected": {
+    "administrativePosts": 29,
+    "localities": 76,
+    "neighborhoods": 42
+  },
+  "blockers": [],
+  "notes": [],
+  "districts": [
+    {
+      "districtId": "dist_maputo_matola",
+      "district": "Matola",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 42
+      }
+    },
+    {
+      "districtId": "dist_maputo_boane",
+      "district": "Boane",
+      "expected": {
+        "localities": 3,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_maputo_magude",
+      "district": "Magude",
+      "expected": {
+        "localities": 17,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_maputo_manhica",
+      "district": "Manhiça",
+      "expected": {
+        "localities": 13,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_maputo_marracuene",
+      "district": "Marracuene",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_maputo_matutuine",
+      "district": "Matutuíne",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_maputo_moamba",
+      "district": "Moamba",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_maputo_namaacha",
+      "district": "Namaacha",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

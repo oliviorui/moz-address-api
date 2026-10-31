@@ -1,0 +1,214 @@
+{
+  "provinceId": "prov_03",
+  "province": "Nampula",
+  "status": "PARTIAL",
+  "sourceIds": [
+    "ine-nampula-province-yearbook-2024",
+    "cm-nampula-neighborhoods-2024"
+  ],
+  "expected": {
+    "administrativePosts": 72,
+    "localities": 171,
+    "neighborhoods": 63
+  },
+  "blockers": [
+    {
+      "code": "MISSING_COMPLETE_CURRENT_NOMINAL_LIST",
+      "layer": "neighborhoods",
+      "districts": [
+        "Nacala Porto"
+      ],
+      "missing": 41,
+      "note": "INE 2024 reports 41 neighborhoods for Nacala. The INE/MozGIS 2017 layer has 40 names, so the current list cannot be established by count. See data/issues/nampula-nacala-neighborhoods.md."
+    }
+  ],
+  "notes": [
+    "Targets come from INE Anuário Estatístico da Província de Nampula 2024, Quadro 1.2.1, read on 2026-10-31."
+  ],
+  "districts": [
+    {
+      "districtId": "dist_nampula_nampula",
+      "district": "Nampula",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 18
+      }
+    },
+    {
+      "districtId": "dist_nampula_angoche",
+      "district": "Angoche",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_erati",
+      "district": "Eráti",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_ilha_de_mocambique",
+      "district": "Ilha de Moçambique",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 4
+      }
+    },
+    {
+      "districtId": "dist_nampula_lalaua",
+      "district": "Lalaua",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_malema",
+      "district": "Malema",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_meconta",
+      "district": "Meconta",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_mecuburi",
+      "district": "Mecubúri",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_memba",
+      "district": "Memba",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_mogincual",
+      "district": "Mogincual",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_mogovolas",
+      "district": "Mogovolas",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_moma",
+      "district": "Moma",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_monapo",
+      "district": "Monapo",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_mossuril",
+      "district": "Mossuril",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_muecate",
+      "district": "Muecate",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_murrupula",
+      "district": "Murrupula",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_nacala_porto",
+      "district": "Nacala Porto",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 41
+      }
+    },
+    {
+      "districtId": "dist_nampula_nacala_a_velha",
+      "district": "Nacala-A-Velha",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_nacaroa",
+      "district": "Nacarôa",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_rapale",
+      "district": "Rapale",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_ribaue",
+      "district": "Ribáuè",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_larde",
+      "district": "Larde",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_nampula_liupo",
+      "district": "Liúpo",
+      "expected": {
+        "localities": 3,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

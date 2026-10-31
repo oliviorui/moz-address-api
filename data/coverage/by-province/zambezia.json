@@ -1,0 +1,226 @@
+{
+  "provinceId": "prov_04",
+  "province": "Zambézia",
+  "status": "PARTIAL",
+  "sourceIds": [
+    "ine-zambezia-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 54,
+    "localities": 191,
+    "neighborhoods": 128
+  },
+  "blockers": [
+    {
+      "code": "BLOCKED_WITH_DISTRICT_NEIGHBORHOODS",
+      "layer": "localities",
+      "districts": [
+        "Quelimane",
+        "Gurué",
+        "Mocuba"
+      ],
+      "missing": 28,
+      "note": "Quelimane (6), Gurué (16) and Mocuba (6). The 2017 layer matches these locality counts, but these districts were reconciled as a whole and stay blocked by their neighborhood layer."
+    },
+    {
+      "code": "POST_RECONCILIATION_REQUIRED",
+      "layer": "localities",
+      "districts": [
+        "Namacurra",
+        "Nicoadala"
+      ],
+      "missing": 13,
+      "note": "Namacurra (9) and Nicoadala (4). Their 2017 records use administrative posts that are not in the current structure (Malei; Munhonha and Namacata), so the parent post of each locality is not established."
+    },
+    {
+      "code": "MISSING_COMPLETE_CURRENT_NOMINAL_LIST",
+      "layer": "neighborhoods",
+      "districts": [
+        "Quelimane",
+        "Gurué",
+        "Mocuba"
+      ],
+      "missing": 128,
+      "note": "Quelimane (51), Gurué (46) and Mocuba (31). The current counts are known, but no complete current list of names exists. See data/issues/zambezia-urban-neighborhood-reconciliation.md."
+    }
+  ],
+  "notes": [],
+  "districts": [
+    {
+      "districtId": "dist_zambezia_quelimane",
+      "district": "Quelimane",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 51
+      }
+    },
+    {
+      "districtId": "dist_zambezia_nicoadala",
+      "district": "Nicoadala",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_molumbo",
+      "district": "Molumbo",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_namacurra",
+      "district": "Namacurra",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_milange",
+      "district": "Milange",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_chinde",
+      "district": "Chinde",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_luabo",
+      "district": "Luabo",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_inhassunge",
+      "district": "Inhassunge",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_mocuba",
+      "district": "Mocuba",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 31
+      }
+    },
+    {
+      "districtId": "dist_zambezia_gurue",
+      "district": "Gurué",
+      "expected": {
+        "localities": 16,
+        "neighborhoods": 46
+      }
+    },
+    {
+      "districtId": "dist_zambezia_morrumbala",
+      "district": "Morrumbala",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_mopeia",
+      "district": "Mopeia",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_derre",
+      "district": "Derre",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_lugela",
+      "district": "Lugela",
+      "expected": {
+        "localities": 16,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_namarroi",
+      "district": "Namarroi",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_ile",
+      "district": "Ile",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_alto_molocue",
+      "district": "Alto Molocué",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_gile",
+      "district": "Gilé",
+      "expected": {
+        "localities": 15,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_mulevala",
+      "district": "Mulevala",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_mocubela",
+      "district": "Mocubela",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_maganja_da_costa",
+      "district": "Maganja da Costa",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_zambezia_pebane",
+      "district": "Pebane",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

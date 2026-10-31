@@ -25,6 +25,25 @@ data/sources/by-province/<province>/
 └── neighborhood-references.json
 ```
 
+Each reference states what the source supports:
+
+```json
+{
+  "localityId": "locality_maputo_magude_example",
+  "sourceId": "boletim-republica-magude-2024",
+  "supports": "NAME",
+  "page": "12",
+  "notes": "Listed under its administrative post in the territorial table."
+}
+```
+
+- `NAME`: the source lists this record's name.
+- `COUNT`: the source confirms only how many records exist.
+
+Every record needs at least one `NAME` reference. Mark a source `isHistorical` in `data/sources/sources.json` when its names may no longer be current. The dataset derives each record's `nameEvidence` from these values.
+
+If your change fills a gap, update the province file under `data/coverage/by-province/`. Validation fails while a known gap is unexplained.
+
 ## Preferred sources
 
 Use the strongest current source available:

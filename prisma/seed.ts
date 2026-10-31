@@ -35,13 +35,25 @@ import localitySources from "../data/generated/locality-sources.json" with {
   type: "json"
 };
 
+import coverage from "../data/generated/coverage.json" with {
+  type: "json"
+};
+
 import {
   PrismaClient,
   ProvinceType,
   SourceType,
   DistrictType,
-  LocalityType
+  LocalityType,
+  type CoverageStatus,
+  type NameEvidence,
+  type ReferenceSupport
 } from "../src/generated/prisma/client.js";
+
+import {
+  removeStaleRecords,
+  sourceLinkKey
+} from "./remove-stale.js";
 
 type AdministrativePostSeedRecord = {
   id: string;
@@ -64,6 +76,7 @@ type LocalitySeedRecord = {
   name: string;
   slug: string;
   type: "LOCALITY" | "NEIGHBORHOOD";
+  nameEvidence: NameEvidence;
   administrativePostId: string | null;
   districtId: string | null;
 };
@@ -71,8 +84,22 @@ type LocalitySeedRecord = {
 type LocalitySourceSeedRecord = {
   localityId: string;
   sourceId: string;
+  supports: ReferenceSupport;
   page: string | null;
   notes: string | null;
+};
+
+type ProvinceCoverageSeedRecord = {
+  provinceId: string;
+  status: CoverageStatus;
+  expected: {
+    administrativePosts: number | null;
+    localities: number | null;
+    neighborhoods: number | null;
+  };
+  blockers: object[];
+  notes: string[];
+  sourceIds: string[];
 };
 
 const localityRecords =
@@ -103,6 +130,42 @@ const administrativePostRecords =
 const administrativePostSourceRecords =
   administrativePostSources as AdministrativePostSourceSeedRecord[];
 
+async function seedProvinceCoverage() {
+  console.log("📊 Seeding province coverage...");
+
+  for (const item of coverage as ProvinceCoverageSeedRecord[]) {
+    const data = {
+      status: item.status,
+      expectedAdministrativePosts:
+        item.expected.administrativePosts,
+      expectedLocalities:
+        item.expected.localities,
+      expectedNeighborhoods:
+        item.expected.neighborhoods,
+      blockers: item.blockers,
+      notes: item.notes,
+      sourceIds: item.sourceIds
+    };
+
+    await prisma.provinceCoverage.upsert({
+      where: {
+        provinceId: item.provinceId
+      },
+
+      update: data,
+
+      create: {
+        provinceId: item.provinceId,
+        ...data
+      }
+    });
+  }
+
+  console.log(
+    `✅ ${coverage.length} province coverage record(s) available.`
+  );
+}
+
 async function seedSources() {
   console.log("📚 Seeding data sources...");
 
@@ -119,6 +182,7 @@ async function seedSources() {
           source.type === "SECONDARY"
             ? SourceType.SECONDARY
             : SourceType.OFFICIAL,
+        isHistorical: source.isHistorical,
         year: source.year,
         url: source.url,
         accessedAt: source.accessedAt
@@ -135,6 +199,7 @@ async function seedSources() {
           source.type === "SECONDARY"
             ? SourceType.SECONDARY
             : SourceType.OFFICIAL,
+        isHistorical: source.isHistorical,
         year: source.year,
         url: source.url,
         accessedAt: source.accessedAt
@@ -237,66 +302,6 @@ async function seedAdministrativePosts() {
     "🏘️ Seeding administrative posts..."
   );
 
-  const canonicalIds =
-    administrativePostRecords.map(
-      (post) => post.id
-    );
-
-  // Remove stale source links and obsolete administrative posts
-  // that no longer exist in the canonical dataset. This prevents
-  // renamed posts from surviving as "ghost" rows after an upsert seed.
-  const stalePosts =
-    await prisma.administrativePost.findMany({
-      where: {
-        id: {
-          notIn: canonicalIds
-        }
-      },
-      select: {
-        id: true
-      }
-    });
-
-  if (stalePosts.length > 0) {
-    const staleIds =
-      stalePosts.map((post) => post.id);
-
-    const blockingLocalities =
-      await prisma.locality.count({
-        where: {
-          administrativePostId: {
-            in: staleIds
-          }
-        }
-      });
-
-    if (blockingLocalities > 0) {
-      throw new Error(
-        `Cannot remove ${staleIds.length} stale administrative post(s): ${blockingLocalities} locality record(s) still reference them.`
-      );
-    }
-
-    await prisma.administrativePostSource.deleteMany({
-      where: {
-        administrativePostId: {
-          in: staleIds
-        }
-      }
-    });
-
-    await prisma.administrativePost.deleteMany({
-      where: {
-        id: {
-          in: staleIds
-        }
-      }
-    });
-
-    console.log(
-      `🧹 Removed ${staleIds.length} stale administrative post(s).`
-    );
-  }
-
   for (const post of administrativePostRecords) {
     await prisma.administrativePost.upsert({
       where: {
@@ -351,6 +356,8 @@ async function seedLocalities() {
         name: locality.name,
         slug: locality.slug,
         type,
+        nameEvidence:
+          locality.nameEvidence,
         administrativePostId:
           locality.administrativePostId,
         districtId:
@@ -363,6 +370,8 @@ async function seedLocalities() {
         name: locality.name,
         slug: locality.slug,
         type,
+        nameEvidence:
+          locality.nameEvidence,
         administrativePostId:
           locality.administrativePostId,
         districtId:
@@ -399,12 +408,13 @@ async function seedLocalitySources() {
       },
 
       update: {
+        supports:
+          reference.supports,
         page:
           reference.page ?? null,
         notes:
           reference.notes,
-        verifiedAt:
-          new Date()
+        verifiedAt: null
       },
 
       create: {
@@ -412,12 +422,13 @@ async function seedLocalitySources() {
           reference.localityId,
         sourceId:
           reference.sourceId,
+        supports:
+          reference.supports,
         page:
           reference.page ?? null,
         notes:
           reference.notes,
-        verifiedAt:
-          new Date()
+        verifiedAt: null
       }
     });
   }
@@ -444,7 +455,7 @@ async function seedDistrictSources() {
       update: {
         page: reference.page ?? null,
         notes: reference.notes,
-        verifiedAt: new Date()
+        verifiedAt: null
       },
 
       create: {
@@ -452,7 +463,7 @@ async function seedDistrictSources() {
         sourceId: reference.sourceId,
         page: reference.page ?? null,
         notes: reference.notes,
-        verifiedAt: new Date()
+        verifiedAt: null
       }
     });
   }
@@ -483,7 +494,7 @@ async function seedAdministrativePostSources() {
       update: {
         page: reference.page ?? null,
         notes: reference.notes,
-        verifiedAt: new Date()
+        verifiedAt: null
       },
 
       create: {
@@ -492,7 +503,7 @@ async function seedAdministrativePostSources() {
         sourceId: reference.sourceId,
         page: reference.page ?? null,
         notes: reference.notes,
-        verifiedAt: new Date()
+        verifiedAt: null
       }
     });
   }
@@ -505,6 +516,41 @@ async function seedAdministrativePostSources() {
 async function main() {
   console.log(
     "🌱 Starting database seed...\n"
+  );
+
+  const removed =
+    await removeStaleRecords(prisma, {
+      sourceIds:
+        sources.map((source) => source.id),
+      provinceIds:
+        provinces.map((province) => province.id),
+      districtIds:
+        districts.map((district) => district.id),
+      administrativePostIds:
+        administrativePostRecords.map((post) => post.id),
+      localityIds:
+        localityRecords.map((locality) => locality.id),
+
+      districtSources: new Set(
+        districtSources.map((reference) =>
+          sourceLinkKey(reference.districtId, reference.sourceId)
+        )
+      ),
+      administrativePostSources: new Set(
+        administrativePostSourceRecords.map((reference) =>
+          sourceLinkKey(reference.administrativePostId, reference.sourceId)
+        )
+      ),
+      localitySources: new Set(
+        localitySourceRecords.map((reference) =>
+          sourceLinkKey(reference.localityId, reference.sourceId)
+        )
+      )
+    });
+
+  console.log(
+    "🧹 Removed stale records:",
+    removed
   );
 
   await seedSources();
@@ -522,6 +568,8 @@ async function main() {
   await seedAdministrativePostSources();
 
   await seedLocalitySources();
+
+  await seedProvinceCoverage();
 
   console.log(
     "\n🌱 Database seed completed."

@@ -18,37 +18,46 @@ Version 1.0.0 establishes a stable API, canonical administrative hierarchy, Post
 
 Canonical locality and neighborhood data is organized by province under `data/current/by-province/`. Machine-generated aggregate files are created by `npm run data:build` and are not edited manually.
 
-## Coverage policy
+## Coverage
 
 The project does **not** invent administrative records to force 100% coverage.
 
 Where current official sources conflict, provide aggregate counts without complete nominal lists, or cannot yet be reconciled safely, the gap remains documented instead of being guessed.
 
-### Complete or effectively complete for v1
+Records loaded against the verified targets:
 
-- Maputo
-- Cidade de Maputo
-- Nampula
-- Sofala
-- Inhambane
-- Tete
-- Manica
+| Province | Status | Administrative posts | Localities | Neighborhoods |
+| --- | --- | ---: | ---: | ---: |
+| Cabo Delgado | Partial | 56 / 56 | 131 / 131 | 13 / unknown |
+| Cidade de Maputo | Complete | 0 / 0 | 0 / 0 | 63 / 63 |
+| Gaza | Partial | 50 / 50 | 95 / 119 | 24 / 56 |
+| Inhambane | Complete | 26 / 26 | 70 / 70 | 40 / 40 |
+| Manica | Complete | 37 / 37 | 97 / 97 | 43 / 43 |
+| Maputo | Complete | 29 / 29 | 76 / 76 | 42 / 42 |
+| Nampula | Partial | 72 / 72 | 171 / 171 | 22 / 63 |
+| Niassa | Partial | 45 / 45 | 74 / 97 | 22 / 22 |
+| Sofala | Complete | 38 / 38 | 89 / 89 | 36 / 36 |
+| Tete | Complete | 36 / 36 | 127 / 127 | 9 / 9 |
+| Zambézia | Partial | 54 / 54 | 150 / 191 | 0 / 128 |
+| **Total** | | **443 / 443** | **1080 / 1168** | **314 / unknown** |
 
-### Accepted partial coverage for v1
+`GET /api/v1/coverage` reports the same figures with the reason for each gap. They are also recorded under `data/coverage/by-province/`, and validation fails if a known gap is not explained. See `data/coverage/README.md`.
 
-- Niassa
-- Gaza
-- Zambézia
-- Cabo Delgado
+## How far to trust a name
 
-Detailed coverage and blocker information is stored under:
+Reaching a target only shows that the **number** of records matches. For most records, the name itself comes from an older source.
 
-```text
-data/coverage/
-data/issues/
-```
+Each locality and neighborhood has a `nameEvidence` value:
 
-See `data/coverage/README.md` for the release coverage policy.
+| Value | Meaning | Records |
+| --- | --- | ---: |
+| `CURRENT_SOURCE` | A current source lists this name. | 208 |
+| `HISTORICAL_SOURCE_COUNT_CONFIRMED` | The name comes from a historical source, mainly the INE/MozGIS 2017 layer. A current source confirms only the number of records in the district. | 1186 |
+| `HISTORICAL_SOURCE_ONLY` | The name comes from a historical source with no current confirmation. | 0 |
+
+A name, spelling or parent may therefore have changed since the source was published, even in a province marked complete. Check `nameEvidence` if your application depends on current names, or filter with `GET /api/v1/localities?nameEvidence=CURRENT_SOURCE`.
+
+The detail routes also show, for each source, whether it `supports` the `NAME` or only the `COUNT`, and whether the source `isHistorical`. The `verifiedAt` field stays `null` because review dates are not recorded yet.
 
 ## Administrative model
 
@@ -154,6 +163,8 @@ moz-address-api/
 │   │           ├── locality-references.json
 │   │           └── neighborhood-references.json
 │   ├── coverage/
+│   │   └── by-province/
+│   │       └── <province>.json
 │   ├── issues/
 │   └── research/
 ├── prisma/
@@ -183,7 +194,7 @@ Preferred sources include:
 3. Municipal authorities
 4. Other authoritative administrative sources
 
-Historical MozGIS/INE data may be used for reconciliation, but historical names are not automatically promoted as current records.
+Historical MozGIS/INE names are promoted only when the district's record count and hierarchy reconcile with current official figures, and they stay marked as historical through `nameEvidence`.
 
 The project intentionally distinguishes:
 
@@ -343,6 +354,8 @@ npm run db:deploy  # apply existing migrations
 npm run db:seed
 npm run db:studio
 ```
+
+`npm run db:seed` makes the database match the canonical files, so it **removes** any provinces, districts, administrative posts, localities, sources and source links that are not in them. Do not store your own records in these tables.
 
 ## Contributing
 
