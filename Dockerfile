@@ -1,6 +1,6 @@
 # The "setup" stage has the development tools needed to build the API and to
 # run migrations and the seed. Docker Compose uses it for the one-off setup job.
-FROM node:24-slim AS setup
+FROM node:26-slim AS setup
 
 WORKDIR /app
 
@@ -13,7 +13,7 @@ COPY . .
 RUN DATABASE_URL="postgresql://build:build@localhost:5432/build" npm run build
 
 # The default image contains only what the API needs to run.
-FROM node:24-slim AS runtime
+FROM node:26-slim AS runtime
 
 ENV NODE_ENV=production
 
