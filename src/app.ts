@@ -15,8 +15,10 @@ import {
 
 import {
   corsOptions,
+  getClientIp,
   rateLimitOptions,
   resolveTrustProxy,
+  serializeRequest,
   type TrustProxy
 } from "./config/http-protection.js";
 
@@ -34,6 +36,7 @@ import {
 
 export type BuildAppOptions = {
   trustProxy?: TrustProxy;
+  clientIpHeader?: string;
   checkDatabase?: () => Promise<void>;
 };
 
@@ -44,8 +47,20 @@ export function buildApp(
     options.checkDatabase ??
     pingDatabase;
 
+  const clientIpHeader =
+    options.clientIpHeader ??
+    env.CLIENT_IP_HEADER;
+
   const app = Fastify({
-    logger: true,
+    logger: {
+      serializers: {
+        req: (request) =>
+          serializeRequest(
+            request,
+            clientIpHeader
+          )
+      }
+    },
 
     trustProxy:
       options.trustProxy ??
@@ -90,7 +105,15 @@ export function buildApp(
 
       await instance.register(
         rateLimit,
-        rateLimitOptions
+        {
+          ...rateLimitOptions,
+
+          keyGenerator: (request) =>
+            getClientIp(
+              request,
+              clientIpHeader
+            )
+        }
       );
 
       /*
