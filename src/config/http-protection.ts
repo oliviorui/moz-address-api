@@ -1,3 +1,5 @@
+import { isIP } from "node:net";
+
 import type {
   FastifyCorsOptions
 } from "@fastify/cors";
@@ -64,6 +66,51 @@ function resolveCorsOrigin():
       origin.trim()
     )
     .filter(Boolean);
+}
+
+type RequestWithAddress = {
+  ip: string;
+  headers: Record<string, string | string[] | undefined>;
+};
+
+/*
+ * Some platforms hide the client behind proxies that
+ * X-Forwarded-For cannot see past, but report it in a header.
+ * Anything that is not an IP address is ignored, so random
+ * values cannot create new rate-limit buckets.
+ */
+export function getClientIp(
+  request: RequestWithAddress,
+  headerName: string
+) {
+  const value =
+    headerName
+      ? request.headers[
+          headerName.toLowerCase()
+        ]
+      : undefined;
+
+  return typeof value === "string" &&
+    isIP(value.trim()) !== 0
+    ? value.trim()
+    : request.ip;
+}
+
+export function serializeRequest(
+  request: RequestWithAddress & {
+    method: string;
+    url: string;
+    host: string;
+  },
+  headerName: string
+) {
+  return {
+    method: request.method,
+    url: request.url,
+    host: request.host,
+    remoteAddress:
+      getClientIp(request, headerName)
+  };
 }
 
 export const corsOptions:

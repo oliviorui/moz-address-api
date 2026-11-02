@@ -13,5 +13,7 @@ services:
     envVars:
       - key: DATABASE_URL
         sync: false
-      - key: TRUST_PROXY
-        value: "1"
+      # Requests reach the API from a local proxy, so X-Forwarded-For does not
+      # identify the client here. The header is set by the CDN in front of Render.
+      - key: CLIENT_IP_HEADER
+        value: true-client-ip

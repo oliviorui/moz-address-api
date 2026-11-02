@@ -19,7 +19,9 @@ import {
 } from "../src/app.js";
 
 import {
-  resolveTrustProxy
+  getClientIp,
+  resolveTrustProxy,
+  serializeRequest
 } from "../src/config/http-protection.js";
 
 import {
@@ -727,6 +729,163 @@ describe("Rate limiting behind a proxy", () => {
         2
       );
     });
+  });
+
+  describe("with a client address header, as behind a CDN", () => {
+    async function usedAfter(
+      clientIpHeader: string | undefined,
+      values: [string, string]
+    ) {
+      const proxiedApp =
+        buildApp(
+          clientIpHeader
+            ? { clientIpHeader }
+            : {}
+        );
+
+      const request = (
+        value: string
+      ) =>
+        proxiedApp.inject({
+          method: "GET",
+          url: "/",
+
+          headers: {
+            "true-client-ip": value
+          }
+        });
+
+      await request(values[0]);
+
+      const response =
+        await request(values[1]);
+
+      await proxiedApp.close();
+
+      return (
+        Number(
+          response.headers[
+            "x-ratelimit-limit"
+          ]
+        ) -
+        Number(
+          response.headers[
+            "x-ratelimit-remaining"
+          ]
+        )
+      );
+    }
+
+    it("counts different clients separately", async () => {
+      assert.equal(
+        await usedAfter(
+          "true-client-ip",
+          ["203.0.113.1", "203.0.113.2"]
+        ),
+        1
+      );
+    });
+
+    it("counts the same client together", async () => {
+      assert.equal(
+        await usedAfter(
+          "true-client-ip",
+          ["203.0.113.1", "203.0.113.1"]
+        ),
+        2
+      );
+    });
+
+    it("does not let invalid values create new rate limits", async () => {
+      assert.equal(
+        await usedAfter(
+          "true-client-ip",
+          ["not-an-address", "also-not-an-address"]
+        ),
+        2
+      );
+    });
+
+    it("ignores the header unless it is configured", async () => {
+      assert.equal(
+        await usedAfter(
+          undefined,
+          ["203.0.113.1", "203.0.113.2"]
+        ),
+        2
+      );
+    });
+  });
+
+  it("reads the client address from the configured header", () => {
+    const request = {
+      ip: "127.0.0.1",
+
+      headers: {
+        "true-client-ip": "203.0.113.7"
+      }
+    };
+
+    assert.equal(
+      getClientIp(request, "true-client-ip"),
+      "203.0.113.7"
+    );
+
+    assert.equal(
+      getClientIp(request, "True-Client-IP"),
+      "203.0.113.7"
+    );
+
+    assert.equal(
+      getClientIp(request, ""),
+      "127.0.0.1"
+    );
+
+    assert.equal(
+      getClientIp(request, "cf-connecting-ip"),
+      "127.0.0.1"
+    );
+
+    assert.equal(
+      getClientIp(
+        {
+          ip: "127.0.0.1",
+
+          headers: {
+            "true-client-ip": "2001:db8::1"
+          }
+        },
+        "true-client-ip"
+      ),
+      "2001:db8::1"
+    );
+  });
+
+  it("logs the address used for the rate limit", () => {
+    const serialized =
+      serializeRequest(
+        {
+          method: "GET",
+          url: "/health",
+          host: "example.com",
+          ip: "127.0.0.1",
+
+          headers: {
+            "true-client-ip": "203.0.113.7"
+          }
+        },
+        "true-client-ip"
+      );
+
+    assert.equal(
+      serialized.remoteAddress,
+      "203.0.113.7"
+    );
+
+    assert.equal(
+      serialized.url,
+      "/health"
+    );
   });
 
   it("parses the TRUST_PROXY setting", () => {

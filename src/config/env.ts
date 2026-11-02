@@ -33,6 +33,10 @@ const envSchema = z.object({
     z.string()
       .default("false"),
 
+  CLIENT_IP_HEADER:
+    z.string()
+      .default(""),
+
   RATE_LIMIT_MAX:
     z.coerce
       .number()
