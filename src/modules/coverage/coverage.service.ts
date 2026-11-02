@@ -97,12 +97,13 @@ function buildMetric(
   };
 }
 
-function sumTargets(
+export function sumTargets(
   targets: (number | null)[]
 ) {
-  return targets.every(
-    (target) => target !== null
-  )
+  return targets.length > 0 &&
+    targets.every(
+      (target) => target !== null
+    )
     ? targets.reduce<number>(
         (total, target) =>
           total + (target ?? 0),
