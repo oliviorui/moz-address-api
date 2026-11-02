@@ -2,7 +2,7 @@
 
 This project follows [Semantic Versioning](https://semver.org/).
 
-## 1.1.0 - Unreleased
+## 1.1.0 - 2026-11-02
 
 To upgrade an existing installation, run `npm install`, `npm run db:generate`, `npm run db:deploy` and `npm run db:seed`.
 
