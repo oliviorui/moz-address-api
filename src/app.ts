@@ -16,7 +16,8 @@ import {
 import {
   corsOptions,
   rateLimitOptions,
-  resolveTrustProxy
+  resolveTrustProxy,
+  type TrustProxy
 } from "./config/http-protection.js";
 
 import {
@@ -32,7 +33,7 @@ import {
 } from "./routes/index.js";
 
 export type BuildAppOptions = {
-  trustProxy?: boolean | string;
+  trustProxy?: TrustProxy;
   checkDatabase?: () => Promise<void>;
 };
 

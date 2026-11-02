@@ -55,6 +55,9 @@ jobs:
       - name: Validate dataset
         run: npm run data:validate
 
+      - name: Lint
+        run: npm run lint
+
       - name: Typecheck
         run: npm run typecheck
 
