@@ -1,6 +1,6 @@
 {
   "name": "moz-address-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open-source REST API and dataset for Mozambique's administrative divisions.",
   "keywords": [
     "mozambique",
@@ -29,6 +29,7 @@
     "build": "prisma generate && tsc",
     "start": "node dist/src/server.js",
     "typecheck": "prisma generate && npm run data:build && tsc -p tsconfig.check.json",
+    "lint": "eslint .",
     "test": "tsx --test tests/api.smoke.test.ts tests/server.shutdown.test.ts tests/data.rules.test.ts tests/data.export.test.ts",
     "test:integration": "tsx --test --test-concurrency=1 tests/api.integration.test.ts tests/api.coverage.test.ts tests/seed.cleanup.test.ts",
     "test:all": "npm run test && npm run test:integration",
@@ -50,7 +51,8 @@
     "node": ">=24"
   },
   "overrides": {
-    "glob": "^14.0.3"
+    "glob": "^14.0.3",
+    "minimatch": "^11.0.3"
   },
   "dependencies": {
     "@fastify/compress": "^9.3.0",
@@ -68,10 +70,13 @@
     "zod": "^4.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^24.0.0",
     "@types/pg": "^8.23.1",
+    "eslint": "^10.14.0",
     "prisma": "^7.10.1",
     "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.72.1"
   }
 }

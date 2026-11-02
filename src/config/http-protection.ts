@@ -10,9 +10,14 @@ import {
   env
 } from "./env.js";
 
+export type TrustProxy =
+  | boolean
+  | string
+  | ((address: string, hop: number) => boolean);
+
 export function resolveTrustProxy(
   raw: string
-): boolean | string {
+): TrustProxy {
   const value = raw.trim();
 
   if (
@@ -22,9 +27,23 @@ export function resolveTrustProxy(
     return false;
   }
 
-  return value.toLowerCase() === "true"
-    ? true
-    : value;
+  if (value.toLowerCase() === "true") {
+    return true;
+  }
+
+  /*
+   * Fastify ignores a numeric trustProxy, so a proxy
+   * count needs a function. Each trusted proxy appends the
+   * address it saw, so anything further left can be forged.
+   */
+  if (/^\d+$/.test(value)) {
+    const proxies = Number(value);
+
+    return (_address, hop) =>
+      hop < proxies;
+  }
+
+  return value;
 }
 
 function resolveCorsOrigin():

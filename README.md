@@ -1,12 +1,14 @@
 # 🇲🇿 moz-address-api
 
+[![CI](https://github.com/oliviorui/moz-address-api/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviorui/moz-address-api/actions/workflows/ci.yml)
+[![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-blue.svg)](DATA_LICENSE.md)
+
 Open-source REST API and canonical dataset for Mozambique's administrative divisions.
 
 The project provides structured, source-aware location data for applications such as e-commerce, logistics, delivery systems, address forms, ERPs, CRMs, fintech and public-sector software.
 
-## v1.0.0
-
-Version 1.0.0 establishes a stable API, canonical administrative hierarchy, PostgreSQL persistence, source provenance, dataset validation and explicit coverage reporting.
+This is an independent project, not an official publication. The dataset is incomplete and most names come from historical sources, so read [Coverage](#coverage) and [How far to trust a name](#how-far-to-trust-a-name) before relying on it. See the [changelog](CHANGELOG.md) for changes.
 
 ### Current canonical dataset
 
@@ -193,7 +195,10 @@ moz-address-api/
 ├── scripts/
 ├── src/
 ├── tests/
+├── CHANGELOG.md
 ├── CONTRIBUTING.md
+├── DATA_LICENSE.md
+├── Dockerfile
 └── README.md
 ```
 
@@ -301,12 +306,29 @@ Responses are compressed, and successful API responses include `Cache-Control` a
 | `PORT` | `3333` | Port the server listens on. |
 | `DATABASE_URL` | none | PostgreSQL connection string. Required. |
 | `CORS_ORIGIN` | `*` | Allowed browser origins, as a comma-separated list. |
-| `TRUST_PROXY` | `false` | Proxy IPs/CIDRs to trust for the client address, as a comma-separated list. |
+| `TRUST_PROXY` | `false` | The proxies to trust for the client address: a comma-separated list of IPs/CIDRs, or the number of proxies. |
 | `RATE_LIMIT_MAX` | `120` | Maximum requests per client during the window. |
 | `RATE_LIMIT_WINDOW` | `1 minute` | Rate-limit window. |
 | `CACHE_MAX_AGE_SECONDS` | `3600` | How long clients may reuse a successful API response. |
 
-Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all clients are counted as one and share a single rate limit. The value `true` trusts any `X-Forwarded-For` header, so use it only when clients cannot reach the API directly.
+Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all clients are counted as one and share a single rate limit. If the proxy IPs change, as on most hosting platforms, use the number of proxies (usually `1`), but only if clients cannot reach the API directly. Avoid `true`: clients can then forge `X-Forwarded-For` and bypass the rate limit.
+
+### Deploying to Render and Neon
+
+`render.yaml` describes the API as a Docker service on [Render](https://render.com), using a [Neon](https://neon.com) PostgreSQL database.
+
+1. Create a Neon project, ideally in a European region near Render's Frankfurt region, and copy its **direct** connection string (not the pooled one).
+2. Apply the migrations and load the data from your computer:
+
+   ```bash
+   DATABASE_URL="<neon-connection-string>" npm run db:deploy
+   DATABASE_URL="<neon-connection-string>" npm run db:seed
+   ```
+
+3. In Render, create a Blueprint from this repository and set `DATABASE_URL` when asked.
+4. Check `GET /health/ready`, then confirm that a forged header does not change the rate-limit count: repeat a request with different `X-Forwarded-For` values and `x-ratelimit-remaining` should keep falling. Then ask someone on another network to make a request; their count should be separate. If it is not, the platform has more proxies than `TRUST_PROXY` allows for.
+
+On free plans, the service sleeps when idle, so the first request after a pause can take 30 seconds or more. Run the seed again after each data release.
 
 ## Validation and tests
 
@@ -322,9 +344,10 @@ Dataset validation (builds first automatically):
 npm run data:validate
 ```
 
-Type checking:
+Linting and type checking:
 
 ```bash
+npm run lint
 npm run typecheck
 ```
 
@@ -401,9 +424,9 @@ Do not submit inferred locality or neighborhood names merely to make coverage to
 
 ## License
 
-Source code is licensed under the MIT License.
+Source code is licensed under the [MIT License](LICENSE).
 
-The dataset aggregates and normalizes information from external sources. Source-specific attribution and reuse requirements may differ from the software license and should be respected.
+The dataset is licensed under [CC BY 4.0](DATA_LICENSE.md), and its sources keep their own terms. If you redistribute the data, keep the attribution and the INE notice in [DATA_LICENSE.md](DATA_LICENSE.md).
 
 ## Why this project?
 

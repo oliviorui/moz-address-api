@@ -236,6 +236,13 @@ describe("buildExport", () => {
     assert.equal(province.localities.missing, 2);
   });
 
+  it("includes the attribution notice required by the INE license", () => {
+    assert.match(
+      files.get("README.md") ?? "",
+      /adapted from the Statistical Office of Mozambique’s information, which is licensed under the National Institute of statistic’s Open License Agreement/
+    );
+  });
+
   it("explains how far to trust a name in the bundled README", () => {
     assert.match(
       files.get("README.md") ?? "",

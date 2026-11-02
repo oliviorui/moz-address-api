@@ -87,8 +87,19 @@ For code changes, follow the development setup in the README, then run:
 
 ```bash
 npm run data:validate
+npm run lint
 npm run typecheck
 npm run test:all
 ```
 
 Data changes should preserve referential integrity and include source provenance.
+
+## Licensing of contributions
+
+By contributing, you agree that your code is licensed under the MIT License and your data contributions under CC BY 4.0. Only submit data you are allowed to share. See [DATA_LICENSE.md](DATA_LICENSE.md).
+
+## Releasing
+
+1. Update the version in `package.json` and `package-lock.json`, and add the date to `CHANGELOG.md`.
+2. Merge the changes into `main`.
+3. Tag `main` as `v<version>` and push the tag. The release workflow validates the data and publishes the export as a GitHub release.

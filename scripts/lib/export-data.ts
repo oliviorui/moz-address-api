@@ -147,7 +147,9 @@ function buildReadme(input: ExportInput) {
 
 Mozambique's administrative divisions, from https://github.com/oliviorui/moz-address-api
 
-Each dataset is provided as UTF-8 JSON and CSV. See the repository for the data license.
+Each dataset is provided as UTF-8 JSON and CSV. This is an independent project, not an official publication. See DATA_LICENSE.md in the repository for the license and sources.
+
+This product was adapted from the Statistical Office of Mozambique’s information, which is licensed under the National Institute of statistic’s Open License Agreement: https://www.ine.gov.mz/web/guest/license
 
 | File | Contents |
 | --- | --- |

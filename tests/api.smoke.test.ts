@@ -634,6 +634,74 @@ describe("Rate limiting behind a proxy", () => {
     );
   });
 
+  describe("with a proxy count, as on hosting platforms", () => {
+    async function remainingAfter(
+      forwardedFor: [string, string]
+    ) {
+      const proxiedApp =
+        buildApp({
+          trustProxy:
+            resolveTrustProxy("1")
+        });
+
+      const request = (
+        value: string
+      ) =>
+        proxiedApp.inject({
+          method: "GET",
+          url: "/",
+
+          headers: {
+            "x-forwarded-for": value
+          }
+        });
+
+      await request(forwardedFor[0]);
+
+      const response =
+        await request(forwardedFor[1]);
+
+      await proxiedApp.close();
+
+      return (
+        Number(
+          response.headers[
+            "x-ratelimit-limit"
+          ]
+        ) -
+        Number(
+          response.headers[
+            "x-ratelimit-remaining"
+          ]
+        )
+      );
+    }
+
+    it("counts different clients separately", async () => {
+      assert.equal(
+        await remainingAfter([
+          "203.0.113.1",
+          "203.0.113.2"
+        ]),
+        1
+      );
+    });
+
+    it("does not let a client change its address with a forged header", async () => {
+      /*
+       * The proxy appends the address it really saw, after
+       * whatever the client sent.
+       */
+      assert.equal(
+        await remainingAfter([
+          "198.51.100.1, 203.0.113.1",
+          "198.51.100.2, 203.0.113.1"
+        ]),
+        2
+      );
+    });
+  });
+
   it("parses the TRUST_PROXY setting", () => {
     assert.equal(
       resolveTrustProxy("false"),
