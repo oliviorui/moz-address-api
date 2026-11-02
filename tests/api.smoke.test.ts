@@ -22,6 +22,10 @@ import {
   resolveTrustProxy
 } from "../src/config/http-protection.js";
 
+import {
+  sumTargets
+} from "../src/modules/coverage/coverage.service.js";
+
 let app: FastifyInstance;
 
 before(async () => {
@@ -322,6 +326,29 @@ describe("API smoke tests", () => {
       );
     });
   }
+});
+
+describe("National coverage targets", () => {
+  it("adds up the province targets", () => {
+    assert.equal(
+      sumTargets([2, 3]),
+      5
+    );
+  });
+
+  it("is unknown when a province has no verified target", () => {
+    assert.equal(
+      sumTargets([2, null]),
+      null
+    );
+  });
+
+  it("is unknown before any coverage has been loaded", () => {
+    assert.equal(
+      sumTargets([]),
+      null
+    );
+  });
 });
 
 describe("OpenAPI document", () => {

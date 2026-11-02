@@ -75,6 +75,12 @@ Mozambique
 
 Urban data may also include neighborhoods. Where the official hierarchy is ambiguous or a municipality publishes neighborhoods independently of state administrative posts, the dataset can preserve district-level neighborhoods without inventing a parent administrative post.
 
+## Public API
+
+A public instance runs at **https://moz-address-api.onrender.com** ([interactive documentation](https://moz-address-api.onrender.com/docs)).
+
+It runs on free hosting with no uptime guarantee: after a period without requests, the next one can take 30 seconds or more. For production use, cache responses, [download the dataset](#download-the-dataset) or run your own instance.
+
 ## API
 
 Default API prefix:
