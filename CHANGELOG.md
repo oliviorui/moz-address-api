@@ -2,6 +2,16 @@
 
 This project follows [Semantic Versioning](https://semver.org/).
 
+## Unreleased
+
+### Added
+
+- The address of the public API in the README.
+
+### Fixed
+
+- `GET /api/v1/coverage` reported national layers as `COMPLETE` at 100% while province coverage had not been loaded. Their target is now unknown until it has.
+
 ## 1.1.0 - 2026-11-02
 
 To upgrade an existing installation, run `npm install`, `npm run db:generate`, `npm run db:deploy` and `npm run db:seed`.
