@@ -71,7 +71,7 @@
   },
   "devDependencies": {
     "@eslint/js": "^10.0.1",
-    "@types/node": "^24.0.0",
+    "@types/node": "^26.6.6",
     "@types/pg": "^8.23.1",
     "eslint": "^10.14.0",
     "prisma": "^7.10.1",
