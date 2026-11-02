@@ -7,9 +7,11 @@ This project follows [Semantic Versioning](https://semver.org/).
 ### Added
 
 - The address of the public API in the README.
+- `CLIENT_IP_HEADER`, for platforms that report the client address in a header set by a CDN.
 
 ### Fixed
 
+- On Render, all clients shared a single rate limit because the API saw every request as coming from `127.0.0.1`.
 - `GET /api/v1/coverage` reported national layers as `COMPLETE` at 100% while province coverage had not been loaded. Their target is now unknown until it has.
 
 ## 1.1.0 - 2026-11-02

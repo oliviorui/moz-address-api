@@ -313,11 +313,14 @@ Responses are compressed, and successful API responses include `Cache-Control` a
 | `DATABASE_URL` | none | PostgreSQL connection string. Required. |
 | `CORS_ORIGIN` | `*` | Allowed browser origins, as a comma-separated list. |
 | `TRUST_PROXY` | `false` | The proxies to trust for the client address: a comma-separated list of IPs/CIDRs, or the number of proxies. |
+| `CLIENT_IP_HEADER` | none | A header with the client address, set by a CDN in front of the API. Takes priority over `TRUST_PROXY`. |
 | `RATE_LIMIT_MAX` | `120` | Maximum requests per client during the window. |
 | `RATE_LIMIT_WINDOW` | `1 minute` | Rate-limit window. |
 | `CACHE_MAX_AGE_SECONDS` | `3600` | How long clients may reuse a successful API response. |
 
 Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all clients are counted as one and share a single rate limit. If the proxy IPs change, as on most hosting platforms, use the number of proxies (usually `1`), but only if clients cannot reach the API directly. Avoid `true`: clients can then forge `X-Forwarded-For` and bypass the rate limit.
+
+To confirm the setting, find a request of yours in the logs: its `remoteAddress` is the address used for the rate limit and should be your public IP, not `127.0.0.1` or a proxy. If it is not, use `CLIENT_IP_HEADER` with the header your CDN sets. Use it only if clients cannot reach the API directly and the CDN overwrites the header.
 
 ### Deploying to Render and Neon
 
@@ -332,7 +335,7 @@ Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all client
    ```
 
 3. In Render, create a Blueprint from this repository and set `DATABASE_URL` when asked.
-4. Check `GET /health/ready`, then confirm that a forged header does not change the rate-limit count: repeat a request with different `X-Forwarded-For` values and `x-ratelimit-remaining` should keep falling. Then ask someone on another network to make a request; their count should be separate. If it is not, the platform has more proxies than `TRUST_PROXY` allows for.
+4. Check `GET /health/ready`. Then confirm the rate limit: in the service logs, the `remoteAddress` of your own request should be your public IP. Repeat a request with different `True-Client-IP` values, and `x-ratelimit-remaining` should keep falling. If it does not, clients can forge the header, so remove `CLIENT_IP_HEADER` and look for another way to identify them.
 
 On free plans, the service sleeps when idle, so the first request after a pause can take 30 seconds or more. Run the seed again after each data release.
 
