@@ -1,0 +1,165 @@
+{
+  "provinceId": "prov_02",
+  "province": "Cabo Delgado",
+  "status": "PARTIAL",
+  "sourceIds": [
+    "ine-cabo-delgado-province-yearbook-2023",
+    "cabo-delgado-56-posts-verified-2022",
+    "municipio-pemba-current-neighborhoods"
+  ],
+  "expected": {
+    "administrativePosts": 56,
+    "localities": 131,
+    "neighborhoods": null
+  },
+  "blockers": [
+    {
+      "code": "MISSING_COMPLETE_CURRENT_NOMINAL_LIST",
+      "layer": "neighborhoods",
+      "districts": [],
+      "missing": null,
+      "note": "Only Pemba's current neighborhoods are loaded. The INE 2023 yearbook counts 78 neighborhoods, including 12 in Pemba, while the municipality currently lists 13, so 78 is not used as a target. No current authoritative list of names exists for the other districts."
+    }
+  ],
+  "notes": [
+    "The INE provincial yearbook reports 57 administrative posts, which does not reconcile with its own district-level structure. See data/issues/cabo-delgado-administrative-posts.md."
+  ],
+  "districts": [
+    {
+      "districtId": "dist_cabo_delgado_pemba",
+      "district": "Pemba",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_ancuabe",
+      "district": "Ancuabe",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_balama",
+      "district": "Balama",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_chiure",
+      "district": "Chiúre",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_ibo",
+      "district": "Ibo",
+      "expected": {
+        "localities": 2,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_macomia",
+      "district": "Macomia",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_mecufi",
+      "district": "Mecúfi",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_meluco",
+      "district": "Meluco",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_metuge",
+      "district": "Metuge",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_mocimboa_da_praia",
+      "district": "Mocímboa da Praia",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_montepuez",
+      "district": "Montepuez",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_mueda",
+      "district": "Mueda",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_muidumbe",
+      "district": "Muidumbe",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_namuno",
+      "district": "Namuno",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_nangade",
+      "district": "Nangade",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_palma",
+      "district": "Palma",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": null
+      }
+    },
+    {
+      "districtId": "dist_cabo_delgado_quissanga",
+      "district": "Quissanga",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": null
+      }
+    }
+  ]
+}

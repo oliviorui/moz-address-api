@@ -19,7 +19,7 @@ export async function coverageRoutes(
           "Get dataset coverage",
 
         description:
-          "Shows which administrative levels and verified areas are complete, partial or still have an unknown national target.",
+          "Shows, nationally and for each province, how many records are loaded against the verified targets, why any records are missing, and whether names come from a current source or a historical one.",
 
         response: {
           200: {

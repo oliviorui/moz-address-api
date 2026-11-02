@@ -22,8 +22,8 @@ it does not reconcile with the district-level structure.
 - 16 rural districts: 56 administrative posts in total.
 - Urban / municipal subdivisions are handled separately from rural district
   administrative posts.
-- Locality promotion remains blocked until the reconciliation configuration
-  also resolves the current neighborhood layer.
+- Localities have since been promoted. The remaining neighborhood gap is tracked
+  in `cabo-delgado-neighborhoods.md`.
 
 ## Evidence
 

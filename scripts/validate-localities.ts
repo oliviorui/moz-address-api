@@ -2,6 +2,11 @@ import fs from "node:fs";
 import path from "node:path";
 import { fileURLToPath } from "node:url";
 
+import {
+  deriveNameEvidence,
+  type ReferenceSupport
+} from "./lib/data-rules.js";
+
 type District = {
   id: string;
   name: string;
@@ -23,13 +28,13 @@ type Locality = {
   districtId: string | null;
 };
 
-type LocalitySource = {
+type LocalitySource = ReferenceSupport & {
   localityId: string;
-  sourceId: string;
 };
 
 type Source = {
   id: string;
+  isHistorical: boolean;
 };
 
 const __filename = fileURLToPath(import.meta.url);
@@ -66,12 +71,29 @@ function allowsDirectNeighborhoods(district: District) {
 }
 
 const ids = new Set<string>();
+const parentSlugs = new Set<string>();
+const codes = new Set<string>();
 
 for (const locality of localities) {
   if (ids.has(locality.id)) {
     errors.push(`Duplicate locality/neighborhood ID: "${locality.id}".`);
   }
   ids.add(locality.id);
+
+  const parentSlug =
+    `${locality.administrativePostId ?? locality.districtId}:${locality.slug}`;
+
+  if (parentSlugs.has(parentSlug)) {
+    errors.push(`Duplicate slug under the same parent: "${parentSlug}".`);
+  }
+  parentSlugs.add(parentSlug);
+
+  if (locality.code !== null) {
+    if (codes.has(locality.code)) {
+      errors.push(`Duplicate locality/neighborhood code: "${locality.code}".`);
+    }
+    codes.add(locality.code);
+  }
 
   if (!locality.id.trim() || !locality.name.trim() || !locality.slug.trim()) {
     errors.push(`Invalid empty field in "${locality.id}".`);
@@ -112,7 +134,7 @@ for (const locality of localities) {
   }
 }
 
-const sourced = new Set<string>();
+const referencesByRecord = new Map<string, LocalitySource[]>();
 for (const ref of references) {
   if (!ids.has(ref.localityId)) {
     errors.push(`Source reference points to unknown record "${ref.localityId}".`);
@@ -120,12 +142,26 @@ for (const ref of references) {
   if (!sourceIds.has(ref.sourceId)) {
     errors.push(`Source reference uses unknown source "${ref.sourceId}".`);
   }
-  sourced.add(ref.localityId);
+  if (ref.supports !== "NAME" && ref.supports !== "COUNT") {
+    errors.push(
+      `Source reference "${ref.localityId}" / "${ref.sourceId}" must set supports to NAME or COUNT.`
+    );
+  }
+
+  const list = referencesByRecord.get(ref.localityId) ?? [];
+  list.push(ref);
+  referencesByRecord.set(ref.localityId, list);
 }
 
+const sourceById = new Map(sources.map((item) => [item.id, item]));
+
 for (const locality of localities) {
-  if (!sourced.has(locality.id)) {
+  const list = referencesByRecord.get(locality.id);
+
+  if (!list) {
     errors.push(`"${locality.id}" has no source reference.`);
+  } else if (deriveNameEvidence(list, sourceById) === null) {
+    errors.push(`"${locality.id}" has no source that lists its name.`);
   }
 }
 

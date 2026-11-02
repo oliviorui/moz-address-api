@@ -1,9 +1,14 @@
 import {
   LocalityType,
+  NameEvidence,
   type Prisma
 } from "../../generated/prisma/client.js";
 
 import { prisma } from "../../lib/prisma.js";
+
+import {
+  nameOrSlugFilters
+} from "../../lib/search.js";
 
 import {
   buildPaginationMeta,
@@ -15,6 +20,7 @@ export type LocalityFilters = {
   type?: LocalityType;
   district?: string;
   administrativePost?: string;
+  nameEvidence?: NameEvidence;
   page?: number;
   limit?: number;
 };
@@ -34,18 +40,7 @@ export async function getAllLocalities(
 
     if (query) {
       where.OR = [
-        {
-          name: {
-            contains: query,
-            mode: "insensitive"
-          }
-        },
-        {
-          slug: {
-            contains: query.toLowerCase(),
-            mode: "insensitive"
-          }
-        }
+        ...nameOrSlugFilters(query)
       ];
     }
   }
@@ -55,6 +50,10 @@ export async function getAllLocalities(
    */
   if (filters.type) {
     where.type = filters.type;
+  }
+
+  if (filters.nameEvidence) {
+    where.nameEvidence = filters.nameEvidence;
   }
 
   /*

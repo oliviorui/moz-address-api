@@ -1,12 +1,14 @@
 # Maputo batch promotion
 
-`npm run data:promote:maputo-ready` promotes only the three districts that passed the first automated structural reconciliation:
+This is a historical record. The dedicated Maputo promotion command was removed after the province was completed. Use `npm run data:promote -- <province-slug>` for current promotions.
+
+The Maputo command promoted only the three districts that passed the first automated structural reconciliation:
 
 - Marracuene
 - Moamba
 - Namaacha
 
-The command has hard safety guards. It aborts if any of those districts is no longer:
+It had hard safety guards. It aborted if any of those districts was no longer:
 
 - `READY_FOR_REVIEW`;
 - an exact locality-count match;
@@ -18,4 +20,4 @@ Evidence basis:
 - locality names and parent posts: official INE/MozGIS 2017 layer;
 - current locality totals: INE Maputo Province 2024 statistical yearbook.
 
-The script writes canonical locality shards, source metadata, source references, and updates the Maputo Province coverage status.
+The script wrote canonical locality shards, source metadata, source references, and updated the Maputo Province coverage status.

@@ -1,0 +1,76 @@
+{
+  "provinceId": "prov_11",
+  "province": "Cidade de Maputo",
+  "status": "COMPLETE",
+  "sourceIds": [
+    "cmm-maputo-pdm-2024-2028",
+    "ine-maputo-city-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 0,
+    "localities": 0,
+    "neighborhoods": 63
+  },
+  "blockers": [],
+  "notes": [
+    "The PDM text mentions 64 neighborhoods, but its lists total 63, which INE 2024 confirms."
+  ],
+  "districts": [
+    {
+      "districtId": "dist_maputo_city_kampfumu",
+      "district": "KaMpfumu",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 11
+      }
+    },
+    {
+      "districtId": "dist_maputo_city_nlhamankulu",
+      "district": "Nlhamankulu",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 11
+      }
+    },
+    {
+      "districtId": "dist_maputo_city_kamaxakeni",
+      "district": "KaMaxakeni",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 8
+      }
+    },
+    {
+      "districtId": "dist_maputo_city_kamavota",
+      "district": "KaMavota",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 11
+      }
+    },
+    {
+      "districtId": "dist_maputo_city_kamubukwana",
+      "district": "KaMubukwana",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 14
+      }
+    },
+    {
+      "districtId": "dist_maputo_city_katembe",
+      "district": "KaTembe",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 5
+      }
+    },
+    {
+      "districtId": "dist_maputo_city_kanyaka",
+      "district": "KaNyaka",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 3
+      }
+    }
+  ]
+}

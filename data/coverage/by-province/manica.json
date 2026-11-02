@@ -1,0 +1,115 @@
+{
+  "provinceId": "prov_06",
+  "province": "Manica",
+  "status": "COMPLETE",
+  "sourceIds": [
+    "ine-manica-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 37,
+    "localities": 97,
+    "neighborhoods": 43
+  },
+  "blockers": [],
+  "notes": [
+    "Chimoio's neighborhoods are complete, but they are attached to the district because the INE leaflet conflicts on its urban administrative posts. See data/issues/manica-chimoio-urban-posts.md."
+  ],
+  "districts": [
+    {
+      "districtId": "dist_manica_chimoio",
+      "district": "Chimoio",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 33
+      }
+    },
+    {
+      "districtId": "dist_manica_gondola",
+      "district": "Gondola",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_guro",
+      "district": "Guro",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_macate",
+      "district": "Macate",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_machaze",
+      "district": "Machaze",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_macossa",
+      "district": "Macossa",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_manica",
+      "district": "Manica",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 10
+      }
+    },
+    {
+      "districtId": "dist_manica_mossurize",
+      "district": "Mossurize",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_sussundenga",
+      "district": "Sussundenga",
+      "expected": {
+        "localities": 15,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_tambara",
+      "district": "Tambara",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_vanduzi",
+      "district": "Vanduzi",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_manica_barue",
+      "district": "Báruè",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

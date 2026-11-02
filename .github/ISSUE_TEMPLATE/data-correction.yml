@@ -1,0 +1,47 @@
+name: Data correction
+description: Report a wrong, missing or outdated place name
+labels:
+  - data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for helping improve the dataset. Please include a source: names are not added or changed without one.
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is wrong?
+      options:
+        - A name is missing
+        - A name or spelling is wrong
+        - A record is under the wrong parent
+        - A record no longer exists
+    validations:
+      required: true
+  - type: input
+    id: province
+    attributes:
+      label: Province
+      placeholder: Zambézia
+    validations:
+      required: true
+  - type: textarea
+    id: record
+    attributes:
+      label: Record
+      description: The district, administrative post and locality or neighborhood, and its ID if it already exists.
+    validations:
+      required: true
+  - type: textarea
+    id: correction
+    attributes:
+      label: What should it be?
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Source
+      description: A link to the document, with its title, year and page. INE, government and municipal publications are preferred.
+    validations:
+      required: true

@@ -17,5 +17,47 @@ services:
     volumes:
       - moz_address_postgres_data:/var/lib/postgresql/data
 
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U postgres -d moz_address"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+  # The services below run only with: docker compose --profile app up
+  setup:
+    profiles: ["app"]
+
+    build:
+      context: .
+      target: setup
+
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/moz_address?schema=public
+
+    command: sh -c "npm run db:deploy && npm run db:seed"
+
+    depends_on:
+      postgres:
+        condition: service_healthy
+
+  api:
+    profiles: ["app"]
+
+    build:
+      context: .
+      target: runtime
+
+    restart: unless-stopped
+
+    environment:
+      DATABASE_URL: postgresql://postgres:postgres@postgres:5432/moz_address?schema=public
+
+    ports:
+      - "3333:3333"
+
+    depends_on:
+      setup:
+        condition: service_completed_successfully
+
 volumes:
   moz_address_postgres_data:

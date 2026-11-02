@@ -112,6 +112,7 @@ type CanonicalRecord = {
 type LocalitySourceRef = {
   localityId: string;
   sourceId: string;
+  supports: "NAME" | "COUNT";
   page: string | null;
   notes: string;
 };
@@ -145,34 +146,6 @@ function isApplicable(value: string | undefined | null): boolean {
 }
 
 
-
-function getCurrentLocalityName(
-  config: { localityAliases?: Record<string, Record<string, string[]>> },
-  districtName: string,
-  historicalLocalityName: string,
-): string {
-  const districtAliases = Object.entries(
-    config.localityAliases ?? {},
-  ).find(
-    ([configuredDistrict]) =>
-      normalize(configuredDistrict) === normalize(districtName),
-  )?.[1];
-
-  if (!districtAliases) {
-    return historicalLocalityName;
-  }
-
-  const match = Object.entries(districtAliases).find(
-    ([currentName, historicalNames]) =>
-      normalize(currentName) === normalize(historicalLocalityName) ||
-      historicalNames.some(
-        (name) =>
-          normalize(name) === normalize(historicalLocalityName),
-      ),
-  );
-
-  return match?.[0] ?? historicalLocalityName;
-}
 
 function shouldIgnoreHistoricalLocality(
   config: { ignoreHistoricalLocalities?: Record<string, string[]> },
@@ -531,9 +504,11 @@ for (const diagnosticDistrict of exactDistricts) {
         return accepted.has(normalizedPost);
       });
 
-      if (matches.length === 1) {
-        administrativePostId = matches[0].id;
-        postPart = `_${idPart(matches[0].slug || matches[0].name)}`;
+      const [match] = matches;
+
+      if (match && matches.length === 1) {
+        administrativePostId = match.id;
+        postPart = `_${idPart(match.slug || match.name)}`;
       } else if (matches.length === 0 && districtPosts.length === 0) {
         directDistrictId = district.id;
       } else {
@@ -576,6 +551,7 @@ for (const diagnosticDistrict of exactDistricts) {
       {
         localityId: id,
         sourceId: historicalSource.id,
+        supports: "NAME",
         page: null,
         notes:
           `Name and hierarchy taken from official INE/MozGIS 2017 after exact structural reconciliation for ${config.province.name}.`,
@@ -583,6 +559,7 @@ for (const diagnosticDistrict of exactDistricts) {
       {
         localityId: id,
         sourceId: currentSource.id,
+        supports: "COUNT",
         page: config.province.sourcePage ?? null,
         notes:
           `Current ${config.province.name} territorial counts confirm this exact structural batch.`,

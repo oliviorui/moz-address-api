@@ -1,0 +1,18 @@
+{
+  "provinceId": "prov_07",
+  "province": "Sofala",
+  "status": "COMPLETE",
+  "sourceIds": [
+    "ine-sofala-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 38,
+    "localities": 89,
+    "neighborhoods": 36
+  },
+  "blockers": [],
+  "notes": [
+    "City neighborhoods: Beira 26, Dondo 10."
+  ],
+  "districts": []
+}

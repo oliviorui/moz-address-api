@@ -1,0 +1,175 @@
+{
+  "provinceId": "prov_01",
+  "province": "Niassa",
+  "status": "PARTIAL",
+  "sourceIds": [
+    "ine-niassa-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 45,
+    "localities": 97,
+    "neighborhoods": 22
+  },
+  "blockers": [
+    {
+      "code": "BLOCKED_ON_OFFICIAL_SOURCE_EXTRACTION",
+      "layer": "localities",
+      "districts": [
+        "Sanga"
+      ],
+      "missing": 8,
+      "note": "Historical 7 vs INE 2024 expected 8; current post structure changed and the additional locality is not yet safely identified."
+    },
+    {
+      "code": "BLOCKED_ON_OFFICIAL_SOURCE_EXTRACTION",
+      "layer": "localities",
+      "districts": [
+        "Mecanhelas"
+      ],
+      "missing": 7,
+      "note": "Historical 6 vs INE 2024 expected 7; likely Iataria (Chamba) split requires authoritative hierarchy confirmation."
+    },
+    {
+      "code": "BLOCKED_ON_OFFICIAL_SOURCE_EXTRACTION",
+      "layer": "localities",
+      "districts": [
+        "Marrupa"
+      ],
+      "missing": 8,
+      "note": "Historical 7 vs INE 2024 expected 8; additional locality remains unidentified. Manhula is a povoado, not a locality."
+    }
+  ],
+  "notes": [
+    "Current INE 2026 district publications are identified for Mecanhelas, Marrupa and Sanga, but their locality tables have not been reconciled yet."
+  ],
+  "districts": [
+    {
+      "districtId": "dist_niassa_chimbunila",
+      "district": "Chimbunila",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_cuamba",
+      "district": "Cuamba",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 7
+      }
+    },
+    {
+      "districtId": "dist_niassa_lago",
+      "district": "Lago",
+      "expected": {
+        "localities": 13,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_lichinga",
+      "district": "Lichinga",
+      "expected": {
+        "localities": 2,
+        "neighborhoods": 15
+      }
+    },
+    {
+      "districtId": "dist_niassa_majune",
+      "district": "Majune",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mandimba",
+      "district": "Mandimba",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_marrupa",
+      "district": "Marrupa",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_maua",
+      "district": "Maúa",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mavago",
+      "district": "Mavago",
+      "expected": {
+        "localities": 3,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mecanhelas",
+      "district": "Mecanhelas",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_mecula",
+      "district": "Mecula",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_metarica",
+      "district": "Metarica",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_muembe",
+      "district": "Muembe",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_ngauma",
+      "district": "Ngauma",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_nipepe",
+      "district": "Nipepe",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_niassa_sanga",
+      "district": "Sanga",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

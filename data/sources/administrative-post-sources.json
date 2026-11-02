@@ -2656,5 +2656,341 @@
     "sourceId": "ine-administrative-divisions",
     "page": null,
     "notes": "Canonical Cabo Delgado administrative post; district structure cross-checked against INE and official district publications. Province-level total independently confirmed as 56 in 2022."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_ancuabe_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_metoro",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ancuabe_meza",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_balama_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_impire",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_kwekwe",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_balama_mavala",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_chiure_velho",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_katapua",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_mazeze",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_namogelia",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_chiure_ocua",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ibo_ibo_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_ibo_quirimba",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_macomia_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_chai",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_mucojo",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_macomia_quiterajo",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_mecufi_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mecufi_murrebue",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_meluco_meluco_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_meluco_muaguide",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_metuge_metuge_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_metuge_mieze",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mocimboa_da_praia_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_diaca",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mocimboa_da_praia_mbau",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_montepuez_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mapupulo",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_mirate_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_nairoto",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_montepuez_namanhumbir",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_mueda_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_chapa",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_imbuho",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_ngapa",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_mueda_negomano",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_muidumbe_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_chitunda",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_muidumbe_miteda",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_namuno_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_hucula",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_machoca",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_meloco",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_ncumpe",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_namuno_papai",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_nangade_nangade_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_nangade_ntamba",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_palma_sede",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_olumbe",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_pundanhar",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_palma_quionga",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_quissanga",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_bilibiza",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
+  },
+  {
+    "administrativePostId": "adm_post_cabo_delgado_quissanga_mahate",
+    "sourceId": "cabo-delgado-56-posts-verified-2022",
+    "page": null,
+    "notes": "Confirms the province-level total of 56 administrative posts, not this post's name."
   }
 ]

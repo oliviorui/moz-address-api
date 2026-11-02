@@ -28,7 +28,8 @@ Thumbs.db
 tmp/
 temp/
 
-/generated/prisma
+# Prisma client (npm run db:generate)
+src/generated/
 
 # Local data workbench
 data/raw/
@@ -36,3 +37,6 @@ data/raw/
 
 # Machine-generated canonical aggregates
 data/generated/
+
+# Dataset export (npm run data:export)
+release/

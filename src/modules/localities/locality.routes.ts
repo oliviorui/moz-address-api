@@ -3,12 +3,17 @@ import type {
 } from "fastify";
 
 import {
-  LocalityType
+  LocalityType,
+  NameEvidence
 } from "../../generated/prisma/client.js";
 
 import {
   localityRouteSchemas
 } from "../../config/openapi-schemas.js";
+
+import {
+  isValidPage
+} from "../../lib/pagination.js";
 
 import {
   getAllLocalities,
@@ -20,6 +25,7 @@ type LocalityQuerystring = {
   type?: string;
   district?: string;
   administrativePost?: string;
+  nameEvidence?: string;
   page?: string;
   limit?: string;
 };
@@ -73,6 +79,36 @@ export async function localityRoutes(
           requestedType as LocalityType;
       }
 
+      let nameEvidence:
+        | NameEvidence
+        | undefined;
+
+      if (request.query.nameEvidence) {
+        const requestedEvidence =
+          request.query.nameEvidence
+            .trim()
+            .toUpperCase();
+
+        if (
+          !Object.values(NameEvidence).includes(
+            requestedEvidence as NameEvidence
+          )
+        ) {
+          return reply
+            .status(400)
+            .send({
+              error:
+                "INVALID_NAME_EVIDENCE",
+
+              message:
+                `Name evidence must be one of: ${Object.values(NameEvidence).join(", ")}.`
+            });
+        }
+
+        nameEvidence =
+          requestedEvidence as NameEvidence;
+      }
+
       const page =
         request.query.page !== undefined
           ? Number(request.query.page)
@@ -83,10 +119,7 @@ export async function localityRoutes(
           ? Number(request.query.limit)
           : 20;
 
-      if (
-        !Number.isInteger(page) ||
-        page < 1
-      ) {
+      if (!isValidPage(page)) {
         return reply
           .status(400)
           .send({
@@ -127,6 +160,10 @@ export async function localityRoutes(
           ? { administrativePost }
           : {}),
 
+        ...(nameEvidence !== undefined
+          ? { nameEvidence }
+          : {}),
+
         page,
         limit
       };
@@ -145,7 +182,10 @@ export async function localityRoutes(
               district ?? null,
 
             administrativePost:
-              administrativePost ?? null
+              administrativePost ?? null,
+
+            nameEvidence:
+              nameEvidence ?? null
           },
 
           pagination:
