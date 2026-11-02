@@ -23,6 +23,10 @@ export const prisma = new PrismaClient({
   adapter
 });
 
+export async function pingDatabase() {
+  await prisma.$queryRaw`SELECT 1`;
+}
+
 export async function closeDatabase() {
   await prisma.$disconnect();
   await pool.end();

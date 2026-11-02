@@ -19,7 +19,7 @@ jobs:
 
     services:
       postgres:
-        image: postgres:16
+        image: postgres:17-alpine
         env:
           POSTGRES_USER: postgres
           POSTGRES_PASSWORD: postgres
@@ -55,6 +55,9 @@ jobs:
       - name: Validate dataset
         run: npm run data:validate
 
+      - name: Lint
+        run: npm run lint
+
       - name: Typecheck
         run: npm run typecheck
 
@@ -62,7 +65,7 @@ jobs:
         run: npm run build
 
       - name: Apply database migrations
-        run: npx prisma migrate deploy
+        run: npm run db:deploy
 
       - name: Seed database
         run: npm run db:seed
@@ -72,3 +75,9 @@ jobs:
 
       - name: Run integration tests
         run: npm run test:integration
+
+      - name: Export dataset
+        run: npm run data:export
+
+      - name: Build Docker image
+        run: docker build .

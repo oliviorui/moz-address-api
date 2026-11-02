@@ -15,6 +15,13 @@ but a complete authoritative current nominal neighborhood list has not yet been 
 
 Total: 128 neighborhoods.
 
+## Missing localities
+
+41 of the 191 localities are also missing, in five districts:
+
+- Quelimane (6), Gurué (16) and Mocuba (6): the 2017 layer matches these locality counts, but each district was reconciled as a whole and is held back by its neighborhoods.
+- Namacurra (9) and Nicoadala (4): their 2017 records use administrative posts that are not in the current structure (Malei; Munhonha and Namacata), so each locality's parent post is not established.
+
 ## Current official baseline
 
 Source: Instituto Nacional de Estatística (INE), *Anuário Estatístico, Província da Zambézia, 2024*,

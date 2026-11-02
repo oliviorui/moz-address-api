@@ -1,0 +1,137 @@
+{
+  "provinceId": "prov_05",
+  "province": "Tete",
+  "status": "COMPLETE",
+  "sourceIds": [
+    "ine-tete-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 36,
+    "localities": 127,
+    "neighborhoods": 9
+  },
+  "blockers": [],
+  "notes": [],
+  "districts": [
+    {
+      "districtId": "dist_tete_tete",
+      "district": "Cidade de Tete",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 9
+      }
+    },
+    {
+      "districtId": "dist_tete_angonia",
+      "district": "Angónia",
+      "expected": {
+        "localities": 18,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_cahora_bassa",
+      "district": "Cahora Bassa",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_changara",
+      "district": "Changara",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_chifunde",
+      "district": "Chifunde",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_chiuta",
+      "district": "Chiúta",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_macanga",
+      "district": "Macanga",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_magoe",
+      "district": "Mágoe",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_maravia",
+      "district": "Marávia",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_moatize",
+      "district": "Moatize",
+      "expected": {
+        "localities": 12,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_mutarara",
+      "district": "Mutarara",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_tsangano",
+      "district": "Tsangano",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_zumbo",
+      "district": "Zumbo",
+      "expected": {
+        "localities": 10,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_doa",
+      "district": "Doa",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_tete_marara",
+      "district": "Marara",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

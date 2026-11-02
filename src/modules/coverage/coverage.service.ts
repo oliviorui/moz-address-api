@@ -97,8 +97,208 @@ function buildMetric(
   };
 }
 
+function sumTargets(
+  targets: (number | null)[]
+) {
+  return targets.every(
+    (target) => target !== null
+  )
+    ? targets.reduce<number>(
+        (total, target) =>
+          total + (target ?? 0),
+        0
+      )
+    : null;
+}
+
+function emptyEvidenceCounts() {
+  return {
+    currentSource: 0,
+    historicalSourceCountConfirmed: 0,
+    historicalSourceOnly: 0
+  };
+}
+
+const EVIDENCE_KEYS = {
+  CURRENT_SOURCE: "currentSource",
+  HISTORICAL_SOURCE_COUNT_CONFIRMED:
+    "historicalSourceCountConfirmed",
+  HISTORICAL_SOURCE_ONLY: "historicalSourceOnly"
+} as const;
+
+async function getProvinceCoverage() {
+  const [
+    coverage,
+    administrativePosts,
+    localities
+  ] = await Promise.all([
+    prisma.provinceCoverage.findMany({
+      include: {
+        province: true
+      },
+
+      orderBy: {
+        province: {
+          name: "asc"
+        }
+      }
+    }),
+
+    prisma.administrativePost.findMany({
+      where: {
+        status: "ACTIVE"
+      },
+
+      select: {
+        district: {
+          select: {
+            provinceId: true
+          }
+        }
+      }
+    }),
+
+    prisma.locality.findMany({
+      where: {
+        status: "ACTIVE"
+      },
+
+      select: {
+        type: true,
+        nameEvidence: true,
+
+        district: {
+          select: {
+            provinceId: true
+          }
+        },
+
+        administrativePost: {
+          select: {
+            district: {
+              select: {
+                provinceId: true
+              }
+            }
+          }
+        }
+      }
+    })
+  ]);
+
+  const provinces =
+    coverage.map((item) => {
+      const inProvince =
+        localities.filter(
+          (locality) =>
+            (
+              locality.district ??
+              locality.administrativePost?.district
+            )?.provinceId === item.provinceId
+        );
+
+      const nameEvidence =
+        emptyEvidenceCounts();
+
+      for (const locality of inProvince) {
+        if (locality.nameEvidence) {
+          nameEvidence[
+            EVIDENCE_KEYS[locality.nameEvidence]
+          ] += 1;
+        }
+      }
+
+      return {
+        provinceId: item.provinceId,
+        province: item.province.name,
+        slug: item.province.slug,
+        status: item.status,
+
+        administrativePosts:
+          buildMetric(
+            administrativePosts.filter(
+              (post) =>
+                post.district.provinceId ===
+                item.provinceId
+            ).length,
+            item.expectedAdministrativePosts
+          ),
+
+        localities:
+          buildMetric(
+            inProvince.filter(
+              (locality) =>
+                locality.type === "LOCALITY"
+            ).length,
+            item.expectedLocalities
+          ),
+
+        neighborhoods:
+          buildMetric(
+            inProvince.filter(
+              (locality) =>
+                locality.type === "NEIGHBORHOOD"
+            ).length,
+            item.expectedNeighborhoods
+          ),
+
+        nameEvidence,
+        blockers: item.blockers,
+        notes: item.notes,
+        sourceIds: item.sourceIds
+      };
+    });
+
+  const nameEvidence =
+    emptyEvidenceCounts();
+
+  for (const province of provinces) {
+    nameEvidence.currentSource +=
+      province.nameEvidence.currentSource;
+
+    nameEvidence.historicalSourceCountConfirmed +=
+      province.nameEvidence
+        .historicalSourceCountConfirmed;
+
+    nameEvidence.historicalSourceOnly +=
+      province.nameEvidence.historicalSourceOnly;
+  }
+
+  return {
+    provinces,
+    nameEvidence,
+
+    expected: {
+      administrativePosts:
+        sumTargets(
+          provinces.map(
+            (province) =>
+              province.administrativePosts.expected
+          )
+        ),
+
+      localities:
+        sumTargets(
+          provinces.map(
+            (province) =>
+              province.localities.expected
+          )
+        ),
+
+      neighborhoods:
+        sumTargets(
+          provinces.map(
+            (province) =>
+              province.neighborhoods.expected
+          )
+        )
+    }
+  };
+}
+
 export async function getDataCoverage() {
   const [
+    provinceCoverage,
     provinceCount,
     districtCount,
     administrativePostCount,
@@ -107,6 +307,8 @@ export async function getDataCoverage() {
     maputoCityNeighborhoodCount,
     matolaNeighborhoodCount
   ] = await Promise.all([
+    getProvinceCoverage(),
+
     prisma.province.count({
       where: {
         status: "ACTIVE"
@@ -240,21 +442,30 @@ export async function getDataCoverage() {
       administrativePosts:
         buildMetric(
           administrativePostCount,
-          null
+          provinceCoverage.expected
+            .administrativePosts
         ),
 
       localities:
         buildMetric(
           localityCount,
-          null
+          provinceCoverage.expected
+            .localities
         ),
 
       neighborhoods:
         buildMetric(
           neighborhoodCount,
-          null
-        )
+          provinceCoverage.expected
+            .neighborhoods
+        ),
+
+      nameEvidence:
+        provinceCoverage.nameEvidence
     },
+
+    provinces:
+      provinceCoverage.provinces,
 
     areas: {
       maputoCity: {
@@ -313,9 +524,7 @@ export async function getDataCoverage() {
         ],
 
         notes: [
-          "The current INE provincial yearbook reports 76 localities outside Matola and 42 city neighborhoods in Matola.",
-          "Boane, Magude, Manhiça, Marracuene, Matutuíne, Moamba and Namaacha are tracked separately because locality names are being verified district by district.",
-          "Administrative-post coverage is not marked complete nationally while the documented Cabo Delgado source discrepancy remains unresolved."
+          "The current INE provincial yearbook reports 76 localities outside Matola and 42 city neighborhoods in Matola."
         ]
       }
     }

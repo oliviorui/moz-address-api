@@ -1,13 +1,17 @@
-import {
-  readdir,
-  readFile
-} from "node:fs/promises";
-
+import { readFile } from "node:fs/promises";
 import path from "node:path";
+import { fileURLToPath } from "node:url";
 
 import {
-  fileURLToPath
-} from "node:url";
+  checkDistrictCoverage,
+  checkProvinceCoverage,
+  type ProvinceCoverage
+} from "./lib/data-rules.js";
+
+type District = {
+  id: string;
+  provinceId: string;
+};
 
 type AdministrativePost = {
   id: string;
@@ -15,409 +19,152 @@ type AdministrativePost = {
 };
 
 type Locality = {
+  type: "LOCALITY" | "NEIGHBORHOOD";
+  administrativePostId: string | null;
+  districtId: string | null;
+};
+
+type Source = {
   id: string;
-  type:
-    | "LOCALITY"
-    | "NEIGHBORHOOD";
-  administrativePostId:
-    | string
-    | null;
-  districtId:
-    | string
-    | null;
 };
 
-type CoverageDistrict = {
-  districtId: string;
-  district: string;
-  administrativePosts: number;
-  localitiesExpected: number;
-  neighborhoodsExpected: number;
-  status:
-    | "COMPLETE"
-    | "PENDING_RECONCILIATION";
-};
+const __filename = fileURLToPath(import.meta.url);
+const rootDir = path.resolve(path.dirname(__filename), "..");
 
-type Coverage = {
-  provinceId: string;
-  province: string;
+async function readJson<T>(...segments: string[]): Promise<T> {
+  const content = await readFile(
+    path.join(rootDir, "data", ...segments),
+    "utf8"
+  );
 
-  expected: {
-    administrativePosts: number;
-    localities: number;
-    cityNeighborhoods: number;
-  };
-
-  districts: CoverageDistrict[];
-};
-
-const __filename =
-  fileURLToPath(import.meta.url);
-
-const __dirname =
-  path.dirname(__filename);
-
-const rootDir =
-  path.resolve(__dirname, "..");
-
-async function readJson<T>(
-  filePath: string
-): Promise<T> {
-  const content =
-    await readFile(
-      filePath,
-      "utf8"
-    );
-
-  return JSON.parse(
-    content
-  ) as T;
-}
-
-async function readJsonArrays<T>(
-  directory: string
-): Promise<T[]> {
-  let entries;
-
-  try {
-    entries =
-      await readdir(
-        directory,
-        {
-          withFileTypes: true
-        }
-      );
-  } catch (error) {
-    if (
-      error instanceof Error &&
-      "code" in error &&
-      error.code === "ENOENT"
-    ) {
-      return [];
-    }
-
-    throw error;
-  }
-
-  const records: T[] = [];
-
-  for (
-    const entry of
-    entries
-      .filter(
-        (item) =>
-          item.isFile() &&
-          item.name.endsWith(
-            ".json"
-          )
-      )
-      .sort(
-        (a, b) =>
-          a.name.localeCompare(
-            b.name
-          )
-      )
-  ) {
-    const content =
-      await readFile(
-        path.join(
-          directory,
-          entry.name
-        ),
-        "utf8"
-      );
-
-    records.push(
-      ...(
-        JSON.parse(
-          content
-        ) as T[]
-      )
-    );
-  }
-
-  return records;
+  return JSON.parse(content) as T;
 }
 
 async function main() {
-  console.log(
-    "🔎 Validating Maputo Province locality coverage..."
-  );
+  console.log("🔎 Validating province coverage...");
 
-  const coverage =
-    await readJson<Coverage>(
-      path.join(
-        rootDir,
-        "data",
-        "coverage",
-        "maputo-province.json"
-      )
-    );
-
-  const posts =
-    await readJson<
-      AdministrativePost[]
-    >(
-      path.join(
-        rootDir,
-        "data",
-        "current",
-        "administrative-posts.json"
-      )
-    );
-
-  const localities =
-    await readJson<Locality[]>(
-      path.join(
-        rootDir,
-        "data",
-        "generated",
-        "localities.json"
-      )
-    );
+  const [coverage, districts, posts, localities, sources] =
+    await Promise.all([
+      readJson<ProvinceCoverage[]>("generated", "coverage.json"),
+      readJson<District[]>("current", "districts.json"),
+      readJson<AdministrativePost[]>("current", "administrative-posts.json"),
+      readJson<Locality[]>("generated", "localities.json"),
+      readJson<Source[]>("sources", "sources.json")
+    ]);
 
   const errors: string[] = [];
+  const sourceIds = new Set(sources.map((source) => source.id));
+  const provinceOfDistrict = new Map(
+    districts.map((district) => [district.id, district.provinceId])
+  );
+  const districtOfPost = new Map(
+    posts.map((post) => [post.id, post.districtId])
+  );
 
-  const expectedPostTotal =
-    coverage.districts.reduce(
-      (
-        total,
-        district
-      ) =>
-        total +
-        district.administrativePosts,
-      0
-    );
+  const provinceIds = new Set(
+    districts.map((district) => district.provinceId)
+  );
 
-  const expectedLocalityTotal =
-    coverage.districts.reduce(
-      (
-        total,
-        district
-      ) =>
-        total +
-        district.localitiesExpected,
-      0
-    );
-
-  const expectedNeighborhoodTotal =
-    coverage.districts.reduce(
-      (
-        total,
-        district
-      ) =>
-        total +
-        district.neighborhoodsExpected,
-      0
-    );
-
-  if (
-    expectedPostTotal !==
-    coverage.expected
-      .administrativePosts
-  ) {
-    errors.push(
-      `Configured administrative-post total is ${expectedPostTotal}, expected ${coverage.expected.administrativePosts}.`
-    );
-  }
-
-  if (
-    expectedLocalityTotal !==
-    coverage.expected.localities
-  ) {
-    errors.push(
-      `Configured locality total is ${expectedLocalityTotal}, expected ${coverage.expected.localities}.`
-    );
-  }
-
-  if (
-    expectedNeighborhoodTotal !==
-    coverage.expected
-      .cityNeighborhoods
-  ) {
-    errors.push(
-      `Configured neighborhood total is ${expectedNeighborhoodTotal}, expected ${coverage.expected.cityNeighborhoods}.`
-    );
-  }
-
-  const postMap =
-    new Map(
-      posts.map(
-        (post) => [
-          post.id,
-          post
-        ]
-      )
-    );
-
-  let loadedProvinceLocalities = 0;
-  let loadedProvinceNeighborhoods = 0;
-
-  for (
-    const district of
-    coverage.districts
-  ) {
-    const districtPostIds =
-      new Set(
-        posts
-          .filter(
-            (post) =>
-              post.districtId ===
-              district.districtId
-          )
-          .map(
-            (post) =>
-              post.id
-          )
-      );
-
-    const actualPostCount =
-      districtPostIds.size;
-
-    if (
-      actualPostCount !==
-      district.administrativePosts
-    ) {
-      errors.push(
-        `${district.district}: expected ${district.administrativePosts} administrative posts, found ${actualPostCount}.`
-      );
-    }
-
-    const loadedLocalities =
-      localities.filter(
-        (locality) => {
-          if (
-            locality.type !==
-            "LOCALITY"
-          ) {
-            return false;
-          }
-
-          if (
-            locality
-              .administrativePostId ===
-            null
-          ) {
-            return false;
-          }
-
-          return districtPostIds.has(
-            locality
-              .administrativePostId
-          );
-        }
-      ).length;
-
-    const loadedNeighborhoods =
-      localities.filter(
-        (locality) => {
-          if (
-            locality.type !==
-            "NEIGHBORHOOD"
-          ) {
-            return false;
-          }
-
-          if (
-            locality.districtId ===
-            district.districtId
-          ) {
-            return true;
-          }
-
-          if (
-            locality
-              .administrativePostId ===
-            null
-          ) {
-            return false;
-          }
-
-          const post =
-            postMap.get(
-              locality
-                .administrativePostId
-            );
-
-          return (
-            post?.districtId ===
-            district.districtId
-          );
-        }
-      ).length;
-
-    loadedProvinceLocalities +=
-      loadedLocalities;
-
-    loadedProvinceNeighborhoods +=
-      loadedNeighborhoods;
-
-    const localityState =
-      loadedLocalities ===
-        district.localitiesExpected
-        ? "✅"
-        : "⏳";
-
-    const neighborhoodState =
-      loadedNeighborhoods ===
-        district.neighborhoodsExpected
-        ? "✅"
-        : "⏳";
-
-    console.log(
-      `   ${district.district}:`
-    );
-
-    console.log(
-      `      ${localityState} localities ${loadedLocalities}/${district.localitiesExpected}`
-    );
-
-    console.log(
-      `      ${neighborhoodState} neighborhoods ${loadedNeighborhoods}/${district.neighborhoodsExpected}`
-    );
-
-    if (
-      district.status ===
-        "COMPLETE" &&
-      (
-        loadedLocalities !==
-          district.localitiesExpected ||
-        loadedNeighborhoods !==
-          district.neighborhoodsExpected
-      )
-    ) {
-      errors.push(
-        `${district.district} is marked COMPLETE but loaded counts do not match targets.`
-      );
+  for (const provinceId of provinceIds) {
+    if (!coverage.some((item) => item.provinceId === provinceId)) {
+      errors.push(`Province "${provinceId}" has no coverage file.`);
     }
   }
 
-  console.log(
-    `\n📊 Maputo Province locality coverage: ${loadedProvinceLocalities}/${coverage.expected.localities}`
-  );
+  const loadedByDistrict = new Map<
+    string,
+    { localities: number; neighborhoods: number }
+  >();
 
-  console.log(
-    `📊 Matola neighborhood coverage: ${loadedProvinceNeighborhoods}/${coverage.expected.cityNeighborhoods}`
-  );
+  for (const locality of localities) {
+    const districtId =
+      locality.districtId ??
+      districtOfPost.get(locality.administrativePostId ?? "");
+
+    if (!districtId) {
+      continue;
+    }
+
+    const loaded =
+      loadedByDistrict.get(districtId) ?? {
+        localities: 0,
+        neighborhoods: 0
+      };
+
+    if (locality.type === "LOCALITY") {
+      loaded.localities += 1;
+    } else {
+      loaded.neighborhoods += 1;
+    }
+
+    loadedByDistrict.set(districtId, loaded);
+  }
+
+  for (const item of coverage) {
+    const districtIds = districts
+      .filter((district) => district.provinceId === item.provinceId)
+      .map((district) => district.id);
+
+    const loaded = {
+      administrativePosts: posts.filter(
+        (post) =>
+          provinceOfDistrict.get(post.districtId) === item.provinceId
+      ).length,
+
+      localities: districtIds.reduce(
+        (total, id) =>
+          total + (loadedByDistrict.get(id)?.localities ?? 0),
+        0
+      ),
+
+      neighborhoods: districtIds.reduce(
+        (total, id) =>
+          total + (loadedByDistrict.get(id)?.neighborhoods ?? 0),
+        0
+      )
+    };
+
+    errors.push(
+      ...checkProvinceCoverage(item, loaded),
+      ...checkDistrictCoverage(item, loadedByDistrict)
+    );
+
+    for (const sourceId of item.sourceIds) {
+      if (!sourceIds.has(sourceId)) {
+        errors.push(
+          `${item.province}: unknown source "${sourceId}".`
+        );
+      }
+    }
+
+    for (const district of item.districts ?? []) {
+      if (!districtIds.includes(district.districtId)) {
+        errors.push(
+          `${item.province}: district "${district.districtId}" belongs to another province.`
+        );
+      }
+    }
+
+    const format = (layer: keyof typeof loaded) =>
+      `${loaded[layer]}/${item.expected[layer] ?? "?"}`;
+
+    console.log(
+      `   ${item.status === "COMPLETE" ? "✅" : "⏳"} ${item.province}: posts ${format("administrativePosts")}, localities ${format("localities")}, neighborhoods ${format("neighborhoods")}`
+    );
+  }
 
   if (errors.length > 0) {
-    console.error(
-      "\n❌ Coverage validation failed:\n"
-    );
+    console.error("\n❌ Coverage validation failed:\n");
 
     for (const error of errors) {
-      console.error(
-        ` - ${error}`
-      );
+      console.error(` - ${error}`);
     }
 
     process.exitCode = 1;
     return;
   }
 
-  console.log(
-    "\n✅ Maputo Province coverage configuration is internally consistent."
-  );
+  console.log("\n✅ Coverage files explain every known gap.");
 }
 
 await main();

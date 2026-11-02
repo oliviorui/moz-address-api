@@ -37,6 +37,6 @@ Generated files under this directory:
 - are not seeded into PostgreSQL;
 - are not exposed as current API data;
 - provide province, district, administrative post, locality and bairro names/codes;
-- must be reconciled against newer INE or government sources before records move into `data/current/`.
+- must be reconciled against newer INE or government sources before records move into `data/current/`, where they are marked with `nameEvidence: HISTORICAL_SOURCE_COUNT_CONFIRMED` unless a current source lists the name.
 
 This lets the project discover thousands of names in one request instead of researching every locality manually.

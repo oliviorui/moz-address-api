@@ -1,0 +1,129 @@
+{
+  "provinceId": "prov_08",
+  "province": "Inhambane",
+  "status": "COMPLETE",
+  "sourceIds": [
+    "ine-inhambane-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 26,
+    "localities": 70,
+    "neighborhoods": 40
+  },
+  "blockers": [],
+  "notes": [],
+  "districts": [
+    {
+      "districtId": "dist_inhambane_inhambane",
+      "district": "Inhambane",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 23
+      }
+    },
+    {
+      "districtId": "dist_inhambane_funhalouro",
+      "district": "Funhalouro",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_govuro",
+      "district": "Govuro",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_homoine",
+      "district": "Homoíne",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_inharrime",
+      "district": "Inharrime",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_inhassoro",
+      "district": "Inhassoro",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_jangamo",
+      "district": "Jangamo",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_mabote",
+      "district": "Mabote",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_massinga",
+      "district": "Massinga",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_maxixe",
+      "district": "Maxixe",
+      "expected": {
+        "localities": 0,
+        "neighborhoods": 17
+      }
+    },
+    {
+      "districtId": "dist_inhambane_morrumbene",
+      "district": "Morrumbene",
+      "expected": {
+        "localities": 6,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_panda",
+      "district": "Panda",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_vilankulo",
+      "district": "Vilankulo",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_inhambane_zavala",
+      "district": "Zavala",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

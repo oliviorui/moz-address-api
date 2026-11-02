@@ -29,6 +29,10 @@ const envSchema = z.object({
     z.string()
       .default("*"),
 
+  TRUST_PROXY:
+    z.string()
+      .default("false"),
+
   RATE_LIMIT_MAX:
     z.coerce
       .number()
@@ -38,7 +42,14 @@ const envSchema = z.object({
 
   RATE_LIMIT_WINDOW:
     z.string()
-      .default("1 minute")
+      .default("1 minute"),
+
+  CACHE_MAX_AGE_SECONDS:
+    z.coerce
+      .number()
+      .int()
+      .nonnegative()
+      .default(3600)
 });
 
 export const env =

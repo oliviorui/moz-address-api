@@ -128,34 +128,6 @@ function groupHistoricalNamesByPost(
 
 
 
-function getCurrentLocalityName(
-  config: { localityAliases?: Record<string, Record<string, string[]>> },
-  districtName: string,
-  historicalLocalityName: string,
-): string {
-  const districtAliases = Object.entries(
-    config.localityAliases ?? {},
-  ).find(
-    ([configuredDistrict]) =>
-      normalize(configuredDistrict) === normalize(districtName),
-  )?.[1];
-
-  if (!districtAliases) {
-    return historicalLocalityName;
-  }
-
-  const match = Object.entries(districtAliases).find(
-    ([currentName, historicalNames]) =>
-      normalize(currentName) === normalize(historicalLocalityName) ||
-      historicalNames.some(
-        (name) =>
-          normalize(name) === normalize(historicalLocalityName),
-      ),
-  );
-
-  return match?.[0] ?? historicalLocalityName;
-}
-
 function shouldIgnoreHistoricalLocality(
   config: { ignoreHistoricalLocalities?: Record<string, string[]> },
   districtName: string,
@@ -402,10 +374,6 @@ for (const district of provinceDistricts) {
     config.auditOnly && !compareAdministrativePosts
       ? historicalPostNames
       : canonicalPostNames;
-
-  const historicalByNormalized = new Map(
-    historicalPostNames.map((name) => [normalize(name), name]),
-  );
 
   const acceptedHistoricalNamesByCurrent =
     new Map<string, Set<string>>();

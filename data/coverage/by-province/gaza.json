@@ -1,0 +1,166 @@
+{
+  "provinceId": "prov_09",
+  "province": "Gaza",
+  "status": "PARTIAL",
+  "sourceIds": [
+    "ine-gaza-province-yearbook-2024"
+  ],
+  "expected": {
+    "administrativePosts": 50,
+    "localities": 119,
+    "neighborhoods": 56
+  },
+  "blockers": [
+    {
+      "code": "BLOCKED_ON_OFFICIAL_SOURCE_CONFLICT",
+      "layer": "localities",
+      "districts": [
+        "Bilene"
+      ],
+      "missing": 13,
+      "note": "INE Gaza 2024 reports 13 localities, while recent nominal administrative/electoral sources do not yet reconcile unambiguously with the historical candidate set."
+    },
+    {
+      "code": "BLOCKED_ON_OFFICIAL_SOURCE_CONFLICT",
+      "layer": "localities",
+      "districts": [
+        "Chicualacuala"
+      ],
+      "missing": 4,
+      "note": "INE Gaza 2024 reports 4 localities, but the 14-Feb-2024 official electoral registration gazette still enumerates 5 locality names. No candidate is removed until the conflict is resolved."
+    },
+    {
+      "code": "BLOCKED_ON_OFFICIAL_SOURCE_CONFLICT",
+      "layer": "localities",
+      "districts": [
+        "Chókwè"
+      ],
+      "missing": 7,
+      "note": "INE Gaza 2024 reports 7 localities while recent official nominal sources still expose a structure incompatible with a safe one-record exclusion. The 8 municipal neighborhoods are independently confirmed."
+    },
+    {
+      "code": "MISSING_COMPLETE_CURRENT_NOMINAL_LIST",
+      "layer": "neighborhoods",
+      "districts": [
+        "Chibuto"
+      ],
+      "missing": 32,
+      "note": "INE Gaza 2024 reports 32 neighborhoods. The official MozGIS municipal layer exposes only the same 12 historical neighborhood names, so the current 32-name list is still incomplete."
+    }
+  ],
+  "notes": [],
+  "districts": [
+    {
+      "districtId": "dist_gaza_xai_xai",
+      "district": "Xai-Xai",
+      "expected": {
+        "localities": 1,
+        "neighborhoods": 16
+      }
+    },
+    {
+      "districtId": "dist_gaza_bilene",
+      "district": "Bilene",
+      "expected": {
+        "localities": 13,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_chibuto",
+      "district": "Chibuto",
+      "expected": {
+        "localities": 18,
+        "neighborhoods": 32
+      }
+    },
+    {
+      "districtId": "dist_gaza_chicualacuala",
+      "district": "Chicualacuala",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_chigubo",
+      "district": "Chigubo",
+      "expected": {
+        "localities": 4,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_chokwe",
+      "district": "Chókwè",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 8
+      }
+    },
+    {
+      "districtId": "dist_gaza_guija",
+      "district": "Guijá",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_mabalane",
+      "district": "Mabalane",
+      "expected": {
+        "localities": 7,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_mandlakazi",
+      "district": "Mandlakazi",
+      "expected": {
+        "localities": 14,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_massangena",
+      "district": "Massangena",
+      "expected": {
+        "localities": 9,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_massingir",
+      "district": "Massingir",
+      "expected": {
+        "localities": 8,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_limpopo",
+      "district": "Limpopo",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_chongoene",
+      "district": "Chongoene",
+      "expected": {
+        "localities": 11,
+        "neighborhoods": 0
+      }
+    },
+    {
+      "districtId": "dist_gaza_mapai",
+      "district": "Mapai",
+      "expected": {
+        "localities": 5,
+        "neighborhoods": 0
+      }
+    }
+  ]
+}

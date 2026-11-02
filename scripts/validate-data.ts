@@ -916,225 +916,6 @@ function validateAdministrativePostCountsByProvince(
   }
 }
 
-function validateLocalityData(
-  localities: Locality[],
-  administrativePosts:
-    AdministrativePost[],
-  districts: District[]
-) {
-  console.log(
-    "🔎 Validating localities and neighborhoods..."
-  );
-
-  const administrativePostIds =
-    new Set(
-      administrativePosts.map(
-        (post) => post.id
-      )
-    );
-
-  const districtMap =
-    new Map(
-      districts.map(
-        (district) => [
-          district.id,
-          district
-        ]
-      )
-    );
-
-  reportDuplicateValues(
-    "Locality ID",
-    localities.map(
-      (locality) => locality.id
-    )
-  );
-
-  const localityCodes =
-    localities
-      .map(
-        (locality) =>
-          locality.code
-      )
-      .filter(
-        (code): code is string =>
-          code !== null
-      );
-
-  reportDuplicateValues(
-    "Locality code",
-    localityCodes
-  );
-
-  reportDuplicateValues(
-    "Administrative post/locality slug pair",
-    localities
-      .filter(
-        (locality) =>
-          locality.administrativePostId !==
-          null
-      )
-      .map(
-        (locality) =>
-          `${locality.administrativePostId}:${locality.slug}`
-      )
-  );
-
-  reportDuplicateValues(
-    "District/neighborhood slug pair",
-    localities
-      .filter(
-        (locality) =>
-          locality.districtId !==
-          null
-      )
-      .map(
-        (locality) =>
-          `${locality.districtId}:${locality.slug}`
-      )
-  );
-
-  for (
-    const locality of localities
-  ) {
-    if (!locality.id.trim()) {
-      errors.push(
-        "Locality found with empty ID."
-      );
-    }
-
-    if (!locality.name.trim()) {
-      errors.push(
-        `Locality "${locality.id}" has an empty name.`
-      );
-    }
-
-    if (!locality.slug.trim()) {
-      errors.push(
-        `Locality "${locality.id}" has an empty slug.`
-      );
-    }
-
-    if (
-      locality.type !==
-        "LOCALITY" &&
-      locality.type !==
-        "NEIGHBORHOOD"
-    ) {
-      errors.push(
-        `Locality "${locality.id}" has invalid type "${locality.type}".`
-      );
-
-      continue;
-    }
-
-    const hasAdministrativePost =
-      locality.administrativePostId !==
-      null;
-
-    const hasDistrict =
-      locality.districtId !== null;
-
-    /*
-     * XOR: exatamente um pai.
-     */
-    if (
-      hasAdministrativePost ===
-      hasDistrict
-    ) {
-      errors.push(
-        `Locality "${locality.id}" must reference exactly one parent: administrativePostId OR districtId.`
-      );
-    }
-
-    if (
-      locality.type ===
-      "LOCALITY"
-    ) {
-      if (!hasAdministrativePost) {
-        errors.push(
-          `LOCALITY "${locality.id}" must reference an administrative post.`
-        );
-      }
-
-      if (hasDistrict) {
-        errors.push(
-          `LOCALITY "${locality.id}" must not reference a district directly.`
-        );
-      }
-
-      if (
-        locality.administrativePostId !==
-          null &&
-        !administrativePostIds.has(
-          locality.administrativePostId
-        )
-      ) {
-        errors.push(
-          `LOCALITY "${locality.id}" references unknown administrative post "${locality.administrativePostId}".`
-        );
-      }
-    }
-
-    if (
-      locality.type ===
-      "NEIGHBORHOOD"
-    ) {
-      if (!hasDistrict) {
-        errors.push(
-          `NEIGHBORHOOD "${locality.id}" must reference a district.`
-        );
-      }
-
-      if (hasAdministrativePost) {
-        errors.push(
-          `NEIGHBORHOOD "${locality.id}" must not reference an administrative post.`
-        );
-      }
-
-      if (
-        locality.districtId !== null
-      ) {
-        const district =
-          districtMap.get(
-            locality.districtId
-          );
-
-        if (!district) {
-          errors.push(
-            `NEIGHBORHOOD "${locality.id}" references unknown district "${locality.districtId}".`
-          );
-        } else if (
-          district.type !==
-          "MUNICIPAL_DISTRICT"
-        ) {
-          errors.push(
-            `NEIGHBORHOOD "${locality.id}" must belong to a MUNICIPAL_DISTRICT, but "${district.id}" has type "${district.type ?? "DISTRICT"}".`
-          );
-        }
-      }
-    }
-  }
-
-  const localityCount =
-    localities.filter(
-      (locality) =>
-        locality.type ===
-        "LOCALITY"
-    ).length;
-
-  const neighborhoodCount =
-    localities.filter(
-      (locality) =>
-        locality.type ===
-        "NEIGHBORHOOD"
-    ).length;
-
-  console.log(
-    `   ✅ ${localities.length} record(s) checked (${localityCount} localities, ${neighborhoodCount} neighborhoods).`
-  );
-}
-
 function validateNeighborhoodCountsByDistrict(
   localities: Locality[],
   districts: District[]
@@ -1615,6 +1396,30 @@ async function main() {
       localities,
       sources
     );
+
+    const usedSourceIds =
+      new Set([
+        ...districtSources,
+        ...administrativePostSources,
+        ...localitySources
+      ].map(
+        (reference) =>
+          reference.sourceId
+      ));
+
+    for (const source of sources) {
+      if (!usedSourceIds.has(source.id)) {
+        errors.push(
+          `Source "${source.id}" is not referenced by any record.`
+        );
+      }
+
+      if (source.url === null) {
+        warnings.push(
+          `Source "${source.id}" has no URL. See data/issues/sources-without-url.md.`
+        );
+      }
+    }
 
     console.log(
       "\n📊 Dataset summary"

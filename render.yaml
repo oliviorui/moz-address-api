@@ -1,0 +1,17 @@
+services:
+  - type: web
+    name: moz-address-api
+    runtime: docker
+    plan: free
+    region: frankfurt
+    branch: main
+
+    # /health does not query the database. Using /health/ready here would keep a
+    # Neon database awake around the clock and use up its free compute hours.
+    healthCheckPath: /health
+
+    envVars:
+      - key: DATABASE_URL
+        sync: false
+      - key: TRUST_PROXY
+        value: "1"

@@ -2,28 +2,38 @@
 
 This folder contains generated comparison reports between historical MozGIS / INE snapshots and the current canonical dataset.
 
-## Maputo Province
+## Current workflow
 
 Run:
 
 ```bash
-npm run data:reconcile:maputo
+npm run data:reconcile -- <province-slug>
 ```
 
 Inputs:
 
-- `data/research/mozgis/localities-2017-maputo.json`, when available;
-- otherwise `data/research/mozgis/localities-2017-mozambique.json`;
+- `data/research/reconciliation/config/<province-slug>.json`;
+- `data/research/mozgis/localities-2017-mozambique.json`;
 - `data/current/districts.json`;
-- `data/current/administrative-posts.json`;
-- `data/coverage/maputo-province.json`.
+- `data/current/administrative-posts.json`.
 
-Outputs:
+Output:
 
-- `maputo-mozgis-2017-comparison.json`
-- `maputo-locality-candidates.json`
+- `<province-slug>-diagnostic.json`
 
-A district marked `READY_FOR_REVIEW` has:
+Configurations currently exist for Cabo Delgado, Manica, Tete and Zambézia.
+
+Verified districts can then be promoted with:
+
+```bash
+npm run data:promote -- <province-slug>
+```
+
+## Maputo Province
+
+The `maputo-*` reports were produced by dedicated tooling that was removed once the province was complete. They are kept as evidence.
+
+A district marked `READY_FOR_REVIEW` in those reports has:
 
 1. the same locality count in MozGIS 2017 and the current expected target;
 2. all source administrative posts mapped uniquely to canonical post IDs;

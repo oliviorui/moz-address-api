@@ -1,12 +1,14 @@
 # 🇲🇿 moz-address-api
 
+[![CI](https://github.com/oliviorui/moz-address-api/actions/workflows/ci.yml/badge.svg)](https://github.com/oliviorui/moz-address-api/actions/workflows/ci.yml)
+[![Code license: MIT](https://img.shields.io/badge/code-MIT-blue.svg)](LICENSE)
+[![Data license: CC BY 4.0](https://img.shields.io/badge/data-CC%20BY%204.0-blue.svg)](DATA_LICENSE.md)
+
 Open-source REST API and canonical dataset for Mozambique's administrative divisions.
 
 The project provides structured, source-aware location data for applications such as e-commerce, logistics, delivery systems, address forms, ERPs, CRMs, fintech and public-sector software.
 
-## v1.0.0
-
-Version 1.0.0 establishes a stable API, canonical administrative hierarchy, PostgreSQL persistence, source provenance, dataset validation and explicit coverage reporting.
+This is an independent project, not an official publication. The dataset is incomplete and most names come from historical sources, so read [Coverage](#coverage) and [How far to trust a name](#how-far-to-trust-a-name) before relying on it. See the [changelog](CHANGELOG.md) for changes.
 
 ### Current canonical dataset
 
@@ -18,37 +20,46 @@ Version 1.0.0 establishes a stable API, canonical administrative hierarchy, Post
 
 Canonical locality and neighborhood data is organized by province under `data/current/by-province/`. Machine-generated aggregate files are created by `npm run data:build` and are not edited manually.
 
-## Coverage policy
+## Coverage
 
 The project does **not** invent administrative records to force 100% coverage.
 
 Where current official sources conflict, provide aggregate counts without complete nominal lists, or cannot yet be reconciled safely, the gap remains documented instead of being guessed.
 
-### Complete or effectively complete for v1
+Records loaded against the verified targets:
 
-- Maputo
-- Cidade de Maputo
-- Nampula
-- Sofala
-- Inhambane
-- Tete
-- Manica
+| Province | Status | Administrative posts | Localities | Neighborhoods |
+| --- | --- | ---: | ---: | ---: |
+| Cabo Delgado | Partial | 56 / 56 | 131 / 131 | 13 / unknown |
+| Cidade de Maputo | Complete | 0 / 0 | 0 / 0 | 63 / 63 |
+| Gaza | Partial | 50 / 50 | 95 / 119 | 24 / 56 |
+| Inhambane | Complete | 26 / 26 | 70 / 70 | 40 / 40 |
+| Manica | Complete | 37 / 37 | 97 / 97 | 43 / 43 |
+| Maputo | Complete | 29 / 29 | 76 / 76 | 42 / 42 |
+| Nampula | Partial | 72 / 72 | 171 / 171 | 22 / 63 |
+| Niassa | Partial | 45 / 45 | 74 / 97 | 22 / 22 |
+| Sofala | Complete | 38 / 38 | 89 / 89 | 36 / 36 |
+| Tete | Complete | 36 / 36 | 127 / 127 | 9 / 9 |
+| Zambézia | Partial | 54 / 54 | 150 / 191 | 0 / 128 |
+| **Total** | | **443 / 443** | **1080 / 1168** | **314 / unknown** |
 
-### Accepted partial coverage for v1
+`GET /api/v1/coverage` reports the same figures with the reason for each gap. They are also recorded under `data/coverage/by-province/`, and validation fails if a known gap is not explained. See `data/coverage/README.md`.
 
-- Niassa
-- Gaza
-- Zambézia
-- Cabo Delgado
+## How far to trust a name
 
-Detailed coverage and blocker information is stored under:
+Reaching a target only shows that the **number** of records matches. For most records, the name itself comes from an older source.
 
-```text
-data/coverage/
-data/issues/
-```
+Each locality and neighborhood has a `nameEvidence` value:
 
-See `data/coverage/README.md` for the release coverage policy.
+| Value | Meaning | Records |
+| --- | --- | ---: |
+| `CURRENT_SOURCE` | A current source lists this name. | 208 |
+| `HISTORICAL_SOURCE_COUNT_CONFIRMED` | The name comes from a historical source, mainly the INE/MozGIS 2017 layer. A current source confirms only the number of records in the district. | 1186 |
+| `HISTORICAL_SOURCE_ONLY` | The name comes from a historical source with no current confirmation. | 0 |
+
+A name, spelling or parent may therefore have changed since the source was published, even in a province marked complete. Check `nameEvidence` if your application depends on current names, or filter with `GET /api/v1/localities?nameEvidence=CURRENT_SOURCE`.
+
+The detail routes also show, for each source, whether it `supports` the `NAME` or only the `COUNT`, and whether the source `isHistorical`. The `verifiedAt` field stays `null` because review dates are not recorded yet.
 
 ## Administrative model
 
@@ -103,7 +114,7 @@ When the server is running:
 http://localhost:3333/docs
 ```
 
-The API publishes an OpenAPI 3.1 specification through Fastify Swagger.
+The API publishes an OpenAPI 3.1 specification through Fastify Swagger. The raw document is available at `/docs/json`.
 
 ## Search
 
@@ -121,6 +132,28 @@ Example:
 GET /api/v1/search?q=matola
 ```
 
+Accents, case and punctuation do not matter, so `Chokwe` finds `Chókwè` and `Xai Xai` finds `Xai-Xai`. List routes apply the same matching to their `q` filter.
+
+## Download the dataset
+
+You can use the data without running the API. Each [GitHub release](https://github.com/oliviorui/moz-address-api/releases) includes a zip file with UTF-8 JSON and CSV files for provinces, districts, administrative posts, localities and neighborhoods with their full hierarchy, sources and coverage.
+
+To create the same files locally in `release/`:
+
+```bash
+npm run data:export
+```
+
+## Run with Docker
+
+Start the API, a PostgreSQL database and a one-off job that applies the migrations and seeds the data:
+
+```bash
+docker compose --profile app up --build
+```
+
+The API is then available at `http://localhost:3333`. This setup uses the default database password and is meant for local use.
+
 ## Tech stack
 
 - Node.js 24+
@@ -130,7 +163,7 @@ GET /api/v1/search?q=matola
 - Prisma 7
 - Zod
 - OpenAPI / Swagger
-- Docker
+- Docker and Docker Compose
 - Node test runner through `tsx --test`
 - GitHub Actions
 
@@ -154,13 +187,18 @@ moz-address-api/
 │   │           ├── locality-references.json
 │   │           └── neighborhood-references.json
 │   ├── coverage/
+│   │   └── by-province/
+│   │       └── <province>.json
 │   ├── issues/
 │   └── research/
 ├── prisma/
 ├── scripts/
 ├── src/
 ├── tests/
+├── CHANGELOG.md
 ├── CONTRIBUTING.md
+├── DATA_LICENSE.md
+├── Dockerfile
 └── README.md
 ```
 
@@ -169,6 +207,8 @@ moz-address-api/
 Contributors edit the canonical province files under `data/current/by-province/` and their source references under `data/sources/by-province/`.
 
 `npm run data:build` compiles those files into `data/generated/` for validation and database seeding. Generated files are ignored by Git and must not be edited manually.
+
+The Prisma client under `src/generated/` is also generated and ignored by Git. Create it with `npm run db:generate`.
 
 ## Data principles
 
@@ -181,7 +221,7 @@ Preferred sources include:
 3. Municipal authorities
 4. Other authoritative administrative sources
 
-Historical MozGIS/INE data may be used for reconciliation, but historical names are not automatically promoted as current records.
+Historical MozGIS/INE names are promoted only when the district's record count and hierarchy reconcile with current official figures, and they stay marked as historical through `nameEvidence`.
 
 The project intentionally distinguishes:
 
@@ -213,10 +253,11 @@ Start PostgreSQL with Docker if desired:
 docker compose up -d
 ```
 
-Generate Prisma client and seed the database:
+Generate the Prisma client, apply the migrations and seed the database:
 
 ```bash
 npm run db:generate
+npm run db:deploy
 npm run db:seed
 ```
 
@@ -232,11 +273,62 @@ Default server:
 http://localhost:3333
 ```
 
-Health endpoint:
+Health endpoints:
 
 ```http
 GET /health
+GET /health/ready
 ```
+
+`/health` confirms that the API process is responding. `/health/ready` also checks the database and returns `503` when it cannot be reached.
+
+## Running in production
+
+Build the API, prepare the database and start the compiled server:
+
+```bash
+npm ci --include=dev
+npm run build
+npm run db:deploy
+npm run db:seed
+npm start
+```
+
+`DATABASE_URL` must be set for all of these steps, and `NODE_ENV` should be `production`. The server finishes in-flight requests and closes its database connections when it receives `SIGTERM` or `SIGINT`.
+
+The `Dockerfile` builds an image that contains only what the API needs to run. Its `setup` target has the tools for migrations and seeding.
+
+Responses are compressed, and successful API responses include `Cache-Control` and an `ETag`, so clients can reuse them and receive `304 Not Modified` when nothing has changed. Reduce `CACHE_MAX_AGE_SECONDS` if you re-seed often.
+
+| Variable | Default | Purpose |
+| --- | --- | --- |
+| `HOST` | `0.0.0.0` | Address the server binds to. |
+| `PORT` | `3333` | Port the server listens on. |
+| `DATABASE_URL` | none | PostgreSQL connection string. Required. |
+| `CORS_ORIGIN` | `*` | Allowed browser origins, as a comma-separated list. |
+| `TRUST_PROXY` | `false` | The proxies to trust for the client address: a comma-separated list of IPs/CIDRs, or the number of proxies. |
+| `RATE_LIMIT_MAX` | `120` | Maximum requests per client during the window. |
+| `RATE_LIMIT_WINDOW` | `1 minute` | Rate-limit window. |
+| `CACHE_MAX_AGE_SECONDS` | `3600` | How long clients may reuse a successful API response. |
+
+Set `TRUST_PROXY` when the API runs behind a reverse proxy; otherwise all clients are counted as one and share a single rate limit. If the proxy IPs change, as on most hosting platforms, use the number of proxies (usually `1`), but only if clients cannot reach the API directly. Avoid `true`: clients can then forge `X-Forwarded-For` and bypass the rate limit.
+
+### Deploying to Render and Neon
+
+`render.yaml` describes the API as a Docker service on [Render](https://render.com), using a [Neon](https://neon.com) PostgreSQL database.
+
+1. Create a Neon project, ideally in a European region near Render's Frankfurt region, and copy its **direct** connection string (not the pooled one).
+2. Apply the migrations and load the data from your computer:
+
+   ```bash
+   DATABASE_URL="<neon-connection-string>" npm run db:deploy
+   DATABASE_URL="<neon-connection-string>" npm run db:seed
+   ```
+
+3. In Render, create a Blueprint from this repository and set `DATABASE_URL` when asked.
+4. Check `GET /health/ready`, then confirm that a forged header does not change the rate-limit count: repeat a request with different `X-Forwarded-For` values and `x-ratelimit-remaining` should keep falling. Then ask someone on another network to make a request; their count should be separate. If it is not, the platform has more proxies than `TRUST_PROXY` allows for.
+
+On free plans, the service sleeps when idle, so the first request after a pause can take 30 seconds or more. Run the seed again after each data release.
 
 ## Validation and tests
 
@@ -252,9 +344,10 @@ Dataset validation (builds first automatically):
 npm run data:validate
 ```
 
-Type checking:
+Linting and type checking:
 
 ```bash
+npm run lint
 npm run typecheck
 ```
 
@@ -264,13 +357,13 @@ Build:
 npm run build
 ```
 
-Smoke tests:
+Smoke tests (need `DATABASE_URL` to be set and the Prisma client to be generated, but make no database queries):
 
 ```bash
 npm test
 ```
 
-Integration tests:
+Integration tests (need a migrated and seeded database):
 
 ```bash
 npm run test:integration
@@ -306,10 +399,13 @@ Useful commands:
 
 ```bash
 npm run db:generate
-npm run db:migrate
+npm run db:migrate # create a migration during development
+npm run db:deploy  # apply existing migrations
 npm run db:seed
 npm run db:studio
 ```
+
+`npm run db:seed` makes the database match the canonical files, so it **removes** any provinces, districts, administrative posts, localities, sources and source links that are not in them. Do not store your own records in these tables.
 
 ## Contributing
 
@@ -328,9 +424,9 @@ Do not submit inferred locality or neighborhood names merely to make coverage to
 
 ## License
 
-Source code is licensed under the MIT License.
+Source code is licensed under the [MIT License](LICENSE).
 
-The dataset aggregates and normalizes information from external sources. Source-specific attribution and reuse requirements may differ from the software license and should be respected.
+The dataset is licensed under [CC BY 4.0](DATA_LICENSE.md), and its sources keep their own terms. If you redistribute the data, keep the attribution and the INE notice in [DATA_LICENSE.md](DATA_LICENSE.md).
 
 ## Why this project?
 

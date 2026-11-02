@@ -25,6 +25,25 @@ data/sources/by-province/<province>/
 └── neighborhood-references.json
 ```
 
+Each reference states what the source supports:
+
+```json
+{
+  "localityId": "locality_maputo_magude_example",
+  "sourceId": "boletim-republica-magude-2024",
+  "supports": "NAME",
+  "page": "12",
+  "notes": "Listed under its administrative post in the territorial table."
+}
+```
+
+- `NAME`: the source lists this record's name.
+- `COUNT`: the source confirms only how many records exist.
+
+Every record needs at least one `NAME` reference. Mark a source `isHistorical` in `data/sources/sources.json` when its names may no longer be current. The dataset derives each record's `nameEvidence` from these values.
+
+If your change fills a gap, update the province file under `data/coverage/by-province/`. Validation fails while a known gap is unexplained.
+
 ## Preferred sources
 
 Use the strongest current source available:
@@ -58,12 +77,29 @@ for historical evidence, diagnostics, unresolved conflicts and coverage tracking
 
 ## Before opening a pull request
 
-Run:
+Data-only changes can be checked without a database:
 
 ```bash
 npm run data:validate
+```
+
+For code changes, follow the development setup in the README, then run:
+
+```bash
+npm run data:validate
+npm run lint
 npm run typecheck
 npm run test:all
 ```
 
 Data changes should preserve referential integrity and include source provenance.
+
+## Licensing of contributions
+
+By contributing, you agree that your code is licensed under the MIT License and your data contributions under CC BY 4.0. Only submit data you are allowed to share. See [DATA_LICENSE.md](DATA_LICENSE.md).
+
+## Releasing
+
+1. Update the version in `package.json` and `package-lock.json`, and add the date to `CHANGELOG.md`.
+2. Merge the changes into `main`.
+3. Tag `main` as `v<version>` and push the tag. The release workflow validates the data and publishes the export as a GitHub release.

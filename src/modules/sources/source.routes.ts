@@ -11,6 +11,10 @@ import {
 } from "../../config/openapi-schemas.js";
 
 import {
+  isValidPage
+} from "../../lib/pagination.js";
+
+import {
   getAllSources,
   getSourceById
 } from "./source.service.js";
@@ -109,10 +113,7 @@ export async function sourceRoutes(
           ? Number(request.query.limit)
           : 20;
 
-      if (
-        !Number.isInteger(page) ||
-        page < 1
-      ) {
+      if (!isValidPage(page)) {
         return reply
           .status(400)
           .send({

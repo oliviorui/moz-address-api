@@ -1,6 +1,6 @@
 {
   "name": "moz-address-api",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Open-source REST API and dataset for Mozambique's administrative divisions.",
   "keywords": [
     "mozambique",
@@ -14,48 +14,69 @@
   ],
   "license": "MIT",
   "author": "Olívio Rui Cumbe",
+  "homepage": "https://github.com/oliviorui/moz-address-api#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oliviorui/moz-address-api.git"
+  },
+  "bugs": {
+    "url": "https://github.com/oliviorui/moz-address-api/issues"
+  },
   "type": "module",
-  "main": "dist/server.js",
+  "main": "dist/src/server.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
     "build": "prisma generate && tsc",
     "start": "node dist/src/server.js",
-    "typecheck": "tsc --noEmit",
-    "test": "tsx --test tests/api.smoke.test.ts",
-    "test:integration": "tsx --test tests/api.integration.test.ts",
+    "typecheck": "prisma generate && npm run data:build && tsc -p tsconfig.check.json",
+    "lint": "eslint .",
+    "test": "tsx --test tests/api.smoke.test.ts tests/server.shutdown.test.ts tests/data.rules.test.ts tests/data.export.test.ts",
+    "test:integration": "tsx --test --test-concurrency=1 tests/api.integration.test.ts tests/api.coverage.test.ts tests/seed.cleanup.test.ts",
     "test:all": "npm run test && npm run test:integration",
     "data:validate": "npm run data:build && tsx scripts/validate-data.ts && tsx scripts/validate-localities.ts && tsx scripts/validate-coverage.ts",
     "data:coverage": "tsx scripts/validate-coverage.ts",
     "data:research:mozgis": "tsx scripts/fetch-mozgis-localities.ts",
     "db:generate": "prisma generate",
     "db:migrate": "prisma migrate dev",
+    "db:deploy": "prisma migrate deploy",
     "db:seed": "prisma db seed",
     "db:seed:all": "npm run data:build && tsx prisma/seed.ts",
     "db:studio": "prisma studio",
     "data:reconcile": "tsx scripts/reconcile-province.ts",
     "data:promote": "tsx scripts/promote-reconciled.ts",
-    "data:build": "tsx scripts/build-data.ts"
+    "data:build": "tsx scripts/build-data.ts",
+    "data:export": "npm run data:build && tsx scripts/export-data.ts"
   },
   "engines": {
     "node": ">=24"
   },
+  "overrides": {
+    "glob": "^14.0.3",
+    "minimatch": "^11.0.3"
+  },
   "dependencies": {
+    "@fastify/compress": "^9.3.0",
     "@fastify/cors": "^11.3.1",
+    "@fastify/etag": "^6.2.1",
     "@fastify/rate-limit": "^11.2.1",
     "@fastify/swagger": "^9.5.1",
-    "@fastify/swagger-ui": "^5.2.3",
+    "@fastify/swagger-ui": "^6.1.2",
     "@prisma/adapter-pg": "^7.10.1",
     "@prisma/client": "^7.10.1",
     "dotenv": "^17.0.0",
     "fastify": "^5.0.0",
+    "fastify-plugin": "^5.1.0",
     "pg": "^8.23.1",
     "zod": "^4.0.0"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
     "@types/node": "^24.0.0",
     "@types/pg": "^8.23.1",
+    "eslint": "^10.14.0",
     "prisma": "^7.10.1",
     "tsx": "^4.0.0",
-    "typescript": "^5.0.0"
+    "typescript": "^5.0.0",
+    "typescript-eslint": "^8.72.1"
   }
 }
